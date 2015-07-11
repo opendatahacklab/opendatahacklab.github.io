@@ -7,10 +7,18 @@ body{
 }
 
 header{
-	margin:0 0 2em 0;
+	margin:0 0 0 0;
 	padding: 0 0 0 0;
 }
 
+header.main-header{
+	margin-bottom : 2em;
+}
+
+img.logo{
+	float:left;
+	width : 5.5em;
+}
 
 header h1{
 	font-family: "Lucida Console", Courier, monospace;
@@ -22,16 +30,40 @@ header h1{
 
 h2, p.subtitle {
 	font-size : 1em;
-	margin: 0 0 0 0;
+	margin: 0 0 0.5em 0;
 	padding : 0.5em 0.5em 0.5em 0.5em;	
 }
 
 h2{
 	font-weight:bold;
+	color: #73B84B;
 }
 
 p.subtitle{
 	font-weight: normal;
 	background-color : #14141f;
+	color: #ddddff;
+}
+
+p{
+	margin: 0 0 0 0;
+	padding : 0 0 0 0;	
+}
+
+a:link, a:visited,  a:active, a:hover{
+	color : #73B84B;
+	text-decoration : underline;
+}
+
+a:link{
+	font-weight: bold;
+}
+
+a:visited, a:active{
+	font-weight: normal;
+}
+
+a:hover{
+	background-color : #73B84B;
 	color: #ddddff;
 }
