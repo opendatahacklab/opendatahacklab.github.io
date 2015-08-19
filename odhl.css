@@ -15,6 +15,14 @@ header.main-header{
 	margin-bottom : 2em;
 }
 
+img{
+	vertical-align : middle;
+}
+
+p.subtitle img{
+	height : 2em;
+}
+
 img.logo{
 	float:left;
 	width : 5.5em;
@@ -88,7 +96,7 @@ img.selected{
 ol.breadcrumb
 {
 	margin: 0;
-	padding: 0;
+	padding: 0 2em 0 0;
 	list-style-type: none;
 	display : inline;
 }
