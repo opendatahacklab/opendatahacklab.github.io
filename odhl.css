@@ -38,15 +38,29 @@ header h1{
 	color : black;
 }
 
-h2, p.subtitle {
+p.subtitle {
 	font-size : 1em;
 	margin: 0 0 0.5em 0;
 	padding : 0.5em 0.5em 0.5em 0.5em;	
 }
 
 h2{
+	font-size : 1.5em;
+	margin: 0 0 0.5em 0;
+	padding : 0.5em 0.5em 0.5em 0.5em;	
+	font-weight:normal;
+	color : black;
+	/*border-top : solid black 2px;*/
+	/*color: #73B84B;*/
+}
+
+h3{
+	font-size : 1em;
+	margin: 0 0 0.5em 0;
+	padding : 0.5em 0.5em 0.5em 0.5em;	
 	font-weight:bold;
 	color : black;
+/*	border-top : solid black 1px;*/
 	/*color: #73B84B;*/
 }
 
@@ -130,6 +144,10 @@ ol.breadcrumb li a:hover
 */
 
 /* CONTENTS */
+section{
+	margin: 4em 0 2em 0;
+}
+
 ol.iconlist{
 	list-style-type : none;
 }
@@ -149,4 +167,20 @@ ol.iconlist li{
 p{
 	margin: 0 0 0 0;
 	padding : 0.5em 0 0 0.5em;	
+}
+
+code{
+	font-family: "Lucida Console", Courier, monospace;
+	font-weight: bold;
+}
+
+pre{
+	margin : 2em 2em 2em 2em;
+	padding : 1em 1em 1em 1em;
+	font-family: "Lucida Console", Courier, monospace;
+	font-weight: bold;
+	font-size : 0.8em;
+	border : dashed black 2px;
+	border-radius : 1em;
+	/*background-color : #dfdfdf;*/
 }

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>opendatahacklab</title>
+	<link rel="stylesheet" type="text/css" href="../odhl.css" />
+</head>
+<body>
+	<header class="main-header">
+		<img class="logo" src="../imgs/logo_cog4_ter.png" alt="the opendatahacklab logo" />
+		<h1>opendatahacklab - sparql suite</h1>
+		<p class="subtitle">THE OPEN DATA HACKING LABORATORY - Powered by 
+			<a href="http://github.com"><img alt="GitHub" src="../imgs/GitHub_Logo.png" /></a>
+			<a href="http://dydra.com"><img alt="dydra.com" src="../imgs/dydra-logo-24pt.png" /></a>
+		</p>
+		<nav>
+			<ol class="breadcrumb"><li><a href="../index.html">home</a></li><li>sparql suite</li></ol>
+			<a href="https://github.com/opendatahacklab/sparql_suite" alt="Source Code" title="GitHub repository of the sparql suite"><img src="../imgs/GitHub-Mark-64px.png" /></a>
+		</nav>
+	</header>
+	<section>
+		<header><h2>INTRODUCTION</h2></header>
+		<p><em>SPARQL Suite</em> is a set of javascript libraries
+		to perform <a href="http://www.w3.org/TR/sparql11-overview/">SPARQL</a> queries and to process
+		query results. This suite has been initially developed in the context of the PON project <em>PRISMA 
+		- PiattafoRme cloud Interoperbili per SMArt-government</em> and it is released under the 
+		<a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> license.</p>
+
+		<p>The core component of this suite is the <a href="#processor">SPARQL processing library</a>,
+		which provides the basic querying functionalities. Backed by this library, a processor 
+		related with <em>locations</em> defined using the <a href="http://www.w3.org/ns/locn">LOCN</a>
+		vocabulary is provided, namely the <a href="#locn">LOCN SPARQL processor</a>.  
+		Finally, two ready-to-use utilities to show locations retrieved by a SPARQL endpoint is provided:
+		the <a href="#googlemap">GoogleMapSPARQLprocessor</a> to show locations on a Google map, and
+		<a href="#leaflet">LeafletMapSPARQLprocessor</a> to show locations on a map based on the Leafletjs library.</p>
+	</section>
+	
+	<section>
+	<header><h2>CONTRIBUTORS</h2></header>
+	<ul>
+		<li>Cristiano Longo</li>
+		<li>Andrea Costazza</li>
+		<li>Mirko Raimondo Aiello</li>
+	</ul>
+	</section>
+	
+	<section id="processor">
+		<header><h2>SPARQL PROCESSING LIBRARY</h2></header>
+		<p>The SPARQL Processing Library is a javascript
+		library to query a SPARQL enpoint from javascript. You can use it in your web pages by adding
+		this line in the head section of your document:</p>
+		<pre>
+&lt;script src="http://www.dmi.unict.it/~longo/sparl_suite/sparql_processor.js" /&gt;</pre>
+	
+		<p>Mainly, the query functionality is provided by the function <code>sparql_query</code> 
+		with the following signature:</p>
+		<pre>
+sparql_query(endpoint, queryProcessor)</pre>
+
+		<p>where  <code>endpoint</code> is the URI (as string) of the endpoint to be queried
+		and <code>queryProcessor</code> is the object
+		delegate to specify the query and process query results. In more details, the <code>queryProcessor</code> object 
+		must provide
+		<ul>
+			<li>an attribute <code>query</code>, which contains the query which will be performed against the specified endpoint;
+			<li>a method <code>process(row)</code>  which will be invoked to process each row in 
+			the result set (sequentially);</li>
+			<li>a method <code>flush()</code> which is called  when all the rows in the result have 
+			been processed.</li> 
+		</ul></p>
+	</section>	
+	
+	<section id="locn">
+		<header><h2>LOCN SPARQL PROCESSOR</h2></header>
+		
+		<p>The <a href="http://www.w3.org/ns/locn">Core Location Vocabulary</a>
+		provides classes and properties to model <em>physical locations</em> of objects in terms of
+		addresses and coordinates. 
+		Aside the location data, information about objects located there is useful as well.
+		In the LOCN SPARQL Processor library a specialized processor for 
+		<code>locn:Location</code> instances is provided.
+		It allows developers to deal with and <em>process</em> high-level representations
+		of locations in the RDF store and with the items placed in the location itself.  Such a location
+		representation is implemented by the javascript class <code>Location</code>, which
+		defines the following fields:</p>
+		<ul>
+			<li><code>address</code> - the address in human readable form, which should conform 
+			the <a href="http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_GN_v3.0.1.pdf">INSPIRE Data Specification on Geographical Names</a>;</li>
+			<li><code>latitude</code> - location latitude;</li>
+			<li><code>longitude</code> - location longitute;</li>
+			<li><code>locatedItems</code> - an array of physical or abstract items placed in the location.</li>
+		</ul>
+		
+		<p><code>locatedItems</code> is an array of <code>LocatedItem</code> instances, i.e. objects with the field
+		<code>name</code>, indicating the item name, and with the optional field <code>homepage</code>, which is
+		the URI of a web page about the item, if provided.
+		</p>
+		<p>The following HTML
+		elements can be used to import the LOCN SPARQL processor library in your web page (we remark that
+		<code>locn_sparql_processor</code> requires <code>locn_processor</code>).</p>
+		<pre>
+&lt;script src="http://www.dmi.unict.it/~longo/sparl_suite/locn_processor.js" /&gt;
+&lt;script src="http://www.dmi.unict.it/~longo/sparl_suite/locn_sparql_processor.js" /&gt;</pre>
+		
+		<p>A <code>LOCNQueryProcessor</code>, to be used with the <code>sparl_query</code> function
+		defined in the <a href="#processor">SPARQL processing library</a>, can be instantiated as follows:</p>
+		<pre>
+var locnProcessor = new LOCNQueryProcessor(locationQueryProcessor)</pre>
+		<p>where <code>locationQueryProcessor</code> is an object which provides</p>
+		<ul>
+			<li>the attribute <code>additionalConstraints</code> (optional, use <code>null</code> if no such constraint is required),
+				which is a string which will be added to the where clause of the query performed to 
+				retrieve the <code>locn:Location</code> instances; This parameter can be used to specify additional selection
+				criteria on locations and items; The item must be  indicated with the variable <code>?item</code>;  
+				The string MUST NOT end with a dot; </li>
+			<li>the attribute <code>additionalPrefixes</code>, which eventually provides the definition
+				of the prefixes used in <code>additionalConstrains</code>;</li>
+			<li>the method <code>process(location)</code>, invoked to handle each <code>Location</code> instance found;</li>
+			<li>the method <code>flush()</code>, invoked all the <code>Location</code> instances have been processed.</li>
+		</ul>		
+		
+		<header><h3>UTILITIES FOR <em>SPARQL</em> LOCATIONS</h3></header>
+		<p>In the <a href="locn_sparql_processor.js">LOCN SPARQL Processor library</a> some ready to
+		usage examples of the <code>LOCNQueryProcessor</code> are provided.</p>
+
+		<p>The <code>GoogleMapsSPARQLProcessor</code> allows a developer to represent
+		a set of <code>locn:Location</code> instances, retrieved and selected by querying a
+		SPARQL endpoint, on a map based on the <a href="https://developers.google.com/maps/">Google Maps API</a>.
+		Note that to use this processor you need to load the Google Maps library by means of the following HTML element:</p>
+		<pre>
+&lt;script src="https://maps.googleapis.com/maps/api/js?v=3.exp"&gt;</pre>
+	
+		<p>Analogously, the <code>LeafletMapsLOCNProcessor</code> allows one do draw a map with a set of 
+		locn:Location instances by means of the <a href="http://leafletjs.com/">Leafletjs</a> library. 
+		To use this processor you need to load the Leafletjs library and stylesheet as follows:
+
+		<pre>
+&lt;script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js" /&gt;	
+&lt;link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" /&gt;</pre>
+
+	</section>
+</body>
+</html>
