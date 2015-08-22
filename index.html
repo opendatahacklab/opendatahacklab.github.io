@@ -4,9 +4,11 @@
 	<meta charset="UTF-8">
 	<title>opendatahacklab</title>
 	<link rel="stylesheet" type="text/css" href="odhl.css" />
+	<script type="text/javascript" src="sparql_suite/sparql_processor.js"></script>
+	<script type="text/javascript" src="sparql_suite/doap_sparql_processor.js"></script>
 </head>
 <body>
-	<header class="main-header">
+	<header class="main-header" id="top">
 		<img class="logo" src="imgs/logo_cog4_ter.png" alt="the opendatahacklab logo" />
 		<h1>opendatahacklab</h1>
 		<p class="subtitle">THE OPEN DATA HACKING LABORATORY - Powered by 
@@ -19,7 +21,15 @@
 			<a href="data.html"><img src="imgs/rdf.png" /></a>
 		</nav>
 	</header>
+	<!--
 	<section>
+		<header><h2>CONTENTS</h2></header>
+		<ul>
+			<li><a href="#about">about</a></li>
+			<li><a href="projects.html">projects</a></li>
+		</ul>
+	</section>-->
+	<section id="about">
 		<header><h2>ABOUT</h2></header>
 		<p>Opendatahacklab is a joint initiative of  
 		<a href="http://hackspacecatania.it">Hackspace Catania</a> and <a href="http://opendatasicilia.it">#opendatasicilia</a>
@@ -29,6 +39,7 @@
 		</p>		
 		<p>The laboratory operates under the following rules:</p>
 		<ol class="iconlist">
+			<li><img src="imgs/doc2.png" /> an exhaustive documentation have to be provided  about all the activities;</li>
 			<li><img src="imgs/GitHub-Mark-64px.png" /> source code of every software produced during the activities is  
 			released under a <a href="http://opendefinition.org/licenses/" title="Open license definition"> open license</a>;</li>
 			<li><img src="imgs/rdf.png" /> data eventually produced during activities are made available as open data 
@@ -36,5 +47,68 @@
 			<a href="http://www.w3.org/TR/rdf-primer/">RDF</a> files.
 		</ol>
 	</section>
+	<section id="projects">
+		<header><h2>PROJECTS</h2></header>
+		<p id="loading">Loading ...</p>
+	</section>
+	<script type="text/javascript">
+var processor = new DOAPProcessor(null, null);
+var loadingItem = document.getElementById("loading");
+var container = document.getElementById("projects");
+
+processor.processProject=function(project){
+	var article = document.createElement("article");
+	var header = document.createElement("header");
+	
+	//title
+	var title = document.createElement("h2");
+        title.appendChild(document.createTextNode(project.name));	
+	article.appendChild(title);
+
+	var shortDesc = document.createElement("p");
+	var shortDescText = document.createTextNode(project.shortdesc);
+	shortDesc.appendChild(document.createTextNode(project.shortdesc));
+	article.appendChild(shortDesc);
+
+	//navigation
+	var nav =document.createElement("nav");
+	
+	var back = document.createElement("a");
+	back.href="#top";
+	back.appendChild(document.createTextNode("Back to top"));
+	nav.appendChild(back);
+	
+	if (project.homepage!=null){
+		var homelink = document.createElement("a");
+		homelink.href=project.homepage;
+		var homeimg = document.createElement("img");
+		homeimg.src="imgs/doc2.png";
+		homelink.appendChild(homeimg);
+		nav.appendChild(homelink);
+	} 
+	
+	if (project.gitrepo!=null){
+		var gitlink = document.createElement("a");
+		gitlink.href=project.gitrepo;
+		var gitimg= document.createElement("img");
+		gitimg.src="imgs/GitHub-Mark-64px.png";
+		gitlink.appendChild(gitimg);
+		nav.appendChild(gitlink);
+	}
+
+	article.appendChild(nav);
+	
+	
+	container.insertBefore(article, loadingItem);
+}
+
+//remove Loading when finished
+
+processor.flush = function(){
+	container.removeChild(loadingItem);
+}
+
+sparql_query("http://dydra.com/cristianolongo/odhl/sparql", processor);
+	</script>
 </body>
 </html>

@@ -50,6 +50,7 @@ h2{
 	padding : 0.5em 0.5em 0.5em 0.5em;	
 	font-weight:normal;
 	color : black;
+	text-transform: uppercase;
 	/*border-top : solid black 2px;*/
 	/*color: #73B84B;*/
 }
@@ -102,7 +103,8 @@ nav{
 nav img{
 	height:1.5em;
 	vertical-align : middle;
-	margin-right:0.5em;
+	margin-right:0.2em;
+	margin-left:0.3em;
 }
 
 img.selected{
@@ -176,12 +178,6 @@ code{
 	font-weight: bold;
 }
 
-pre, article{
-	margin : 2em 2em 2em 2em;
-	padding : 1em 1em 1em 1em;
-	border : dashed black 2px;
-	border-radius : 1em;
-}
 pre{
 	margin : 2em 2em 2em 2em;
 	padding : 1em 1em 1em 1em;
@@ -195,14 +191,33 @@ pre{
 
 /* articles */
 article{
+	margin : 0 2em 0 2em;
+	padding : 1em 1em 1em 1em;
+	border-bottom : dashed #aaaaaa 2px;
+	border-left : dashed #aaaaaa 2px;
 }
 
-/*article h2{
-		font-size : 1em;
-		font-weight : bold;
-}*/
+article h2{
+	margin-left : 0;
+	padding-left: 0;
+}
+
+article p{
+	padding-left: 0;
+	margin-left : 0;
+}
 
 article nav{
 	margin-top : 1em;
 	display: inline-block;
+}
+
+/* projects */
+p#loading{
+	font-family: "Lucida Console", Courier, monospace;
+	font-weight: normal;
+	font-size: 2.5em;
+	margin:2em 2em 2em 2em;
+	padding: 0.1em 0.1em 0.1em 0.1em;
+	text-align: center;
 }
