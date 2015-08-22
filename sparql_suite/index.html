@@ -14,7 +14,11 @@
 			<a href="http://dydra.com"><img alt="dydra.com" src="../imgs/dydra-logo-24pt.png" /></a>
 		</p>
 		<nav>
-			<ol class="breadcrumb"><li><a href="../index.html">home</a></li><li>sparql suite</li></ol>
+			<ol class="breadcrumb">
+				<li><a href="../index.html">home</a></li>
+				<li><a href="../projects.html">projects</a></li>
+				<li>sparql suite</li>
+			</ol>
 			<a href="https://github.com/opendatahacklab/sparql_suite" alt="Source Code" title="GitHub repository of the sparql suite"><img src="../imgs/GitHub-Mark-64px.png" /></a>
 		</nav>
 	</header>
@@ -27,12 +31,17 @@
 		<a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> license.</p>
 
 		<p>The core component of this suite is the <a href="#processor">SPARQL processing library</a>,
-		which provides the basic querying functionalities. Backed by this library, a processor 
+		which provides the basic querying functionalities. </p>
+		
+		<p>Backed by this library, a processor 
 		related with <em>locations</em> defined using the <a href="http://www.w3.org/ns/locn">LOCN</a>
 		vocabulary is provided, namely the <a href="#locn">LOCN SPARQL processor</a>.  
 		Finally, two ready-to-use utilities to show locations retrieved by a SPARQL endpoint is provided:
 		the <a href="#googlemap">GoogleMapSPARQLprocessor</a> to show locations on a Google map, and
 		<a href="#leaflet">LeafletMapSPARQLprocessor</a> to show locations on a map based on the Leafletjs library.</p>
+		
+		<p>The <a href="#doap">DOAP processor</a> allows one to handle projects specified with the 
+		<a href="https://github.com/edumbill/doap/" title="Description Of A Project vacabulary">DOAP</a> vocabulary.</p>
 	</section>
 	
 	<section>
@@ -50,7 +59,7 @@
 		library to query a SPARQL enpoint from javascript. You can use it in your web pages by adding
 		this line in the head section of your document:</p>
 		<pre>
-&lt;script src="http://opendatahacklab.github.io/sparql_suite/sparql_processor.js" /&gt;</pre>
+&lt;script src="http://opendatahacklab.github.io/sparql_suite/sparql_processor.js"&gt;&lt;/script&gt;</pre>
 	
 		<p>Mainly, the query functionality is provided by the function <code>sparql_query</code> 
 		with the following signature:</p>
@@ -99,8 +108,8 @@ sparql_query(endpoint, queryProcessor)</pre>
 		elements can be used to import the LOCN SPARQL processor library in your web page (we remark that
 		<code>locn_sparql_processor</code> requires <code>locn_processor</code>).</p>
 		<pre>
-&lt;script src="http://opendatahacklab.github.io/sparql_suite/locn_processor.js" /&gt;
-&lt;script src="http://opendatahacklab.github.io/sparql_suite/locn_sparql_processor.js" /&gt;</pre>
+&lt;script src="http://opendatahacklab.github.io/sparql_suite/locn_processor.js"&gt;&lt;/script&gt;
+&lt;script src="http://opendatahacklab.github.io/sparql_suite/locn_sparql_processor.js"&gt;&lt;/script&gt;</pre>
 		
 		<p>A <code>LOCNQueryProcessor</code>, to be used with the <code>sparl_query</code> function
 		defined in the <a href="#processor">SPARQL processing library</a>, can be instantiated as follows:</p>
@@ -128,16 +137,44 @@ var locnProcessor = new LOCNQueryProcessor(locationQueryProcessor)</pre>
 		SPARQL endpoint, on a map based on the <a href="https://developers.google.com/maps/">Google Maps API</a>.
 		Note that to use this processor you need to load the Google Maps library by means of the following HTML element:</p>
 		<pre>
-&lt;script src="https://maps.googleapis.com/maps/api/js?v=3.exp"&gt;</pre>
+&lt;script src="https://maps.googleapis.com/maps/api/js?v=3.exp"&gt;&lt;/script&gt;</pre>
 	
 		<p>Analogously, the <code>LeafletMapsLOCNProcessor</code> allows one do draw a map with a set of 
 		locn:Location instances by means of the <a href="http://leafletjs.com/">Leafletjs</a> library. 
 		To use this processor you need to load the Leafletjs library and stylesheet as follows:
 
 		<pre>
-&lt;script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js" /&gt;	
-&lt;link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" /&gt;</pre>
+&lt;script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"&gt;&lt;/script&gt;	
+&lt;link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"&gt;&lt;/script&gt;</pre>
+	</section>
+	
+	<section id="doap">
+		<header><h2>DOAP SPARQL PROCESSOR</h2></header>
+		<p>The <em>DOAP SPARQL Processor</em> is a SPARQL Processor implementation intended to retrieve 
+		and process instances of Projects, as defined in the <a href="https://github.com/edumbill/doap">DOAP</a> vocabulary.</p>
+		
+		<p>To use the DOAP SPARQL processor in your web page add the following elements in the 
+		head section of the page itself:</p>
+		<pre>
+&lt;script src="http://opendatahacklab.github.io/sparql_suite/sparql_processor.js"&gt;&lt;/script&gt;
+&lt;script src="http://opendatahacklab.github.io/sparql_suite/doap_sparql_processor.js"&gt;&lt;/script&gt;</pre>
 
+		<p>A <code>DOAPProcessor</code> instance has to be customized by overriding its <code>processProject(p)</code> method,
+		where <code>p</code> is in turn an instance of the <code>Project</code> class. <code>Project</code> class
+		isntances have the following attributes:</p>
+		
+		<ul>
+			<li>	<code>uri</code> (<em>mandatory</em>)  - the URI of the individual representing the project in the ontology;
+			<li> <code>name</code>  (<em>mandatory</em>)  - project name;
+			<li> <code>shortdesc</code> (<em>mandatory</em>) - a short description of the project;
+			<li> <code>homepage</code> (<em>optional</em>) - the home page of the project;
+			<li> <code>gitrepo</code> (<em>optional</em>) - the github repository of sources;
+			<li> <code>desc</code> (<em>optional</em>) - an extended description of the project.
+		</ul>
+		
+		<p>The <code>DOAPProcessor</code> constructor has two optional parameters: <code>additionalPrefixes</code> 
+		and <code>additionalConstraints</code>. They can be used to provide additional filtering on the
+		projects to be processed.</p> 		
 	</section>
 </body>
 </html>

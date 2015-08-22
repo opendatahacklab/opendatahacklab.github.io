@@ -92,15 +92,17 @@ a:hover{
 /* NAVIGATION */
 nav{
 	clear:left;
-	border : solid 2px;
 	display : inline;
+	border : solid 2px;
 	border-radius : 0.5em;
 	padding:0.5em;
 }
 
+
 nav img{
 	height:1.5em;
 	vertical-align : middle;
+	margin-right:0.5em;
 }
 
 img.selected{
@@ -174,6 +176,12 @@ code{
 	font-weight: bold;
 }
 
+pre, article{
+	margin : 2em 2em 2em 2em;
+	padding : 1em 1em 1em 1em;
+	border : dashed black 2px;
+	border-radius : 1em;
+}
 pre{
 	margin : 2em 2em 2em 2em;
 	padding : 1em 1em 1em 1em;
@@ -183,4 +191,18 @@ pre{
 	border : dashed black 2px;
 	border-radius : 1em;
 	/*background-color : #dfdfdf;*/
+}
+
+/* articles */
+article{
+}
+
+/*article h2{
+		font-size : 1em;
+		font-weight : bold;
+}*/
+
+article nav{
+	margin-top : 1em;
+	display: inline-block;
 }

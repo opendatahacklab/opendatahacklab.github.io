@@ -2,7 +2,7 @@
 
 
 <!DOCTYPE rdf:RDF [
-    <!ENTITY odhl_root "http://https://opendatahacklab.github.io/" >
+    <!ENTITY odhl_root "https://opendatahacklab.github.io/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
     <!ENTITY doap "http://usefulinc.com/ns/doap#" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
