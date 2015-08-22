@@ -2,6 +2,7 @@
 
 
 <!DOCTYPE rdf:RDF [
+    <!ENTITY odhl_root "http://https://opendatahacklab.github.io/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
     <!ENTITY doap "http://usefulinc.com/ns/doap#" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
@@ -38,8 +39,18 @@
 
     <foaf:Person rdf:about="cristianolongo">
         <foaf:name>Cristiano Longo</foaf:name>
+        <rdfs:label>Cristiano Longo</rdfs:label>
     </foaf:Person>
     
+    <foaf:Person rdf:about="andreacostazza">
+        <foaf:name>Andrea Costazza</foaf:name>
+        <rdfs:label>Andrea Costazza</rdfs:label>
+    </foaf:Person>
+    
+    <foaf:Person rdf:about="mirkoraimondoaiello">
+        <foaf:name>Mirko Raimondo Aiello</foaf:name>
+        <rdfs:label>Mirko Raimondo Aiello</rdfs:label>
+    </foaf:Person>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -61,12 +72,42 @@
         <doap:developer rdf:resource="cristianolongo"/>
 	<doap:repository>
 		<doap:GitRepository rdf:about="odhl_site_repo">
-			<doap:location rdf:resource="https://github.com/edumbill/doap.git"/>
-			<doap:browse rdf:resource="https://github.com/edumbill/doap/"/>
+			<doap:location rdf:resource="https://github.com/opendatahacklab/opendatahacklab.github.io"/>
+			<doap:browse rdf:resource="https://github.com/opendatahacklab/opendatahacklab.github.io"/>
 		</doap:GitRepository>
 	</doap:repository>
 	<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
     </doap:Project>
+    
+    <doap:Project rdf:about="sparql_suite">
+	<doap:name>SPARQL suite</doap:name>
+	<doap:shortdesc>SPARQL Suite is a set of javascript libraries to perform 
+	SPARQL queries and to process query results.</doap:shortdesc>
+	<doap:desc>
+		SPARQL Suite is a set of javascript libraries to perform SPARQL queries 
+		and to process query results.  The core component of this suite is the 
+		SPARQL processing library, which provides the basic querying functionalities.
+		Backed by this library, a processor related with locations defined using the 
+		LOCN vocabulary is provided, namely the LOCN SPARQL processor. Finally, 
+		two ready-to-use utilities to show locations retrieved by a SPARQL endpoint 
+		is provided: the GoogleMapSPARQLprocessor to show locations on a Google 
+		map, and LeafletMapSPARQLprocessor to show locations on a map based on 
+		the Leafletjs library.	
+	</doap:desc>
+        <doap:homepage rdf:resource="&odhl_root;sparql_suite" />
+        <doap:maintainer rdf:resource="cristianolongo"/>
+	<doap:developer rdf:resource="cristianolongo"/>
+        <doap:developer rdf:resource="andreacostazza"/>
+        <doap:developer rdf:resource="mirkoraimondoaiello"/>
+	<doap:repository>
+		<doap:GitRepository rdf:about="sparql_suite_repo">
+			<doap:location rdf:resource="https://github.com/opendatahacklab/sparql_suite"/>
+			<doap:browse rdf:resource="https://github.com/opendatahacklab/sparql_suite"/>
+		</doap:GitRepository>
+	</doap:repository>
+	<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+    </doap:Project>
+
 </rdf:RDF>
 
 
