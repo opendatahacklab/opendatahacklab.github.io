@@ -16,6 +16,7 @@
     <!ENTITY event "http://purl.org/NET/c4dm/event.owl#" >
     <!ENTITY time "http://www.w3.org/2006/time#" >
     <!ENTITY org "http://www.w3.org/ns/org#" >
+    <!ENTITY dcat "http://www.w3.org/ns/dcat#" >
 ]>
 
 
@@ -32,10 +33,11 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:event="&event;"
      xmlns:time="&time;"
-     xmlns:sioc	="&sioc;">
+     xmlns:sioc	="&sioc;"
+     xmlns:dcay="&dcat;">
     <owl:Ontology rdf:about="&odhl;">
-        <owl:versionIRI rdf:resource="http://opendatahackalb.org/odhl0.2.owl"/>
-		<owl:versionInfo>0.2</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://opendatahackalb.org/odhl0.3.owl"/>
+		<owl:versionInfo>0.3</owl:versionInfo>
         <dc:creator rdf:resource="&odhl;cristianolongo"/>
         <owl:imports rdf:resource="http://usefulinc.com/ns/doap#"/>
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
@@ -333,6 +335,40 @@
 			</time:Interval>
 		</event:time>
 	</event:Event>	
+	
+	<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datasets
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+	
+	<!-- this dataset -->
+	<dcat:Dataset rdf:about="&odhl;>
+		<dcterms:title>opendatahacklab</dcterms:title>
+		<rdfs:label>opendatahacklab</rdfs:label>
+		<dcterms:description>Projects, events, datasets and other material related to the opendatahacklab.</dcterms:description>
+		<dcat:landingPage rdf:resource="&odhl_site_root;data.html" />
+		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/odhl_rdf">
+				<dcterms:title>opendatahacklab ontology as OWL file</dcterms:title>
+				<rdfs:label>opendatahacklab ontology as OWL file</rdfs:label>
+				<dcat:downloadURL rdfs:label="&odhl_site_root;odhl.owl" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
+			</dcat:Distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/odhl_sparql">
+				<dcterms:title>SPARQL endpoint for the opendatahacklab ontology</dcterms:title>
+				<rdfs:label>SPARQL endpoint for the opendatahacklab ontology</rdfs:label>
+				<dcat:accessURL rdfs:label="http://dydra.com/cristianolongo/odhl/sparql" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/sparql-query</dcat:mediaType>
+			</dcat:Distribution>
+		</dcat:distribution>		
+	</dcat:Dataset>
+	
 </rdf:RDF>
 
 
