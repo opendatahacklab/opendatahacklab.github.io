@@ -173,7 +173,7 @@
 		<foaf:logo rdf:resource="http://opendatahackalb.org/imgs/hackspace.png" />
 		<foaf:homepage rdf:resource="http://hackspacecatania.it/" />
 		<org:hasPrimarySite rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
-		<org:member rdf:resource="&odhl;/people/cristianolongo" />
+		<org:memberOf rdf:resource="&odhl;/people/cristianolongo" />
 	</org:Organization>
 
 	<locn:Location rdf:about="http://www.comune.catania.it/via_grotte_bianche112">
@@ -203,7 +203,7 @@
 		<foaf:logo rdf:resource="http://opendatahacklab.github.io/imgs/logo_cog4_ter.png" />
 		<foaf:homepage rdf:resource="http://opendatahacklab.org" />
 		<org:hasPrimarySite rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
-		<org:member rdf:resource="&odhl;/people/cristianolongo" />
+		<org:memberOf rdf:resource="&odhl;/people/cristianolongo" />
 	</org:Organization>
 
 	<org:Organization rdf:about="http://mobilita.org/me">
