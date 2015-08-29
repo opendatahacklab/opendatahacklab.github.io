@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
-
-
 <!DOCTYPE rdf:RDF [
-    <!ENTITY odhl_root "https://opendatahacklab.github.io/" >
+    <!ENTITY odhl "http://opendatahackalb.org/ontology/" >
+    <!ENTITY odhl_site_root "http://opendatahackalb.github.io/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
     <!ENTITY doap "http://usefulinc.com/ns/doap#" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
@@ -20,9 +19,7 @@
 ]>
 
 
-<rdf:RDF xmlns:odhl="http://opendatahackalb.org/odhl.owl#"
-     xml:base="http://opendatahackalb.org/odhl.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -34,10 +31,9 @@
      xmlns:locn="&geo;"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:event="&event;"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:time="&time;"
      xmlns:sioc	="&sioc;">
-    <owl:Ontology rdf:about="http://opendatahackalb.org/odhl.owl">
+    <owl:Ontology rdf:about="&odhl;">
         <owl:versionIRI rdf:resource="http://opendatahackalb.org/odhl0.2.owl"/>
 		<owl:versionInfo>0.2</owl:versionInfo>
         <dc:creator rdf:resource="&odhl;cristianolongo"/>
@@ -53,23 +49,47 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Additional semantics (bridging the various used vocabularies)
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+     
+	<rdf:Description rdf:about="&org;hasSite">
+		<rdfs:subPropertyOf rdf:resource="&locn;location"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="&org;siteAddress">
+		<rdfs:subPropertyOf rdf:resource="&locn;address"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="&event;place">
+		<rdfs:subPropertyOf rdf:resource="&locn;location"/>
+	</rdf:Description>
+	
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Persons
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
 
-    <foaf:Person rdf:about="cristianolongo">
+    <foaf:Person rdf:about="&odhl;people/cristianolongo">
         <foaf:name>Cristiano Longo</foaf:name>
         <rdfs:label>Cristiano Longo</rdfs:label>
+		<foaf:givenname>Cristiano</foaf:givenname>
+		<foaf:family_name>Longo</foaf:family_name>
+		<foaf:mbox rdf:resource="mailto:longo@dmi.unict.it"/>
+		<foaf:mbox rdf:resource="mailto:cristianolongo@gmail.com" />
     </foaf:Person>
     
-    <foaf:Person rdf:about="andreacostazza">
+    <foaf:Person rdf:about="&odhl;people/andreacostazza">
         <foaf:name>Andrea Costazza</foaf:name>
         <rdfs:label>Andrea Costazza</rdfs:label>
     </foaf:Person>
     
-    <foaf:Person rdf:about="mirkoraimondoaiello">
+    <foaf:Person rdf:about="&odhl;people/mirkoraimondoaiello">
         <foaf:name>Mirko Raimondo Aiello</foaf:name>
         <rdfs:label>Mirko Raimondo Aiello</rdfs:label>
     </foaf:Person>
@@ -82,18 +102,18 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <doap:Project rdf:about="odhl_site">
+    <doap:Project rdf:about="&odhl;projects/site">
 		<doap:name>opendatahacklab web site</doap:name>
 		<doap:shortdesc>The web site of the opendatahacklab project.</doap:shortdesc>
 		<doap:desc>
 			The web site of the opendatahacklab project. This site provide
-			information about all the projects, events, meetings ando other activities of the laboratory.
+			information about all the projects, events, meetings and other activities of the laboratory.
 		</doap:desc>
-	        <doap:homepage rdf:resource="http://opendatahacklab.org"/>
-	        <doap:maintainer rdf:resource="cristianolongo"/>
-	        <doap:developer rdf:resource="cristianolongo"/>
+        <doap:homepage rdf:resource="http://opendatahacklab.org"/>
+        <doap:maintainer rdf:resource="cristianolongo"/>
+        <doap:developer rdf:resource="cristianolongo"/>
 		<doap:repository>
-			<doap:GitRepository rdf:about="odhl_site_repo">
+			<doap:GitRepository rdf:about="&odhl;site/repo">
 				<doap:location rdf:resource="https://github.com/opendatahacklab/opendatahacklab.github.io"/>
 				<doap:browse rdf:resource="https://github.com/opendatahacklab/opendatahacklab.github.io"/>
 			</doap:GitRepository>
@@ -101,10 +121,12 @@
 		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
     </doap:Project>
     
-    <doap:Project rdf:about="sparql_suite">
+    <doap:Project rdf:about="&odhl;projects/sparql_suite">
 		<doap:name>SPARQL suite</doap:name>
-		<doap:shortdesc>SPARQL Suite is a set of javascript libraries to perform 
-		SPARQL queries and to process query results.</doap:shortdesc>
+		<doap:shortdesc>
+			SPARQL Suite is a set of javascript libraries to perform 
+			SPARQL queries and to process query results.
+		</doap:shortdesc>
 		<doap:desc>
 			SPARQL Suite is a set of javascript libraries to perform SPARQL queries 
 			and to process query results.  The core component of this suite is the 
@@ -116,24 +138,24 @@
 			map, and LeafletMapSPARQLprocessor to show locations on a map based on 
 			the Leafletjs library.	
 		</doap:desc>
-	        <doap:homepage rdf:resource="&odhl_root;sparql_suite" />
-	        <doap:maintainer rdf:resource="cristianolongo"/>
-		<doap:developer rdf:resource="cristianolongo"/>
-	        <doap:developer rdf:resource="andreacostazza"/>
-	        <doap:developer rdf:resource="mirkoraimondoaiello"/>
+        <doap:homepage rdf:resource="&odhl_site_root;sparql_suite" />
+        <doap:maintainer rdf:resource="&odhl;people/cristianolongo"/>
+		<doap:developer rdf:resource="&odhl;people/cristianolongo"/>
+	        <doap:developer rdf:resource="&odhl;people/andreacostazza"/>
+	        <doap:developer rdf:resource="&odhl;people/mirkoraimondoaiello"/>
 		<doap:repository>
-			<doap:GitRepository rdf:about="sparql_suite_repo">
+			<doap:GitRepository rdf:about="&odhl;projects/sparql_suite/repo">
 				<doap:location rdf:resource="https://github.com/opendatahacklab/sparql_suite"/>
 				<doap:browse rdf:resource="https://github.com/opendatahacklab/sparql_suite"/>
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:release>
 			<doap:Version>
-				<revision>1.1</revision>
-				<file-release rdf:resource="http://opendatahacklab.github.io/sparql_suite/sparql_processor.js" />
-				<file-release rdf:resource="http://opendatahacklab.github.io/sparql_suite/locn_sparql_processor.js" />
-			</Version>
-		</release>
+				<doap:revision>1.1</doap:revision>
+				<doap:file-release rdf:resource="&odhl_site_root;sparql_suite/sparql_processor.js" />
+				<doap:file-release rdf:resource="&odhl_site_root;sparql_suite/locn_sparql_processor.js" />
+			</doap:Version>
+		</doap:release>
 		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
     </doap:Project>
 
@@ -144,27 +166,176 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+     
 	<org:Organization rdf:about="http://hackspacecatania.it/me">
 		<rdfs:label>HACKSPACE Catania</rdfs:label>
 		<foaf:name>HACKSPACE Catania</foaf:name>
 		<foaf:logo rdf:resource="http://opendatahackalb.org/imgs/hackspace.png" />
 		<foaf:homepage rdf:resource="http://hackspacecatania.it/" />
-		<org:hasPrimarySite rdf:resource="&cct;via_grotte_bianche112" />
+		<org:hasPrimarySite rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
+		<org:member rdf:resource="&odhl;/people/cristianolongo" />
+	</org:Organization>
+
+	<locn:Location rdf:about="http://www.comune.catania.it/via_grotte_bianche112">
+		<locn:address>
+			<locn:Address rdf:about="http://www.comune.catania.it/via_grotte_bianche112_address">
+				<rdfs:label>112, Via Grotte Bianche, Catania, Italy</rdfs:label>
+				<locn:fullAddress>112, Via Grotte Bianche, Catania, Italy</locn:fullAddress>
+				<locn:thoroughfare>Via Grotte Bianche</locn:thoroughfare>
+				<locn:locatorDesignator>112</locn:locatorDesignator>
+				<locn:postName>Catania</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+		<locn:geometry>
+			<locn:Geometry rdf:about="http://www.comune.catania.it/via_grotte_bianche112_geometry">
+				<!-- TODO add provenance information -->
+				<geo:lat>37.513287</geo:lat>
+				<geo:long>15.088008</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
+	</locn:Location>	
+	
+	<!-- TODO model as suborganization of opendatasicilia and hackspace -->
+	<org:Organization rdf:about="http://opendatahacklab.org/me">
+		<rdfs:label>opendatahacklab</rdfs:label>
+		<foaf:name>opendatahacklab</foaf:name>
+		<foaf:logo rdf:resource="http://opendatahacklab.github.io/imgs/logo_cog4_ter.png" />
+		<foaf:homepage rdf:resource="http://opendatahacklab.org" />
+		<org:hasPrimarySite rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
+		<org:member rdf:resource="&odhl;/people/cristianolongo" />
+	</org:Organization>
+
+	<org:Organization rdf:about="http://mobilita.org/me">
+		<rdfs:label>Associazione Mobilita Palermo</rdfs:label>
+		<foaf:name>Associazione Mobilita Palermo</foaf:name>
+		<foaf:logo rdf:resource="http://mobilita.org/wp-content/themes/multimuovity/img/logo.png" />
+		<foaf:homepage rdf:resource="http://mobilita.org/" />
+		<foaf:mbox rdf:resource="mailto:info@mobilita.org" />
+		<!-- TODO site -->
+	</org:Organization>
+	
+	<org:FormalOrganization rdf:about="http://www.comune.catania.it/me">
+		<rdfs:label>Comune di Catania</rdfs:label>
+		<foaf:name>Comune di Catania</foaf:name>
+		<foaf:homepage rdf:resource="http://www.comune.catania.it" />
+	</org:FormalOrganization>
+
+	<org:Organization rdf:about="http://generazioneypsilon.tumblr.com/me">
+		<rdfs:label>Generazione Ypsilon</rdfs:label>
+		<foaf:name>Generazione Ypsilon</foaf:name>
+		<foaf:homepage rdf:resource="http://generazioneypsilon.tumblr.com" />
+		<!-- logo, mail -->
+	</org:Organization>
+	
+	<!-- site of Sistemi Informativi, Comune di Catania -->
+	<locn:Location rdf:about="http://www.comune.catania.it/piazza_san_domenico34">
+		<locn:address>
+			<locn:Address rdf:about="http://www.comune.catania.it/piazza_san_domenico34_address">
+				<rdfs:label>34, Piazza San Domenico, Catania, Italy</rdfs:label>
+				<locn:fullAddress>34, Piazza San Domenico, Catania, Italy</locn:fullAddress>
+				<locn:thoroughfare>Piazza San Domenico</locn:thoroughfare>
+				<locn:locatorDesignator>34</locn:locatorDesignator>
+				<locn:postName>Catania</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+	</locn:Location>	
+
+	<org:Organization rdf:about="http://nexa.polito.it/me">
+		<rdfs:label>Nexa Center for Internet and Society</rdfs:label>
+		<foaf:name>Nexa Center for Internet and Society</foaf:name>
+		<foaf:homepage rdf:resource="http://nexa.polito.it" />
+		<foaf:mbox rdf:resource="mailto:info@nexa.polito.it" />
+		<!-- TODO site -->
 	</org:Organization>
 	
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Events
+    // Events and related resources
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
      
     
+	<event:Event rdf:about="&odhl;events/meeting1">
+		<rdfs:label>opendatahacklab - incontro con mobilita.org</rdfs:label>
+		<foaf:logo rdf:resource="&odhl_site_root;imgs/logo_cog4_ter.png" />
+		<event:agent rdf:resource="&odhl;/org/opendatahacklab" />
+		<event:agent rdf:resource="http://mobilita.org/me" />
+		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/meeting1/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/meeting1/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-26T19:00:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+	</event:Event>	
+	
+	<event:Event rdf:about="&odhl;events/meeting2">
+		<rdfs:label>opendatahacklab - sui contratti pubblici</rdfs:label>
+		<foaf:logo rdf:resource="&odhl_site_root;imgs/logo_cog4_ter.png" />
+		<event:agent rdf:resource="&odhl;/org/opendatahacklab" />
+		<event:agent rdf:resource="http://nexa.polito.it/me" />
+		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/meeting2/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/meeting2/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-19T19:00:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+	</event:Event>	
+	
+	<event:Event rdf:about="&odhl;events/meeting3">
+		<rdfs:label>opendatahacklab - first meeting</rdfs:label>
+		<foaf:logo rdf:resource="&odhl_site_root;imgs/logo_cog4_ter.png" />
+		<event:agent rdf:resource="&odhl;/org/opendatahacklab" />
+		<event:agent rdf:resource="http://www.comune.catania.it/me" />
+		<event:agent rdf:resource="http://generazioneypsilon.tumblr.com/me" />
+		<event:place rdf:resource="http://www.comune.catania.it/piazza_san_domenico_34" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/meeting3/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/meeting3/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-24T11:00:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+	</event:Event>	
+	
+	<sioc:Post rdf:about="http://opendatasicilia.it/2015/06/26/incontro-al-comune-di-catania-sui-contratti-pubblici/">
+		<dc:title>Incontro al Comune di Catania sui Contratti Pubblici</dc:title>
+		<rdfs:label>Incontro al Comune di Catania sui Contratti Pubblici</rdfs:label>
+		<sioc:has_container rdf:resource="http://opendatasicilia.it/blog" />
+		<sioc:about rdf:resource="&odhl;events/meeting3" />
+	</sioc:Post>
 
+	<event:Event rdf:about="&odhl;events/meeting4">
+		<rdfs:label> opendatahacklab - sulla gestione dei rifiuti</rdfs:label>
+		<foaf:logo rdf:resource="&odhl_site_root;imgs/logo_cog4_ter.png" />
+		<event:agent rdf:resource="&odhl;/org/opendatahacklab" />
+		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/meeting3/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/meeting3/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-30T19:00:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+	</event:Event>	
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+<!-- Initially Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 
