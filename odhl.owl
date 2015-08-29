@@ -28,7 +28,7 @@
      xmlns:doap="&doap;"
      xmlns:geo="&geo;"
      xmlns:org="&org;"
-     xmlns:locn="&geo;"
+     xmlns:locn="&locn;"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:event="&event;"
      xmlns:time="&time;"
@@ -299,7 +299,7 @@
 		<event:agent rdf:resource="&odhl;/org/opendatahacklab" />
 		<event:agent rdf:resource="http://www.comune.catania.it/me" />
 		<event:agent rdf:resource="http://generazioneypsilon.tumblr.com/me" />
-		<event:place rdf:resource="http://www.comune.catania.it/piazza_san_domenico_34" />
+		<event:place rdf:resource="http://www.comune.catania.it/piazza_san_domenico34" />
 		<event:time>
 			<time:Interval rdf:about="&odhl;events/meeting3/time">
 				<time:hasBeginning>
@@ -319,7 +319,7 @@
 	</sioc:Post>
 
 	<event:Event rdf:about="&odhl;events/meeting4">
-		<rdfs:label> opendatahacklab - sulla gestione dei rifiuti</rdfs:label>
+		<rdfs:label>opendatahacklab - sulla gestione dei rifiuti</rdfs:label>
 		<foaf:logo rdf:resource="&odhl_site_root;imgs/logo_cog4_ter.png" />
 		<event:agent rdf:resource="&odhl;/org/opendatahacklab" />
 		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
