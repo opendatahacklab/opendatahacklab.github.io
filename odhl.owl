@@ -34,7 +34,7 @@
      xmlns:event="&event;"
      xmlns:time="&time;"
      xmlns:sioc	="&sioc;"
-     xmlns:dcay="&dcat;">
+     xmlns:dcat="&dcat;">
     <owl:Ontology rdf:about="&odhl;">
         <owl:versionIRI rdf:resource="http://opendatahackalb.org/odhl0.3.owl"/>
 		<owl:versionInfo>0.3</owl:versionInfo>
@@ -345,7 +345,7 @@
      -->
 	
 	<!-- this dataset -->
-	<dcat:Dataset rdf:about="&odhl;>
+	<dcat:Dataset rdf:about="&odhl;">
 		<dcterms:title>opendatahacklab</dcterms:title>
 		<rdfs:label>opendatahacklab</rdfs:label>
 		<dcterms:description>Projects, events, datasets and other material related to the opendatahacklab.</dcterms:description>
