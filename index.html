@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="odhl.css" />
 	<script type="text/javascript" src="sparql_suite/sparql_processor.js"></script>
 	<script type="text/javascript" src="sparql_suite/doap_sparql_processor.js"></script>
+	<script type="text/javascript" src="sparql_suite/event_sparql_processor.js"></script>
 </head>
 <body>
 	<header class="main-header" id="top">
@@ -49,11 +50,11 @@
 	</section>
 	<section id="projects">
 		<header><h2>PROJECTS</h2></header>
-		<p id="loading">Loading ...</p>
+		<p class="loading" id="loading_projects">Loading ...</p>
 	</section>
 	<script type="text/javascript">
 var processor = new DOAPProcessor(null, null);
-var loadingItem = document.getElementById("loading");
+var loadingItem = document.getElementById("loading_projects");
 var container = document.getElementById("projects");
 
 processor.processProject=function(project){
@@ -61,7 +62,7 @@ processor.processProject=function(project){
 	var header = document.createElement("header");
 	
 	//title
-	var title = document.createElement("h2");
+	var title = document.createElement("h3");
         title.appendChild(document.createTextNode(project.name));	
 	article.appendChild(title);
 
@@ -110,5 +111,29 @@ processor.flush = function(){
 
 sparql_query("http://dydra.com/cristianolongo/odhl/sparql", processor);
 	</script>
+	
+	<section id="events">
+		<header><h2>EVENTS</h2></header>
+		<p class="loading" id="loading_events">Loading ...</p>
+	<script type="text/javascript">
+var loadingItem = document.getElementById("loading_events");
+var containerEvents = document.getElementById("events");
+
+var processEventFunction = function(event){
+	alert(event.eventName);
+};
+
+function EventProcessor(){
+	this.processPast = processEventFunction;
+	this.processNext = processEventFunction;
+	this.processFuture = processEventFunction;
+	this.flush = function(){ 
+		//intentionally empty };
+	}
+}
+
+//sparql_query("http://dydra.com/cristianolongo/odhl/sparql", new EventQueryProcessor(new EventProcessor(), new Date()));
+	</script>
+	</section>
 </body>
 </html>

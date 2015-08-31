@@ -166,7 +166,7 @@ function EventQueryProcessor(eventQueryProcessor, currentDate){
 	
 	this.event=null;
 	this.processor=eventQueryProcessor;
-	this.currentDate=currentDate;
+	this.currentDate=currentDate ==null ? new Date() : currentDate;
 	this.isNextEvent=false;
 }
 

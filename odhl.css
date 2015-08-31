@@ -212,8 +212,8 @@ article nav{
 	display: inline-block;
 }
 
-/* projects */
-p#loading{
+/* projects and events */
+p.loading{
 	font-family: "Lucida Console", Courier, monospace;
 	font-weight: normal;
 	font-size: 2.5em;

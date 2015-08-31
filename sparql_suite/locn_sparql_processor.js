@@ -51,7 +51,7 @@ function Location(address, latitude, longitude){
  */
 Location.prototype.addLocatedItem= function (item){
 	this.locatedItems[this.locatedItems.length]=item;
-}
+};
 
 /**
  * A query processor, to be used with the sparl_query function
@@ -114,7 +114,7 @@ LOCNQueryProcessor.prototype.process = function(row){
 		this.location=new Location(address, latitude, longitude);
 		this.location.addLocatedItem(item);
 	}
-}
+};
 
 /**
  * Processing ended, flush the last location
@@ -123,7 +123,7 @@ LOCNQueryProcessor.prototype.flush = function(){
 	this.processor.process(this.location);
 	this.location=null;
 	this.processor.flush();	
-}
+};
 
 //GOOGLE MAPS LOCN PROCESSOR
 
