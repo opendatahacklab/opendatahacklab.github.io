@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>opendatahacklab - events</title>
+		<link rel="stylesheet" type="text/css" href="odhl.css" />
+		<script type="text/javascript" src="sparql_suite/sparql_processor.js"></script>
+		<script type="text/javascript" src="sparql_suite/event_sparql_processor.js"></script>
+	</head>
+<body>
+	<header class="main-header" id="top">
+		<img class="logo" src="imgs/logo_cog4_ter.png" alt="the opendatahacklab logo" />
+		<h1>opendatahacklab - projects</h1>
+		<p class="subtitle">THE OPEN DATA HACKING LABORATORY - Powered by 
+			<a href="http://github.com"><img alt="GitHub" src="imgs/GitHub_Logo.png" /></a>
+			<a href="http://dydra.com"><img alt="dydra.com" src="imgs/dydra-logo-24pt.png" /></a>
+		</p>
+		<nav>
+			<ol class="breadcrumb"><li><a href="index.html">home</a></li><li>events</li></ol>
+			<a href="https://github.com/opendatahacklab/opendatahacklab.github.io" alt="Source Code" title="GitHub repository of the opendatahacklab web site (this site)"><img src="imgs/GitHub-Mark-64px.png" /></a>
+			<a href="data.html"><img  src="imgs/rdf.png" /></a>
+		</nav>
+	</header>
+	<section id="events">
+		<p class="loading" id="loading">Loading ...</p>
+	</section>
+	<script type="text/javascript">
+var loadingItem = document.getElementById("loading");
+var container = document.getElementById("events");
+
+var processEventFunction = function(event, isNext){	
+	var article = document.createElement("article");
+	if (isNext) article.className="nextEvent";
+	container.insertBefore(article, loadingItem);
+		
+	var title = document.createElement("h2");
+    title.appendChild(document.createTextNode(event.eventName));	
+	article.appendChild(title);
+
+	var time = document.createElement("p");
+	var timeStart = new Date(event.timeStart);
+	time.className="eventtime";
+	time.appendChild(document.createTextNode(timeStart.toLocaleDateString()+" - "+
+		timeStart.toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'})));
+	article.appendChild(time);
+
+	var address = document.createElement("p");
+	address.className="eventaddress";
+	address.appendChild(document.createTextNode(event.address));
+	article.appendChild(address);	
+};
+
+function EventProcessor(){
+	this.processPast = processEventFunction;
+	this.processNext = processEventFunction;
+	this.processFuture = processEventFunction;
+	this.flush = function(){ 
+		container.removeChild(loadingItem);
+	};
+}
+
+sparql_query("http://dydra.com/cristianolongo/odhl/sparql", new EventQueryProcessor(new EventProcessor(), new Date()));
+	</script>
+</body>
+</html>

@@ -221,3 +221,14 @@ p.loading{
 	padding: 0.1em 0.1em 0.1em 0.1em;
 	text-align: center;
 }
+
+p.eventaddress{
+	font-style : italic;
+}
+
+p.eventtime{
+}
+
+article.nextEvent h2{
+	font-weight : bold;
+}
