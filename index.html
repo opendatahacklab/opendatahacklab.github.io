@@ -17,21 +17,15 @@
 			<a href="http://dydra.com"><img alt="dydra.com" src="imgs/dydra-logo-24pt.png" /></a>
 		</p>
 		<nav>
-			<ol class="breadcrumb"><li>home</li></ol>
+			<ol class="breadcrumb"><li>home</li></ol> |
+			<a href="projects.html">projects</a> |
+			<a href="events.html">events</a> |
 			<a href="https://github.com/opendatahacklab/opendatahacklab.github.io" alt="Source Code" title="GitHub repository of the opendatahacklab web site (this site)"><img src="imgs/GitHub-Mark-64px.png" /></a>
 			<a href="data.html"><img src="imgs/rdf.png" /></a>
 		</nav>
 	</header>
-	<!--
-	<section>
-		<header><h2>CONTENTS</h2></header>
-		<ul>
-			<li><a href="#about">about</a></li>
-			<li><a href="projects.html">projects</a></li>
-		</ul>
-	</section>-->
 	<section id="about">
-		<header><h2>ABOUT</h2></header>
+		<!-- header><h2>ABOUT</h2></header -->
 		<p>Opendatahacklab is a joint initiative of  
 		<a href="http://hackspacecatania.it">Hackspace Catania</a> and <a href="http://opendatasicilia.it">#opendatasicilia</a>
 		with the aim of helping people to <em>produce</em> open data and <em>reuse</em> existing ones. The products
@@ -47,93 +41,6 @@
 			via <a href="http://www.w3.org/TR/sparql11-overview/">SPARQL</a> endpoints and, where possible, as downloadable 
 			<a href="http://www.w3.org/TR/rdf-primer/">RDF</a> files.
 		</ol>
-	</section>
-	<section id="projects">
-		<header><h2>PROJECTS</h2></header>
-		<p class="loading" id="loading_projects">Loading ...</p>
-	</section>
-	<script type="text/javascript">
-var processor = new DOAPProcessor(null, null);
-var loadingItem = document.getElementById("loading_projects");
-var container = document.getElementById("projects");
-
-processor.processProject=function(project){
-	var article = document.createElement("article");
-	var header = document.createElement("header");
-	
-	//title
-	var title = document.createElement("h3");
-        title.appendChild(document.createTextNode(project.name));	
-	article.appendChild(title);
-
-	var shortDesc = document.createElement("p");
-	var shortDescText = document.createTextNode(project.shortdesc);
-	shortDesc.appendChild(document.createTextNode(project.shortdesc));
-	article.appendChild(shortDesc);
-
-	//navigation
-	var nav =document.createElement("nav");
-	
-	var back = document.createElement("a");
-	back.href="#top";
-	back.appendChild(document.createTextNode("Back to top"));
-	nav.appendChild(back);
-	
-	if (project.homepage!=null){
-		var homelink = document.createElement("a");
-		homelink.href=project.homepage;
-		var homeimg = document.createElement("img");
-		homeimg.src="imgs/doc2.png";
-		homelink.appendChild(homeimg);
-		nav.appendChild(homelink);
-	} 
-	
-	if (project.gitrepo!=null){
-		var gitlink = document.createElement("a");
-		gitlink.href=project.gitrepo;
-		var gitimg= document.createElement("img");
-		gitimg.src="imgs/GitHub-Mark-64px.png";
-		gitlink.appendChild(gitimg);
-		nav.appendChild(gitlink);
-	}
-
-	article.appendChild(nav);
-	
-	
-	container.insertBefore(article, loadingItem);
-}
-
-//remove Loading when finished
-
-processor.flush = function(){
-	container.removeChild(loadingItem);
-}
-
-sparql_query("http://dydra.com/cristianolongo/odhl/sparql", processor);
-	</script>
-	
-	<section id="events">
-		<header><h2>EVENTS</h2></header>
-		<p class="loading" id="loading_events">Loading ...</p>
-	<script type="text/javascript">
-var loadingItem = document.getElementById("loading_events");
-var containerEvents = document.getElementById("events");
-
-var processEventFunction = function(event){
-	alert(event.eventName);
-};
-
-function EventProcessor(){
-	this.processPast = processEventFunction;
-	this.processNext = processEventFunction;
-	this.processFuture = processEventFunction;
-	this.flush = function(){ 
-		//intentionally empty };
-	}
-}
-
-//sparql_query("http://dydra.com/cristianolongo/odhl/sparql", new EventQueryProcessor(new EventProcessor(), new Date()));
-	</script>
 	</section>
 </body>
 </html>

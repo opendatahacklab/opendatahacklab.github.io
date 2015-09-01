@@ -295,7 +295,7 @@
 	</event:Event>	
 	
 	<event:Event rdf:about="&odhl;events/meeting3">
-		<rdfs:label>opendatahacklab - first meeting</rdfs:label>
+		<rdfs:label>opendatahacklab - incontro al comune di Catania sui contratti pubblici</rdfs:label>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:agent rdf:resource="http://www.comune.catania.it/me" />
 		<event:agent rdf:resource="http://generazioneypsilon.tumblr.com/me" />
@@ -315,6 +315,7 @@
 		<dc:title>Incontro al Comune di Catania sui Contratti Pubblici</dc:title>
 		<rdfs:label>Incontro al Comune di Catania sui Contratti Pubblici</rdfs:label>
 		<sioc:has_container rdf:resource="http://opendatasicilia.it/blog" />
+		<sioc:has_creator rdf:resource="&odhl;people/cristianolongo" />
 		<sioc:about rdf:resource="&odhl;events/meeting3" />
 	</sioc:Post>
 

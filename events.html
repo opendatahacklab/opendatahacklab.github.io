@@ -10,7 +10,7 @@
 <body>
 	<header class="main-header" id="top">
 		<img class="logo" src="imgs/logo_cog4_ter.png" alt="the opendatahacklab logo" />
-		<h1>opendatahacklab - projects</h1>
+		<h1>opendatahacklab - events</h1>
 		<p class="subtitle">THE OPEN DATA HACKING LABORATORY - Powered by 
 			<a href="http://github.com"><img alt="GitHub" src="imgs/GitHub_Logo.png" /></a>
 			<a href="http://dydra.com"><img alt="dydra.com" src="imgs/dydra-logo-24pt.png" /></a>
@@ -48,6 +48,32 @@ var processEventFunction = function(event, isNext){
 	address.className="eventaddress";
 	address.appendChild(document.createTextNode(event.address));
 	article.appendChild(address);	
+	
+	var nav =document.createElement("nav");	
+	article.appendChild(nav);
+	var back = document.createElement("a");
+	back.href="#top";
+	back.appendChild(document.createTextNode("Back to top"));
+	nav.appendChild(back);
+	
+	if (event.posts!=null && event.posts.lenght>0){
+		var postsTitle=document.createElement("h3");
+		h3.className="posts";
+		postTitle.appendChild(document.createTextNode("Related Posts"));
+		article.appendChild(postTitle);
+		
+		var postList=document.createElemet("ul");
+		article.appendChild(postList);
+		for(var i=0; i<event.posts.lenght; i++){
+			var postValue = event.posts[i];
+			var postItem=document.createElement("li");
+			postList.appendChild(postItem);
+			var a = document.createElement("a");
+			a.href=postValue.URI;
+			a.appendChild(document.createTextNode(postValue.title));
+			postItem.appendChild(a);
+		}
+	}
 };
 
 function EventProcessor(){
