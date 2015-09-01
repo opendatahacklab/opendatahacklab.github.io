@@ -42,6 +42,10 @@
 		
 		<p>The <a href="#doap">DOAP processor</a> allows one to handle projects specified with the 
 		<a href="https://github.com/edumbill/doap/" title="Description Of A Project vacabulary">DOAP</a> vocabulary.</p>
+		
+		<p>The <a href="#event">Event Processor</a> provide facilities to retrieve and process
+		<em>events</em> described using the <a href="http://motools.sourceforge.net/event/event.html">Event 
+		Ontology</a>.
 	</section>
 	
 	<section>
@@ -175,6 +179,53 @@ var locnProcessor = new LOCNQueryProcessor(locationQueryProcessor)</pre>
 		<p>The <code>DOAPProcessor</code> constructor has two optional parameters: <code>additionalPrefixes</code> 
 		and <code>additionalConstraints</code>. They can be used to provide additional filtering on the
 		projects to be processed.</p> 		
+	</section>
+	
+		<section id="event">
+		<header><h2>EVENT SPARQL PROCESSOR</h2></header>
+		
+		<p>The SPARQL suite provides the <code>EventQueryProcessor</code>		
+		to deal with <em>events</em> provided by a SPARQL endpoint, modeled as described in 
+		<a href="http://motools.sourceforge.net/event/event.html">Event Ontology</a>.</p>
+		
+		<p>Such a processor is based on the delegate pattern, so that each instance of it
+		must be created with an associated delegate object which will <em>process</em> the
+		retrieved <code>Event</code> objects. In more detail, each <code>EventQueryProcessor</code>
+		delegate has to implement the methods <code>processPast(e)</code>, <code>processNext(e)</code>
+		and <code>processFuture(e)</code>. These methods will be invoked to process, respectively, 
+		every past event, the next upcoming event and the other future events. In addition,
+		a <code>flush()</code> method has to be implemented (may be empty) to handle the fact 
+		that there are no more events to be processed.</p>
+		
+		<p>Thus, <code>EventQueryProcessor</code> constructor parameters are such a delegate
+		and the reference time, which will be used to determine if an event has to be cathegorized 
+		as past or future.</p>
+		
+		<p><code>Event</code> objects have the following fields:</p>
+		<ul>
+			<li><code>URI</code> -  the URI of the individual representing the event in the knowledge base,</li>
+			<li><code>eventName</code> - a concise and human-readable description of the event,</li>
+			<li><code>logo</code> - (may be null) an image which can be used to indicate the event.</li>
+			<li><code>timeStart</code> - a string in <a href="http://www.w3.org/2001/XMLSchema#dateTime">XSD DateTime</a> 
+			format representing the event start time,</li>
+			<li><code>timeEnd</code> - (may be null) a string in <a href="http://www.w3.org/2001/XMLSchema#dateTime">XSD DateTime</a> 
+			format representing the event end time,</li>
+			<li><code>address</code> - a human-readable string indicating where the event will take place,</li>
+			<li><code>participants</code> - a (possibly empty) array of <code>Participant</code> instances,</li>
+			<li><code>posts</code> - a (possibily empty) array of <code>Posts</code> objects indicating some 
+				posts and web contents related to the event,
+			<li><code>photos</code> - a (possibily empty) array of <code>Photo</code> objects representing some
+				pictures depicting the event.
+		</ul>	
+		
+		<p>To use the Event SPARQL processor in your web page add the following elements in the 
+		head section of the page itself:</p>
+		<pre>
+&lt;script src="http://opendatahacklab.github.io/sparql_suite/sparql_processor.js"&gt;&lt;/script&gt;
+&lt;script src="http://opendatahacklab.github.io/sparql_suite/event_sparql_processor.js"&gt;&lt;/script&gt;</pre>
+		
+		<p>The <a href="../events.html">events page</a> of the opendatahacklab web sites provide a
+		simple usage example of this processor.</p>
 	</section>
 </body>
 </html>

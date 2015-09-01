@@ -139,7 +139,7 @@ function EventQueryProcessor(eventQueryProcessor, currentDate){
 	if (eventQueryProcessor.additionalPrefixes!=null)
 		this.query+=eventQueryProcessor.additionalPrefixes+"\n";
 	
-	this.query+="SELECT DISTINCT ?item ?agent ?post ?event ?depiction ?itemlabel ?logo ?timeStart ?address ?partname ?ptitle ?plabel ?pcreat WHERE {\n";
+	this.query+="SELECT DISTINCT ?item ?agent ?post ?depiction ?itemlabel ?logo ?timeStart ?address ?partname ?ptitle ?plabel ?pcreat WHERE {\n";
 
 	if (eventQueryProcessor.additionalConstraints!=null)
 		this.query+="\t"+eventQueryProcessor.additionalConstraints+" .\n";
@@ -156,13 +156,13 @@ function EventQueryProcessor(eventQueryProcessor, currentDate){
 	"\tOPTIONAL {?item foaf:depiction ?depiction} .\n"+
 	"\tOPTIONAL {?hasB time:xsdDateTime ?timeEnd} .\n"+
 	"\tOPTIONAL {?item foaf:logo ?logo} .\n"+
-	"\tOPTIONAL {?post sioc:about ?event .\n"+
+	"\tOPTIONAL {?post sioc:about ?item .\n"+
     "\t\t?post dc:title ?ptitle .\n"+
     "\t\t?post rdfs:label ?plabel .\n"+
     "\t\t?post sioc:has_creator ?pc .\n"+
     "\t\t?pc rdfs:label ?pcreat .\n"+
 	"\t} .\n"+
-	"} ORDER BY ?timeStart DESC(?item)";	
+	"} ORDER BY DESC(?timeStart) ?item";	
 	
 	this.event=null;
 	this.processor=eventQueryProcessor;

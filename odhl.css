@@ -114,7 +114,7 @@ img.selected{
 ol.breadcrumb
 {
 	margin: 0;
-	padding: 0 2em 0 0;
+	padding: 0 1em 0 0;
 	list-style-type: none;
 	display : inline;
 }
@@ -229,6 +229,10 @@ p.eventaddress{
 p.eventtime{
 }
 
+h3.posts{
+	font-size : 1em;
+	font-weight : bold;
+}
 article.nextEvent h2{
 	font-weight : bold;
 }

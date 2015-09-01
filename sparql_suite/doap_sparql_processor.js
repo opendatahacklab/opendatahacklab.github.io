@@ -51,7 +51,7 @@ function Project(uri, name, license, shortdesc){
  */
 function DOAPProcessor(additionalPrefixes, additionalConstraints)
 {
-	this.query = "PREFIX doap:<http://usefulinc.com/ns/doap#>"	
+	this.query = "PREFIX doap:<http://usefulinc.com/ns/doap#>";
 	if (additionalPrefixes!=null)
 		this.query+=locationQueryProcessor.additionalPrefixes+"\n";
 	
@@ -82,18 +82,18 @@ DOAPProcessor.prototype.process = function(row){
 	if (row.desc!=null)
 		item.desc=row.desc.value;
 	this.processProject(item);
-}
+};
 
 /**
  * Process a project. Override this to handle projects.
  */
 DOAPProcessor.prototype.processProject = function(project){
 	alert("Poject "+project.name+" not handled!");
-}
+};
 
 /**
  * Processing ended, do nothing. Override this if appropriate
  */
 DOAPProcessor.prototype.flush = function(){
 	//intentionally empty
-}
+};
