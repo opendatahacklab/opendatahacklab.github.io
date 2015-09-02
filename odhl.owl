@@ -46,6 +46,7 @@
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
 		<owl:imports rdf:resource="http://www.w3.org/2006/time" />
 		<owl:imports rdf:resource="http://rdfs.org/sioc/ns" />
+		<owl:imports rdf:resource="http://www.w3.org/ns/dcat.rdf" />
     </owl:Ontology>
     
     <!-- 
