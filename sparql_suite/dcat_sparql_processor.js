@@ -31,7 +31,7 @@ function Dataset(uri, title){
 
 /**
  * A query processor, to be used with the sparl_query function
- * to retrieve and process doap:Dataset instances. 
+ * to retrieve and process dcat:Dataset instances. 
  * The method processDataset has to be implemented in order to
  * process projects retrieved by a query. In addition, one can override
  * the flush method. The additionalPrefixes and additionalConstraints
