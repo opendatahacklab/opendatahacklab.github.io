@@ -175,12 +175,14 @@ GoogleMapsLocationQueryProcessor.prototype.process = function(location)
 	google.maps.event.addListener(marker, 'click', function() {
 		infowindow.open(this.map,marker);
 	});	
-}
+};
 
 /**
  * no flushing is required.
  */
-GoogleMapsLocationQueryProcessor.prototype.flush = function(location){}
+GoogleMapsLocationQueryProcessor.prototype.flush = function(location){
+	//intentionally empty
+};
 
 /**
  * A specialization of LOCNQueryProcessor to draw locations on a map using the Google Maps API.
@@ -237,12 +239,14 @@ LeafletMapsLocationQueryProcessor.prototype.process = function(location) {
 	
 	var marker = L.marker([location.latitude, location.longitude]).addTo(this.map);
 	marker.bindPopup(contentString);
-}
+};
 
 /**
  * no flushing is required.
  */
-LeafletMapsLocationQueryProcessor.prototype.flush = function(location){}
+LeafletMapsLocationQueryProcessor.prototype.flush = function(location){
+	//intentionally empty
+};
 
 /**
  * A specialization of LOCNQueryProcessor to draw locations on a map using the Google Maps API.

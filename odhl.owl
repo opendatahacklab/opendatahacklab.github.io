@@ -97,6 +97,12 @@
         <rdfs:label>Mirko Raimondo Aiello</rdfs:label>
     </foaf:Person>
 
+	<foaf:Person rdf:about="&odhl;people/giorgiofloridia">
+		<foaf:name>Giorgio Floridia</foaf:name>
+		<rdfs:label>Giorgio Floridia</rdfs:label>
+		<foaf:mbox rdf:resource="mailto:giorgio.floridia@hotmail.it" />
+	</foaf:Person>
+	
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -158,6 +164,7 @@
 				<doap:file-release rdf:resource="&odhl_site_root;sparql_suite/locn_sparql_processor.js" />
 				<doap:file-release rdf:resource="&odhl_site_root;sparql_suite/doap_sparql_processor.js" />
 				<doap:file-release rdf:resource="&odhl_site_root;sparql_suite/event_sparql_processor.js" />
+				<doap:file-release rdf:resource="&odhl_site_root;sparql_suite/dcat_sparql_processor.js" />
 			</doap:Version>
 		</doap:release>
 		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />

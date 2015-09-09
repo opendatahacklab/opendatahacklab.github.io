@@ -40,7 +40,7 @@ function sparql_query(endpoint, queryProcessor){
 						+ xmlhttp.responseText);
 			}
 		}	
-	}
+	};
 	xmlhttp.send(querypart);
 }
 
@@ -67,6 +67,6 @@ function getHTTPObject(){
 				}
 			}			
 		}
-	}
+	};
 	return xmlhttp;
 }

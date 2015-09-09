@@ -46,6 +46,11 @@
 		<p>The <a href="#event">Event Processor</a> provide facilities to retrieve and process
 		<em>events</em> described using the <a href="http://motools.sourceforge.net/event/event.html">Event 
 		Ontology</a>.
+		
+		<p>The <a href="#dcat">DCAT Processor</a> allows one to get all the 
+		datasets listed in a repository where these repositories are described
+		using the <a href="http://www.w3.org/TR/vocab-dcat/">Data Catalog Vocabulary</a>.
+		
 	</section>
 	
 	<section>
@@ -179,6 +184,29 @@ var locnProcessor = new LOCNQueryProcessor(locationQueryProcessor)</pre>
 		<p>The <code>DOAPProcessor</code> constructor has two optional parameters: <code>additionalPrefixes</code> 
 		and <code>additionalConstraints</code>. They can be used to provide additional filtering on the
 		projects to be processed.</p> 		
+	</section>
+	
+	<section id="dcat">
+		<header><h2>DCAT SPARQL PROCESSOR</h2></header>
+		
+		<p>The <code>DCATProcessor</code> class can be used to retrieve
+		<code>dcat:Dataset</code> instances from a knowledge base (via a SPARQL Endpoint),
+		where <code>dcat</code> is the <a href="http://www.w3.org/TR/vocab-dcat/">Data Catalog
+		Vocabulary</a>.
+				
+		<p>In order to customize the processing of dataset instances, the <code>processDataset(dataset)</code>
+		method of the processor has to be implemented. The solely argument of this method
+		is the dataset to be processed. A <code>Dataset</code> is an object with the following
+		attributes:
+		<ul>
+			<li><code>URI</code> -  the URI of the individual in the knowledge base,</li>
+			<li><code>title</code> - the dataset name,</li>
+			<li><code>description</code> - (may be null) a description of dataset contents,</li>
+			<li><code>landingPage</code> - (may be null) an url of a landing page which allows to access the dataset.
+		</ul>	
+		
+		<p>The current version is <em>seminal</em>. Other relevant properties of datasets
+		(see DCAT distribution, for example) will be taken into account in future releases.</p>
 	</section>
 	
 		<section id="event">

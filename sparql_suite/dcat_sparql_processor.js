@@ -21,9 +21,9 @@
  * @param uri individual uri of the dataset in the knowledge base
  * @param name 
  */
-function Dataset(uri, name){
+function Dataset(uri, title){
 	this.uri=uri;
-	this.name=name;
+	this.title=title;
 	this.description=null;
 	this.landingPage=null;
 }
@@ -46,17 +46,17 @@ function Dataset(uri, name){
  */
 function DCATProcessor(additionalPrefixes, additionalConstraints)
 {
-	this.query = "PREFIX doap:<http://usefulinc.com/ns/doap#>\n";
-	this.query = "PREFIX dcterms:<http://purl.org/dc/terms/>\n";
+	this.query = "PREFIX dcat:<http://www.w3.org/ns/dcat#>\n";
+	this.query += "PREFIX dcterms:<http://purl.org/dc/terms/>\n";
 	if (additionalPrefixes!=null)
 		this.query+=locationQueryProcessor.additionalPrefixes+"\n";
 	
-	this.query+="SELECT ?item ?name ?description ?landingPage WHERE {\n"+
+	this.query+="SELECT ?item ?title ?description ?landingPage WHERE {\n"+
 	"\t?item a dcat:Dataset .\n";
 	if (additionalConstraints!=null)
 		this.query+="\t"+additionalConstraints+" .\n";
 
-	this.query+="\t?item dcterms:name ?name .\n"+
+	this.query+="\t?item dcterms:title ?title .\n"+
 	"\tOPTIONAL { ?item dcterms:description ?description }\n"+
 	"\tOPTIONAL { ?item dcat:landingPage ?landingPage }\n"+
 	"}\n"; 
@@ -65,12 +65,12 @@ function DCATProcessor(additionalPrefixes, additionalConstraints)
 /**
  * Process a query result-set row. Do not override.
  */
-DOAPProcessor.prototype.process = function(row){
-	var item = new Dataset(row.item, row.name.value);
+DCATProcessor.prototype.process = function(row){
+	var item = new Dataset(row.item, row.title.value);
 	if (row.description!=null)
 		item.description=row.description.value;
 	if (row.landingPage!=null)
-		item.landingPage=row.landingPage;
+		item.landingPage=row.landingPage.value;
 	this.processDataset(item);
 };
 
