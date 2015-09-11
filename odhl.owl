@@ -170,6 +170,41 @@
 		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
     </doap:Project>
 
+    <doap:Project rdf:about="&odhl;projects/confiscatedassets">
+		<doap:name>Confiscated Assets</doap:name>
+		<doap:shortdesc>
+			Some tools related to confiscated assets. Currently it is focussed
+			on Sicily, we cannot exclude this will change in the future.
+		</doap:shortdesc>
+		<doap:desc>
+			In this project we develop some tools and mantain knowledge bases 
+			related to confiscated assets. The goal is to build a huge knowledge
+			base of confiscated assets in Sicily: a generic vocabulary to
+			represent confiscated assets, and ontology of which public 
+			administrations provide enough information about confiscated assets it
+			owns, ontologies of these assets. We release the tools used to build
+			this knowledge base as well, in particular tools to convert assets 
+			information in its origin format (may be, for example, CSV) in the
+			uniform format we provide.
+		</doap:desc>
+        <doap:homepage rdf:resource="&odhl_site_root;confiscatedassets" />
+        <doap:maintainer rdf:resource="&odhl;people/cristianolongo"/>
+		<doap:developer rdf:resource="&odhl;people/cristianolongo"/>
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl;projects/confiscatedassets/repo">
+				<doap:location rdf:resource="https://github.com/opendatahacklab/mafiaconfiscatedassets.git"/>
+				<doap:browse rdf:resource="https://github.com/opendatahacklab/mafiaconfiscatedassets"/>
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:release>
+			<doap:Version>
+				<doap:revision>0.1</doap:revision>
+				<doap:file-release rdf:resource="&odhl_site_root;confiscatedassets/confiscatedassets_vocab.owl" />
+			</doap:Version>
+		</doap:release>
+		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+    </doap:Project>
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
