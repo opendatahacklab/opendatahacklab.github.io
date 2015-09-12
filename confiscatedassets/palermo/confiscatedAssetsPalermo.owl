@@ -1,0 +1,2416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY dcterms "http://purl.org/dc/terms/" >
+    <!ENTITY locn "http://www.w3.org/ns/locn#" >
+	<!ENTITY ca "http://opendatahacklab.org/confiscatedassets/" >
+]>
+
+<rdf:RDF xml:base="http://comune.palermo.it/assets/"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:locn="&locn;"
+     xmlns:ca="&ca;">
+    <owl:Ontology rdf:about="http://comune.palermo.it/assets/">
+    	<rdfs:label>Confiscated assets in Palermo</rdfs:label>
+        <owl:imports rdf:resource="http://www.w3.org/ns/locn"/>
+        <owl:imports rdf:resource="http://opendatahacklab.github.io/confiscatedassets/confiscatedassets_vocab.owl" />
+    </owl:Ontology>
+0<ca:ConfiscatedAsset rdf:about="1">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_don_orione_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="2">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="viale_dei_picciotti__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="3">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="viale_dei_picciotti_600_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="4">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="corso_dei_mille_970%2Fd_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="5">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_marinuzzi_gino_58_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="6">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="piazza_stazione_s.lorenzo_8a_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="7">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_tricomi_ernesto_4q%2F4r_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="8">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_sperone_14_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="9">
+	<rdfs:label>IMM. CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_belgio_4d_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="10">
+	<rdfs:label>IMM. CONF. </rdfs:label>
+	<locn:location rdf:resource="via_bocchieri_giovanni_6_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="11">
+	<rdfs:label>IMM. CONF. </rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_429a_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="12">
+	<rdfs:label>IMM. CONF. </rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_429a_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="13">
+	<rdfs:label>GARAGE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_barone_della_scala_23_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="14">
+	<rdfs:label>LOCALE TERRANEO</rdfs:label>
+	<locn:location rdf:resource="via_di_blasi_g._evangelista_24%2F32_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="15">
+	<rdfs:label>IMM. CONF. ACQU. 2001</rdfs:label>
+	<locn:location rdf:resource="via_villagrazia_108%2Ff_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="16">
+	<rdfs:label>IMM. CONF. </rdfs:label>
+	<locn:location rdf:resource="via_della_leva_28_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="17">
+	<rdfs:label>MAGAZZINO CONF. </rdfs:label>
+	<locn:location rdf:resource="via_pigafetta_antonio_26_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="18">
+	<rdfs:label>MAGAZZINO - CONFISCATO - </rdfs:label>
+	<locn:location rdf:resource="via_br._58_04-feb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="19">
+	<rdfs:label>MAGAZZINO - CONFISCATO - </rdfs:label>
+	<locn:location rdf:resource="via_belmonte_chiavelli_16%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="20">
+	<rdfs:label>MAGAZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_mammana_270_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="21">
+	<rdfs:label>APPART. POSTO AUTO CANTINA</rdfs:label>
+	<locn:location rdf:resource="viale_regione_siciliana_4890_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="22">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="23">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="24">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_berrettaro_bartolomeo_34_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="25">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_besio_giovanni_145_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="26">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_la_lumia_isidoro_19%2Fc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="27">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_eufrosine_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="28">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_eufrosine_14_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="29">
+	<rdfs:label>ABITAZIONE IN VILLA</rdfs:label>
+	<locn:location rdf:resource="viale_regione_siciliana_780_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="30">
+	<rdfs:label>ALLOGGIO IN VILLINO</rdfs:label>
+	<locn:location rdf:resource="via_molara_158_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="31">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_chirone_33%2F35_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="32">
+	<rdfs:label>ABITAZIONE IN VILLINO CONF. L. 575</rdfs:label>
+	<locn:location rdf:resource="via_marinai_alliata_4%2Fc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="33">
+	<rdfs:label>VILLA CON TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_encelado_12_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="34">
+	<rdfs:label>VILLINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_brasca_6%2Fb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="35">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_palmerino_42_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="36">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_palmerino_42_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="37">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_v.53_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="38">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_v.53_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="39">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_melendez_francesco_46-48_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="40">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_melendez_francesco_50_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="41">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="corso_calatafimi_631_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="42">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="corso_calatafimi_631_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="43">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_spina_santa_170_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="44">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_spina_santa_170_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="45">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_spina_santa_170_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="46">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazza_s.lorenzo_25_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="47">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazza_s.lorenzo_25_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="48">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazzale_aurora_7_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="49">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_gioe%27_ignazio_72_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="50">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bagolino_sebastiano_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="51">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bagolino_sebastiano_31_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="52">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bagolino_sebastiano_29_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="53">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bagolino_sebastiano_29_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="54">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bagolino_sebastiano_29_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="55">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bagolino_sebastiano_29_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="56">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bagolino_sebastiano_29_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="57">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_caruso_giovan_battista_28_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="58">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_caruso_giovan_battista_32_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="59">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_caruso_giovan_battista_30_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="60">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_caruso_giovan_battista_30_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="61">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_caruso_giovan_battista_30_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="62">
+	<rdfs:label>VILLA CONFISCATA</rdfs:label>
+	<locn:location rdf:resource="via_mm.54_bis_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="63">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_campisi_giovanni_24%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="64">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_serradifalco_250_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="65">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_casuzze_all%27inserra__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="66">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_casuzze_all%27inserra__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="67">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_casuzze_all%27inserra__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="68">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_casuzze_all%27inserra__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="69">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_oreto_448_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="70">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_saetta_antonio_57_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="71">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_juvara_aloisio_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="72">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_lanza_di_scalea_giuseppe_530_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="73">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_villagrazia_167_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="74">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_dell%27orsa_minore_126_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="75">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_portella_della_ginestra_25_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="76">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bonanno_giovanni_51_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="77">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_albiri_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="78">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_albiri_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="79">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_cervello_nicolo%27_66_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="80">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_buccheri_la_ferla_%28ex_via_s.41%29_16_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="81">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="82">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="83">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="84">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="85">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="86">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="87">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_jung_guido_7_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="88">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="89">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="90">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="91">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="92">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="cortile_chiavelli_93_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="93">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_sperone_7_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="94">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_cervello_nicolo%27_66_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="95">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_crisafulli_elia_11_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="96">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="corso_calatafimi_1011_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="97">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_nuova_7_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="98">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_palmerino_63_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="99">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_perricone_pietro_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="100">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_perricone_pietro_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="101">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_perricone_pietro_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="102">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_millo_ammiraglio_39_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="103">
+	<rdfs:label>ALLOGGIO CONFISC.</rdfs:label>
+	<locn:location rdf:resource="via_ponte_di_mare_29_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="104">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_holm_adolfo_9_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="105">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_villagrazia_59%2Fl_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="106">
+	<rdfs:label>APPARTAMENTO CONFISCAT</rdfs:label>
+	<locn:location rdf:resource="viale_francia_2_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="107">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_449%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="108">
+	<rdfs:label>IMM. CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_oreto_206_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="109">
+	<rdfs:label>P SICUREZZA D LEGALITA</rdfs:label>
+	<locn:location rdf:resource="largo_giuliana_10-ago_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="110">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_terrasanta_82_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="111">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_pigafetta_antonio_28_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="112">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_pigafetta_antonio_28_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="113">
+	<rdfs:label>IMMOBILI NEL CENTRO STORICO</rdfs:label>
+	<locn:location rdf:resource="cortile_della_cappa_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="114">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_lucchini_franco_10_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="115">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_lucchini_franco_10_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="116">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="viale_regione_siciliana_2280_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="117">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_amato_pojero_giuseppe_11_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="118">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_amato_pojero_giuseppe_11_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="119">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_amato_pojero_giuseppe_11_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="120">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_amato_pojero_giuseppe_11_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="121">
+	<rdfs:label>APP.TO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_amato_pojero_giuseppe_11_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="122">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_colomba_60_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="123">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_411%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="124">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_411%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="125">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_411%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="126">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_411%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="127">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="pergusa_%28via%29_34_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="128">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_caduti_sul_lavoro_24_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="129">
+	<rdfs:label>APPARTAMENTO CONFISCA</rdfs:label>
+	<locn:location rdf:resource="via_ugdulena_gregorio_10_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="130">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_zamparrone_baldassare_61_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="131">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_lincoln_131_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="132">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="largo_perri_enrico_1_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="133">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27ali%27_giuseppe_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="134">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27ali%27_giuseppe_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="135">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27ali%27_giuseppe_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="136">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27ali%27_giuseppe_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="137">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27ali%27_giuseppe_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="138">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27ali%27_giuseppe_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="139">
+	<rdfs:label>FABBRIC. CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco_198_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="140">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="viale_del_fante_56_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="141">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="142">
+	<rdfs:label>PALAZZINA CONFISCATA</rdfs:label>
+	<locn:location rdf:resource="via_villagrazia_457_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="143">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_goldoni_carlo_10-set_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="144">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_goldoni_carlo_10-set_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="145">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_goldoni_carlo_10-set_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="146">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bonta%27_46_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="147">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Aø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="148">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Aø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="149">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Aø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="150">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Aø</rdfs:label>
+	<locn:location rdf:resource="_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="151">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Aø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="152">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Bø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="153">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Bø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="154">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Bø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="155">
+	<rdfs:label>APPARTAMENTI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_delle_case_nuove_44_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="156">
+	<rdfs:label>APPARTAMENTI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_delle_case_nuove_44%2F50_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="157">
+	<rdfs:label>APPARTAMENTI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_delle_case_nuove_44%2F50_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="158">
+	<rdfs:label>APPARTAMENTI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_delle_case_nuove_44%2F50_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="159">
+	<rdfs:label>VILLA CONFISCATA DA ELIMINARE</rdfs:label>
+	<locn:location rdf:resource="via_cascino_f.p._%28ex_rl.19%29_19_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="160">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_3_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="161">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_3_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="162">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_caggio_paolo_54_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="163">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_caggio_paolo_54_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="164">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_cirincione_giuseppe_29_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="165">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_villagrazia_75_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="166">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_biondo_andrea_3_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="167">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="168">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_buonriposo_53_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="169">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_mammana_270_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="170">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_mammana_270_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="171">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27asaro_pietro_13_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="172">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_pianell_giuseppe_37_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="173">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_pianell_giuseppe_37_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="174">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_parisi_%28cruillas%29_22_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="175">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_parisi_%28cruillas%29_22_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="176">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_parisi_%28cruillas%29_22_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="177">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_parisi_%28cruillas%29_22_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="178">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_congr._del_venerdi%27_%281%29_7_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="179">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_palchetto_2%2Fb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="180">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_auferi_10_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="181">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_auferi_10_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="182">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_auferi_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="183">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_pozzo_30_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="184">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_zaire_35_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="185">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_malaspina_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="186">
+	<rdfs:label>CANTINATO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27ali%27_giuseppe_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="187">
+	<rdfs:label>BENI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_petralia_sottana_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="188">
+	<rdfs:label>BENI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_petralia_sottana_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="189">
+	<rdfs:label>BENI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="190">
+	<rdfs:label>BENI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="191">
+	<rdfs:label>BENI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="192">
+	<rdfs:label>CANTINA</rdfs:label>
+	<locn:location rdf:resource="viale_regione_siciliana_4890_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="193">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_malaspina_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="194">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_persano_ammiraglio_44_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="195">
+	<rdfs:label>VILLA - ALLOGGIO CONF.</rdfs:label>
+	<locn:location rdf:resource="via_besta_fabio_36%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="196">
+	<rdfs:label>VILLA - ALLOGGIO CONF.</rdfs:label>
+	<locn:location rdf:resource="via_besta_fabio_36%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="197">
+	<rdfs:label>APPARTAMENTO CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_foscolo_ugo_10_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="198">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_s.agostino_38_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="199">
+	<rdfs:label>FABBRICATO CONFISC.</rdfs:label>
+	<locn:location rdf:resource="via_patti_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="200">
+	<rdfs:label>FABBRICATO CONFISC.</rdfs:label>
+	<locn:location rdf:resource="via_patti_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="201">
+	<rdfs:label>FABBRICATO CONFISC.</rdfs:label>
+	<locn:location rdf:resource="via_patti_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="202">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_delle_canarie_16_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="203">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_3_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="204">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_zappala%27_giovanni_26_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="205">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_giafar_emiro_38_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="206">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_sampolo_442_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="207">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_marvuglia_venanzio_1%2Fd_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="208">
+	<rdfs:label>ALLOGGIO  CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_albricci_alberigo_gen._44%2Fb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="209">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_agnetta_133_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="210">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_fichidindia_45_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="211">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_cipolla_michele_126_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="212">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_aci_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="213">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_aci_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="214">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_aci_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="215">
+	<rdfs:label>ALLOGGIO IN VILLA CONFISCATA</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_600_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="216">
+	<rdfs:label>VILLA CONFISCATA</rdfs:label>
+	<locn:location rdf:resource="via_oriani_alfredo_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="217">
+	<rdfs:label>APPARTAMENTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_beato_angelico_100_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="218">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazza_leoni_76_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="219">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_alias_francesco_maria_20_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="220">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_alias_francesco_maria_20_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="221">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_persano_ammiraglio_24_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="222">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_persano_ammiraglio_44_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="223">
+	<rdfs:label>ALLOGGIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_persano_ammiraglio_44_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="224">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_la_torre_pio_2_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="225">
+	<rdfs:label>IMM.CONF.- FDO CASTELLUCCIO</rdfs:label>
+	<locn:location rdf:resource="via_castelluccio_ida_%28ex_via_zs3%29__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="226">
+	<rdfs:label>IMM.CONF.- FDO CASTELLUCCIO</rdfs:label>
+	<locn:location rdf:resource="via_castelluccio_ida_%28ex_via_zs3%29__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="227">
+	<rdfs:label>IMM.CONF.- FDO CASTELLUCCIO</rdfs:label>
+	<locn:location rdf:resource="via_castelluccio_ida_%28ex_via_zs3%29__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="228">
+	<rdfs:label>IMM.CONF.- FDO CASTELLUCCIO</rdfs:label>
+	<locn:location rdf:resource="via_castelluccio_ida_%28ex_via_zs3%29__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="229">
+	<rdfs:label>IMM.CONF.- FDO CASTELLUCCIO</rdfs:label>
+	<locn:location rdf:resource="via_castelluccio_ida_%28ex_via_zs3%29__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="230">
+	<rdfs:label>IMM.CONF.- FDO CASTELLUCCIO</rdfs:label>
+	<locn:location rdf:resource="via_castelluccio_ida_%28ex_via_zs3%29__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="231">
+	<rdfs:label>TERRENO CON FABBR. CONF.</rdfs:label>
+	<locn:location rdf:resource="via_falsomiele_46-48-5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="232">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_don_ciccio__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="233">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_don_ciccio__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="234">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_don_ciccio__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="235">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="236">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="237">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="238">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="239">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="240">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="241">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="242">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="243">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="244">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="245">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_snc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="246">
+	<rdfs:label>IMM CONF. FDO S. GABRIELE</rdfs:label>
+	<locn:location rdf:resource="via_s.lorenzo_5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="247">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="fondo_morici_23__b_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="248">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_favara__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="249">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_favara__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="250">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_favara__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="251">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_favara__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="252">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="fondo_costa__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="253">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="fondo_costa_269_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="254">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_favara__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="255">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_favara__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="256">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_favara__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="257">
+	<rdfs:label>FONDO MAGLIOCCO  CONF.</rdfs:label>
+	<locn:location rdf:resource="fondo_magliocco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="258">
+	<rdfs:label>FONDO MAGLIOCCO  CONF.</rdfs:label>
+	<locn:location rdf:resource="fondo_magliocco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="259">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_balate__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="260">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_balate__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="261">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_balate__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="262">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_balate__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="263">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_valdaura__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="264">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_chiaranda%27__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="265">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_celso_di_ciaculli__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="266">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_celso_di_ciaculli__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="267">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="268">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="269">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="270">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="271">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="272">
+	<rdfs:label>POSTI AUTO SCOP.TI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="273">
+	<rdfs:label>POSTI AUTO SCOP.TI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="274">
+	<rdfs:label>POSTI AUTO SCOP.TI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="275">
+	<rdfs:label>POSTI AUTO SCOP.TI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="276">
+	<rdfs:label>POSTI AUTO SCOP.TI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="277">
+	<rdfs:label>POSTI AUTO SCOP.TI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="278">
+	<rdfs:label>POSTI AUTO SCOP.TI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="279">
+	<rdfs:label>POSTI AUTO SCOP.TI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="280">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="viale_michelangelo__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="281">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="viale_michelangelo__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="282">
+	<rdfs:label>LOCALE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_parisi_%28cruillas%29_22_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="283">
+	<rdfs:label>LOCALE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_parisi_%28cruillas%29_22_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="284">
+	<rdfs:label>LOCALE DEPOSITO</rdfs:label>
+	<locn:location rdf:resource="via_alias_francesco_maria_20_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="285">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bevignani_enrico_20_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="286">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_besio_giovanni_25%2F27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="287">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_besio_giovanni_73%2F79_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="288">
+	<rdfs:label>A.R.N.A.S. X A.S.P.I.R.</rdfs:label>
+	<locn:location rdf:resource="via_volontari_italiani_del_sangue_1_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="289">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_guli%27_simone_com._90_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="290">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazza_torrelunga_08-lug_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="291">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazza_grandi_achille_6%2F7%2F8%2F9_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="292">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazza_grandi_achille_11%2F10%2F2002_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="293">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="corso_dei_mille_970%2Fabc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="294">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_maqueda_375_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="295">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_besio_giovanni_41%2F43_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="296">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_besio_giovanni_33%2F35_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="297">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_besio_giovanni_29%2F31_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="298">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_besio_giovanni_45%2F47_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="299">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_dell%27orsa_minore_120%2Fb-_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="300">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_429a_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="301">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_429a_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="302">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_perricone_pietro_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="303">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_baiardi_francesco_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="304">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_baiardi_francesco_29_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="305">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_baiardi_francesco_31_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="306">
+	<rdfs:label>NEGOZIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_nobile_umberto_07-mag_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="307">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_sampolo_40_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="308">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_lanza_di_scalea_giuseppe_530_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="309">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_aurispa_giovanni_34%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="310">
+	<rdfs:label>NEGOZIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_villagrazia_59%2Fh_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="311">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bonincontro_mariano_39_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="312">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bonincontro_mariano_41_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="313">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bonincontro_mariano_45-47_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="314">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_filiciuzza_52_%2F_56_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="315">
+	<rdfs:label>MAGAZZINO CONFISC.</rdfs:label>
+	<locn:location rdf:resource="via_ponte_di_mare_45%2F47_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="316">
+	<rdfs:label>BENE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="viale_de_gasperi_alcide_53_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="317">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="viale_amedeo_d%27aosta_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="318">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_tomasi_cardinale_11_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="319">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Aø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="320">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Aø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="321">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Bø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15%2Fb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="322">
+	<rdfs:label>APP.AMENTO CONF. EDIF. Bø</rdfs:label>
+	<locn:location rdf:resource="libertini_guido_%28via%29_ex_%28via_m.t.12%29_15%2Fb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="323">
+	<rdfs:label>LOCALE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazza_castelnuovo_13_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="324">
+	<rdfs:label>LOCALE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bartolomeo_leonardo_%28ex_vicolo%29_7_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="325">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_17%2C19%2C2_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="326">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="327">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_11_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="328">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_allmayer_vito_fazio_9_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="329">
+	<rdfs:label>LOCALE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_noce_88_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="330">
+	<rdfs:label>IMMOBILI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_villasevaglios_pietro_17_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="331">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_venezia_55-57_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="332">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_venezia_55-57_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="333">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_oreto_31_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="334">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bazzano_domenico_19%2F21_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="335">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_galvani_luigi_-_ex_via_s.90_20_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="336">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bazzano_domenico_35%2F37_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="337">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_bazzano_domenico_17_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="338">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_congr._del_venerdi%27_%281%29_2_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="339">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_congr._del_venerdi%27_%281%29_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="340">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="vicolo_congr._del_venerdi%27_%281%29_6_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="341">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_pozzo_48_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="342">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_catania_7_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="343">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="viale_de_gasperi_alcide_68%2F68%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="344">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_giafar_emiro_36-36%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="345">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_rau_simone_23_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="346">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_silvestri_ignazio_11%2C13%2C1_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="347">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_silvestri_ignazio_11%2C13%2C1_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="348">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_riccardo_da_lentini_12%2C14%2C_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="349">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_zamparrone_baldassare_48_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="350">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_parisio_cataldo_52%2Fb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="351">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="largo_strasburgo_16-19_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="352">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="353">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="354">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_persano_ammiraglio_38%2F42_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="355">
+	<rdfs:label>IMMOBILE CONFISCATO MAGAZZINO</rdfs:label>
+	<locn:location rdf:resource="via_restivo_empedocle_84_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="356">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_aversa_tommaso_149%2F151_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="357">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_librino_emanuele_13_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="358">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_librino_emanuele_13_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="359">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_librino_emanuele_13_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="360">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_casalini_157%2Fc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="361">
+	<rdfs:label>LOCALI TERRANEI CONFISC</rdfs:label>
+	<locn:location rdf:resource="via_altarello_0_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="362">
+	<rdfs:label>MAGAZZINI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_manfredi_luigi_2%2Fd-2%2Fe_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="363">
+	<rdfs:label>MAGAZZINI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_manfredi_luigi_2%2Fg-2%2Fh_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="364">
+	<rdfs:label>MAGAZZINO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_collegio_di_maria_al_carmine_7_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="365">
+	<rdfs:label>NEGOZIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_nobile_umberto_03-gen_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="366">
+	<rdfs:label>NEGOZIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazza_torrelunga_06-mag_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="367">
+	<rdfs:label>NEGOZIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_dell%27orsa_minore_122%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="368">
+	<rdfs:label>NEGOZIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="corso_tukory_182%2F184_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="369">
+	<rdfs:label>NEGOZIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_villagrazia_108%2Fe_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="370">
+	<rdfs:label>LOCALE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_pizzetti_ildebrando_12-ott_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="371">
+	<rdfs:label>NEGOZIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_giafar_emiro_36-36%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="372">
+	<rdfs:label>IMMOBILE CONFISCATO P. AUTO</rdfs:label>
+	<locn:location rdf:resource="via_malaspina_19_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="373">
+	<rdfs:label>POSTO AUTO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_albricci_alberigo_gen._44%2Fb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="374">
+	<rdfs:label>POSTO AUTO</rdfs:label>
+	<locn:location rdf:resource="viale_regione_siciliana_463_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="375">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="376">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="377">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="378">
+	<rdfs:label>LOCALE SEMINTERRATO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_casalini_157_159_159_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="379">
+	<rdfs:label>SEMINTERRATO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_besta_fabio_36%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="380">
+	<rdfs:label>TERRENO CONFISCATO A CHIOVARO AURELIO G</rdfs:label>
+	<locn:location rdf:resource="passo_di_rigano__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="381">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_altarello__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="382">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_altarello__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="383">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_altarello__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="384">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_altarello__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="385">
+	<rdfs:label>TERRENO CON VILLE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_melendez_francesco_46-48-5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="386">
+	<rdfs:label>TERRENO CON VILLE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_melendez_francesco_46-48-5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="387">
+	<rdfs:label>TERRENO CON VILLE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_melendez_francesco_46-48-5_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="388">
+	<rdfs:label>TERRENO CON VILLE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_melendez_francesco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="389">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_tranchina_giuseppe_1_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="390">
+	<rdfs:label>IMMOB. CONF. - ACQ. 2001</rdfs:label>
+	<locn:location rdf:resource="contrada_ciaculli__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="391">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_balate__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="392">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_balate__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="393">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_balate__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="394">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_montagne__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="395">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_montagne__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="396">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_montagne__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="397">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_montagne__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="398">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_chiaranda%27__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="399">
+	<rdfs:label>IMM.CONF.- F.DO VALENZA</rdfs:label>
+	<locn:location rdf:resource="via_falsomiele__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="400">
+	<rdfs:label>IMM.CONF.- F.DO VALENZA</rdfs:label>
+	<locn:location rdf:resource="via_falsomiele__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="401">
+	<rdfs:label>IMM.CONF.- F.DO VALENZA</rdfs:label>
+	<locn:location rdf:resource="via_falsomiele__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="402">
+	<rdfs:label>IMM.CONF.- F.DO VALENZA</rdfs:label>
+	<locn:location rdf:resource="via_falsomiele__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="403">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="fondo_martino_sparaciaro_21%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="404">
+	<rdfs:label>TERRENO + FABBR CONFISCAT</rdfs:label>
+	<locn:location rdf:resource="via_aquino_molara_21%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="405">
+	<rdfs:label>TERRENO + FABBR CONFISCAT</rdfs:label>
+	<locn:location rdf:resource="via_aquino_molara_21%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="406">
+	<rdfs:label>TERRENO + FABBR CONFISCAT</rdfs:label>
+	<locn:location rdf:resource="via_aquino_molara_21%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="407">
+	<rdfs:label>TERRENO + FABBR CONFISCAT</rdfs:label>
+	<locn:location rdf:resource="via_aquino_molara_1_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="408">
+	<rdfs:label>TERRENO + FABBRICATO</rdfs:label>
+	<locn:location rdf:resource="via_s.francesco_di_sales__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="409">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_ciaculli__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="410">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_ciaculli__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="411">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_ciaculli__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="412">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_ciaculli__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="413">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_santa_croce__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="414">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_santa_croce__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="415">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_santa_croce__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="416">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_santa_croce_37_d_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="417">
+	<rdfs:label>TERRENO + FABBR. CONF.</rdfs:label>
+	<locn:location rdf:resource="via_valenza__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="418">
+	<rdfs:label>TERRENO + FABBR. CONF.</rdfs:label>
+	<locn:location rdf:resource="via_valenza__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="419">
+	<rdfs:label>TERRENO + FABBR. CONF.</rdfs:label>
+	<locn:location rdf:resource="via_valenza__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="420">
+	<rdfs:label>TERRENO + FABBR. CONF.</rdfs:label>
+	<locn:location rdf:resource="via_valenza__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="421">
+	<rdfs:label>TERRENO + FABBR. CONF.</rdfs:label>
+	<locn:location rdf:resource="via_valenza__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="422">
+	<rdfs:label>TERRENO + FABBR. CONF.</rdfs:label>
+	<locn:location rdf:resource="via_valenza__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="423">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="424">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="425">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="426">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="427">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="428">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_sottogrotta__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="429">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_sottogrotta__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="430">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_sottogrotta__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="431">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_sottogrotta__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="432">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_sottogrotta__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="433">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_zito_rapallo__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="434">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_valdaura__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="435">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_arenella__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="436">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_arenella__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="437">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_montagne__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="438">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_montagne__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="439">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_montagne__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="440">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_montagne__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="441">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="442">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="443">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="444">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="445">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_croceverde__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="446">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_villagrazia__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="447">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_villagrazia__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="448">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_villagrazia__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="449">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_villagrazia__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="450">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_sottogrotta__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="451">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_maccionello__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="452">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_maccionello_30_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="453">
+	<rdfs:label>TERR VILLA PANTELLERIA CONF.</rdfs:label>
+	<locn:location rdf:resource="vicolo_pantelleria_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="454">
+	<rdfs:label>TERR VILLA PANTELLERIA CONF.</rdfs:label>
+	<locn:location rdf:resource="vicolo_pantelleria_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="455">
+	<rdfs:label>TERR VILLA PANTELLERIA CONF.</rdfs:label>
+	<locn:location rdf:resource="vicolo_pantelleria_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="456">
+	<rdfs:label>TERR VILLA PANTELLERIA CONF.</rdfs:label>
+	<locn:location rdf:resource="vicolo_pantelleria_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="457">
+	<rdfs:label>TERR VILLA PANTELLERIA CONF.</rdfs:label>
+	<locn:location rdf:resource="vicolo_pantelleria_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="458">
+	<rdfs:label>TERR VILLA PANTELLERIA CONF.</rdfs:label>
+	<locn:location rdf:resource="vicolo_pantelleria_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="459">
+	<rdfs:label>TERR VILLA PANTELLERIA CONF.</rdfs:label>
+	<locn:location rdf:resource="vicolo_pantelleria_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="460">
+	<rdfs:label>TERR VILLA PANTELLERIA CONF.</rdfs:label>
+	<locn:location rdf:resource="vicolo_pantelleria_67_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="461">
+	<rdfs:label>TERR VILLA PANTELLERIA CONF.</rdfs:label>
+	<locn:location rdf:resource="vicolo_pantelleria__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="462">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_immacolatella__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="463">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_immacolatella__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="464">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_immacolatella__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="465">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_immacolatella_39_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="466">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="borgata_cruillas__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="467">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="468">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="469">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="470">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="471">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="472">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="473">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="474">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="475">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="476">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="477">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="478">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="479">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="480">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="481">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="482">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="483">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="484">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_lanzirotti_bagnasco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="485">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_lanzirotti_bagnasco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="486">
+	<rdfs:label>TERRENI CON FABBR. CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="fondo_zappulla__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="487">
+	<rdfs:label>TERRENI CON FABBR. CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="fondo_zappulla__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="488">
+	<rdfs:label>TERRENI CON FABBR. CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="fondo_zappulla_198_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="489">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco_198_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="490">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_trabucco__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="491">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_s.maria_di_gesu%27__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="492">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_s.maria_di_gesu%27__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="493">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_s.maria_di_gesu%27__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="494">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_s.maria_di_gesu%27__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="495">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="fondo_stella__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="496">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="fondo_stella__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="497">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_starrabba__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="498">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_starrabba__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="499">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_starrabba__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="500">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_starrabba__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="501">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_starrabba__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="502">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_starrabba__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="503">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_agnetta__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="504">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="fondo_morici__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="505">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="fondo_morici__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="506">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_cascino_f.p._%28ex_rl.19%29__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="507">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="bc.23__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="508">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="contrada_balate_26_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="509">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_600_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="510">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="511">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_beato_angelico__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="512">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_beato_angelico_76_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="513">
+	<rdfs:label>TERRENI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="piazza_leoni_76_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="514">
+	<rdfs:label>TERRENI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="piazza_leoni_76_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="515">
+	<rdfs:label>TERRENI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="piazza_leoni_76_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="516">
+	<rdfs:label>TERRENI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="piazza_leoni__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="517">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_ur.15_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="518">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_ur.15_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="519">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_ur.15_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="520">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_ur.15_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="521">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_ur.15__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="522">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_brasca_6_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="523">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_brasca_6_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="524">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_brasca_6_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="525">
+	<rdfs:label>TERRENO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_brasca__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="526">
+	<rdfs:label>S.M.S. GRAMSCI PLESSO 2 - CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_arcoleo_giorgio_58_-_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="527">
+	<rdfs:label>LOCALI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_altarello__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="528">
+	<rdfs:label>LOCALI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_altarello__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="529">
+	<rdfs:label>LOCALI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_altarello__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="530">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_spina_santa_170_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="531">
+	<rdfs:label>BOX CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_dell%27orsa_maggiore_110_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="532">
+	<rdfs:label>AUTORIMESSA CONF. </rdfs:label>
+	<locn:location rdf:resource="via_marinai_alliata_4%2Fc_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="533">
+	<rdfs:label>AUTORIMESSA</rdfs:label>
+	<locn:location rdf:resource="via_ifigenia_12_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="534">
+	<rdfs:label>AUTORIMESSA CONFISCATA</rdfs:label>
+	<locn:location rdf:resource="via_zaire_39_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="535">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_casalini_157-159_-159_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="536">
+	<rdfs:label>BOX  CONFISCATI </rdfs:label>
+	<locn:location rdf:resource="via_sperone_6_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="537">
+	<rdfs:label>IMMOBILE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_sperone_7_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="538">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_messina_marine_411%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="539">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="viale_del_fante_54%2Fh_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="540">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="piazzale_bell%27alba_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="541">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_falco_di_benevento_15_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="542">
+	<rdfs:label>BOX  CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="543">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="544">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="545">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="546">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="547">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="548">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="549">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="550">
+	<rdfs:label>BOX CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="551">
+	<rdfs:label>IMMOBILI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_parrocchia_%28dietro%29_66_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="552">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="553">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="554">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="555">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="556">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="557">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="558">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="559">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="560">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46-82_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="561">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46-82_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="562">
+	<rdfs:label>BOX E POSTI AUTO CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_la_colla_francesco_46-82_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="563">
+	<rdfs:label>BOX  CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_padre_giuseppe_puglisi_24-feb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="564">
+	<rdfs:label>BOX  CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_albricci_alberigo_gen._44%2Fb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="565">
+	<rdfs:label>IMMOBILE CONFISCATO - BOX</rdfs:label>
+	<locn:location rdf:resource="via_di_marzo_gioacchino_33_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="566">
+	<rdfs:label>BOX - CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_graf_arturo_1_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="567">
+	<rdfs:label>BOX - CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_persano_ammiraglio_22%2F24_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="568">
+	<rdfs:label>IMMOBILE CONFISCATO - BOX</rdfs:label>
+	<locn:location rdf:resource="via_ifigenia_17%2Fa_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="569">
+	<rdfs:label>IMMOBILE CONFISCATO - BOX</rdfs:label>
+	<locn:location rdf:resource="via_ifigenia_11%2Fh_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="570">
+	<rdfs:label>S.M.S. GRAMSCI PLESSO 3 - CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_piazza_vito_cesare_18-ago_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="571">
+	<rdfs:label>S.M.S. GRAMSCI PLESSO 3 - CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_piazza_vito_cesare_16-ago_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="572">
+	<rdfs:label>S.M.S. GRAMSCI - CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_arcoleo_giorgio_58_-_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="573">
+	<rdfs:label>S.M.S. GRAMSCI PLESSO 2</rdfs:label>
+	<locn:location rdf:resource="via_arcoleo_giorgio_58_-_80_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="574">
+	<rdfs:label>S.M.S. CAVOUR - BENE CONFISCATO </rdfs:label>
+	<locn:location rdf:resource="via_crocifisso_a_pietratagliata_7%2Fd__palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="575">
+	<rdfs:label>S.M.S. CAVOUR - BENE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_crocifisso_a_pietratagliata_7%2Fe_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="576">
+	<rdfs:label>IMMOBILE CONFISCATO - SCUOLA</rdfs:label>
+	<locn:location rdf:resource="via_zuppetta_3-3a_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="577">
+	<rdfs:label>IMMOBILE CONFISCATO - SCUOLA</rdfs:label>
+	<locn:location rdf:resource="via_zuppetta_3-3a_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="578">
+	<rdfs:label>IMMOBILE CONFISCATO - SCUOLA</rdfs:label>
+	<locn:location rdf:resource="via_zuppetta_3-3a_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="579">
+	<rdfs:label>PLESSO ENEA ROSSI -  D.D. E. ARCULEO</rdfs:label>
+	<locn:location rdf:resource="via_rossi_enea_08-giu_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="580">
+	<rdfs:label>PLESSO ENEA ROSSI -  D.D. E. ARCULEO</rdfs:label>
+	<locn:location rdf:resource="via_rossi_enea_08-giu_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="581">
+	<rdfs:label>UFFICI CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_malaspina_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="582">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_malaspina_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="583">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_malaspina_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="584">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_malaspina_27_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="585">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_giordano_umberto_55_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="586">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_giordano_umberto_55_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="587">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="viale_de_gasperi_alcide_53_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="588">
+	<rdfs:label>IMMOBILI CONFISCATI</rdfs:label>
+	<locn:location rdf:resource="via_randazzo_pietro_4_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="589">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_beato_angelico_53_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="590">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_beato_angelico_53_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="591">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_marchese_ugo_60_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="592">
+	<rdfs:label>POSTAZ. ANAGRAFICA</rdfs:label>
+	<locn:location rdf:resource="via_tricomi_ernesto_14_a%2Fb_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="593">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27asaro_pietro_13_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="594">
+	<rdfs:label>IMMOBILE CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_d%27asaro_pietro_13_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="595">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_don_orione_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="596">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_don_orione_18_palermo_it" />
+</ca:ConfiscatedAsset>
+<ca:ConfiscatedAsset rdf:about="597">
+	<rdfs:label>UFFICIO CONFISCATO</rdfs:label>
+	<locn:location rdf:resource="via_don_orione_18_palermo_it" />
+</ca:ConfiscatedAsset>
+</rdf:RDF>
+

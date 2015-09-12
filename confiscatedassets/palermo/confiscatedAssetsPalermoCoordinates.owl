@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY ca "http://opendatahacklab.org/confiscatedassets/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY geo "http://www.w3.org/2003/01/geo/wgs84_pos#" >
+]>
+
+<rdf:RDF xml:base="http://comune.palermo.it/assets/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:geo="&geo;"
+     xmlns:ca="&ca;">
+    <owl:Ontology rdf:about="http://comune.palermo.it/assets/">
+    	<rdfs:label>Coordinates of confiscated assets in Palermo</rdfs:label>
+        <owl:imports rdf:resource="&geo;"/>
+        <owl:imports rdf:resource="http://opendatahacklab.github.io/confiscatedassets/confiscatedassets_vocab.owl" />
+    </owl:Ontology>
+0<geo:Point rdf:about="via_don_orione_18_palermo_it_geometry">
+	<geo:lat>38.1417764</geo:lat>
+	<geo:long>13.3623206</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_dei_picciotti_600_palermo_it_geometry">
+	<geo:lat>38.1054529</geo:lat>
+	<geo:long>13.3817857</geo:long>
+</geo:Point>
+<geo:Point rdf:about="corso_dei_mille_970%2Fd_palermo_it_geometry">
+	<geo:lat>38.0962984</geo:lat>
+	<geo:long>13.3987210</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_marinuzzi_gino_58_palermo_it_geometry">
+	<geo:lat>38.1031344</geo:lat>
+	<geo:long>13.3359848</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_stazione_s.lorenzo_8a_palermo_it_geometry">
+	<geo:lat>38.1634452</geo:lat>
+	<geo:long>13.3164365</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_tricomi_ernesto_4q%2F4r_palermo_it_geometry">
+	<geo:lat>38.1003013</geo:lat>
+	<geo:long>13.3586898</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_sperone_14_palermo_it_geometry">
+	<geo:lat>38.0993246</geo:lat>
+	<geo:long>13.3945059</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_belgio_4d_palermo_it_geometry">
+	<geo:lat>38.1516635</geo:lat>
+	<geo:long>13.3309810</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bocchieri_giovanni_6_palermo_it_geometry">
+	<geo:lat>38.0992968</geo:lat>
+	<geo:long>13.3707027</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_429a_palermo_it_geometry">
+	<geo:lat>38.1018234</geo:lat>
+	<geo:long>13.3972842</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_429a_palermo_it_geometry">
+	<geo:lat>38.1018234</geo:lat>
+	<geo:long>13.3972842</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_barone_della_scala_23_palermo_it_geometry">
+	<geo:lat>38.0857070</geo:lat>
+	<geo:long>13.3472615</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_di_blasi_g._evangelista_24%2F32_palermo_it_geometry">
+	<geo:lat>38.1224622</geo:lat>
+	<geo:long>13.3285010</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_villagrazia_108%2Ff_palermo_it_geometry">
+	<geo:lat>38.0927685</geo:lat>
+	<geo:long>13.3590665</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_della_leva_28_palermo_it_geometry">
+	<geo:lat>38.1530618</geo:lat>
+	<geo:long>13.3746631</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_pigafetta_antonio_26_palermo_it_geometry">
+	<geo:lat>38.1048159</geo:lat>
+	<geo:long>13.3876587</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_br._58_04-feb_palermo_it_geometry">
+	<geo:lat>38.0967719</geo:lat>
+	<geo:long>13.3696275</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_belmonte_chiavelli_16%2Fa_palermo_it_geometry">
+	<geo:lat>38.0964200</geo:lat>
+	<geo:long>13.3689084</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_mammana_270_palermo_it_geometry">
+	<geo:lat>38.1331727</geo:lat>
+	<geo:long>13.3144373</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_regione_siciliana_4890_palermo_it_geometry">
+	<geo:lat>38.1740667</geo:lat>
+	<geo:long>13.2964959</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_berrettaro_bartolomeo_34_palermo_it_geometry">
+	<geo:lat>38.1381281</geo:lat>
+	<geo:long>13.3083908</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besio_giovanni_145_palermo_it_geometry">
+	<geo:lat>38.1384696</geo:lat>
+	<geo:long>13.3089577</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_lumia_isidoro_19%2Fc_palermo_it_geometry">
+	<geo:lat>38.1261201</geo:lat>
+	<geo:long>13.3567621</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_eufrosine_15_palermo_it_geometry">
+	<geo:lat>38.2004047</geo:lat>
+	<geo:long>13.2824220</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_eufrosine_14_palermo_it_geometry">
+	<geo:lat>38.2004047</geo:lat>
+	<geo:long>13.2824220</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_regione_siciliana_780_palermo_it_geometry">
+	<geo:lat>38.0974637</geo:lat>
+	<geo:long>13.3347371</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_molara_158_palermo_it_geometry">
+	<geo:lat>38.0836541</geo:lat>
+	<geo:long>13.3117047</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_chirone_33%2F35_palermo_it_geometry">
+	<geo:lat>38.1929061</geo:lat>
+	<geo:long>13.3135117</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_marinai_alliata_4%2Fc_palermo_it_geometry">
+	<geo:lat>38.1772034</geo:lat>
+	<geo:long>13.3338350</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_encelado_12_palermo_it_geometry">
+	<geo:lat>38.1970831</geo:lat>
+	<geo:long>13.2991277</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_brasca_6%2Fb_palermo_it_geometry">
+	<geo:lat>38.0862620</geo:lat>
+	<geo:long>13.3806814</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_palmerino_42_palermo_it_geometry">
+	<geo:lat>38.0992000</geo:lat>
+	<geo:long>13.3369000</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_palmerino_42_palermo_it_geometry">
+	<geo:lat>38.0992000</geo:lat>
+	<geo:long>13.3369000</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_v.53_15_palermo_it_geometry">
+	<geo:lat>38.0738572</geo:lat>
+	<geo:long>13.3428815</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_v.53_15_palermo_it_geometry">
+	<geo:lat>38.0738572</geo:lat>
+	<geo:long>13.3428815</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_melendez_francesco_46-48_palermo_it_geometry">
+	<geo:lat>38.0789293</geo:lat>
+	<geo:long>13.3956496</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_melendez_francesco_50_palermo_it_geometry">
+	<geo:lat>38.0788619</geo:lat>
+	<geo:long>13.3955729</geo:long>
+</geo:Point>
+<geo:Point rdf:about="corso_calatafimi_631_palermo_it_geometry">
+	<geo:lat>38.1039931</geo:lat>
+	<geo:long>13.3325101</geo:long>
+</geo:Point>
+<geo:Point rdf:about="corso_calatafimi_631_palermo_it_geometry">
+	<geo:lat>38.1039931</geo:lat>
+	<geo:long>13.3325101</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_spina_santa_170_palermo_it_geometry">
+	<geo:lat>38.1910500</geo:lat>
+	<geo:long>13.2978500</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_spina_santa_170_palermo_it_geometry">
+	<geo:lat>38.1910500</geo:lat>
+	<geo:long>13.2978500</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_spina_santa_170_palermo_it_geometry">
+	<geo:lat>38.1910500</geo:lat>
+	<geo:long>13.2978500</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_s.lorenzo_25_palermo_it_geometry">
+	<geo:lat>38.1613250</geo:lat>
+	<geo:long>13.3249983</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_s.lorenzo_25_palermo_it_geometry">
+	<geo:lat>38.1613250</geo:lat>
+	<geo:long>13.3249983</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazzale_aurora_7_palermo_it_geometry">
+	<geo:lat>38.0926462</geo:lat>
+	<geo:long>13.3760137</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_gioe%27_ignazio_72_palermo_it_geometry">
+	<geo:lat>38.1569800</geo:lat>
+	<geo:long>13.3035300</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bagolino_sebastiano_27_palermo_it_geometry">
+	<geo:lat>38.1373212</geo:lat>
+	<geo:long>13.3613673</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bagolino_sebastiano_31_palermo_it_geometry">
+	<geo:lat>38.1373244</geo:lat>
+	<geo:long>13.3614308</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bagolino_sebastiano_29_palermo_it_geometry">
+	<geo:lat>38.1373287</geo:lat>
+	<geo:long>13.3614023</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bagolino_sebastiano_29_palermo_it_geometry">
+	<geo:lat>38.1373287</geo:lat>
+	<geo:long>13.3614023</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bagolino_sebastiano_29_palermo_it_geometry">
+	<geo:lat>38.1373287</geo:lat>
+	<geo:long>13.3614023</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bagolino_sebastiano_29_palermo_it_geometry">
+	<geo:lat>38.1373287</geo:lat>
+	<geo:long>13.3614023</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bagolino_sebastiano_29_palermo_it_geometry">
+	<geo:lat>38.1373287</geo:lat>
+	<geo:long>13.3614023</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_campisi_giovanni_24%2Fa_palermo_it_geometry">
+	<geo:lat>38.0992852</geo:lat>
+	<geo:long>13.3712597</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_serradifalco_250_palermo_it_geometry">
+	<geo:lat>38.1295202</geo:lat>
+	<geo:long>13.3379273</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_oreto_448_palermo_it_geometry">
+	<geo:lat>38.0956663</geo:lat>
+	<geo:long>13.3746449</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_saetta_antonio_57_palermo_it_geometry">
+	<geo:lat>38.1064800</geo:lat>
+	<geo:long>13.3804600</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_juvara_aloisio_18_palermo_it_geometry">
+	<geo:lat>38.1377386</geo:lat>
+	<geo:long>13.3622006</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_lanza_di_scalea_giuseppe_530_palermo_it_geometry">
+	<geo:lat>38.1683426</geo:lat>
+	<geo:long>13.3154888</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_villagrazia_167_palermo_it_geometry">
+	<geo:lat>38.0912659</geo:lat>
+	<geo:long>13.3553626</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_dell%27orsa_minore_126_palermo_it_geometry">
+	<geo:lat>38.0921415</geo:lat>
+	<geo:long>13.3653785</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_portella_della_ginestra_25_palermo_it_geometry">
+	<geo:lat>38.1010390</geo:lat>
+	<geo:long>13.3912629</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bonanno_giovanni_51_palermo_it_geometry">
+	<geo:lat>38.1421956</geo:lat>
+	<geo:long>13.3466171</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_albiri_5_palermo_it_geometry">
+	<geo:lat>38.0900400</geo:lat>
+	<geo:long>13.3641400</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_albiri_5_palermo_it_geometry">
+	<geo:lat>38.0900400</geo:lat>
+	<geo:long>13.3641400</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_cervello_nicolo%27_66_palermo_it_geometry">
+	<geo:lat>38.1156442</geo:lat>
+	<geo:long>13.3732896</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_jung_guido_7_palermo_it_geometry">
+	<geo:lat>38.1428200</geo:lat>
+	<geo:long>13.3629300</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="cortile_chiavelli_93_palermo_it_geometry">
+	<geo:lat>38.0841023</geo:lat>
+	<geo:long>13.3689769</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_sperone_7_palermo_it_geometry">
+	<geo:lat>38.0989234</geo:lat>
+	<geo:long>13.3931030</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_cervello_nicolo%27_66_palermo_it_geometry">
+	<geo:lat>38.1156442</geo:lat>
+	<geo:long>13.3732896</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_crisafulli_elia_11_palermo_it_geometry">
+	<geo:lat>38.1009846</geo:lat>
+	<geo:long>13.3500382</geo:long>
+</geo:Point>
+<geo:Point rdf:about="corso_calatafimi_1011_palermo_it_geometry">
+	<geo:lat>38.0996211</geo:lat>
+	<geo:long>13.3217494</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_nuova_7_palermo_it_geometry">
+	<geo:lat>38.1604515</geo:lat>
+	<geo:long>13.3232592</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_palmerino_63_palermo_it_geometry">
+	<geo:lat>38.0925734</geo:lat>
+	<geo:long>13.3245148</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_perricone_pietro_27_palermo_it_geometry">
+	<geo:lat>38.1456400</geo:lat>
+	<geo:long>13.3140200</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_perricone_pietro_27_palermo_it_geometry">
+	<geo:lat>38.1456400</geo:lat>
+	<geo:long>13.3140200</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_perricone_pietro_27_palermo_it_geometry">
+	<geo:lat>38.1456400</geo:lat>
+	<geo:long>13.3140200</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_millo_ammiraglio_39_palermo_it_geometry">
+	<geo:lat>38.1221054</geo:lat>
+	<geo:long>13.3371628</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ponte_di_mare_29_palermo_it_geometry">
+	<geo:lat>38.1122024</geo:lat>
+	<geo:long>13.3783066</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_holm_adolfo_9_palermo_it_geometry">
+	<geo:lat>38.1275000</geo:lat>
+	<geo:long>13.3310800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_villagrazia_59%2Fl_palermo_it_geometry">
+	<geo:lat>38.0916781</geo:lat>
+	<geo:long>13.3568969</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_francia_2_palermo_it_geometry">
+	<geo:lat>38.1552900</geo:lat>
+	<geo:long>13.3239100</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_449%2Fa_palermo_it_geometry">
+	<geo:lat>38.1017842</geo:lat>
+	<geo:long>13.3976864</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_oreto_206_palermo_it_geometry">
+	<geo:lat>38.1055335</geo:lat>
+	<geo:long>13.3680471</geo:long>
+</geo:Point>
+<geo:Point rdf:about="largo_giuliana_10-ago_palermo_it_geometry">
+	<geo:lat>38.0926949</geo:lat>
+	<geo:long>13.3858000</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_terrasanta_82_palermo_it_geometry">
+	<geo:lat>38.1303600</geo:lat>
+	<geo:long>13.3445300</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_pigafetta_antonio_28_palermo_it_geometry">
+	<geo:lat>38.1054187</geo:lat>
+	<geo:long>13.3869099</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_pigafetta_antonio_28_palermo_it_geometry">
+	<geo:lat>38.1054187</geo:lat>
+	<geo:long>13.3869099</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_lucchini_franco_10_palermo_it_geometry">
+	<geo:lat>38.1004505</geo:lat>
+	<geo:long>13.3517414</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_lucchini_franco_10_palermo_it_geometry">
+	<geo:lat>38.1004505</geo:lat>
+	<geo:long>13.3517414</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_regione_siciliana_2280_palermo_it_geometry">
+	<geo:lat>38.1618900</geo:lat>
+	<geo:long>13.3097441</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_colomba_60_palermo_it_geometry">
+	<geo:lat>38.1064818</geo:lat>
+	<geo:long>13.3573711</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_411%2Fa_palermo_it_geometry">
+	<geo:lat>38.1022081</geo:lat>
+	<geo:long>13.3962508</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_411%2Fa_palermo_it_geometry">
+	<geo:lat>38.1022081</geo:lat>
+	<geo:long>13.3962508</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_411%2Fa_palermo_it_geometry">
+	<geo:lat>38.1022081</geo:lat>
+	<geo:long>13.3962508</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_411%2Fa_palermo_it_geometry">
+	<geo:lat>38.1022081</geo:lat>
+	<geo:long>13.3962508</geo:long>
+</geo:Point>
+<geo:Point rdf:about="pergusa_%28via%29_34_palermo_it_geometry">
+	<geo:lat>38.1172900</geo:lat>
+	<geo:long>13.3273500</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_caduti_sul_lavoro_24_palermo_it_geometry">
+	<geo:lat>38.1888691</geo:lat>
+	<geo:long>13.2943153</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ugdulena_gregorio_10_palermo_it_geometry">
+	<geo:lat>38.1403049</geo:lat>
+	<geo:long>13.3462802</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_zamparrone_baldassare_61_palermo_it_geometry">
+	<geo:lat>38.1221252</geo:lat>
+	<geo:long>13.3394086</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_lincoln_131_palermo_it_geometry">
+	<geo:lat>38.1120363</geo:lat>
+	<geo:long>13.3694002</geo:long>
+</geo:Point>
+<geo:Point rdf:about="largo_perri_enrico_1_palermo_it_geometry">
+	<geo:lat>38.1010000</geo:lat>
+	<geo:long>13.3930100</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27ali%27_giuseppe_18_palermo_it_geometry">
+	<geo:lat>38.0887342</geo:lat>
+	<geo:long>13.4178188</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27ali%27_giuseppe_18_palermo_it_geometry">
+	<geo:lat>38.0887342</geo:lat>
+	<geo:long>13.4178188</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27ali%27_giuseppe_18_palermo_it_geometry">
+	<geo:lat>38.0887342</geo:lat>
+	<geo:long>13.4178188</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27ali%27_giuseppe_18_palermo_it_geometry">
+	<geo:lat>38.0887342</geo:lat>
+	<geo:long>13.4178188</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27ali%27_giuseppe_18_palermo_it_geometry">
+	<geo:lat>38.0887342</geo:lat>
+	<geo:long>13.4178188</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27ali%27_giuseppe_18_palermo_it_geometry">
+	<geo:lat>38.0887342</geo:lat>
+	<geo:long>13.4178188</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_trabucco_198_palermo_it_geometry">
+	<geo:lat>38.1546106</geo:lat>
+	<geo:long>13.3166724</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_del_fante_56_palermo_it_geometry">
+	<geo:lat>38.1486300</geo:lat>
+	<geo:long>13.3430800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_4_palermo_it_geometry">
+	<geo:lat>38.1168031</geo:lat>
+	<geo:long>13.3227494</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_villagrazia_457_palermo_it_geometry">
+	<geo:lat>38.0770532</geo:lat>
+	<geo:long>13.3323883</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bonta%27_46_palermo_it_geometry">
+	<geo:lat>38.1279449</geo:lat>
+	<geo:long>13.3580365</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_delle_case_nuove_44_palermo_it_geometry">
+	<geo:lat>38.1110804</geo:lat>
+	<geo:long>13.3627676</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_delle_case_nuove_44%2F50_palermo_it_geometry">
+	<geo:lat>38.1110508</geo:lat>
+	<geo:long>13.3627029</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_delle_case_nuove_44%2F50_palermo_it_geometry">
+	<geo:lat>38.1110508</geo:lat>
+	<geo:long>13.3627029</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_delle_case_nuove_44%2F50_palermo_it_geometry">
+	<geo:lat>38.1110508</geo:lat>
+	<geo:long>13.3627029</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_3_palermo_it_geometry">
+	<geo:lat>38.1165947</geo:lat>
+	<geo:long>13.3228437</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_3_palermo_it_geometry">
+	<geo:lat>38.1165947</geo:lat>
+	<geo:long>13.3228437</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_caggio_paolo_54_palermo_it_geometry">
+	<geo:lat>38.1194227</geo:lat>
+	<geo:long>13.3336428</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_caggio_paolo_54_palermo_it_geometry">
+	<geo:lat>38.1194227</geo:lat>
+	<geo:long>13.3336428</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_cirincione_giuseppe_29_palermo_it_geometry">
+	<geo:lat>38.0990559</geo:lat>
+	<geo:long>13.3870027</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_villagrazia_75_palermo_it_geometry">
+	<geo:lat>38.0956393</geo:lat>
+	<geo:long>13.3641056</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_biondo_andrea_3_palermo_it_geometry">
+	<geo:lat>38.0951321</geo:lat>
+	<geo:long>13.3857077</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_buonriposo_53_palermo_it_geometry">
+	<geo:lat>38.1024392</geo:lat>
+	<geo:long>13.3738572</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_mammana_270_palermo_it_geometry">
+	<geo:lat>38.1331727</geo:lat>
+	<geo:long>13.3144373</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_mammana_270_palermo_it_geometry">
+	<geo:lat>38.1331727</geo:lat>
+	<geo:long>13.3144373</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27asaro_pietro_13_palermo_it_geometry">
+	<geo:lat>38.1224429</geo:lat>
+	<geo:long>13.3478351</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_pianell_giuseppe_37_palermo_it_geometry">
+	<geo:lat>38.0975084</geo:lat>
+	<geo:long>13.3888510</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_pianell_giuseppe_37_palermo_it_geometry">
+	<geo:lat>38.0975084</geo:lat>
+	<geo:long>13.3888510</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_parisi_%28cruillas%29_22_palermo_it_geometry">
+	<geo:lat>38.1478929</geo:lat>
+	<geo:long>13.3211708</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_parisi_%28cruillas%29_22_palermo_it_geometry">
+	<geo:lat>38.1478929</geo:lat>
+	<geo:long>13.3211708</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_parisi_%28cruillas%29_22_palermo_it_geometry">
+	<geo:lat>38.1478929</geo:lat>
+	<geo:long>13.3211708</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_parisi_%28cruillas%29_22_palermo_it_geometry">
+	<geo:lat>38.1478929</geo:lat>
+	<geo:long>13.3211708</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_palchetto_2%2Fb_palermo_it_geometry">
+	<geo:lat>38.1104887</geo:lat>
+	<geo:long>13.3310083</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_pozzo_30_palermo_it_geometry">
+	<geo:lat>38.1290431</geo:lat>
+	<geo:long>13.3225031</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_zaire_35_palermo_it_geometry">
+	<geo:lat>38.1249800</geo:lat>
+	<geo:long>13.3069800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_malaspina_27_palermo_it_geometry">
+	<geo:lat>38.1249015</geo:lat>
+	<geo:long>13.3468682</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27ali%27_giuseppe_18_palermo_it_geometry">
+	<geo:lat>38.0887342</geo:lat>
+	<geo:long>13.4178188</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_petralia_sottana_67_palermo_it_geometry">
+	<geo:lat>38.1166571</geo:lat>
+	<geo:long>13.3221257</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_petralia_sottana_67_palermo_it_geometry">
+	<geo:lat>38.1166571</geo:lat>
+	<geo:long>13.3221257</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_4_palermo_it_geometry">
+	<geo:lat>38.1168031</geo:lat>
+	<geo:long>13.3227494</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_4_palermo_it_geometry">
+	<geo:lat>38.1168031</geo:lat>
+	<geo:long>13.3227494</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_4_palermo_it_geometry">
+	<geo:lat>38.1168031</geo:lat>
+	<geo:long>13.3227494</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_regione_siciliana_4890_palermo_it_geometry">
+	<geo:lat>38.1740667</geo:lat>
+	<geo:long>13.2964959</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_malaspina_27_palermo_it_geometry">
+	<geo:lat>38.1249015</geo:lat>
+	<geo:long>13.3468682</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_persano_ammiraglio_44_palermo_it_geometry">
+	<geo:lat>38.1418400</geo:lat>
+	<geo:long>13.3590800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besta_fabio_36%2Fa_palermo_it_geometry">
+	<geo:lat>38.1758684</geo:lat>
+	<geo:long>13.3063372</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besta_fabio_36%2Fa_palermo_it_geometry">
+	<geo:lat>38.1758684</geo:lat>
+	<geo:long>13.3063372</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_foscolo_ugo_10_palermo_it_geometry">
+	<geo:lat>38.1393905</geo:lat>
+	<geo:long>13.3449236</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_s.agostino_38_palermo_it_geometry">
+	<geo:lat>38.1179492</geo:lat>
+	<geo:long>13.3579730</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_patti_5_palermo_it_geometry">
+	<geo:lat>38.1699221</geo:lat>
+	<geo:long>13.3204362</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_patti_5_palermo_it_geometry">
+	<geo:lat>38.1699221</geo:lat>
+	<geo:long>13.3204362</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_patti_15_palermo_it_geometry">
+	<geo:lat>38.1710161</geo:lat>
+	<geo:long>13.3195350</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_delle_canarie_16_palermo_it_geometry">
+	<geo:lat>38.0961935</geo:lat>
+	<geo:long>13.3282872</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_3_palermo_it_geometry">
+	<geo:lat>38.1165947</geo:lat>
+	<geo:long>13.3228437</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_zappala%27_giovanni_26_palermo_it_geometry">
+	<geo:lat>38.1404459</geo:lat>
+	<geo:long>13.3342015</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_giafar_emiro_38_palermo_it_geometry">
+	<geo:lat>38.0963400</geo:lat>
+	<geo:long>13.3897373</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_sampolo_442_palermo_it_geometry">
+	<geo:lat>38.1431066</geo:lat>
+	<geo:long>13.3483012</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_marvuglia_venanzio_1%2Fd_palermo_it_geometry">
+	<geo:lat>38.1365600</geo:lat>
+	<geo:long>13.3609700</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_albricci_alberigo_gen._44%2Fb_palermo_it_geometry">
+	<geo:lat>38.1002491</geo:lat>
+	<geo:long>13.3942997</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_agnetta_133_palermo_it_geometry">
+	<geo:lat>38.0842738</geo:lat>
+	<geo:long>13.3456992</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_fichidindia_45_palermo_it_geometry">
+	<geo:lat>38.0934110</geo:lat>
+	<geo:long>13.3804483</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_cipolla_michele_126_palermo_it_geometry">
+	<geo:lat>38.1076429</geo:lat>
+	<geo:long>13.3726738</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_aci_5_palermo_it_geometry">
+	<geo:lat>38.1308803</geo:lat>
+	<geo:long>13.3231594</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_aci_5_palermo_it_geometry">
+	<geo:lat>38.1308803</geo:lat>
+	<geo:long>13.3231594</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_aci_5_palermo_it_geometry">
+	<geo:lat>38.1308803</geo:lat>
+	<geo:long>13.3231594</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_600_palermo_it_geometry">
+	<geo:lat>38.0933915</geo:lat>
+	<geo:long>13.4401415</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_oriani_alfredo_4_palermo_it_geometry">
+	<geo:lat>38.1842093</geo:lat>
+	<geo:long>13.3012660</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_beato_angelico_100_palermo_it_geometry">
+	<geo:lat>38.1085241</geo:lat>
+	<geo:long>13.3727445</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_leoni_76_palermo_it_geometry">
+	<geo:lat>38.1453081</geo:lat>
+	<geo:long>13.3456189</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_alias_francesco_maria_20_palermo_it_geometry">
+	<geo:lat>38.1331700</geo:lat>
+	<geo:long>13.3195700</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_alias_francesco_maria_20_palermo_it_geometry">
+	<geo:lat>38.1331700</geo:lat>
+	<geo:long>13.3195700</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_persano_ammiraglio_24_palermo_it_geometry">
+	<geo:lat>38.1406206</geo:lat>
+	<geo:long>13.3593855</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_persano_ammiraglio_44_palermo_it_geometry">
+	<geo:lat>38.1418400</geo:lat>
+	<geo:long>13.3590800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_persano_ammiraglio_44_palermo_it_geometry">
+	<geo:lat>38.1418400</geo:lat>
+	<geo:long>13.3590800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_torre_pio_2_palermo_it_geometry">
+	<geo:lat>38.1121371</geo:lat>
+	<geo:long>13.3312335</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_falsomiele_46-48-5_palermo_it_geometry">
+	<geo:lat>38.0837844</geo:lat>
+	<geo:long>13.3768239</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_s.lorenzo_5_palermo_it_geometry">
+	<geo:lat>38.1570233</geo:lat>
+	<geo:long>13.3314418</geo:long>
+</geo:Point>
+<geo:Point rdf:about="fondo_costa_269_palermo_it_geometry">
+	<geo:lat>38.0891061</geo:lat>
+	<geo:long>13.3260800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_parisi_%28cruillas%29_22_palermo_it_geometry">
+	<geo:lat>38.1478929</geo:lat>
+	<geo:long>13.3211708</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_parisi_%28cruillas%29_22_palermo_it_geometry">
+	<geo:lat>38.1478929</geo:lat>
+	<geo:long>13.3211708</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_alias_francesco_maria_20_palermo_it_geometry">
+	<geo:lat>38.1331700</geo:lat>
+	<geo:long>13.3195700</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bevignani_enrico_20_palermo_it_geometry">
+	<geo:lat>38.1285600</geo:lat>
+	<geo:long>13.3395600</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besio_giovanni_25%2F27_palermo_it_geometry">
+	<geo:lat>38.1368200</geo:lat>
+	<geo:long>13.3123300</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besio_giovanni_73%2F79_palermo_it_geometry">
+	<geo:lat>38.1374800</geo:lat>
+	<geo:long>13.3109600</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_volontari_italiani_del_sangue_1_palermo_it_geometry">
+	<geo:lat>38.1023512</geo:lat>
+	<geo:long>13.3548514</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_grandi_achille_6%2F7%2F8%2F9_palermo_it_geometry">
+	<geo:lat>38.0974643</geo:lat>
+	<geo:long>13.4002238</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_grandi_achille_11%2F10%2F2002_palermo_it_geometry">
+	<geo:lat>38.0974643</geo:lat>
+	<geo:long>13.4002238</geo:long>
+</geo:Point>
+<geo:Point rdf:about="corso_dei_mille_970%2Fabc_palermo_it_geometry">
+	<geo:lat>38.0966536</geo:lat>
+	<geo:long>13.3968568</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_maqueda_375_palermo_it_geometry">
+	<geo:lat>38.1188664</geo:lat>
+	<geo:long>13.3594120</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besio_giovanni_41%2F43_palermo_it_geometry">
+	<geo:lat>38.1370201</geo:lat>
+	<geo:long>13.3120581</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besio_giovanni_33%2F35_palermo_it_geometry">
+	<geo:lat>38.1368800</geo:lat>
+	<geo:long>13.3122100</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besio_giovanni_29%2F31_palermo_it_geometry">
+	<geo:lat>38.1370201</geo:lat>
+	<geo:long>13.3120581</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besio_giovanni_45%2F47_palermo_it_geometry">
+	<geo:lat>38.1370201</geo:lat>
+	<geo:long>13.3120581</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_dell%27orsa_minore_120%2Fb-_palermo_it_geometry">
+	<geo:lat>38.0923974</geo:lat>
+	<geo:long>13.3654882</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_429a_palermo_it_geometry">
+	<geo:lat>38.1018234</geo:lat>
+	<geo:long>13.3972842</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_429a_palermo_it_geometry">
+	<geo:lat>38.1018234</geo:lat>
+	<geo:long>13.3972842</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_perricone_pietro_27_palermo_it_geometry">
+	<geo:lat>38.1456400</geo:lat>
+	<geo:long>13.3140200</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_baiardi_francesco_27_palermo_it_geometry">
+	<geo:lat>38.1011476</geo:lat>
+	<geo:long>13.3317807</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_baiardi_francesco_29_palermo_it_geometry">
+	<geo:lat>38.1011297</geo:lat>
+	<geo:long>13.3318253</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_baiardi_francesco_31_palermo_it_geometry">
+	<geo:lat>38.1010939</geo:lat>
+	<geo:long>13.3318081</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_sampolo_40_palermo_it_geometry">
+	<geo:lat>38.1356956</geo:lat>
+	<geo:long>13.3558885</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_lanza_di_scalea_giuseppe_530_palermo_it_geometry">
+	<geo:lat>38.1683426</geo:lat>
+	<geo:long>13.3154888</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_aurispa_giovanni_34%2Fa_palermo_it_geometry">
+	<geo:lat>38.1267613</geo:lat>
+	<geo:long>13.3418750</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_villagrazia_59%2Fh_palermo_it_geometry">
+	<geo:lat>38.0916781</geo:lat>
+	<geo:long>13.3568969</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bonincontro_mariano_39_palermo_it_geometry">
+	<geo:lat>38.1232546</geo:lat>
+	<geo:long>13.3353009</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bonincontro_mariano_41_palermo_it_geometry">
+	<geo:lat>38.1232865</geo:lat>
+	<geo:long>13.3352887</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bonincontro_mariano_45-47_palermo_it_geometry">
+	<geo:lat>38.1233857</geo:lat>
+	<geo:long>13.3352501</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_filiciuzza_52_%2F_56_palermo_it_geometry">
+	<geo:lat>38.1075590</geo:lat>
+	<geo:long>13.3580370</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ponte_di_mare_45%2F47_palermo_it_geometry">
+	<geo:lat>38.1121911</geo:lat>
+	<geo:long>13.3783102</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_de_gasperi_alcide_53_palermo_it_geometry">
+	<geo:lat>38.1510320</geo:lat>
+	<geo:long>13.3371208</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_amedeo_d%27aosta_80_palermo_it_geometry">
+	<geo:lat>38.1022700</geo:lat>
+	<geo:long>13.3853700</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_tomasi_cardinale_11_palermo_it_geometry">
+	<geo:lat>38.1152200</geo:lat>
+	<geo:long>13.3456812</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_castelnuovo_13_palermo_it_geometry">
+	<geo:lat>38.1242920</geo:lat>
+	<geo:long>13.3555967</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_17%2C19%2C2_palermo_it_geometry">
+	<geo:lat>38.1166279</geo:lat>
+	<geo:long>13.3225444</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_15_palermo_it_geometry">
+	<geo:lat>38.1176252</geo:lat>
+	<geo:long>13.3227426</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_11_palermo_it_geometry">
+	<geo:lat>38.1168405</geo:lat>
+	<geo:long>13.3229233</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_allmayer_vito_fazio_9_palermo_it_geometry">
+	<geo:lat>38.1168368</geo:lat>
+	<geo:long>13.3228812</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_noce_88_palermo_it_geometry">
+	<geo:lat>38.1212480</geo:lat>
+	<geo:long>13.3347160</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_villasevaglios_pietro_17_palermo_it_geometry">
+	<geo:lat>38.1411378</geo:lat>
+	<geo:long>13.3617192</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_venezia_55-57_palermo_it_geometry">
+	<geo:lat>38.1172587</geo:lat>
+	<geo:long>13.3620588</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_venezia_55-57_palermo_it_geometry">
+	<geo:lat>38.1172587</geo:lat>
+	<geo:long>13.3620588</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_oreto_31_palermo_it_geometry">
+	<geo:lat>38.1088766</geo:lat>
+	<geo:long>13.3657592</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bazzano_domenico_19%2F21_palermo_it_geometry">
+	<geo:lat>38.1019470</geo:lat>
+	<geo:long>13.3883386</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bazzano_domenico_35%2F37_palermo_it_geometry">
+	<geo:lat>38.1023399</geo:lat>
+	<geo:long>13.3886784</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_bazzano_domenico_17_palermo_it_geometry">
+	<geo:lat>38.1018488</geo:lat>
+	<geo:long>13.3882536</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_pozzo_48_palermo_it_geometry">
+	<geo:lat>38.1290540</geo:lat>
+	<geo:long>13.3220942</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_catania_7_palermo_it_geometry">
+	<geo:lat>38.1281100</geo:lat>
+	<geo:long>13.3500800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_de_gasperi_alcide_68%2F68%2Fa_palermo_it_geometry">
+	<geo:lat>38.1490339</geo:lat>
+	<geo:long>13.3331794</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_giafar_emiro_36-36%2Fa_palermo_it_geometry">
+	<geo:lat>38.0965499</geo:lat>
+	<geo:long>13.3899018</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_rau_simone_23_palermo_it_geometry">
+	<geo:lat>38.1209324</geo:lat>
+	<geo:long>13.3342582</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_silvestri_ignazio_11%2C13%2C1_palermo_it_geometry">
+	<geo:lat>38.1250998</geo:lat>
+	<geo:long>13.3215529</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_silvestri_ignazio_11%2C13%2C1_palermo_it_geometry">
+	<geo:lat>38.1250998</geo:lat>
+	<geo:long>13.3215529</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_riccardo_da_lentini_12%2C14%2C_palermo_it_geometry">
+	<geo:lat>38.1342502</geo:lat>
+	<geo:long>13.3221123</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_zamparrone_baldassare_48_palermo_it_geometry">
+	<geo:lat>38.1221869</geo:lat>
+	<geo:long>13.3394202</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_parisio_cataldo_52%2Fb_palermo_it_geometry">
+	<geo:lat>38.1254343</geo:lat>
+	<geo:long>13.3361920</geo:long>
+</geo:Point>
+<geo:Point rdf:about="largo_strasburgo_16-19_palermo_it_geometry">
+	<geo:lat>38.1497500</geo:lat>
+	<geo:long>13.3325879</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_persano_ammiraglio_38%2F42_palermo_it_geometry">
+	<geo:lat>38.1418889</geo:lat>
+	<geo:long>13.3590879</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_restivo_empedocle_84_palermo_it_geometry">
+	<geo:lat>38.1456308</geo:lat>
+	<geo:long>13.3350889</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_aversa_tommaso_149%2F151_palermo_it_geometry">
+	<geo:lat>38.1237131</geo:lat>
+	<geo:long>13.3340247</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_casalini_157%2Fc_palermo_it_geometry">
+	<geo:lat>38.1317305</geo:lat>
+	<geo:long>13.3140366</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_altarello_0_palermo_it_geometry">
+	<geo:lat>38.1099499</geo:lat>
+	<geo:long>13.3341630</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_manfredi_luigi_2%2Fd-2%2Fe_palermo_it_geometry">
+	<geo:lat>38.1032546</geo:lat>
+	<geo:long>13.3694685</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_manfredi_luigi_2%2Fg-2%2Fh_palermo_it_geometry">
+	<geo:lat>38.1032546</geo:lat>
+	<geo:long>13.3694685</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_collegio_di_maria_al_carmine_7_palermo_it_geometry">
+	<geo:lat>38.1106469</geo:lat>
+	<geo:long>13.3632945</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_dell%27orsa_minore_122%2Fa_palermo_it_geometry">
+	<geo:lat>38.0922751</geo:lat>
+	<geo:long>13.3654356</geo:long>
+</geo:Point>
+<geo:Point rdf:about="corso_tukory_182%2F184_palermo_it_geometry">
+	<geo:lat>38.1087537</geo:lat>
+	<geo:long>13.3589804</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_villagrazia_108%2Fe_palermo_it_geometry">
+	<geo:lat>38.0927685</geo:lat>
+	<geo:long>13.3590665</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_pizzetti_ildebrando_12-ott_palermo_it_geometry">
+	<geo:lat>38.1287419</geo:lat>
+	<geo:long>13.3386803</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_giafar_emiro_36-36%2Fa_palermo_it_geometry">
+	<geo:lat>38.0965499</geo:lat>
+	<geo:long>13.3899018</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_malaspina_19_palermo_it_geometry">
+	<geo:lat>38.1248062</geo:lat>
+	<geo:long>13.3470136</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_albricci_alberigo_gen._44%2Fb_palermo_it_geometry">
+	<geo:lat>38.1002491</geo:lat>
+	<geo:long>13.3942997</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_regione_siciliana_463_palermo_it_geometry">
+	<geo:lat>38.1619927</geo:lat>
+	<geo:long>13.3096178</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_80_palermo_it_geometry">
+	<geo:lat>38.1013564</geo:lat>
+	<geo:long>13.3733765</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_casalini_157_159_159_palermo_it_geometry">
+	<geo:lat>38.1270400</geo:lat>
+	<geo:long>13.3135800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_besta_fabio_36%2Fa_palermo_it_geometry">
+	<geo:lat>38.1758684</geo:lat>
+	<geo:long>13.3063372</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_melendez_francesco_46-48-5_palermo_it_geometry">
+	<geo:lat>38.0789293</geo:lat>
+	<geo:long>13.3956496</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_melendez_francesco_46-48-5_palermo_it_geometry">
+	<geo:lat>38.0789293</geo:lat>
+	<geo:long>13.3956496</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_melendez_francesco_46-48-5_palermo_it_geometry">
+	<geo:lat>38.0789293</geo:lat>
+	<geo:long>13.3956496</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_tranchina_giuseppe_1_palermo_it_geometry">
+	<geo:lat>38.1632318</geo:lat>
+	<geo:long>13.3160173</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_aquino_molara_21%2Fa_palermo_it_geometry">
+	<geo:lat>38.0815524</geo:lat>
+	<geo:long>13.3094892</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_aquino_molara_21%2Fa_palermo_it_geometry">
+	<geo:lat>38.0815524</geo:lat>
+	<geo:long>13.3094892</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_aquino_molara_21%2Fa_palermo_it_geometry">
+	<geo:lat>38.0815524</geo:lat>
+	<geo:long>13.3094892</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_aquino_molara_1_palermo_it_geometry">
+	<geo:lat>38.0812459</geo:lat>
+	<geo:long>13.3090315</geo:long>
+</geo:Point>
+<geo:Point rdf:about="contrada_santa_croce_37_d_palermo_it_geometry">
+	<geo:lat>38.1170045</geo:lat>
+	<geo:long>13.3210986</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_maccionello_30_palermo_it_geometry">
+	<geo:lat>38.1585697</geo:lat>
+	<geo:long>13.3133197</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_pantelleria_67_palermo_it_geometry">
+	<geo:lat>38.1595881</geo:lat>
+	<geo:long>13.3228932</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_pantelleria_67_palermo_it_geometry">
+	<geo:lat>38.1595881</geo:lat>
+	<geo:long>13.3228932</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_pantelleria_67_palermo_it_geometry">
+	<geo:lat>38.1595881</geo:lat>
+	<geo:long>13.3228932</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_pantelleria_67_palermo_it_geometry">
+	<geo:lat>38.1595881</geo:lat>
+	<geo:long>13.3228932</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_pantelleria_67_palermo_it_geometry">
+	<geo:lat>38.1595881</geo:lat>
+	<geo:long>13.3228932</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_pantelleria_67_palermo_it_geometry">
+	<geo:lat>38.1595881</geo:lat>
+	<geo:long>13.3228932</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_pantelleria_67_palermo_it_geometry">
+	<geo:lat>38.1595881</geo:lat>
+	<geo:long>13.3228932</geo:long>
+</geo:Point>
+<geo:Point rdf:about="vicolo_pantelleria_67_palermo_it_geometry">
+	<geo:lat>38.1595881</geo:lat>
+	<geo:long>13.3228932</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_immacolatella_39_palermo_it_geometry">
+	<geo:lat>38.1164086</geo:lat>
+	<geo:long>13.3664515</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_trabucco_198_palermo_it_geometry">
+	<geo:lat>38.1546106</geo:lat>
+	<geo:long>13.3166724</geo:long>
+</geo:Point>
+<geo:Point rdf:about="contrada_balate_26_palermo_it_geometry">
+	<geo:lat>38.1108062</geo:lat>
+	<geo:long>13.3568548</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_600_palermo_it_geometry">
+	<geo:lat>38.0933915</geo:lat>
+	<geo:long>13.4401415</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_beato_angelico_76_palermo_it_geometry">
+	<geo:lat>38.1085671</geo:lat>
+	<geo:long>13.3727076</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_leoni_76_palermo_it_geometry">
+	<geo:lat>38.1453081</geo:lat>
+	<geo:long>13.3456189</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_leoni_76_palermo_it_geometry">
+	<geo:lat>38.1453081</geo:lat>
+	<geo:long>13.3456189</geo:long>
+</geo:Point>
+<geo:Point rdf:about="piazza_leoni_76_palermo_it_geometry">
+	<geo:lat>38.1453081</geo:lat>
+	<geo:long>13.3456189</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ur.15_15_palermo_it_geometry">
+	<geo:lat>38.1220923</geo:lat>
+	<geo:long>13.3045264</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ur.15_15_palermo_it_geometry">
+	<geo:lat>38.1220923</geo:lat>
+	<geo:long>13.3045264</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ur.15_15_palermo_it_geometry">
+	<geo:lat>38.1220923</geo:lat>
+	<geo:long>13.3045264</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ur.15_15_palermo_it_geometry">
+	<geo:lat>38.1220923</geo:lat>
+	<geo:long>13.3045264</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_brasca_6_palermo_it_geometry">
+	<geo:lat>38.0862620</geo:lat>
+	<geo:long>13.3806814</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_brasca_6_palermo_it_geometry">
+	<geo:lat>38.0862620</geo:lat>
+	<geo:long>13.3806814</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_brasca_6_palermo_it_geometry">
+	<geo:lat>38.0862620</geo:lat>
+	<geo:long>13.3806814</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_arcoleo_giorgio_58_-_80_palermo_it_geometry">
+	<geo:lat>38.1059105</geo:lat>
+	<geo:long>13.3618712</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_spina_santa_170_palermo_it_geometry">
+	<geo:lat>38.1910500</geo:lat>
+	<geo:long>13.2978500</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_dell%27orsa_maggiore_110_palermo_it_geometry">
+	<geo:lat>38.0937287</geo:lat>
+	<geo:long>13.3624589</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_marinai_alliata_4%2Fc_palermo_it_geometry">
+	<geo:lat>38.1772034</geo:lat>
+	<geo:long>13.3338350</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ifigenia_12_palermo_it_geometry">
+	<geo:lat>38.1967036</geo:lat>
+	<geo:long>13.3117567</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_zaire_39_palermo_it_geometry">
+	<geo:lat>38.1250183</geo:lat>
+	<geo:long>13.3067847</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_casalini_157-159_-159_palermo_it_geometry">
+	<geo:lat>38.1270400</geo:lat>
+	<geo:long>13.3135800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_sperone_6_palermo_it_geometry">
+	<geo:lat>38.0990389</geo:lat>
+	<geo:long>13.3922056</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_sperone_7_palermo_it_geometry">
+	<geo:lat>38.0989234</geo:lat>
+	<geo:long>13.3931030</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_messina_marine_411%2Fa_palermo_it_geometry">
+	<geo:lat>38.1022081</geo:lat>
+	<geo:long>13.3962508</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_del_fante_54%2Fh_palermo_it_geometry">
+	<geo:lat>38.1566384</geo:lat>
+	<geo:long>13.3377230</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_falco_di_benevento_15_palermo_it_geometry">
+	<geo:lat>38.1146738</geo:lat>
+	<geo:long>13.3418486</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_parrocchia_%28dietro%29_66_palermo_it_geometry">
+	<geo:lat>38.1749865</geo:lat>
+	<geo:long>13.3332171</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46_palermo_it_geometry">
+	<geo:lat>38.1010698</geo:lat>
+	<geo:long>13.3730445</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46_palermo_it_geometry">
+	<geo:lat>38.1010698</geo:lat>
+	<geo:long>13.3730445</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46_palermo_it_geometry">
+	<geo:lat>38.1010698</geo:lat>
+	<geo:long>13.3730445</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46_palermo_it_geometry">
+	<geo:lat>38.1010698</geo:lat>
+	<geo:long>13.3730445</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46_palermo_it_geometry">
+	<geo:lat>38.1010698</geo:lat>
+	<geo:long>13.3730445</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46_palermo_it_geometry">
+	<geo:lat>38.1010698</geo:lat>
+	<geo:long>13.3730445</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46_palermo_it_geometry">
+	<geo:lat>38.1010698</geo:lat>
+	<geo:long>13.3730445</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46_palermo_it_geometry">
+	<geo:lat>38.1010698</geo:lat>
+	<geo:long>13.3730445</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46-82_palermo_it_geometry">
+	<geo:lat>38.1014851</geo:lat>
+	<geo:long>13.3733411</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46-82_palermo_it_geometry">
+	<geo:lat>38.1014851</geo:lat>
+	<geo:long>13.3733411</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_la_colla_francesco_46-82_palermo_it_geometry">
+	<geo:lat>38.1014851</geo:lat>
+	<geo:long>13.3733411</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_padre_giuseppe_puglisi_24-feb_palermo_it_geometry">
+	<geo:lat>38.1024632</geo:lat>
+	<geo:long>13.3885800</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_albricci_alberigo_gen._44%2Fb_palermo_it_geometry">
+	<geo:lat>38.1002491</geo:lat>
+	<geo:long>13.3942997</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_di_marzo_gioacchino_33_palermo_it_geometry">
+	<geo:lat>38.1338511</geo:lat>
+	<geo:long>13.3466284</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_graf_arturo_1_palermo_it_geometry">
+	<geo:lat>38.1260261</geo:lat>
+	<geo:long>13.3279740</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_persano_ammiraglio_22%2F24_palermo_it_geometry">
+	<geo:lat>38.1406206</geo:lat>
+	<geo:long>13.3593855</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ifigenia_17%2Fa_palermo_it_geometry">
+	<geo:lat>38.1970347</geo:lat>
+	<geo:long>13.3117572</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_ifigenia_11%2Fh_palermo_it_geometry">
+	<geo:lat>38.1967540</geo:lat>
+	<geo:long>13.3118830</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_piazza_vito_cesare_18-ago_palermo_it_geometry">
+	<geo:lat>38.1062026</geo:lat>
+	<geo:long>13.3322690</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_piazza_vito_cesare_16-ago_palermo_it_geometry">
+	<geo:lat>38.1062026</geo:lat>
+	<geo:long>13.3322690</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_arcoleo_giorgio_58_-_80_palermo_it_geometry">
+	<geo:lat>38.1059105</geo:lat>
+	<geo:long>13.3618712</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_arcoleo_giorgio_58_-_80_palermo_it_geometry">
+	<geo:lat>38.1059105</geo:lat>
+	<geo:long>13.3618712</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_crocifisso_a_pietratagliata_7%2Fd__palermo_it_geometry">
+	<geo:lat>38.1033012</geo:lat>
+	<geo:long>13.3282303</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_crocifisso_a_pietratagliata_7%2Fe_palermo_it_geometry">
+	<geo:lat>38.1033012</geo:lat>
+	<geo:long>13.3282303</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_zuppetta_3-3a_palermo_it_geometry">
+	<geo:lat>38.0772966</geo:lat>
+	<geo:long>13.3341519</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_zuppetta_3-3a_palermo_it_geometry">
+	<geo:lat>38.0772966</geo:lat>
+	<geo:long>13.3341519</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_zuppetta_3-3a_palermo_it_geometry">
+	<geo:lat>38.0772966</geo:lat>
+	<geo:long>13.3341519</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_malaspina_27_palermo_it_geometry">
+	<geo:lat>38.1249015</geo:lat>
+	<geo:long>13.3468682</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_malaspina_27_palermo_it_geometry">
+	<geo:lat>38.1249015</geo:lat>
+	<geo:long>13.3468682</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_malaspina_27_palermo_it_geometry">
+	<geo:lat>38.1249015</geo:lat>
+	<geo:long>13.3468682</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_malaspina_27_palermo_it_geometry">
+	<geo:lat>38.1249015</geo:lat>
+	<geo:long>13.3468682</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_giordano_umberto_55_palermo_it_geometry">
+	<geo:lat>38.1355800</geo:lat>
+	<geo:long>13.3390300</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_giordano_umberto_55_palermo_it_geometry">
+	<geo:lat>38.1355800</geo:lat>
+	<geo:long>13.3390300</geo:long>
+</geo:Point>
+<geo:Point rdf:about="viale_de_gasperi_alcide_53_palermo_it_geometry">
+	<geo:lat>38.1510320</geo:lat>
+	<geo:long>13.3371208</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_randazzo_pietro_4_palermo_it_geometry">
+	<geo:lat>38.1102078</geo:lat>
+	<geo:long>13.3696252</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_beato_angelico_53_palermo_it_geometry">
+	<geo:lat>38.1086083</geo:lat>
+	<geo:long>13.3726722</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_beato_angelico_53_palermo_it_geometry">
+	<geo:lat>38.1086083</geo:lat>
+	<geo:long>13.3726722</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_marchese_ugo_60_palermo_it_geometry">
+	<geo:lat>38.1327661</geo:lat>
+	<geo:long>13.3501107</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_tricomi_ernesto_14_a%2Fb_palermo_it_geometry">
+	<geo:lat>38.1026600</geo:lat>
+	<geo:long>13.3551100</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27asaro_pietro_13_palermo_it_geometry">
+	<geo:lat>38.1224429</geo:lat>
+	<geo:long>13.3478351</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_d%27asaro_pietro_13_palermo_it_geometry">
+	<geo:lat>38.1224429</geo:lat>
+	<geo:long>13.3478351</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_don_orione_18_palermo_it_geometry">
+	<geo:lat>38.1417764</geo:lat>
+	<geo:long>13.3623206</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_don_orione_18_palermo_it_geometry">
+	<geo:lat>38.1417764</geo:lat>
+	<geo:long>13.3623206</geo:long>
+</geo:Point>
+<geo:Point rdf:about="via_don_orione_18_palermo_it_geometry">
+	<geo:lat>38.1417764</geo:lat>
+	<geo:long>13.3623206</geo:long>
+</geo:Point>
+</rdf:RDF>
+
