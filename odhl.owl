@@ -102,6 +102,12 @@
 		<rdfs:label>Giorgio Floridia</rdfs:label>
 		<foaf:mbox rdf:resource="mailto:giorgio.floridia@hotmail.it" />
 	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/biagiorobertpappalardo">
+		<foaf:name>Biagio Robert Pappalardo</foaf:name>
+		<rdfs:label>Biagio Robert Pappalardo</rdfs:label>
+		<foaf:mbox rdf:resource="mailto:vandir92@gmail.com" />
+	</foaf:Person>
 	
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -205,6 +211,30 @@
 		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
     </doap:Project>
 
+    <doap:Project rdf:about="&odhl;projects/rdfevents2rss">
+		<doap:name>Events to RSS converter</doap:name>
+		<doap:shortdesc>
+			A script to convert a set of events provided by a sparql endpoint
+			into a corresponding RSS feed.
+		</doap:shortdesc>
+        <doap:homepage rdf:resource="&odhl_site_root;rdfevents2rss" />
+        <doap:maintainer rdf:resource="&odhl;people/cristianolongo"/>
+		<doap:developer rdf:resource="&odhl;people/biagiorobertpappalardo"/>
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl;projects/rdfevents2rss/repo">
+				<doap:location rdf:resource="https://github.com/opendatahacklab/rdfevents2rss.git"/>
+				<doap:browse rdf:resource="https://github.com/opendatahacklab/rdfevents2rss"/>
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:release>
+			<doap:Version>
+				<doap:revision>0.1</doap:revision>
+				<doap:file-release rdf:resource="&odhl_site_root;confiscatedassets/confiscatedassets_vocab.owl" />
+			</doap:Version>
+		</doap:release>
+		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+    </doap:Project>
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -296,6 +326,12 @@
 		<!-- TODO site -->
 	</org:Organization>
 	
+	<org:Organization rdf:about="http://confiscatibene.it/me">
+		<rdfs:label>Confiscati Bene</rdfs:label>
+		<foaf:name>Confiscati Bene</foaf:name>
+		<foaf:homepage rdf:resource="http://confiscatibene.it" />
+	</org:Organization>
+	
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -376,6 +412,30 @@
 			</time:Interval>
 		</event:time>
 	</event:Event>	
+
+	<event:Event rdf:about="&odhl;events/meeting5">
+		<rdfs:label>opendatahacklab - sui beni confiscati</rdfs:label>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="http://confiscatibene.it/me" />
+		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/meeting5/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/meeting5/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-29T19:00:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+	</event:Event>	
+	
+	<sioc:Post rdf:about="https://www.facebook.com/events/502954309868669/">
+		<dc:title>opendatahacklab - sui Beni Confiscati</dc:title>
+		<rdfs:label>opendatahacklab - sui Beni Confiscati</rdfs:label>
+		<sioc:has_container rdf:resource="http://facebook.com/me" />
+		<sioc:about rdf:resource="&odhl;events/meeting5" />
+	</sioc:Post>
+	
 	
 	<!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
