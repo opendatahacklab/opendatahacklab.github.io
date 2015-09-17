@@ -207,9 +207,13 @@ var locnProcessor = new LOCNQueryProcessor(locationQueryProcessor)</pre>
 		
 		<p>The current version is <em>seminal</em>. Other relevant properties of datasets
 		(see DCAT distribution, for example) will be taken into account in future releases.</p>
+		
+		<p>In addition, an helper method <code>createDCAT2HTMLProcessor(containerElement, loadingElement, 
+		additionalPrefixes, additionalConstraints)</code> is provided to create
+		a processor which will put the retrieved datasets on a html page.</p>
 	</section>
 	
-		<section id="event">
+	<section id="event">
 		<header><h2>EVENT SPARQL PROCESSOR</h2></header>
 		
 		<p>The SPARQL suite provides the <code>EventQueryProcessor</code>		
