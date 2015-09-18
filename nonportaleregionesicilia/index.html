@@ -50,54 +50,10 @@
 		<p class="loading" id="loading">Loading ...</p>
 	</section>
 	<script type="text/javascript">
-var count=0;	
-var processor = new DCATProcessor();
-
 var loadingItem = document.getElementById("loading");
 var container = document.getElementById("datasets");
-
-processor.processDataset = function(dataset){	
-	count++;
-	var article = document.createElement("article");
-	container.insertBefore(article, loadingItem);
-		
-	var title = document.createElement("h2");
-    title.appendChild(document.createTextNode(dataset.title));	
-	article.appendChild(title);
-	
-	if (dataset.description!=null && dataset.description.length>0){
-		var description = document.createElement("p");
-		description.appendChild(document.createTextNode(dataset.description));
-		article.appendChild(description);
-	}
-	
-	var nav =document.createElement("nav");	
-	article.appendChild(nav);
-	
-	var back = document.createElement("a");
-	back.href="#top";
-	back.appendChild(document.createTextNode("Back to top"));
-	nav.appendChild(back);
-
-	if (dataset.landingPage!=null){
-		var landing = document.createElement("a");
-		nav.appendChild(landing);
-		landing.href=dataset.landingPage;
-		landing.title="Dataset landing page";
-		landing.target="_blank";
-		
-		var landingImg = document.createElement("img");
-		landingImg.src="https://upload.wikimedia.org/wikipedia/commons/6/6a/External_link_font_awesome.svg";
-		landing.appendChild(landingImg);
-	}		
-};
-
-processor.flush = function(){ 
-	container.removeChild(loadingItem);
-	document.getElementById("count").
-		appendChild(document.createTextNode("Trovati "+count+" dataset."));
-};
-
+var processor = createDCAT2HTMLProcessor(container, loadingItem, null, null);
+alert(processor.query);
 sparql_query("http://dydra.com/cristianolongo/dataset-regione-sicilia-ods15/sparql", processor);
 	</script>
 </body>

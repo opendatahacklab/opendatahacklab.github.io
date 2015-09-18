@@ -15,6 +15,14 @@
  */
 
 /**
+ * An helper class to represent dataset themes.
+ */
+function Theme(uri, label){
+	this.uri=uri;
+	this.label=label;
+}
+
+/**
  * A Dataset. Name is a mandatory field, whereas description and landing page
  * can be set later.
  * 
@@ -27,6 +35,7 @@ function Dataset(uri, title) {
 	this.title = title;
 	this.description = null;
 	this.landingPage = null;
+	this.themes = new Array();
 }
 
 /**
@@ -49,29 +58,51 @@ function Dataset(uri, title) {
 function DCATProcessor(additionalPrefixes, additionalConstraints) {
 	this.query = "PREFIX dcat:<http://www.w3.org/ns/dcat#>\n";
 	this.query += "PREFIX dcterms:<http://purl.org/dc/terms/>\n";
+	this.query += "PREFIX skos:<http://www.w3.org/2004/02/skos/core#>\n";
 	if (additionalPrefixes != null)
 		this.query += locationQueryProcessor.additionalPrefixes + "\n";
 
-	this.query += "SELECT ?item ?title ?description ?landingPage WHERE {\n"
+	this.query += "SELECT ?item ?title ?description ?landingPage ?theme ?themeName WHERE {\n"
 			+ "\t?item a dcat:Dataset .\n";
 	if (additionalConstraints != null)
 		this.query += "\t" + additionalConstraints + " .\n";
 
 	this.query += "\t?item dcterms:title ?title .\n"
 			+ "\tOPTIONAL { ?item dcterms:description ?description }\n"
-			+ "\tOPTIONAL { ?item dcat:landingPage ?landingPage }\n" + "}\n";
+			+ "\tOPTIONAL { ?item dcat:landingPage ?landingPage }\n" 
+			+ "\tOPTIONAL { ?item dcat:theme ?theme . ?theme skos:prefLabel ?themeName}\n"+
+			"} ORDER BY ?item\n";
+	
+	this.current=null;
 }
 
 /**
+ * Helper method to create a novel dataset instance from
+ * a row of the sparql reply.
+ */
+function initDataset(row){
+	var d = new Dataset(row.item.value, row.title.value);
+	if (row.description != null)
+		d.description = row.description.value;
+	if (row.landingPage != null)
+		d.landingPage = row.landingPage.value;
+	if (row.theme!=null && row.themeName!=null)
+		d.themes[0]=new Theme(row.theme, row.themeName.value);
+	return d;
+}
+/**
  * Process a query result-set row. Do not override.
  */
-DCATProcessor.prototype.process = function(row) {
-	var item = new Dataset(row.item, row.title.value);
-	if (row.description != null)
-		item.description = row.description.value;
-	if (row.landingPage != null)
-		item.landingPage = row.landingPage.value;
-	this.processDataset(item);
+DCATProcessor.prototype.process = function(row) {	
+	if (this.current==null)
+		this.current = initDataset(row);
+	else if (this.current.uri!=row.item.value){
+		this.processDataset(this.current);
+		this.current = initDataset(row);		
+	} else {
+		if (row.theme!=null && row.themeName!=null)
+			this.current.themes[this.current.themes.length]=new Theme(row.theme, row.themeName.value);
+	}
 };
 
 /**
@@ -82,10 +113,19 @@ DCATProcessor.prototype.processDataset = function(dataset) {
 };
 
 /**
- * Processing ended, do nothing. Override this if appropriate
+ * Processing ended, flush the last remaining dataset, if any.
  */
 DCATProcessor.prototype.flush = function() {
-	// intentionally empty
+	if (this.current!=null)
+		this.processDataset(this.current);
+	this.datasetsEnded();
+};
+
+/**
+ * Processing ended, do nothing. Override this if appropriate
+ */
+DCATProcessor.prototype.datasetsEnded = function() {
+	//intentionally empty
 };
 
 /**
@@ -122,9 +162,25 @@ function createDCAT2HTMLProcessor(containerElement, loadingElement,
 			article.appendChild(description);
 		}
 		
+		if (dataset.themes.length>0){
+			var themes = document.createElement("p");
+			article.appendChild(themes);
+			var l = document.createElement("em");
+			themes.appendChild(l);
+			l.appendChild(document.createTextNode("Themes: "));
+			for(var i=0; i<dataset.themes.length; i++){
+				var theme =document.createElement("a");
+				themes.appendChild(theme);
+				theme.href=dataset.themes[i].uri;
+				theme.appendChild(document.createTextNode(dataset.themes[i].label));
+				if (i<dataset.themes.length-1)
+					themes.appendChild(document.createTextNode(" - "));
+			}
+		}
+
 		var nav =document.createElement("nav");	
 		article.appendChild(nav);
-		
+
 		if (dataset.landingPage!=null){
 			var landing = document.createElement("a");
 			nav.appendChild(landing);
@@ -135,12 +191,13 @@ function createDCAT2HTMLProcessor(containerElement, loadingElement,
 			var landingImg = document.createElement("img");
 			landingImg.src="https://upload.wikimedia.org/wikipedia/commons/6/6a/External_link_font_awesome.svg";
 			landing.appendChild(landingImg);
-		}		
+		}
+		
 	};
 
-	processor.flush = function(){ 
-		if (this.loading!=null)
-			this.container.removeChild(loading);
+	processor.datasetsEnded = function(){ 
+		if (loadingElement!=null)
+			containerElement.removeChild(loadingElement);
 	};
 
 	return processor;
