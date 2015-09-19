@@ -87,7 +87,7 @@ function initDataset(row){
 	if (row.landingPage != null)
 		d.landingPage = row.landingPage.value;
 	if (row.theme!=null && row.themeName!=null)
-		d.themes[0]=new Theme(row.theme, row.themeName.value);
+		d.themes[0]=new Theme(row.theme.value, row.themeName.value);
 	return d;
 }
 /**
@@ -101,7 +101,7 @@ DCATProcessor.prototype.process = function(row) {
 		this.current = initDataset(row);		
 	} else {
 		if (row.theme!=null && row.themeName!=null)
-			this.current.themes[this.current.themes.length]=new Theme(row.theme, row.themeName.value);
+			this.current.themes[this.current.themes.length]=new Theme(row.theme.value, row.themeName.value);
 	}
 };
 
