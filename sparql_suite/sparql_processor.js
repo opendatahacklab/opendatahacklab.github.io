@@ -7,6 +7,13 @@
  */
 
 /**
+ * Helper function to print strings in HTML elements.
+ * See https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/
+ */
+function htmlentities(str) {
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+/**
  * Perform a query against the specified endpoint and process results by the
  * given processor object. The queryProcessor object must have the attribute query,
  * which returns the query which will be performed against the specified endpoint,
