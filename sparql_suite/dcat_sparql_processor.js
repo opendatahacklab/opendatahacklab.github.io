@@ -71,7 +71,7 @@ function DCATProcessor(additionalPrefixes, additionalConstraints) {
 			+ "\tOPTIONAL { ?item dcterms:description ?description }\n"
 			+ "\tOPTIONAL { ?item dcat:landingPage ?landingPage }\n" 
 			+ "\tOPTIONAL { ?item dcat:theme ?theme . ?theme skos:prefLabel ?themeName}\n"+
-			"} ORDER BY ?item\n";
+			"} ORDER BY ?item desc(?theme)\n";
 	
 	this.current=null;
 }

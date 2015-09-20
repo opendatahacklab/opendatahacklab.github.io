@@ -36,8 +36,8 @@
      xmlns:sioc	="&sioc;"
      xmlns:dcat="&dcat;">
     <owl:Ontology rdf:about="&odhl;">
-        <owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.3.owl"/>
-		<owl:versionInfo>0.3</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.4.owl"/>
+		<owl:versionInfo>0.4</owl:versionInfo>
         <dc:creator rdf:resource="&odhl;people/cristianolongo"/>
         <owl:imports rdf:resource="http://usefulinc.com/ns/doap#"/>
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
@@ -107,6 +107,26 @@
 		<foaf:name>Biagio Robert Pappalardo</foaf:name>
 		<rdfs:label>Biagio Robert Pappalardo</rdfs:label>
 		<foaf:mbox rdf:resource="mailto:vandir92@gmail.com" />
+	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/marcoalfano">
+		<foaf:name>Marco Alfano</foaf:name>
+		<rdfs:label>Marco Alfano</rdfs:label>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/joskaarena">
+		<foaf:name>Joska Arena</foaf:name>
+		<rdfs:label>Joska Arena</rdfs:label>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/alessandropernice">
+		<foaf:name>Alessandro Pernice</foaf:name>
+		<rdfs:label>Alessandro Pernice</rdfs:label>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/giuseppereale">
+		<foaf:name>Giuseppe Reale</foaf:name>
+		<rdfs:label>Giuseppe Reale</rdfs:label>
 	</foaf:Person>
 	
     <!-- 
@@ -226,10 +246,32 @@
 				<doap:browse rdf:resource="https://github.com/opendatahacklab/rdfevents2rss"/>
 			</doap:GitRepository>
 		</doap:repository>
+		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+    </doap:Project>
+
+    <doap:Project rdf:about="&odhl;projects/nonportaleregionesicilia">
+		<doap:name>Non-Portale Regione Siciliana</doap:name>
+		<doap:shortdesc>
+			A crowd-sourced collection of datasets provided by Regione Siciliana.
+			This project has been developen in the context of the Open Data Sicilia 2015 hackaton.
+		</doap:shortdesc>
+        <doap:homepage rdf:resource="&odhl_site_root;nonportaleregionesicilia" />
+        <doap:maintainer rdf:resource="&odhl;people/marcoalfano"/>
+		<doap:helper rdf:resource="&odhl;people/joskaarena"/>
+		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:helper rdf:resource="&odhl;people/alessandropernice" />
+		<doap:helper rdf:resource="&odhl;people/giuseppereale" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl;projects/nonportaleregionesicilia/repo">
+				<doap:location rdf:resource="https://github.com/opendatahacklab/nonportaleregionesicilia.git"/>
+				<doap:browse rdf:resource="https://github.com/opendatahacklab/nonportaleregionesicilia"/>
+			</doap:GitRepository>
+		</doap:repository>
 		<doap:release>
-			<doap:Version>
-				<doap:revision>0.1</doap:revision>
-				<doap:file-release rdf:resource="&odhl_site_root;confiscatedassets/confiscatedassets_vocab.owl" />
+			<doap:Version rdf:about="&odhl;projects/nonportaleregionesicilia/1.0">
+				<doap:revision>1.0</doap:revision>
+				<doap:file-release rdf:resource="http://nonportale.opendatasicilia.it/datasetRegioneSiciliana.owl" />
+				<doap:file-release rdf:resource="https://docs.google.com/spreadsheets/d/15cFU9v2x3ACb1IPcVE9Xg3wc5fuay8NAYDXQnoMcOFw" />
 			</doap:Version>
 		</doap:release>
 		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -470,6 +512,42 @@
 		</dcat:distribution>		
 	</dcat:Dataset>
 	
+	<!-- nonportale dataset -->
+	
+	<dcat:Dataset rdf:about="http://nonportale.opendatasicilia.it/ontology/">
+		<dcterms:title>nonportale Regione Siciliana</dcterms:title>
+		<rdfs:label>nonportale Regione Siciliana</rdfs:label>
+		<dcterms:description>
+			Non-portale Regione Siciliana is an unofficial catalogue of datasets
+			produced by Regione Siciliana and collected
+			by some open data activists at the 2015's meeting of Open Data Sicilia #ods15.
+		</dcterms:description>
+		<dcat:landingPage rdf:resource="http://opendatahacklab.github.io/nonportaleregionesicilia/" />
+		<dcterms:publisher rdf:resource="http://opendatasicilia.it/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/nonportale_csv">
+				<dcterms:title>The origin Google Document</dcterms:title>
+				<rdfs:label>The origin Google Document</rdfs:label>
+				<dcat:downloadURL rdfs:label="https://docs.google.com/spreadsheets/d/15cFU9v2x3ACb1IPcVE9Xg3wc5fuay8NAYDXQnoMcOFw" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>text/csv</dcat:mediaType>
+			</dcat:Distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/nonportale_rdf">
+				<dcterms:title>The nonportale ontology as OWL file</dcterms:title>
+				<rdfs:label>The nonportale ontology as OWL file</rdfs:label>
+				<dcat:downloadURL rdfs:label="http://nonportale.opendatasicilia.it/datasetRegioneSiciliana.owl" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
+			</dcat:Distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/nonportale_sparql">
+				<dcterms:title>SPARQL endpoint for the nonportale ontology</dcterms:title>
+				<rdfs:label>SPARQL endpoint for the nonportale ontology</rdfs:label>
+				<dcat:accessURL rdfs:label="http://dydra.com/cristianolongo/dataset-regione-sicilia-ods15/sparql" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/sparql-query</dcat:mediaType>
+			</dcat:Distribution>
+		</dcat:distribution>		
+	</dcat:Dataset>	
 </rdf:RDF>
 
 
