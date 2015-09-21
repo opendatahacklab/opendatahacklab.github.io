@@ -23,6 +23,7 @@
     <owl:Ontology rdf:about="&ca;">
         <owl:versionIRI rdf:resource="&ca;/0.1"/>
 		<owl:versionInfo>0.1</owl:versionInfo>
+        <owl:imports rdf:resource="http://www.w3.org/2002/07/owl" />
         <owl:imports rdf:resource="http://www.w3.org/ns/locn"/>
         <owl:imports rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos" />
         <owl:imports rdf:resource="http://www.w3.org/ns/dcat.rdf" />
