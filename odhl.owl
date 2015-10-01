@@ -213,7 +213,7 @@
 			information in its origin format (may be, for example, CSV) in the
 			uniform format we provide.
 		</doap:desc>
-        <doap:homepage rdf:resource="&odhl_site_root;confiscatedassets" />
+        <doap:homepage rdf:resource="&odhl_site_root;mafiaconfiscatedassets" />
         <doap:maintainer rdf:resource="&odhl;people/cristianolongo"/>
 		<doap:developer rdf:resource="&odhl;people/cristianolongo"/>
 		<doap:repository>
@@ -225,7 +225,7 @@
 		<doap:release>
 			<doap:Version>
 				<doap:revision>0.1</doap:revision>
-				<doap:file-release rdf:resource="&odhl_site_root;confiscatedassets/confiscatedassets_vocab.owl" />
+				<doap:file-release rdf:resource="&odhl_site_root;mafiaconfiscatedassets/confiscatedassets_vocab.owl" />
 			</doap:Version>
 		</doap:release>
 		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -548,6 +548,7 @@
 			</dcat:Distribution>
 		</dcat:distribution>		
 	</dcat:Dataset>	
+	
 </rdf:RDF>
 
 
