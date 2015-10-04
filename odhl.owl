@@ -37,7 +37,7 @@
      xmlns:dcat="&dcat;">
     <owl:Ontology rdf:about="&odhl;">
         <owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.4.owl"/>
-		<owl:versionInfo>0.4</owl:versionInfo>
+		<owl:versionInfo>0.4.1</owl:versionInfo>
         <dc:creator rdf:resource="&odhl;people/cristianolongo"/>
         <owl:imports rdf:resource="http://usefulinc.com/ns/doap#"/>
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
@@ -385,6 +385,7 @@
     
 	<event:Event rdf:about="&odhl;events/meeting1">
 		<rdfs:label>opendatahacklab - incontro con mobilita.org</rdfs:label>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-20T19:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:agent rdf:resource="http://mobilita.org/me" />
 		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
@@ -401,6 +402,7 @@
 	
 	<event:Event rdf:about="&odhl;events/meeting2">
 		<rdfs:label>opendatahacklab - sui contratti pubblici</rdfs:label>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-12T19:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:agent rdf:resource="http://nexa.polito.it/me" />
 		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
@@ -417,6 +419,7 @@
 	
 	<event:Event rdf:about="&odhl;events/meeting3">
 		<rdfs:label>opendatahacklab - incontro al comune di Catania sui contratti pubblici</rdfs:label>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-20T19:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:agent rdf:resource="http://www.comune.catania.it/me" />
 		<event:agent rdf:resource="http://generazioneypsilon.tumblr.com/me" />
@@ -442,6 +445,7 @@
 
 	<event:Event rdf:about="&odhl;events/meeting4">
 		<rdfs:label>opendatahacklab - sulla gestione dei rifiuti</rdfs:label>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-26T19:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
 		<event:time>
@@ -457,6 +461,7 @@
 
 	<event:Event rdf:about="&odhl;events/meeting5">
 		<rdfs:label>opendatahacklab - sui beni confiscati</rdfs:label>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-29T19:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:agent rdf:resource="http://confiscatibene.it/me" />
 		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
@@ -528,21 +533,21 @@
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/nonportale_csv">
 				<dcterms:title>The origin Google Document</dcterms:title>
 				<rdfs:label>The origin Google Document</rdfs:label>
-				<dcat:downloadURL rdfs:label="https://docs.google.com/spreadsheets/d/15cFU9v2x3ACb1IPcVE9Xg3wc5fuay8NAYDXQnoMcOFw" />
+				<dcat:downloadURL rdf:resource="https://docs.google.com/spreadsheets/d/15cFU9v2x3ACb1IPcVE9Xg3wc5fuay8NAYDXQnoMcOFw" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>text/csv</dcat:mediaType>
 			</dcat:Distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/nonportale_rdf">
 				<dcterms:title>The nonportale ontology as OWL file</dcterms:title>
 				<rdfs:label>The nonportale ontology as OWL file</rdfs:label>
-				<dcat:downloadURL rdfs:label="http://nonportale.opendatasicilia.it/datasetRegioneSiciliana.owl" />
+				<dcat:downloadURL rdf:resource="http://nonportale.opendatasicilia.it/datasetRegioneSiciliana.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/nonportale_sparql">
 				<dcterms:title>SPARQL endpoint for the nonportale ontology</dcterms:title>
 				<rdfs:label>SPARQL endpoint for the nonportale ontology</rdfs:label>
-				<dcat:accessURL rdfs:label="http://dydra.com/cristianolongo/dataset-regione-sicilia-ods15/sparql" />
+				<dcat:accessURL rdf:resource="http://dydra.com/cristianolongo/dataset-regione-sicilia-ods15/sparql" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/sparql-query</dcat:mediaType>
 			</dcat:Distribution>
