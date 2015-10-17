@@ -28,7 +28,7 @@
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
 		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.5.owl" />
-		<owl:versionInfo>0.5.0</owl:versionInfo>
+		<owl:versionInfo>0.5.1</owl:versionInfo>
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
@@ -285,16 +285,16 @@
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/nonportaleregionesicilia/repo">
 				<doap:location
-					rdf:resource="https://github.com/opendatahacklab/nonportaleregionesicilia.git" />
+					rdf:resource="https://github.com/SiciliaHub/nonportaleregionesicilia.git" />
 				<doap:browse
-					rdf:resource="https://github.com/opendatahacklab/nonportaleregionesicilia" />
+					rdf:resource="https://github.com/SiciliaHub/nonportaleregionesicilia.git" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:release>
 			<doap:Version rdf:about="&odhl;projects/nonportaleregionesicilia/1.0">
 				<doap:revision>1.0</doap:revision>
 				<doap:file-release
-					rdf:resource="http://nonportale.opendatasicilia.it/datasetRegioneSiciliana.owl" />
+					rdf:resource="http://nonportale.opendatasicilia.it/LOD/nonportale.owl" />
 				<doap:file-release
 					rdf:resource="https://docs.google.com/spreadsheets/d/15cFU9v2x3ACb1IPcVE9Xg3wc5fuay8NAYDXQnoMcOFw" />
 			</doap:Version>
