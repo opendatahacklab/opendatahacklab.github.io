@@ -287,7 +287,7 @@
 				<doap:location
 					rdf:resource="https://github.com/SiciliaHub/nonportaleregionesicilia.git" />
 				<doap:browse
-					rdf:resource="https://github.com/SiciliaHub/nonportaleregionesicilia.git" />
+					rdf:resource="https://github.com/SiciliaHub/nonportaleregionesicilia" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:release>
@@ -547,6 +547,30 @@
 	<event:Event rdf:about="&odhl;events/30102015">
 		<rdfs:label>Beni Confiscati a Catania - per riappropriarsi dei beni
 			confiscati alla mafia</rdfs:label>
+		<rdfs:comment>
+Negli ultimi anni si è sviluppata una discussione articolata sul tema dei beni comuni,
+con particolare attenzione a quelli che ricadono nel patrimonio pubblico, e sulla
+riappropriazione degli stessi da parte della comunità. Tra questi, i beni confiscati alla
+criminalità organizzata hanno una valenza particolare: l'atto stesso di confisca infatti
+toglie definitivamente questi beni dalla disponibilità delle organizzazioni criminali.
+Tuttavia, affinchè quest'atto esplichi in pieno le proprie potenzialità è necessario
+che la comunità si riappropri del bene gestendolo e impiegandolo in maniera aperta e
+trasparente in attività che abbiano ricadute positive sulla società.
+
+Giorno 30 Ottobre 2015 alle 17.30 presso la chiesa di San Michele Minore in piazza
+Manganelli a Catania discuteremo di processi, pratiche e strategie per la riappropriazione
+dei beni confiscati a Catania. Gli interventi previsti sono i seguenti:
+Cristiano Longo (opendatahacklab - Hackspace Catania)
+"Iniziative civiche per l'apertura di dati";
+Andrea Borruso (Open Data Sicilia - ConfiscatiBene)
+"ConfiscatiBene - open data dell'agenzia per i beni confiscati";
+Maria Luisa Barrera (Libera. Associazioni, Nomi e Numeri contro le mafie)
+"Il regolamento per l'assegnazione dei beni confiscati alle Mafie";
+Giovanni Caruso (I Siciliani Giovani - GAPA)
+"Solo una unità della società civile ci renderà i beni confiscati";
+Collettivo Scatto Sociale
+"Un'inchiesta sui beni confiscati a Catania". 		
+		</rdfs:comment>
 		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-08T13:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="&odhl;people/cristianolongo" />
 		<event:agent rdf:resource="&odhl;people/andreaborruso" />
