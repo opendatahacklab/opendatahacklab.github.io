@@ -17,6 +17,7 @@
     <!ENTITY time "http://www.w3.org/2006/time#" >
     <!ENTITY org "http://www.w3.org/ns/org#" >
     <!ENTITY dcat "http://www.w3.org/ns/dcat#" >
+    <!ENTITY cct "http://www.comune.catania.it/" >
 ]>
 
 
@@ -123,6 +124,11 @@
 	<foaf:Person rdf:about="&odhl;people/giovannicaruso">
 		<foaf:name>Giovanni Caruso</foaf:name>
 		<rdfs:label>Giovanni Caruso</rdfs:label>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/gioiacacciatore">
+		<foaf:name>Gioia Cacciatore</foaf:name>
+		<rdfs:label>Gioia Cacciatore</rdfs:label>
 	</foaf:Person>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
@@ -434,6 +440,41 @@
 		<!-- </locn:Geometry> -->
 		<!-- </locn:geometry> -->
 	</locn:Location>
+	
+	<org:Organization rdf:about="http://www.officinarebelde.org/me">
+		<rdfs:label>Officina Rebelde</rdfs:label>
+		<foaf:name>Officina Rebelde</foaf:name>
+		<foaf:logo rdf:resource="http://www.officinarebelde.org/local/cache-vignettes/L120xH115/arton16-fa99c.jpg" />
+		<foaf:homepage rdf:resource="http://www.officinarebelde.org/" />
+		<org:hasPrimarySite rdf:resource="&cct;via_pietro_antonio_coppola6" />
+		<org:hasSubOrganization>
+			<org:Organization rdf:about="http://www.officinarebelde.org/rebeldesse">
+				<rdfs:label>Rebeldesse</rdfs:label>
+				<foaf:name>Rebeldesse</foaf:name>
+			</org:Organization>
+		</org:hasSubOrganization>
+	</org:Organization>
+
+
+	
+	<locn:Location rdf:about="&cct;via_pietro_antonio_coppola6">
+		<locn:address>
+			<locn:Address rdf:about="&cct;via_pietro_antonio-coppola6_address">
+				<rdfs:label>6, Via Pietro Antonio Coppola, Catania, Italy</rdfs:label>
+				<locn:fullAddress>6, Via Pietro Antonio Coppola, Catania, Italy</locn:fullAddress>
+				<locn:thoroughfare>Via Pietro Antonio Coppola</locn:thoroughfare>
+				<locn:locatorDesignator>6</locn:locatorDesignator>
+				<locn:postName>Catania</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+		<locn:geometry>
+			<locn:Geometry rdf:about="&cct;via_pietro_antonio-coppola6_geometry">
+				<geo:lat>37.50754</geo:lat>
+				<geo:long>15.085101</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
+	</locn:Location>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Events and related resources // /////////////////////////////////////////////////////////////////////////////////////// -->
@@ -598,6 +639,45 @@ Collettivo Scatto Sociale
 		<sioc:about rdf:resource="&odhl;events/30102015" />
 	</sioc:Post>
 
+	<event:Event rdf:about="&odhl;events/26112015">
+		<rdfs:label>Obiezione senza Coscienza</rdfs:label>
+		<rdfs:comment>
+È possibile l’utilizzo degli open data a sostegno della lotta per i diritti delle donne? Noi Rebeldesse pensiamo di sì e lo abbiamo sperimentato.
+
+Per questi motivi abbiamo voluto, con un’attività di inchiesta sul campo, censire alcune farmacie catanesi e scoprire quali prescrivono la pillola del giorno dopo e se vi sono casi di obiezione.
+L’elenco ha due finalità. Da un lato vuole essere di aiuto alle donne che, trovandosi in una situazione di emergenza, necessitano di sapere dove è possibile comprare la pillola. Dall’altro lato ha finalità di denuncia sia riguardo l’obiezione e sia rispetto l’attuale situazione di degrado in cui si trova il sistema di prevenzione ed educazione sessuale.
+
+Un’adeguata prevenzione è tra i metodi più efficaci per evitare le gravidanze indesiderate e rappresenta un ottimo strumento di distruzione degli stereotipi di genere. Inoltre riteniamo che una buona educazione sessuale non si debba basare sulla costruzione di rigide strutture binarie, baluardo del sistema patriarcale.
+La pillola del giorno dopo permette di evitare la gravidanza in seguito a un rapporto a rischio. La sua vendita è obbligatoria e non è legale praticare l’obiezione di coscienza su di essa, ma secondo le statistiche in Italia almeno 2 farmacisti su 10 non la vendono. Ma come funziona veramente la pillola, cosa la rende diversa dall’aborto e perché c’è ancora tanta ignoranza sull’argomento?
+
+Durante la serata del 26 Novembre, al C.s.a. Officina Rebelde, le militanti del Collettivo Le Rebeldesse presenteranno il loro lavoro.
+
+interverranno: Cristiano Longo, esponente del movimento Open Data, e
+Gioia Cacciatore, medico abilitato, che ci parlerà della pillola del giorno dopo e dell’aborto.
+		</rdfs:comment>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-15T24:00:00+02:00</dcterms:modified>
+		<event:agent rdf:resource="&odhl;people/cristianolongo" />
+		<event:agent rdf:resource="&odhl;people/gioiacacciatore" />
+		<event:agent rdf:resource="http://www.officinarebelde.org/rebeldesse" />
+		<event:place rdf:resource="&cct;via_pietro_antonio_coppola6" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/26112015/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/26112015/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-26T19:30:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+	</event:Event>
+	
+	<sioc:Post rdf:about="https://www.facebook.com/events/549913035156474/">
+		<dc:title>Obiezione senza Coscienza</dc:title>
+		<rdfs:label>Obiezione senza Coscienza</rdfs:label>
+		<sioc:has_container rdf:resource="http://facebook.com/me" />
+		<sioc:about rdf:resource="&odhl;events/26112015" />
+	</sioc:Post>
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -673,7 +753,6 @@ Collettivo Scatto Sociale
 			</dcat:Distribution>
 		</dcat:distribution>
 	</dcat:Dataset>
-
 </rdf:RDF>
 
 
