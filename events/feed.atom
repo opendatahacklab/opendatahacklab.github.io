@@ -4,13 +4,19 @@
 <subtitle>Tutti gli eventi opendatahacklab a portata di feed</subtitle>
 <link href="https://opendatahacklab.github.io/" />
 <link href="https://opendatahacklab.github.io/rdfevents2rss.php" rel="self" />
-<id>tag:opendatahacklab.github.io,2015-10-08:/rdfevents2rss.php</id>
-<updated>2015-10-08T13:00:00+02:00</updated>
+<id>tag:opendatahacklab.github.io,2015-11-15:/rdfevents2rss.php</id>
+<updated>2015-11-15T24:00:00+02:00</updated>
 <logo>https://opendatahacklab.github.io/imgs/logo_cog4_ter.png</logo>
 <author>
 <name>Biagio Robert Pappalardo</name>
 <email>vandir92@gmail.com</email>
 </author>
+<entry>
+<title>Obiezione senza Coscienza</title>
+<id>tag:opendatahacklab.org,2015-11-15:/ontology/events/26112015</id>
+<updated>2015-11-15T24:00:00+02:00</updated>
+<summary>Obiezione senza Coscienza - Indirizzo: 6, Via Pietro Antonio Coppola, Catania, Italy - Data: Thursday 26 November 2015 alle ore 19:30</summary>
+</entry>
 <entry>
 <title>Beni Confiscati a Catania - per riappropriarsi dei beni
 			confiscati alla mafia</title>
