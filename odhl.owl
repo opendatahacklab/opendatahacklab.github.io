@@ -433,12 +433,12 @@
 				<locn:adminUnitL1>IT</locn:adminUnitL1>
 			</locn:Address>
 		</locn:address>
-		<!-- <locn:geometry> -->
-		<!-- <locn:Geometry rdf:about="http://www.comune.catania.it/via_grotte_bianche112_geometry"> -->
-		<!-- <geo:lat>37.513287</geo:lat> -->
-		<!-- <geo:long>15.088008</geo:long> -->
-		<!-- </locn:Geometry> -->
-		<!-- </locn:geometry> -->
+		<locn:geometry>
+			<locn:Geometry rdf:about="http://www.comune.catania.it/san_michele_minore">
+				<geo:lat>37.50567</geo:lat>
+				<geo:long>15.08756</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
 	</locn:Location>
 	
 	<org:Organization rdf:about="http://www.officinarebelde.org/me">
