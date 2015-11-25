@@ -131,6 +131,14 @@
 		<rdfs:label>Gioia Cacciatore</rdfs:label>
 	</foaf:Person>
 
+	<!-- /////////////////////////////// LICENCES /////////////////////////////////////// -->
+	
+	<doap:License rdf:about="http://www.gnu.org/licenses/lgpl-3.0">
+		 <rdfs:label>LGPL 3.0</rdfs:label>
+		 <dc:title>GNU Lesser General Public License v3.0</dc:title>
+		 <foaf:homepage rdf:resource="http://www.gnu.org/licenses/lgpl-3.0.html" />
+	</doap:License>
+	
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Projects // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -271,7 +279,7 @@
 				<doap:browse rdf:resource="https://github.com/opendatahacklab/rdfevents2rss" />
 			</doap:GitRepository>
 		</doap:repository>
-		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
 	</doap:Project>
 
 	<doap:Project rdf:about="&odhl;projects/nonportaleregionesicilia">
