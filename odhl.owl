@@ -316,6 +316,25 @@
 		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 	</doap:Project>
 
+	<doap:Project rdf:about="&odhl;projects/morning-after-rebeldesse">
+		<doap:name>Morning-after Pill</doap:name>
+		<doap:shortdesc>
+			n this project we publish as open data a non-exhaustive list of pharmacies which sell the morning-after pill in the city of Catania. These pharmacies has been tested by the Rebeldesse group, which operates in the scope of Officina Rebelde.
+		</doap:shortdesc>
+		<doap:homepage rdf:resource="&odhl_site_root;morning-after-rebeldesse/" />
+		<doap:maintainer rdf:resource="http://www.officinarebelde.org/rebeldesse" />
+		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl;projects/morning-after-rebeldesse/repo">
+				<doap:location
+					rdf:resource="https://github.com/opendatahacklab/morning-after-rebeldesse.git" />
+				<doap:browse
+					rdf:resource="https://github.com/opendatahacklab/morning-after-rebeldesse" />
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+	</doap:Project>
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Organizations // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -756,6 +775,39 @@ Gioia Cacciatore, medico abilitato, che ci parlerà della pillola del giorno dop
 				<rdfs:label>SPARQL endpoint for the nonportale ontology</rdfs:label>
 				<dcat:accessURL
 					rdf:resource="http://dydra.com/cristianolongo/dataset-regione-sicilia-ods15/sparql" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/sparql-query</dcat:mediaType>
+			</dcat:Distribution>
+		</dcat:distribution>
+	</dcat:Dataset>
+	
+	<!-- morning-after rebeldesse dataset -->
+	<dcat:Dataset rdf:about="&odhl_site_root;morning-after-rebeldesse/ontology/">
+		<dcterms:title>Morning-after pill in Catania</dcterms:title>
+		<rdfs:label>Morning-after pill in Catania</rdfs:label>
+		<dcterms:description>
+			 A non-exhaustive list of pharmacies which sell the morning-after pill in the city of Catania.
+			 The reported pharmacies has been retrieved from the pharmacies dataset provided in the open data portal of the
+			 municipality of Catania. 
+		</dcterms:description>
+		<dcat:landingPage
+			rdf:resource="http://opendatahacklab.github.io/morning-after-rebeldesse/" />
+		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/farmacie">
+				<dcterms:title>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</dcterms:title>
+				<rdfs:label>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</rdfs:label>
+				<dcat:downloadURL
+					rdf:resource="&odhl_site_root;morning-after-rebeldesse/morning-after-pill-test-catania.owl" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
+			</dcat:Distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/morning-after-rebeldesse_sparql">
+				<dcterms:title>SPARQL endpoint for the morning-after pill in Catania ontology
+				</dcterms:title>
+				<rdfs:label>SPARQL endpoint for the morning-after pill in Catania ontology</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dydra.com/cristianolongo/morning-after-pill/sparql" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/sparql-query</dcat:mediaType>
 			</dcat:Distribution>
