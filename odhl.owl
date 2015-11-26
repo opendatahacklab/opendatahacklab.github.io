@@ -322,7 +322,6 @@
 			n this project we publish as open data a non-exhaustive list of pharmacies which sell the morning-after pill in the city of Catania. These pharmacies has been tested by the Rebeldesse group, which operates in the scope of Officina Rebelde.
 		</doap:shortdesc>
 		<doap:homepage rdf:resource="&odhl_site_root;morning-after-rebeldesse/" />
-		<doap:maintainer rdf:resource="http://www.officinarebelde.org/rebeldesse" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/morning-after-rebeldesse/repo">
