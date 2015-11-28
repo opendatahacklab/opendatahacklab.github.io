@@ -665,6 +665,15 @@ Collettivo Scatto Sociale
 		<sioc:about rdf:resource="&odhl;events/30102015" />
 	</sioc:Post>
 
+	<sioc:Post
+		rdf:about="http://opendatasicilia.it/2015/11/25/beni-confiscati-a-catania/">
+		<dc:title>Beni Confiscati a Catania</dc:title>
+		<rdfs:label>Beni Confiscati a Catania</rdfs:label>
+		<sioc:has_container rdf:resource="http://opendatasicilia.it/blog" />
+		<sioc:has_creator rdf:resource="&odhl;people/cristianolongo" />
+		<sioc:about rdf:resource="&odhl;events/30102015" />
+	</sioc:Post>
+
 	<event:Event rdf:about="&odhl;events/26112015">
 		<rdfs:label>Obiezione senza Coscienza</rdfs:label>
 		<rdfs:comment>
