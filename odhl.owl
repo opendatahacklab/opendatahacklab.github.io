@@ -727,7 +727,7 @@ L’obiettivo principale dell’evento è quindi mostrare, con casi concreti o i
 		<event:place rdf:resource="http://www.comune.pedara.ct.it/EXPO" />
 		<foaf:homepage rdf:resource="http://pedara2015.opendatasicilia.it/" />
 		<event:time>
-			<time:Interval rdf:about="&odhl;events/26112015/time">
+			<time:Interval rdf:about="&odhl;events/29122015/time">
 				<time:hasBeginning>
 					<time:Instant rdf:about="&odhl;events/29122015/time/begin">
 						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-29T09:00:00+01:00</time:inXSDDateTime>
