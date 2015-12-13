@@ -290,7 +290,7 @@
 			This project has been developen in the context of
 			the Open Data Sicilia 2015 hackaton.
 		</doap:shortdesc>
-		<doap:homepage rdf:resource="&odhl_site_root;nonportaleregionesicilia" />
+		<doap:homepage rdf:resource="http://nonportale.opendatasicilia.it" />
 		<doap:maintainer rdf:resource="&odhl;people/marcoalfano" />
 		<doap:helper rdf:resource="&odhl;people/joskaarena" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
@@ -705,13 +705,60 @@ Gioia Cacciatore, medico abilitato, che ci parlerà della pillola del giorno dop
 			</time:Interval>
 		</event:time>
 	</event:Event>
+
+<!-- 	<sioc:Post rdf:about="https://www.facebook.com/events/549913035156474/"> -->
+<!-- 		<dc:title>Obiezione senza Coscienza</dc:title> -->
+<!-- 		<rdfs:label>Obiezione senza Coscienza</rdfs:label> -->
+<!-- 		<sioc:has_container rdf:resource="http://facebook.com/me" /> -->
+<!-- 		<sioc:about rdf:resource="&odhl;events/26112015" /> -->
+<!-- 	</sioc:Post> -->
+
+	<event:Event rdf:about="&odhl;events/29122015">
+		<rdfs:label>RADUNO INVERNALE (SCHITICCHIO) DI OPEN DATA SICILIA</rdfs:label>
+		<rdfs:comment>
+Open Data Sicilia è un gruppo informale di persone che condividono l’interesse per la tematica dei dati aperti (vedi definizione dell’Agenzia per l’Italia Digitale), con particolare riguardo ai dati generati e gestiti dalla Pubblica Amministrazione. In Open Data Sicilia sono presenti personalità e professionalità variegate: esponenti del mondo accademico, dipendenti della Pubblica Amministrazione, giornalisti, geomatici, etc. Il gruppo inoltre ha stabilito forti sinergie con organizzazioni presenti sul territorio.
+
+Per dar seguito a quanto maturato nell’ambito di #iovotopendata ed alla luce dell’apertura dimostrata in quella occasione dalla pubblica amministrazione e della società civile, all’interno di Open Data Sicilia è maturata la decisione di svolgere il raduno invernale a Pedara con una iniziativa aperta ai dipendenti del comune e alla cittadinanza in generale. Questa decisione deve essere letta nell’ottica di coinvolgimento e partecipazione della cittadinanza nei processi di apertura dei dati. 
+
+L’obiettivo principale dell’evento è quindi mostrare, con casi concreti o ipotetici, quali applicazioni hanno gli open data e quali sono le ricadute attese dalle operazioni di apertura dei dati.
+		</rdfs:comment>		
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-13T23:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatasicilia.it/me" />
+		<event:place rdf:resource="http://www.comune.pedara.ct.it/EXPO" />
+		<foaf:homepage rdf:resource="http://pedara2015.opendatasicilia.it/" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/26112015/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/29122015/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-29T09:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+	</event:Event>
+
+	<locn:Location rdf:about="http://www.comune.pedara.ct.it/EXPO">
+		<locn:address>
+			<locn:Address
+				rdf:about="http://www.comune.pedara.ct.it/EXPO_address">
+				<rdfs:label>Area EXPO, Piazza del Popolo, Pedara, CT, Italy</rdfs:label>
+				<locn:fullAddress>Area EXPO, Piazza del Popolo, Pedara, CT, Italy</locn:fullAddress>
+				<locn:thoroughfare>Piazza del Popolo</locn:thoroughfare>
+				<locn:postName>Pedara</locn:postName>
+				<locn:locatorName>Area EXPO</locn:locatorName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+		<locn:geometry>
+			<locn:Geometry
+				rdf:about="http://www.comune.pedara.ct.it/EXPO_geometry">
+				<!-- TODO add provenance information, OSMAnd -->
+				<geo:lat>37.61743</geo:lat>
+				<geo:long>15.05869</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
+	</locn:Location>
 	
-	<sioc:Post rdf:about="https://www.facebook.com/events/549913035156474/">
-		<dc:title>Obiezione senza Coscienza</dc:title>
-		<rdfs:label>Obiezione senza Coscienza</rdfs:label>
-		<sioc:has_container rdf:resource="http://facebook.com/me" />
-		<sioc:about rdf:resource="&odhl;events/26112015" />
-	</sioc:Post>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
