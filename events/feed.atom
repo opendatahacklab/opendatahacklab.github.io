@@ -1,72 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-<title>Feed eventi opendatahacklab</title>
-<subtitle>Tutti gli eventi opendatahacklab a portata di feed</subtitle>
-<link href="https://opendatahacklab.github.io/" />
-<link href="https://opendatahacklab.github.io/rdfevents2rss.php" rel="self" />
-<id>tag:opendatahacklab.github.io,2015-12-13:/rdfevents2rss.php</id>
-<updated>2015-12-13T23:00:00+01:00</updated>
-<logo>https://opendatahacklab.github.io/imgs/logo_cog4_ter.png</logo>
-<author>
-<name>Biagio Robert Pappalardo</name>
-<email>vandir92@gmail.com</email>
-</author>
-<entry>
-<title>RADUNO INVERNALE (SCHITICCHIO) DI OPEN DATA SICILIA</title>
-<id>tag:opendatahacklab.org,2015-12-13:/ontology/events/29122015</id>
-<updated>2015-12-13T23:00:00+01:00</updated>
-<summary>RADUNO INVERNALE (SCHITICCHIO) DI OPEN DATA SICILIA - Indirizzo: Area EXPO, Piazza del Popolo, Pedara, CT, Italy - Data: Tuesday 29 December 2015 alle ore 09:00</summary>
-</entry>
-<entry>
-<title>Obiezione senza Coscienza</title>
-<id>tag:opendatahacklab.org,2015-11-15:/ontology/events/26112015</id>
-<updated>2015-11-15T24:00:00+02:00</updated>
-<summary>Obiezione senza Coscienza - Indirizzo: 6, Via Pietro Antonio Coppola, Catania, Italy - Data: Thursday 26 November 2015 alle ore 19:30</summary>
-</entry>
-<entry>
-<title>Beni Confiscati a Catania - per riappropriarsi dei beni
+  <id>tag:opendatahacklab.github.io,2015-12-13:/events/feed.atom</id>
+  <title>Eventi opendatahacklab</title>
+  <updated>2015-12-13T23:00:00+01:00</updated>
+  <link rel="self" href="http://opendatahacklab.github.io/events/feed.atom"/>
+  <author>
+    <name>Biagio Robert Pappalardo</name>
+    <email>vandir92@gmail.com</email>
+  </author>
+  <author>
+    <name>Cristiano Longo</name>
+    <email>longo@dmi.unict.it</email>
+  </author>
+  <logo>https://opendatahacklab.github.io/imgs/logo_cog4_ter.png</logo>
+  <link href="https://opendatahacklab.github.io" rel="alternate"/>
+  <entry>
+    <id>tag:opendatahacklab.org,2015-12-13:/ontology/events/29122015</id>
+    <title>RADUNO INVERNALE (SCHITICCHIO) DI OPEN DATA SICILIA</title>
+    <updated>2015-12-13T23:00:00+01:00</updated>
+    <content type="text">RADUNO INVERNALE (SCHITICCHIO) DI OPEN DATA SICILIA - Indirizzo: Area EXPO, Piazza del Popolo, Pedara, CT, Italy - Data: Tuesday 29 December 2015 alle ore 09:00</content>
+  </entry>
+  <entry>
+    <id>tag:opendatahacklab.org,2015-11-15:/ontology/events/26112015</id>
+    <title>Obiezione senza Coscienza</title>
+    <updated>2015-11-16T00:00:00+02:00</updated>
+    <content type="text">Obiezione senza Coscienza - Indirizzo: 6, Via Pietro Antonio Coppola, Catania, Italy - Data: Thursday 26 November 2015 alle ore 19:30</content>
+  </entry>
+  <entry>
+    <id>tag:opendatahacklab.org,2015-10-08:/ontology/events/30102015</id>
+    <title>Beni Confiscati a Catania - per riappropriarsi dei beni
 			confiscati alla mafia</title>
-<id>tag:opendatahacklab.org,2015-10-08:/ontology/events/30102015</id>
-<updated>2015-10-08T13:00:00+02:00</updated>
-<summary>Beni Confiscati a Catania - per riappropriarsi dei beni
+    <updated>2015-10-08T13:00:00+02:00</updated>
+    <content type="text">Beni Confiscati a Catania - per riappropriarsi dei beni
 			confiscati alla mafia - Indirizzo: Chiesa di San Michele Minore, Piazza Manganelli,
-					Catania, Italy - Data: Friday 30 October 2015 alle ore 17:30</summary>
-</entry>
-<entry>
-<title>opendatahacklab - sui beni confiscati</title>
-<id>tag:opendatahacklab.org,2015-09-29:/ontology/events/meeting5</id>
-<updated>2015-09-29T19:00:00+02:00</updated>
-<summary>opendatahacklab - sui beni confiscati - Indirizzo: 112, Via Grotte Bianche, Catania, Italy
-				 - Data: Tuesday 29 September 2015 alle ore 19:00</summary>
-</entry>
-<entry>
-<title>opendatahacklab - sulla gestione dei rifiuti</title>
-<id>tag:opendatahacklab.org,2015-07-26:/ontology/events/meeting4</id>
-<updated>2015-07-26T19:00:00+02:00</updated>
-<summary>opendatahacklab - sulla gestione dei rifiuti - Indirizzo: 112, Via Grotte Bianche, Catania, Italy
-				 - Data: Thursday 30 July 2015 alle ore 19:00</summary>
-</entry>
-<entry>
-<title>opendatahacklab - incontro al comune di Catania sui
+					Catania, Italy - Data: Friday 30 October 2015 alle ore 17:30</content>
+  </entry>
+  <entry>
+    <id>tag:opendatahacklab.org,2015-09-29:/ontology/events/meeting5</id>
+    <title>opendatahacklab - sui beni confiscati</title>
+    <updated>2015-09-29T19:00:00+02:00</updated>
+    <content type="text">opendatahacklab - sui beni confiscati - Indirizzo: 112, Via Grotte Bianche, Catania, Italy - Data: Tuesday 29 September 2015 alle ore 19:00</content>
+  </entry>
+  <entry>
+    <id>tag:opendatahacklab.org,2015-07-26:/ontology/events/meeting4</id>
+    <title>opendatahacklab - sulla gestione dei rifiuti</title>
+    <updated>2015-07-26T19:00:00+02:00</updated>
+    <content type="text">opendatahacklab - sulla gestione dei rifiuti - Indirizzo: 112, Via Grotte Bianche, Catania, Italy - Data: Thursday 30 July 2015 alle ore 19:00</content>
+  </entry>
+  <entry>
+    <id>tag:opendatahacklab.org,2015-06-20:/ontology/events/meeting3</id>
+    <title>opendatahacklab - incontro al comune di Catania sui
 			contratti pubblici</title>
-<id>tag:opendatahacklab.org,2015-06-20:/ontology/events/meeting3</id>
-<updated>2015-06-20T19:00:00+02:00</updated>
-<summary>opendatahacklab - incontro al comune di Catania sui
-			contratti pubblici - Indirizzo: 34, Piazza San Domenico, Catania, Italy
-				 - Data: Wednesday 24 June 2015 alle ore 11:00</summary>
-</entry>
-<entry>
-<title>opendatahacklab - sui contratti pubblici</title>
-<id>tag:opendatahacklab.org,2015-06-12:/ontology/events/meeting2</id>
-<updated>2015-06-12T19:00:00+02:00</updated>
-<summary>opendatahacklab - sui contratti pubblici - Indirizzo: 112, Via Grotte Bianche, Catania, Italy
-				 - Data: Friday 19 June 2015 alle ore 19:00</summary>
-</entry>
-<entry>
-<title>opendatahacklab - incontro con mobilita.org</title>
-<id>tag:opendatahacklab.org,2015-05-20:/ontology/events/meeting1</id>
-<updated>2015-05-20T19:00:00+02:00</updated>
-<summary>opendatahacklab - incontro con mobilita.org - Indirizzo: 112, Via Grotte Bianche, Catania, Italy
-				 - Data: Tuesday 26 May 2015 alle ore 19:00</summary>
-</entry>
+    <updated>2015-06-20T19:00:00+02:00</updated>
+    <content type="text">opendatahacklab - incontro al comune di Catania sui
+			contratti pubblici - Indirizzo: 34, Piazza San Domenico, Catania, Italy - Data: Wednesday 24 June 2015 alle ore 11:00</content>
+  </entry>
+  <entry>
+    <id>tag:opendatahacklab.org,2015-06-12:/ontology/events/meeting2</id>
+    <title>opendatahacklab - sui contratti pubblici</title>
+    <updated>2015-06-12T19:00:00+02:00</updated>
+    <content type="text">opendatahacklab - sui contratti pubblici - Indirizzo: 112, Via Grotte Bianche, Catania, Italy - Data: Friday 19 June 2015 alle ore 19:00</content>
+  </entry>
+  <entry>
+    <id>tag:opendatahacklab.org,2015-05-20:/ontology/events/meeting1</id>
+    <title>opendatahacklab - incontro con mobilita.org</title>
+    <updated>2015-05-20T19:00:00+02:00</updated>
+    <content type="text">opendatahacklab - incontro con mobilita.org - Indirizzo: 112, Via Grotte Bianche, Catania, Italy - Data: Tuesday 26 May 2015 alle ore 19:00</content>
+  </entry>
 </feed>
