@@ -29,7 +29,7 @@
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
 		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.5.owl" />
-		<owl:versionInfo>0.5.1</owl:versionInfo>
+		<owl:versionInfo>0.6.1</owl:versionInfo>
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
@@ -129,6 +129,11 @@
 	<foaf:Person rdf:about="&odhl;people/gioiacacciatore">
 		<foaf:name>Gioia Cacciatore</foaf:name>
 		<rdfs:label>Gioia Cacciatore</rdfs:label>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/carlocondarelli">
+		<foaf:name>Carlo Condarelli</foaf:name>
+		<rdfs:label>Carlo Condarelli</rdfs:label>
 	</foaf:Person>
 
 	<!-- /////////////////////////////// LICENCES /////////////////////////////////////// -->
@@ -481,7 +486,6 @@
 		</org:hasSubOrganization>
 	</org:Organization>
 
-
 	
 	<locn:Location rdf:about="&cct;via_pietro_antonio_coppola6">
 		<locn:address>
@@ -502,6 +506,60 @@
 		</locn:geometry>
 	</locn:Location>
 
+	<org:FormalOrganization rdf:about="http://www.unict.it/me">
+		<rdfs:label>Università degli Studi di Catania</rdfs:label>
+		<foaf:name>Università degli Studi di Catania</foaf:name>
+		<foaf:homepage rdf:resource="http://www.unict.it" />
+		<foaf:logo rdf:resource="http://www.unict.it/sites/default/files/images/orizzontale-grigio.png" />
+	</org:FormalOrganization>
+
+	<locn:Location rdf:about="http://www.dmi.unict.it/location">
+		<locn:address>
+			<locn:Address
+				rdf:about="http://www.dmi.unict.it/location_address">
+				<rdfs:label>Dipartimento di Matematica ed Informatica, Cittadella Universitaria, 6, Viale Andrea Doria, Catania, Italy</rdfs:label>
+				<locn:fullAddress>Dipartimento di Matematica ed Informatica, Cittadella Universitaria, 6, Viale Andrea Doria, Catania, Italy</locn:fullAddress>
+				<locn:thoroughfare>Viale Andrea Doria</locn:thoroughfare>
+				<locn:postName>Catania</locn:postName>
+				<locn:locatorName>Cittadella Universitaria</locn:locatorName>
+				<locn:locatorDesignator>6</locn:locatorDesignator>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+		<locn:geometry>
+			<locn:Geometry
+				rdf:about="http://www.dmi.unict.it/location_geometry">
+				<!-- TODO add provenance information, http://nominatim.openstreetmap.org/details.php?place_id=113566488 -->
+				<geo:lat>37.52594775</geo:lat>
+				<geo:long>15.0734235134865</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
+	</locn:Location>
+
+	<org:Organization rdf:about="http://www.youcultures.com/me">
+		<rdfs:label>youcultures</rdfs:label>
+		<foaf:name>youcultures</foaf:name>
+		<foaf:homepage rdf:resource="http://www.youcultures.com/" />
+		<foaf:logo rdf:resource="http://www.youcultures.com/homeweb/resources/images/Testata-02.gif" />
+	</org:Organization>
+
+	<org:Organization rdf:about="http://palestraperlamente.org/me">
+		<rdfs:label>Palestra Per la Mente</rdfs:label>
+		<foaf:name>Palestra Per la Mente</foaf:name>
+	</org:Organization>
+
+	<org:Organization rdf:about="http://palestraperlamente.org/me">
+		<rdfs:label>Palestra Per la Mente</rdfs:label>
+		<foaf:name>Palestra Per la Mente</foaf:name>
+	</org:Organization>
+
+	<org:Organization rdf:about="http://www.wikimedia.it/me">
+		<rdfs:label>Wikimedia Italia</rdfs:label>
+		<foaf:name>Wikimedia Italia</foaf:name>
+		<foaf:homepage rdf:resource="http://www.wikimedia.it/" />
+		<foaf:logo rdf:resource="http://www.wikimedia.it/wp-content/uploads/2015/03/Wiki-Media-Logo.png" />
+	</org:Organization>
+	
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Events and related resources // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -706,13 +764,6 @@ Gioia Cacciatore, medico abilitato, che ci parlerà della pillola del giorno dop
 		</event:time>
 	</event:Event>
 
-<!-- 	<sioc:Post rdf:about="https://www.facebook.com/events/549913035156474/"> -->
-<!-- 		<dc:title>Obiezione senza Coscienza</dc:title> -->
-<!-- 		<rdfs:label>Obiezione senza Coscienza</rdfs:label> -->
-<!-- 		<sioc:has_container rdf:resource="http://facebook.com/me" /> -->
-<!-- 		<sioc:about rdf:resource="&odhl;events/26112015" /> -->
-<!-- 	</sioc:Post> -->
-
 	<event:Event rdf:about="&odhl;events/29122015">
 		<rdfs:label>RADUNO INVERNALE (SCHITICCHIO) DI OPEN DATA SICILIA</rdfs:label>
 		<rdfs:comment>
@@ -759,6 +810,48 @@ L’obiettivo principale dell’evento è quindi mostrare, con casi concreti o i
 		</locn:geometry>
 	</locn:Location>
 	
+	<event:Event rdf:about="&odhl;events/26022016">
+		<rdfs:label>2nd Open Knowledge Open Arts Workshop</rdfs:label>
+		<rdfs:comment>
+Open Knowledge Open Arts 2016 (OKOA16) is an informal workshop about open data, open source and cultural heritage. 
+The aim of the OKOA16 is to investigate how the open sharing of the data, in a readable form for all 
+people and with no limitation reuse can help research, production and fruition of Cultural Heritage.
+		</rdfs:comment>		
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-25T23:30:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://www.unict.it/me" />
+		<event:agent rdf:resource="http://hackspacecatania.it/me" />
+		<event:agent rdf:resource="http://www.youcultures.com/me" />
+		<event:agent rdf:resource="http://palestraperlamente.org/me" />
+		<event:agent rdf:resource="http://http://www.wikimedia.it//me" />
+		<event:place rdf:resource="http://www.dmi.unict.it/location" />
+		<foaf:homepage rdf:resource="http://www.dmi.unict.it/~longo/okoa16" />
+		<foaf:logo rdf:resource="http://www.dmi.unict.it/~longo/okoa16/imgs/okoa16.png" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/26022016/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/26022016/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-26T09:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/26022016/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-27T13:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+	</event:Event>
+
+	<sioc:Post
+		rdf:about="http://opendatasicilia.it/2016/01/21/un-invito-per-open-knowledge-open-arts-2016/">
+		<dc:title>Un invito per Open Knowledge Open Arts 2016
+		</dc:title>
+		<rdfs:label>Un invito per Open Knowledge Open Arts 2016
+		</rdfs:label>
+		<sioc:has_container rdf:resource="http://opendatasicilia.it/blog" />
+		<sioc:has_creator rdf:resource="&odhl;people/carlocondarelli" />
+		<sioc:about rdf:resource="&odhl;events/26022016" />
+	</sioc:Post>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
