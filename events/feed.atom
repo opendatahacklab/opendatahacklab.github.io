@@ -26,6 +26,12 @@
     <content type="text">RADUNO INVERNALE (SCHITICCHIO) DI OPEN DATA SICILIA - Area EXPO, Piazza del Popolo, Pedara, CT, Italy - 29 December 2015 09:00</content>
   </entry>
   <entry>
+    <id>tag:opendatahacklab.org,2015-11-15:/ontology/events/26112015</id>
+    <title>Obiezione senza Coscienza</title>
+    <updated>2015-11-16T00:00:00+02:00</updated>
+    <content type="text">Obiezione senza Coscienza - 6, Via Pietro Antonio Coppola, Catania, Italy - 26 November 2015 19:30</content>
+  </entry>
+  <entry>
     <id>tag:opendatahacklab.org,2015-10-08:/ontology/events/30102015</id>
     <title>Beni Confiscati a Catania - per riappropriarsi dei beni
 			confiscati alla mafia</title>
@@ -65,17 +71,5 @@
     <title>opendatahacklab - incontro con mobilita.org</title>
     <updated>2015-05-20T19:00:00+02:00</updated>
     <content type="text">opendatahacklab - incontro con mobilita.org - 112, Via Grotte Bianche, Catania, Italy - 26 May 2015 19:00</content>
-  </entry>
-  <entry>
-    <id>tag:opendatahacklab.org,2015-01-25:/ontology/events/26022016</id>
-    <title>2nd Open Knowledge Open Arts Workshop</title>
-    <updated>2015-01-25T23:30:00+01:00</updated>
-    <content type="text">2nd Open Knowledge Open Arts Workshop - Dipartimento di Matematica ed Informatica, Cittadella Universitaria, 6, Viale Andrea Doria, Catania, Italy - 26 February 2016 09:00</content>
-  </entry>
-  <entry>
-    <id>tag:opendatahacklab.org,2015-11-15:/ontology/events/26112015</id>
-    <title>Obiezione senza Coscienza</title>
-    <updated>2015-11-16T00:00:00+02:00</updated>
-    <content type="text">Obiezione senza Coscienza - 6, Via Pietro Antonio Coppola, Catania, Italy - 26 November 2015 19:30</content>
   </entry>
 </feed>
