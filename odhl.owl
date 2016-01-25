@@ -817,7 +817,7 @@ Open Knowledge Open Arts 2016 (OKOA16) is an informal workshop about open data, 
 The aim of the OKOA16 is to investigate how the open sharing of the data, in a readable form for all 
 people and with no limitation reuse can help research, production and fruition of Cultural Heritage.
 		</rdfs:comment>		
-		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-25T23:30:00+01:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T23:30:00+01:00</dcterms:modified>
 		<event:agent rdf:resource="http://www.unict.it/me" />
 		<event:agent rdf:resource="http://hackspacecatania.it/me" />
 		<event:agent rdf:resource="http://www.youcultures.com/me" />
