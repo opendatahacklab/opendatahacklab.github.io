@@ -1,0 +1,99 @@
+%% Style for Multi-Level Syllogistic 
+
+\usepackage{xspace}
+\usepackage{amssymb}
+
+% LANGUAGES
+\newcommand{\mls}{\ensuremath{\mathsf{MLS}}\xspace}
+\newcommand{\mlsm}{\ensuremath{\mathsf{MLS_m}}\xspace}
+\newcommand{\mlsim}{\ensuremath{\mathsf{MLS}_{\textit{Im}}}\xspace}
+\newcommand{\mlstwom}{\ensuremath{\mathsf{MLS_{m,2}}}\xspace}
+\newcommand{\mlss}{\ensuremath{\mathsf{MLSS}}\xspace}
+\newcommand{\mlsu}{\ensuremath{\mathsf{MLSU}}\xspace}
+\newcommand{\mlsscart}{\ensuremath{\mathsf{MLSS}_{2,m}^{\times}}\xspace}
+\newcommand{\mlsscartplus}{\ensuremath{(\mathsf{MLSS}_{2,m}^{\times})^{+}}\xspace}
+\newcommand{\dlmlsscart}{\ensuremath{\mathcal{DL\langle}\mlsscart\mathcal{\rangle}}\xspace}
+\newcommand{\dlForallpizerotwo}{\ensuremath{\mathcal{DL\langle}\Forallpizerotwo\mathcal{\rangle}}\xspace}
+
+\newcommand{\Forallzero}{\ensuremath{\mathbf{\forall_{0}}}\xspace}
+\newcommand{\ForallzeroBounded}[1]{\ensuremath{(\forall_{0})^{\leq #1}}\xspace}
+\newcommand{\Forallpi}{\ensuremath{\mathbf{\forall^{\pi}}}\xspace}
+\newcommand{\Forallpizero}{\ensuremath{\mathbf{\forall_{0}^{\pi}}}\xspace}
+\newcommand{\ForallpizeroBounded}[1]{\ensuremath{(\forall_{0}^{\pi})^{\leq #1}}\xspace}
+\newcommand{\Forallpizerotwo}{\ensuremath{\mathbf{\forall_{0,2}^{\pi}}}\xspace}
+\newcommand{\ForallpizerotwoBounded}[1]{\ensuremath{(\forall_{0,2}^{\pi})^{\leq #1}}\xspace}
+\newcommand{\dlForallpizero}{\ensuremath{\mathcal{DL\langle}\Forallpizero\mathcal{\rangle}}\xspace}
+% \newcommand{\dlLang}{\ensuremath{\mathcal{DL\langle}\Lang\mathcal{\rangle}}\xspace}
+% \newcommand{\dlLangMeta}{\ensuremath{\mathcal{DLM\langle}\Lang\mathcal{\rangle}}\xspace}
+
+
+\newcommand{\Forallpidelta}{\ensuremath{\mathbf{\forall_{\Delta}^{\pi}}}\xspace}
+\newcommand{\ForallpideltaBounded}[1]{\ensuremath{(\forall_{\Delta}^{\pi})^{\leq #1}}\xspace}
+\newcommand{\dlForallpidelta}{\ensuremath{\mathcal{DL\langle}\Forallpidelta\mathcal{\rangle}}\xspace}
+%\newcommand{\Forallpideltatwo}{\ensuremath{\mathbf{\forall_{\Delta,2}^{\pi}}}\xspace}
+
+
+\newcommand{\ForallpiFamily}{\ensuremath{\mathbf{\forall^{\pi}}}\xspace}
+\newcommand{\dlForallpi}{\ensuremath{\mathcal{DL\langle}\Forallpi\mathcal{\rangle}}\xspace}
+
+
+% MAP PREDICATES
+\newcommand{\pairFree}{\mathsf{pair\_free}}
+\newcommand{\isMap}{\mathsf{is\_map}}
+\newcommand{\inverse}{\mathsf{Inverse}}
+\newcommand{\inj}{\mathsf{injective}}
+\newcommand{\singlev}{\mathsf{single\_valued}}
+\newcommand{\bij}{\mathsf{bijective}}
+\newcommand{\dom}{\mathsf{dom}\xspace}
+\newcommand{\range}{\mathsf{range}\xspace}
+
+\newcommand{\sym}{\mathsf{sym}\xspace}
+\newcommand{\isSym}{\mathsf{is\_sym}\xspace}
+\newcommand{\refl}{\mathsf{refl}}
+\newcommand{\transcl}{\mathsf{trans}}
+\newcommand{\isRefl}{\mathsf{is\_reflexive}}
+\newcommand{\isIrrefl}{\mathsf{is\_irreflexive}}
+\newcommand{\isTrans}{\mathsf{is\_transitive}}
+\newcommand{\isAsym}[1]{\mathsf{is\_asym}(#1)}
+\newcommand{\identity}[1]{\mathsf{id}(#1)}
+
+
+% SET THEORY
+\newcommand{\rank}{\mathsf{rank}}
+\newcommand{\VNU}{\ensuremath{\mathcal{V}}\xspace}
+\newcommand{\Realization}{\ensuremath{\mathcal{R}\,}}
+%\newcommand{\nonpairs}[1]{\bar{\pi}(#1)}
+\newcommand{\Powerset}{\mathcal{P}}
+
+% OTHERS
+% \newcommand{\Vars}{\mathit{Vars}}
+% \newcommand{\Consts}{\mathit{Consts}}
+% \newcommand{\Preds}{\mathit{Preds}}
+% \newcommand{\Functs}{\mathit{Functs}}
+% \newcommand{\Terms}{\mathit{Terms}}
+\newcommand{\Vars}{\mathbf{V}}
+\newcommand{\Consts}{\mathbf{C}}
+\newcommand{\Preds}{\mathbf{P}}
+\newcommand{\Functs}{\mathbf{F}}
+\newcommand{\Terms}{\mathbf{T}}
+\newcommand{\ClTerms}{\mathit{ClTerms}}
+\newcommand{\SetVars}{\Vars_{s}}
+\newcommand{\MapVars}{\Vars_{m}}
+
+\newcommand{\true}{\ensuremath{\mathbf{true}}\xspace}
+\newcommand{\false}{\ensuremath{\mathbf{false}}\xspace}
+
+\newcommand{\defAs}{\mathrel{\makebox{\:= \hspace{-.2cm} \raisebox{-0.5 ex}[0 ex][0 ex]{\tiny Def}}}}
+
+\newenvironment{hypotheses}{
+\begin{enumerate}[label=(\alph*)]
+}{
+\end{enumerate}
+}
+
+\newenvironment{theses}{
+\begin{enumerate}[label=(\roman*)]
+}{
+\end{enumerate}
+}
+

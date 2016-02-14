@@ -1,0 +1,264 @@
+%% Style file for creating Grail/description logic documents
+
+% Necessary Packages
+
+\usepackage{xspace}
+\usepackage{amssymb}
+%\usepackage{euscript}
+
+% Hyphenation
+
+\hyphenation{data-base tab-leaux tab-leau}
+
+% Acronyms
+
+\newcommand{\scname}[1]{\textsc{#1}}%   a (small) capitalised name
+\newcommand{\calig}[1]{%                caligraphic text
+        \ensuremath{\mathcal{#1}}}
+\newcommand{\grail}{\scname{Grail}\xspace}%     GRAIL
+\newcommand{\galen}{\scname{Galen}\xspace}%     GALEN
+\newcommand{\al}{%                             ALC
+  \ensuremath{\mathcal{AL}}\xspace}
+\newcommand{\alc}{%                             ALC
+  \ensuremath{\mathcal{ALC}}\xspace}
+\newcommand{\alco}{%                             ALCO
+  \ensuremath{\mathcal{ALCO}}\xspace}
+\newcommand{\alcqio}{%                             ALCQIO
+  \ensuremath{\mathcal{ALCQIO}}\xspace}
+\newcommand{\alcoreif}{%                             ALCReif
+  \ensuremath{\mathcal{''ALCO''}}\xspace}
+  
+  
+  
+  \newcommand{\alcnr}{%                             ALCNR              %FIOFIOFIOFIOFIOFIOFIOFIOFIOFIOFIOFIOFIOFIO - ON
+  \ensuremath{\mathcal{ALCNR}}\xspace}
+  \newcommand{\alcnhrp}{%                          ALCNH_R+
+  \ensuremath{\mathcal{ALCNH}_{R^{+}}}\xspace}
+  \newcommand{\alcqhirp}{%                          ALCQHI_R+
+  \ensuremath{\mathcal{ALCQHI}_{R^{+}}}\xspace}     
+  \newcommand{\RACER}{RACER\xspace}%                RACER 
+ \newcommand{\shiq}{%                             SHIQ
+  \ensuremath{\mathcal{SHIQ}}\xspace}                                     
+  \newcommand{\shoin}{%                             SHOIN
+  \ensuremath{\mathcal{SHOIN}}\xspace}                                 
+  \newcommand{\sroiq}{%                             SHOIN
+  \ensuremath{\mathcal{SROIQ}}\xspace}                                
+\newcommand{\N}{%                             N
+  \ensuremath{\mathcal{N}}\xspace}
+\newcommand{\Q}{%                             Q
+  \ensuremath{\mathcal{Q}}\xspace}
+  \newcommand{\R}{%                             R
+  \ensuremath{\mathcal{R}}\xspace}
+  \newcommand{\ACCA}{%                             H
+  \ensuremath{\mathcal{H}}\xspace}
+  \newcommand{\RP}{%                          ALCNH_R+
+  \ensuremath{\mathcal{R^{+}}}\xspace}     %FIOFIOFIOFIOFIOFIOFIOFIOFIOFIOFIOFIOFIOFIO - OFF
+  
+ 
+  
+  
+\newcommand{\alcx}[1]{\calig{ALC#1}}%           ALCx
+\newcommand{\alctrans}{%                        ALC_+
+        \ensuremath{\alc_{+}}\xspace}
+\newcommand{\alcRtrans}{%                       ALC_R+
+        \ensuremath{\alc_{R^{+}}}\xspace}
+\newcommand{\alcOtrans}{%                       ALC_o+
+        \ensuremath{\alc_{\oplus}}\xspace}
+\newcommand{\alcXtrans}[1]{%                    ALCx_+
+        \ensuremath{\alcx{#1}_{+}}}
+\newcommand{\alchrp}{%                          ALCH_R+
+  \ensuremath{\mathcal{ALCH}_{R^{+}}}\xspace}
+\newcommand{\alchfrp}{%                         ALCHf_R+
+  \ensuremath{\mathcal{ALCH}\textbf{\textit{f}}_{R^{+}}}\xspace}
+\newcommand{\Fact}{FaCT\xspace}%                FaCT
+\newcommand{\Classifier}{\FaCT}%
+\newcommand{\Dlp}{DLP\xspace}%                  DLP
+\newcommand{\Tsl}{\calig{TSL}\xspace}%          TSL
+\newcommand{\Ciq}{\calig{CIQ}\xspace}%          QIC
+\newcommand{\Back}{\scname{Back}\xspace}%       BACK
+\newcommand{\Classic}{\scname{Classic}\xspace}% CLASSIC
+\newcommand{\Loom}{\scname{Loom}\xspace}%       LOOM
+\newcommand{\Kris}{\scname{Kris}\xspace}%       KRIS
+\newcommand{\Ksat}{\scname{Ksat}\xspace}%       KSAT
+\newcommand{\Ksatc}{\scname{KSatC}\xspace}%       KSATC
+\newcommand{\Crack}{\scname{Crack}\xspace}%     CRACK
+\newcommand{\Ssat}{\scname{*SAT}\xspace}%     *SAT
+\newcommand{\Ta}{\scname{TA}\xspace}%     TA
+
+
+\newcommand{\PDL}%                              PDL
+        {PDL\xspace}
+\newcommand{\CPDL}%                             converse-PDL
+        {\emph{converse}-PDL\xspace}
+
+% Semantics etc.
+
+\newcommand{\I}{%                               I (caligraphic)
+        \ensuremath{\mathcal{I}}\xspace}
+\newcommand{\Tau}{%                             Tau
+        \calig{T}\xspace}
+\newcommand{\Tree}{%                            Tree
+        \ensuremath{\mathbf{T}}\xspace}
+\newcommand{\ifunc}{%                           ^I (caligraphic)
+        \ensuremath{^\mathcal{I}}\xspace}
+\newcommand{\deltai}{%                          Delta^I
+        \ensuremath{\Delta\ifunc}\xspace}
+\newcommand{\Exptime}{\textsc{Exptime}-complete\xspace}
+\newcommand{\Pspace}{\textsc{Pspace}-complete\xspace}
+
+
+% Algorithms
+\newcommand{\Concepts}{\ensuremath{\mathbf{C}}\xspace}
+\newcommand{\Roles}{\ensuremath{\mathbf{R}}\xspace}
+\newcommand{\Rplus}{\ensuremath{\mathbf{R}_+}\xspace}
+\newcommand{\Rfunc}{\ensuremath{\mathbf{F}}\xspace}
+\newcommand{\Lab}{\ensuremath{\EuScript{L}}\xspace}
+\newcommand{\Edges}{\ensuremath{\EuScript{E}}\xspace}
+
+
+% Modal Logics
+
+\newcommand{\K}%                                Modal K
+        {\ensuremath{\mathbf{K}}\xspace}
+\newcommand{\KT}%                               Modal KT
+        {\ensuremath{\mathbf{KT}}\xspace}
+\newcommand{\Kfour}%                            Modal K4
+        {\ensuremath{\mathbf{K4}}\xspace}
+\newcommand{\Sfour}%                            Modal S4
+        {\ensuremath{\mathbf{S4}}\xspace}
+\newcommand{\Km}%                               Modal Km
+        {\ensuremath{\K_{(\mathbf{m})}}\xspace}
+\newcommand{\KTm}%                              Modal KTm
+        {\ensuremath{\KT_{(\mathbf{m})}}\xspace}
+\newcommand{\Kfourm}%                           Modal K4m
+        {\ensuremath{\mathbf{K4}_{(\mathbf{m})}}\xspace}
+\newcommand{\Sfourm}%                           Modal S4m
+        {\ensuremath{\mathbf{S4}_{(\mathbf{m})}}\xspace}
+
+
+% Concept names etc.
+
+\newcommand{\key}[1]{%                  a key word
+        \ensuremath{\texttt{#1}}}
+\newcommand{\con}[1]{%                  a concept
+        \ensuremath{\textsf{#1}}}
+\newcommand{\role}[1]{%                 a role
+        \ensuremath{\textsf{\textsl{#1}}}}
+\newcommand{\attr}[1]{%                 an attribute/feature/functional role
+        \role{#1}}
+\newcommand{\ind}[1]{%                  an individual
+        \con{#1}}
+\newcommand{\coneqn}[1]{%               a concept equation
+        \con{#1}}
+\newcommand{\cname}[1]{\con{#1}}%       a concept name e.g. human
+\newcommand{\rname}[1]{\role{#1}}%      a role name
+\newcommand{\aname}[1]{%                an attribute name
+        \cname{#1}}
+
+
+% DL syntax & notation
+
+\newcommand{\Subs}{\ensuremath{\sqsupseteq}}
+\newcommand{\Issub}{\ensuremath{\sqsubseteq}}
+\newcommand{\nSubs}{\ensuremath{\not\sqsupseteq}}
+\newcommand{\nIssub}{\ensuremath{\not\sqsubseteq}}
+
+%\newcommand{\subs}[2]{%
+%        \ensuremath{#1 \succeq #2}}
+\newcommand{\some}[2]{%
+        \ensuremath{\exists #1 . #2}}
+\newcommand{\all}[2]{%
+        \ensuremath{\forall #1 . #2}}
+\newcommand{\atleast}[2]{%
+        \ensuremath{\mbox{$\geqslant$}#1 #2}}
+\newcommand{\atmost}[2]{%
+        \ensuremath{\mbox{$\leqslant$}#1 #2}}
+\newcommand{\atleastq}[3]{%
+        \ensuremath{\mbox{$\geqslant$}#1 #2 . #3}}
+\newcommand{\atmostq}[3]{%
+        \ensuremath{\mbox{$\leqslant$}#1 #2 . #3}}
+\newcommand{\ain}[2]{%
+        \ensuremath{#1 . #2}}
+\newcommand{\aeq}[2]{%
+        \ensuremath{#1 = #2}}
+\newcommand{\aneq}[2]{%
+        \ensuremath{#1 \neq #2}}
+\newcommand{\aeqd}[2]{%                                 attributes eq and defined
+        \ensuremath{#1 \stackrel{\downarrow}{=} #2}}
+\newcommand{\aneqd}[2]{%                                attributes neq and defined
+        \ensuremath{#1 \stackrel{\downarrow}{\neq} #2}}
+\newcommand{\domain}[1]{%                               domain of a function
+        \ensuremath{\mathit{dom}~#1}}
+\newcommand{\id}[1]{%                                   identity relation
+        \ensuremath{\mathit{id}(#1)}}
+\newcommand{\trans}[1]{%                                transitive role operator
+        \ensuremath{#1^{+}}}
+\newcommand{\transref}[1]{%                             transitive-reflexive role operator
+        \ensuremath{#1^{*}}}
+\newcommand{\restr}[2]{%                                role restriction
+        \ensuremath{#1\!\mid_{#2}}}
+\newcommand{\tuple}[2]{%                                binary tuple
+        \ensuremath{\langle #1 , #2 \rangle}}
+\newcommand{\constraint}[2]{%                           constraint x:C
+        \ensuremath{#1\textrm{:}#2}}
+\newcommand{\Card}[1]{%                                 set cardinality
+        \ensuremath{\vert#1\vert}}
+\newcommand{\Trole}{%                                   transitive role
+        \ensuremath{^{(+)}}\xspace}
+
+
+% non-LaTex composed symbols
+
+\newcommand{\dotin}{%
+        \ensuremath{\dot{\in}}}
+\newcommand{\dotneq}{%
+        \ensuremath{\dot{\neq}}}
+
+
+% GRAIL syntax & notation
+
+\newcommand{\gnewsub}[2]{%
+        \ensuremath{#1\  \key{newSub}\  #2}}
+\newcommand{\gcrit}[2]{%
+        \ensuremath{#1\ #2}}
+\newcommand{\gwhich}[2]{%
+        \ensuremath{#1~\key{which}~#2}}
+\newcommand{\gname}[2]{%
+        \ensuremath{#1\  \key{name}\  #2}}
+\newcommand{\gtnecc}[2]{%
+        \ensuremath{#1\  \key{topicNecessarilly}\  #2}}
+\newcommand{\gnewind}[2]{%
+        \ensuremath{#1\  \key{newIndividual}\  #2}}
+\newcommand{\greally}[2]{%
+        \ensuremath{#1\  \key{really}\  #2}}
+
+
+% Other stuff
+
+\newcommand{\Eg}{\textrm{e.g.}\@\xspace}
+\newcommand{\Ie}{\textrm{i.e.}\@\xspace}
+ 
+% my com
+
+\newcommand{\shoind}{%                             ALC
+  \ensuremath{\mathcal{SHOIN_{(D)}}}\xspace}
+
+\newcommand{\swrl}{\textsf{SWRL}\xspace}
+
+%% ROLE CONSTRUCTS
+%TODO remove this block
+\newcommand{\universalrole}{\mathbb{U}}
+\newcommand{\selfrestriction}[1]{\exists #1.\mathtt{Self}}
+\newcommand{\istransitive}[1]{\mathtt{Trans}(#1)}
+\newcommand{\isreflexive}[1]{\mathtt{Ref}(#1)}
+\newcommand{\isirreflexive}[1]{\mathtt{Irr}(#1)}
+\newcommand{\issymmetric}[1]{\mathtt{Sym}(#1)}
+\newcommand{\isantisymmetric}[1]{\mathtt{ASym}(#1)}
+\newcommand{\symmetricclosure}[1]{\mathtt{sym}(#1)}
+\newcommand{\roleidentity}[1]{\mathtt{id}(#1)}
+\newcommand{\disjointRoles}[2]{\mathtt{Dis}(#1,#2)}
+
+%%OTHERS
+\newcommand{\ConceptNames}{\ensuremath{\mathcal{N}^c}\xspace} 
+\newcommand{\RoleNames}{\ensuremath{\mathcal{N}^r}\xspace}
+\newcommand{\IndividualNames}{\ensuremath{\mathcal{N}^i}\xspace}
