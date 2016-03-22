@@ -564,12 +564,12 @@
 		<rdfs:label>Chilometro Zero</rdfs:label>
 		<foaf:name>Chilometro Zero</foaf:name>
 		<org:hasPrimarySite
-			rdf:resource="&cct;grotte_bianche56" />
+			rdf:resource="&cct;via_grotte_bianche56" />
 	</org:Organization>
 
-	<locn:Location rdf:about="&cct;grotte_bianche56">
+	<locn:Location rdf:about="&cct;via_grotte_bianche56">
 		<locn:address>
-			<locn:Address rdf:about="&cct;grotte_bianche56_address">
+			<locn:Address rdf:about="&cct;via_grotte_bianche56_address">
 				<rdfs:label>56, Via Grotte Bianche, Catania, Italy</rdfs:label>
 				<locn:fullAddress>56, Via Grotte Bianche, Catania, Italy</locn:fullAddress>
 				<locn:thoroughfare>Via Grotte Bianche</locn:thoroughfare>
@@ -579,7 +579,7 @@
 			</locn:Address>
 		</locn:address>
 		<locn:geometry>
-			<locn:Geometry rdf:about="&cct;grotte_bianche56_geometry">
+			<locn:Geometry rdf:about="&cct;via_grotte_bianche56_geometry">
 				<geo:lat>37.5123023</geo:lat>
 				<geo:long>15.0882141</geo:long>
 			</locn:Geometry>
