@@ -559,6 +559,32 @@
 		<foaf:homepage rdf:resource="http://www.wikimedia.it/" />
 		<foaf:logo rdf:resource="http://www.wikimedia.it/wp-content/uploads/2015/03/Wiki-Media-Logo.png" />
 	</org:Organization>
+
+	<org:Organization rdf:about="http://www.chilometrozeroct.com/me">
+		<rdfs:label>Chilometro Zero</rdfs:label>
+		<foaf:name>Chilometro Zero</foaf:name>
+		<org:hasPrimarySite
+			rdf:resource="&cct;grotte_bianche56" />
+	</org:Organization>
+
+	<locn:Location rdf:about="&cct;grotte_bianche56">
+		<locn:address>
+			<locn:Address rdf:about="&cct;grotte_bianche56_address">
+				<rdfs:label>56, Via Grotte Bianche, Catania, Italy</rdfs:label>
+				<locn:fullAddress>56, Via Grotte Bianche, Catania, Italy</locn:fullAddress>
+				<locn:thoroughfare>Via Grotte Bianche</locn:thoroughfare>
+				<locn:locatorDesignator>56</locn:locatorDesignator>
+				<locn:postName>Catania</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+		<locn:geometry>
+			<locn:Geometry rdf:about="&cct;grotte_bianche56_geometry">
+				<geo:lat>37.5123023</geo:lat>
+				<geo:long>15.0882141</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
+	</locn:Location>
 	
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Events and related resources // /////////////////////////////////////////////////////////////////////////////////////// -->
@@ -852,6 +878,57 @@ people and with no limitation reuse can help research, production and fruition o
 		<sioc:has_creator rdf:resource="&odhl;people/carlocondarelli" />
 		<sioc:about rdf:resource="&odhl;events/26022016" />
 	</sioc:Post>
+
+	<event:Event rdf:about="&odhl;events/05042016">
+		<rdfs:label>Primo Aperitivo POP a Catania</rdfs:label>
+		<rdfs:comment>
+L'Albo Pretorio indica in Italia un apposito spazio presso il quale le pubbliche 
+amministrazioni italiane affiggono per legge notizie ed avvisi di interesse 
+pubblico per la collettività. (Wikipedia)
+
+Sull'albo pretorio viaggiano gli avvisi riguardanti tutte le attività di
+una pubblica amministrazione: dalle concessioni per il suolo pubblico alle 
+pubblicazioni di matrimonio, dai bandi di gara alle varianti al piano regolatore, 
+dalle sanatorie alle informazioni e modifiche alla viabilità.
+
+Il progetto Albo POP (http://albopop.it) si propone di rendere "popolari"
+gli albi pretori attraverso la realizzazione di opportuni strumenti 
+informatici.
+
+Dopo una breve introduzione sugli open data, daremo uno sguardo ad alcuni degli albi
+pop disponibili, in particolare quelli relativi al Comune e all'Università
+di Catania, e verranno mostrati alcuni strumenti per una fruizione "aumentata"
+degli stessi. In particolare, vedremo come ricevere avvisi e notifiche dagli
+albi pretori direttamente sul proprio computer.
+
+Si consiglia quindi di venire armati di portatili!
+
+Aperitivo POP Catania è organizzato da Hackspace Catania e chilometro zero
+nell'ambito del progetto #opendatahacklab (http://opendatahacklab.org). 
+L'ingresso è gratuito per i soci di Chilometro Zero. L'iscrizione 
+all'associazione Chilometro Zero è gratuita. Durante l'incontro sarà servito
+un aperitivo al costo di 5 euro. 		
+		</rdfs:comment>		
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-22T12:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="&odhl;people/cristianolongo" />
+		<event:agent rdf:resource="http://www.chilometrozeroct.it/me" />
+		<event:place rdf:resource="&cct;via_grotte_bianche56" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/05042016/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/05042016/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-05T19:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/05042016/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-05T21:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+	</event:Event>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
