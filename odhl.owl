@@ -345,7 +345,7 @@
 			This project concerns tools for accessing in a simplified way the
 			data in the dataset provided in the culturaitalia dataset.
 		</doap:shortdesc>
-		<doap:homepage rdf:resource="&odhl_site_root;tools-for-culturaitalia/" />
+		<doap:homepage rdf:resource="http://dev.opendatasicilia.it/opendatahacklab/tools_for_culturaitalia/" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/tools-for-culturaitalia/repo">
