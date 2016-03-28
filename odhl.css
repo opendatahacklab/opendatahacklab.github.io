@@ -29,6 +29,23 @@ img.logo{
 	margin : 1em 1em 1em 1em;
 }
 
+a.wt-tech:link, a.wt-tech:visited,  a.wt-tech:active, a.wt-tech:hover{
+	color : #ffffff;
+	background-color : #2b2e32;
+	text-decoration : none;
+	font-size:1em;
+	font-weight : normal;
+	font-family: Verdana,Geneva,sans-serif; 	
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin: 0 0 0 0.5em;
+	vertical-align: middle;
+	border-radius: 0.2em;
+}
+
+a.wt-tech:hover{
+	text-decoration : underline;
+}
+
 header h1{
 	font-family: "Lucida Console", Courier, monospace;
 	font-weight: normal;
