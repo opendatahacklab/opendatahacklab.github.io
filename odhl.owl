@@ -135,6 +135,17 @@
 		<foaf:name>Carlo Condarelli</foaf:name>
 		<rdfs:label>Carlo Condarelli</rdfs:label>
 	</foaf:Person>
+	
+	<foaf:Person rdf:about="&odhl;people/michelebellocchi">
+		<foaf:name>Michele Bellocchi</foaf:name>
+		<rdfs:label>Michele Bellocchi</rdfs:label>
+	</foaf:Person>
+	
+	<foaf:Person rdf:about="&odhl;people/massimilianoportelli">
+		<foaf:name>Massimiliano Portelli</foaf:name>
+		<rdfs:label>Massimiliano Portelli</rdfs:label>
+	</foaf:Person>
+	
 
 	<!-- /////////////////////////////// LICENCES /////////////////////////////////////// -->
 	
@@ -353,6 +364,30 @@
 					rdf:resource="https://github.com/opendatahacklab/tools_for_culturaitalia.git" />
 				<doap:browse
 					rdf:resource="https://github.com/opendatahacklab/tools_for_culturaitalia" />
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
+	</doap:Project>
+
+	<doap:Project rdf:about="&odhl;projects/agrievents">
+		<doap:name>AgriEvents</doap:name>
+		<doap:shortdesc>
+			The agrievents project aims to provide tools for agrifood farmers and 
+			market organizers to publish as open data information about markets 
+			where agrifood products ban be bought. A technical report describing 
+			how market events and products are described is provided, along with a 
+			sample application.		
+		</doap:shortdesc>
+		<doap:homepage rdf:resource="http://opendatahacklab.org/agrievents" />
+		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:developer rdf:resource="&odhl;people/michelebellocchi" />
+		<doap:developer rdf:resource="&odhl;people/massimilianoportelli" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl;projects/agrievents/repo">
+				<doap:location
+					rdf:resource="https://github.com/opendatahacklab/agrievents.git" />
+				<doap:browse
+					rdf:resource="https://github.com/opendatahacklab/agrievents" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
