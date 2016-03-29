@@ -378,7 +378,7 @@
 			how market events and products are described is provided, along with a 
 			sample application.		
 		</doap:shortdesc>
-		<doap:homepage rdf:resource="http://opendatahacklab.org/agrievents" />
+		<doap:homepage rdf:resource="http://dev.opendatasicilia.it/opendatahacklab/agrievents" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/michelebellocchi" />
 		<doap:developer rdf:resource="&odhl;people/massimilianoportelli" />
