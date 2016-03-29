@@ -205,7 +205,7 @@
 			on
 			the Leafletjs library.
 		</doap:desc>
-		<doap:homepage rdf:resource="&odhl_site_github;sparql_suite" />
+		<doap:homepage rdf:resource="&odhl_site_ods;sparql_suite" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/andreacostazza" />
