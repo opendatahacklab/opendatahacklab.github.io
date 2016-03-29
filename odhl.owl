@@ -286,7 +286,7 @@
 			sparql endpoint
 			into a corresponding RSS feed.
 		</doap:shortdesc>
-		<doap:homepage rdf:resource="&odhl_site_github;rdfevents2rss" />
+		<doap:homepage rdf:resource="&odhl_site_ods;rdfevents2rss" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/biagiorobertpappalardo" />
 		<doap:repository>
