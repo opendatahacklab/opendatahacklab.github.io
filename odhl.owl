@@ -30,7 +30,7 @@
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
 		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.5.owl" />
-		<owl:versionInfo>0.7</owl:versionInfo>
+		<owl:versionInfo>0.7.1</owl:versionInfo>
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
