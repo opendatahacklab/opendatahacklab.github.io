@@ -30,7 +30,7 @@
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
 		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.5.owl" />
-		<owl:versionInfo>0.7.2</owl:versionInfo>
+		<owl:versionInfo>0.8.0<owl:versionInfo>
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
@@ -660,6 +660,7 @@
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/meeting1" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/meeting2">
@@ -677,6 +678,7 @@
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/meeting2" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/meeting3">
@@ -696,6 +698,7 @@
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/meeting3" />
 	</event:Event>
 
 	<sioc:Post
@@ -723,6 +726,7 @@
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/meeting4" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/meeting5">
@@ -740,6 +744,7 @@
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/meeting5" />
 	</event:Event>
 	
 	<sioc:Post rdf:about="https://www.facebook.com/events/502954309868669/">
@@ -795,6 +800,7 @@ Collettivo Scatto Sociale
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/30102015" />
 	</event:Event>
 	
 	<sioc:Post rdf:about="https://www.facebook.com/events/1504622473170104/">
@@ -843,6 +849,7 @@ Gioia Cacciatore, medico abilitato, che ci parlerà della pillola del giorno dop
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/26112015" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/29122015">
@@ -867,6 +874,7 @@ L’obiettivo principale dell’evento è quindi mostrare, con casi concreti o i
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/29122015" />
 	</event:Event>
 
 	<locn:Location rdf:about="http://www.comune.pedara.ct.it/EXPO">
@@ -889,7 +897,7 @@ L’obiettivo principale dell’evento è quindi mostrare, con casi concreti o i
 				<geo:long>15.05869</geo:long>
 			</locn:Geometry>
 		</locn:geometry>
-	</locn:Location>
+	</locn:Location>	
 	
 	<event:Event rdf:about="&odhl;events/26022016">
 		<rdfs:label>2nd Open Knowledge Open Arts Workshop</rdfs:label>
@@ -921,6 +929,7 @@ people and with no limitation reuse can help research, production and fruition o
 				</time:hasEnd>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/26022016" />
 	</event:Event>
 
 	<sioc:Post
@@ -983,6 +992,7 @@ un aperitivo al costo di 5 euro.
 				</time:hasEnd>
 			</time:Interval>
 		</event:time>
+		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/05042016" />
 	</event:Event>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
