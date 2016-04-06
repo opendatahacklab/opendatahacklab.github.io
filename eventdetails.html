@@ -4,26 +4,28 @@
 		<meta charset="UTF-8">
 		<title>opendatahacklab - events</title>
 		<link rel="stylesheet" type="text/css" href="odhl.css" />
-		<script type="text/javascript" src="../sparql_suite/sparql_processor.js"></script>
-		<script type="text/javascript" src="../sparql_suite/event_sparql_processor.js"></script>
+		<script type="text/javascript" src="http://dev.opendatasicilia.it/opendatahacklab/sparql_suite/sparql_processor.js"></script>
+		<script type="text/javascript" src="http://dev.opendatasicilia.it/opendatahacklab/sparql_suite/event_sparql_processor.js"></script>
 	</head>
 <body>
 	<header class="main-header" id="top">
 		<img class="logo" src="imgs/logo_cog4_ter.png" alt="the opendatahacklab logo" />
-		<h1 id="maintitle">opendatahacklab - events</h1>
+		<h1 id="maintitle"></h1>
 		<p class="subtitle">THE OPEN DATA HACKING LABORATORY - Powered by 
 			<a href="http://github.com"><img alt="GitHub" src="imgs/GitHub_Logo.png" /></a>
 			<a href="http://dydra.com"><img alt="dydra.com" src="imgs/dydra-logo-24pt.png" /></a>
 		</p>
 		<nav>
-			<ol class="breadcrumb"><li><a href="index.html">home</a></li><li><a href="events.html">events</a></li><li id="eventinbreadcrumb" /></ol>
+			<ol class="breadcrumb"><li><a href="index.html">home</a></li><li><a href="events.html">events</a></li>
+				<li id="eventinbreadcrumb" />
+			</ol>
 			<a href="https://github.com/opendatahacklab/opendatahacklab.github.io"  title="GitHub repository of the opendatahacklab web site (this site)"><img alt="Source Code" src="imgs/GitHub-Mark-64px.png" /></a>
 			<a href="data.html"><img  src="imgs/rdf.png" /></a>
 			<a href="events/feed.atom" title="RSS feed of open data hacklab events"><img src="imgs/rss-feed-icon.png" /></a>			
 			<a href="irc.html" title="chat"><img alt="chat"src="imgs/PICOL_Chat.svg.png"></img></a>			
 		</nav>
 	</header>
-	<section id="events">
+	<section id="eventdetail">
 		<p class="loading" id="loading">Loading ...</p>
 	</section>
 	<script type="text/javascript">
@@ -32,43 +34,37 @@
 var processEventFunction = function(event){
 	
 	//replace titles 
-	var title_lower=
-	var loadingItem = document.getElementById("loading");
-	var container = document.getElementById("events");
-	var article = document.createElement("article");
-	container.insertBefore(article, loadingItem);
-		
-	var title = document.createElement("h2");
-    title.appendChild(document.createTextNode(event.eventName));	
-	article.appendChild(title);
+	var titleLower=event.eventName.toLowerCase();
+	document.getElementById("maintitle").appendChild(document.createTextNode(
+			"opendatahacklab - events - "+titleLower));
+	document.getElementById("eventinbreadcrumb").appendChild(
+			document.createTextNode(titleLower));
 
+	//put event details in the specified section
+	var container = document.getElementById("eventdetail");
+	container.removeChild(document.getElementById("loading"));
+	
 	var time = document.createElement("p");
 	var timeStart = new Date(event.timeStart);
 	time.className="eventtime";
 	time.appendChild(document.createTextNode(timeStart.toLocaleDateString()+" - "+
 		timeStart.toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'})));
-	article.appendChild(time);
+	container.appendChild(time);
 
 	var address = document.createElement("p");
 	address.className="eventaddress";
 	address.appendChild(document.createTextNode(event.address));
-	article.appendChild(address);	
+	container.appendChild(address);	
 	
-	var nav =document.createElement("nav");	
-	article.appendChild(nav);
-	var back = document.createElement("a");
-	back.href="#top";
-	back.appendChild(document.createTextNode("Back to top"));
-	nav.appendChild(back);
 	
 	if (event.posts!=null && event.posts.lenght>0){
-		var postsTitle=document.createElement("h3");
-		h3.className="posts";
+		var postsTitle=document.createElement("h2");
+		h2.className="posts";
 		postTitle.appendChild(document.createTextNode("Related Posts"));
-		article.appendChild(postTitle);
+		container.appendChild(postTitle);
 		
 		var postList=document.createElemet("ul");
-		article.appendChild(postList);
+		container.appendChild(postList);
 		for(var i=0; i<event.posts.lenght; i++){
 			var postValue = event.posts[i];
 			var postItem=document.createElement("li");
@@ -78,9 +74,7 @@ var processEventFunction = function(event){
 			a.appendChild(document.createTextNode(postValue.title));
 			postItem.appendChild(a);
 		}
-	}
-	
-	container.removeChild(loadingItem);
+	}	
 };
 
 //retrieve the eventIRI from parameters

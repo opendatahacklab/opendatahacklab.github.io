@@ -4,8 +4,8 @@
 		<meta charset="UTF-8">
 		<title>opendatahacklab - events</title>
 		<link rel="stylesheet" type="text/css" href="odhl.css" />
-		<script type="text/javascript" src="http://opendatahacklab.github.io/sparql_suite/sparql_processor.js"></script>
-		<script type="text/javascript" src="http://opendatahacklab.github.io/sparql_suite/event_sparql_processor.js"></script>
+		<script type="text/javascript" src="http://dev.opendatasicilia.it/opendatahacklab/sparql_suite/sparql_processor.js"></script>
+		<script type="text/javascript" src="http://dev.opendatasicilia.it/opendatahacklab/sparql_suite/event_sparql_processor.js"></script>
 	</head>
 <body>
 	<header class="main-header" id="top">
@@ -57,6 +57,11 @@ var processEventFunction = function(event, isNext){
 	back.href="#top";
 	back.appendChild(document.createTextNode("Back to top"));
 	nav.appendChild(back);
+	nav.appendChild(document.createTextNode(" | "));
+	var details = document.createElement("a");
+	details.href="eventdetails?iri="+encodeURIComponent(event.URI);
+	details.appendChild(document.createTextNode("Event Details"));
+	nav.appendChild(details);
 	
 	if (event.posts!=null && event.posts.lenght>0){
 		var postsTitle=document.createElement("h3");
@@ -94,7 +99,9 @@ function EventProcessor(){
 	};
 }
 
-sparql_query("http://dydra.com/cristianolongo/odhl/sparql", new EventQueryProcessor(new EventProcessor(), new Date()));
+var p = new EventQueryProcessor(new EventProcessor(), new Date());
+
+sparql_query("http://dydra.com/cristianolongo/odhl/sparql", p);
 	</script>
 </body>
 </html>
