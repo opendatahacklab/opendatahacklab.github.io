@@ -29,7 +29,7 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:event="&event;"
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
-		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.5.owl" />
+		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.8.owl" />
 		<owl:versionInfo>0.8.0</owl:versionInfo>
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
@@ -874,7 +874,6 @@ L’obiettivo principale dell’evento è quindi mostrare, con casi concreti o i
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/29122015" />
 	</event:Event>
 
 	<locn:Location rdf:about="http://www.comune.pedara.ct.it/EXPO">
@@ -929,7 +928,6 @@ people and with no limitation reuse can help research, production and fruition o
 				</time:hasEnd>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/26022016" />
 	</event:Event>
 
 	<sioc:Post
