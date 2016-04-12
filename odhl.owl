@@ -29,8 +29,8 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:event="&event;"
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
-		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.8.owl" />
-		<owl:versionInfo>0.8.0</owl:versionInfo>
+		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.8.1.owl" />
+		<owl:versionInfo>0.8.1</owl:versionInfo>
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
@@ -992,6 +992,24 @@ un aperitivo al costo di 5 euro.
 		</event:time>
 		<foaf:homepage rdf:resource="&odhl_site_github;eventdetails?iri=&odhl;events/05042016" />
 	</event:Event>
+
+	<sioc:Post rdf:about="https://www.facebook.com/events/1133850986634756/">
+		<dc:title>Aperitivo POP - Catania</dc:title>
+		<rdfs:label>Aperitivo POP - Catania</rdfs:label>
+		<sioc:has_container rdf:resource="http://facebook.com/me" />
+		<sioc:about rdf:resource="&odhl;events/05042016" />
+	</sioc:Post>
+
+	<sioc:Post
+		rdf:about="http://opendatasicilia.it/2016/04/11/aperitivo-pop-catania-racconto/">
+		<dc:title>Aperitivo POP a Catania: il Racconto
+		</dc:title>
+		<rdfs:label>Aperitivo POP a Catania: il Racconto
+		</rdfs:label>
+		<sioc:has_container rdf:resource="http://opendatasicilia.it/blog" />
+		<sioc:has_creator rdf:resource="&odhl;people/cristianolongo" />
+		<sioc:about rdf:resource="&odhl;events/05042016" />
+	</sioc:Post>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
