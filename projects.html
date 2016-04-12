@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <title>opendatahacklab - open data</title>
-<link rel="stylesheet" type="text/css" href="odhl.css" />
+<link rel="stylesheet" type="text/css" href="../commons/css/odhl.css" />
 <script type="text/javascript" src="http://opendatahacklab.github.io/sparql_suite/sparql_processor.js"></script>
 <script type="text/javascript" src="http://opendatahacklab.github.io/sparql_suite/doap_sparql_processor.js"></script>
 </head>
 <body>
 	<header class="main-header" id="top">
-		<img class="logo" src="imgs/logo_cog4_ter.png"
+		<img class="logo" src="../commons/imgs/logo_cog4_ter.png"
 			alt="the opendatahacklab logo" />
 		<h1>opendatahacklab - projects</h1>
 		<p class="subtitle">
-			THE OPEN DATA HACKING LABORATORY - Powered by <a
-				href="http://github.com"><img alt="GitHub"
-				src="imgs/GitHub_Logo.png" /></a> <a href="http://dydra.com"><img
-				alt="dydra.com" src="imgs/dydra-logo-24pt.png" /></a>
+			THE OPEN DATA HACKING LABORATORY - Powered by 
+				<a target="_blank" href="http://dydra.com"><img
+				alt="dydra.com" src="../commons/imgs/dydra-logo-24pt.png" /></a>
+			<a class="wt-tech" target="_blank" href="http://wt-tech.it">WT-TECH</a>
 		</p>
 		<nav>
 			<ol class="breadcrumb">
@@ -25,13 +25,12 @@
 			</ol>
 			<a
 				href="https://github.com/opendatahacklab/opendatahacklab.github.io"
-				alt="Source Code"
 				title="GitHub repository of the opendatahacklab web site (this site)"><img
-				src="imgs/GitHub-Mark-64px.png" /></a> <a href="data.html"><img
-				src="imgs/rdf.png" /></a> <a href="events/feed.atom"
+				src="../commons/imgs/GitHub-Mark-64px.png" /></a> <a href="data.html"><img
+				src="../commons/imgs/rdf.png" /></a> <a href="events/feed.atom"
 				title="RSS feed of open data hacklab events"><img
-				src="imgs/rss-feed-icon.png" /></a>
-			<a href="irc.html" title="chat"><img alt="chat" src="imgs/PICOL_Chat.svg.png"></img></a>			
+				src="../commons/imgs/rss-feed-icon.png" /></a>
+			<a href="irc.html" title="chat"><img alt="chat" src="../commons/imgs/PICOL_Chat.svg.png"></img></a>			
 		</nav>
 	</header>
 	<section id="projects">
@@ -68,7 +67,7 @@
 				var homelink = document.createElement("a");
 				homelink.href = project.homepage;
 				var homeimg = document.createElement("img");
-				homeimg.src = "imgs/doc2.png";
+				homeimg.src = "../commons/imgs/doc2.png";
 				homelink.appendChild(homeimg);
 				nav.appendChild(homelink);
 			}
@@ -77,7 +76,7 @@
 				var gitlink = document.createElement("a");
 				gitlink.href = project.gitrepo;
 				var gitimg = document.createElement("img");
-				gitimg.src = "imgs/GitHub-Mark-64px.png";
+				gitimg.src = "../commons/imgs/GitHub-Mark-64px.png";
 				gitlink.appendChild(gitimg);
 				nav.appendChild(gitlink);
 			}
