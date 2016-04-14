@@ -3,6 +3,7 @@
     <!ENTITY odhl "http://opendatahacklab.org/ontology/" >
     <!ENTITY odhl_site_github "http://opendatahacklab.github.io/" >
     <!ENTITY odhl_site_ods "http://dev.opendatasicilia.it/opendatahacklab/" >
+    <!ENTITY odhl_projects_root "http://opendatahacklab.org/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
     <!ENTITY doap "http://usefulinc.com/ns/doap#" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
@@ -205,7 +206,7 @@
 			on
 			the Leafletjs library.
 		</doap:desc>
-		<doap:homepage rdf:resource="&odhl_site_ods;sparql_suite" />
+		<doap:homepage rdf:resource="&odhl_projects_root;sparql_suite" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/andreacostazza" />
@@ -220,15 +221,15 @@
 			<doap:Version>
 				<doap:revision>1.1</doap:revision>
 				<doap:file-release
-					rdf:resource="&odhl_site_github;sparql_suite/sparql_processor.js" />
+					rdf:resource="&odhl_projects_root;sparql_suite/sparql_processor.js" />
 				<doap:file-release
-					rdf:resource="&odhl_site_github;sparql_suite/locn_sparql_processor.js" />
+					rdf:resource="&odhl_projects_root;sparql_suite/locn_sparql_processor.js" />
 				<doap:file-release
-					rdf:resource="&odhl_site_github;sparql_suite/doap_sparql_processor.js" />
+					rdf:resource="&odhl_projects_root;sparql_suite/doap_sparql_processor.js" />
 				<doap:file-release
-					rdf:resource="&odhl_site_github;sparql_suite/event_sparql_processor.js" />
+					rdf:resource="&odhl_projects_root;sparql_suite/event_sparql_processor.js" />
 				<doap:file-release
-					rdf:resource="&odhl_site_github;sparql_suite/dcat_sparql_processor.js" />
+					rdf:resource="&odhl_projects_root;sparql_suite/dcat_sparql_processor.js" />
 			</doap:Version>
 		</doap:release>
 		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
