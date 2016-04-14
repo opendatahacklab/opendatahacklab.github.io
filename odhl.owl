@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE rdf:RDF [
     <!ENTITY odhl "http://opendatahacklab.org/ontology/" >
-    <!ENTITY odhl_site_github "http://opendatahacklab.github.io/" >
-    <!ENTITY odhl_site_ods "http://dev.opendatasicilia.it/opendatahacklab/" >
     <!ENTITY odhl_projects_root "http://opendatahacklab.org/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
     <!ENTITY doap "http://usefulinc.com/ns/doap#" >
@@ -30,8 +28,8 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:event="&event;"
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
-		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl0.8.3.owl" />
-		<owl:versionInfo>0.8.3</owl:versionInfo>
+		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl1.0.0owl" />
+		<owl:versionInfo>1.0.0</owl:versionInfo>
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
@@ -358,7 +356,7 @@
 			This project concerns tools for accessing in a simplified way the
 			data in the dataset provided in the culturaitalia dataset.
 		</doap:shortdesc>
-		<doap:homepage rdf:resource="&odhl_site_ods;tools_for_culturaitalia/" />
+		<doap:homepage rdf:resource="&odhl_projects_root;tools_for_culturaitalia/" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/tools-for-culturaitalia/repo">
@@ -380,7 +378,7 @@
 			how market events and products are described is provided, along with a 
 			sample application.		
 		</doap:shortdesc>
-		<doap:homepage rdf:resource="&odhl_site_ods;agrievents" />
+		<doap:homepage rdf:resource="&odhl_projects_root;agrievents" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/michelebellocchi" />
 		<doap:developer rdf:resource="&odhl;people/massimilianoportelli" />
@@ -401,7 +399,7 @@
 	<org:Organization rdf:about="http://hackspacecatania.it/me">
 		<rdfs:label>HACKSPACE Catania</rdfs:label>
 		<foaf:name>HACKSPACE Catania</foaf:name>
-		<foaf:logo rdf:resource="&odhl_site_github;imgs/hackspace.png" />
+		<foaf:logo rdf:resource="http://hackspacecatania.it/wp-content/uploads/2014/04/logo-hackspace-learn1.png" />
 		<foaf:homepage rdf:resource="http://hackspacecatania.it/" />
 		<org:hasPrimarySite
 			rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
@@ -435,7 +433,7 @@
 	<org:Organization rdf:about="http://opendatahacklab.org/me">
 		<rdfs:label>opendatahacklab</rdfs:label>
 		<foaf:name>opendatahacklab</foaf:name>
-		<foaf:logo rdf:resource="&odhl_site_github;imgs/logo_cog4_ter.png" />
+		<foaf:logo rdf:resource="&odhl_projects_root;commons/imgs/logo_cog4_ter.png" />
 		<foaf:homepage rdf:resource="http://opendatahacklab.org" />
 		<org:hasPrimarySite
 			rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
@@ -1021,13 +1019,13 @@ un aperitivo al costo di 5 euro.
 		<rdfs:label>opendatahacklab</rdfs:label>
 		<dcterms:description>Projects, events, datasets and other material
 			related to the opendatahacklab.</dcterms:description>
-		<dcat:landingPage rdf:resource="&odhl_site_github;data.html" />
+		<dcat:landingPage rdf:resource="&odhl_projects_root;site/data.html" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/odhl_rdf">
 				<dcterms:title>opendatahacklab ontology as OWL file</dcterms:title>
 				<rdfs:label>opendatahacklab ontology as OWL file</rdfs:label>
-				<dcat:downloadURL rdfs:label="&odhl_site_github;odhl.owl" />
+				<dcat:downloadURL rdfs:label="&odhl_projects_root;site/odhl.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
@@ -1089,7 +1087,7 @@ un aperitivo al costo di 5 euro.
 	</dcat:Dataset>
 	
 	<!-- morning-after rebeldesse dataset -->
-	<dcat:Dataset rdf:about="&odhl_site_github;morning-after-rebeldesse/ontology/">
+	<dcat:Dataset rdf:about="&odhl_projects_root;morning-after-rebeldesse/ontology/">
 		<dcterms:title>Morning-after pill in Catania</dcterms:title>
 		<rdfs:label>Morning-after pill in Catania</rdfs:label>
 		<dcterms:description>
@@ -1098,14 +1096,14 @@ un aperitivo al costo di 5 euro.
 			 municipality of Catania. 
 		</dcterms:description>
 		<dcat:landingPage
-			rdf:resource="&odhl_site_github;morning-after-rebeldesse/" />
+			rdf:resource="&odhl_projects_root;morning-after-rebeldesse/" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/farmacie">
 				<dcterms:title>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</dcterms:title>
 				<rdfs:label>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</rdfs:label>
 				<dcat:downloadURL
-					rdf:resource="&odhl_site_github;morning-after-rebeldesse/morning-after-pill-test-catania.owl" />
+					rdf:resource="&odhl_projects_root;morning-after-rebeldesse/morning-after-pill-test-catania.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
@@ -1122,17 +1120,17 @@ un aperitivo al costo di 5 euro.
 	</dcat:Dataset>
 	
 	<!-- mafia confiscated assets dataset -->
-	<dcat:Dataset rdf:about="&odhl_site_github;mafiaconfiscatedassets/ontology/">
+	<dcat:Dataset rdf:about="&odhl_projects_root;mafiaconfiscatedassets/ontology/">
 		<dcterms:title>Datasets of Confiscated Assets</dcterms:title>
 		<rdfs:label>Datasets of Confiscated Assets</rdfs:label>
 		<dcterms:description>Some datasets where you can found information about confiscated assets.</dcterms:description>
-		<dcat:landingPage rdf:resource="&odhl_site_github;mafiaconfiscatedassets/data.html" />
+		<dcat:landingPage rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/data.html" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_rdf">
 				<dcterms:title>Ontology of datasets of confiscated assets as OWL file</dcterms:title>
 				<rdfs:label>Ontology of datasets of confiscated assets as OWL file</rdfs:label>
-				<dcat:downloadURL rdfs:label="&odhl_site_github;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
+				<dcat:downloadURL rdfs:label="&odhl_projects_root;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
