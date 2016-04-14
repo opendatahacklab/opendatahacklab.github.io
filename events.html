@@ -60,7 +60,7 @@ var processEventFunction = function(event, isNext){
 	nav.appendChild(back);
 	nav.appendChild(document.createTextNode(" | "));
 	var details = document.createElement("a");
-	details.href="eventdetails?iri="+encodeURIComponent(event.URI);
+	details.href="eventdetails.html?iri="+encodeURIComponent(event.URI);
 	details.appendChild(document.createTextNode("Event Details"));
 	nav.appendChild(details);
 	
