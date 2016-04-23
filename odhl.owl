@@ -28,8 +28,8 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:event="&event;"
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
-		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl1.0.0owl" />
-		<owl:versionInfo>1.0.0</owl:versionInfo>
+		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl1.1.0owl" />
+		<owl:versionInfo>1.1.0</owl:versionInfo>
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
