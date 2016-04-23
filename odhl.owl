@@ -393,6 +393,24 @@
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
 	</doap:Project>
 
+	<doap:Project rdf:about="&odhl;projects/albopop">
+		<doap:name>Contributions to Albo POP</doap:name>
+		<doap:shortdesc>
+			Some Albo POP implemented by the opendatahacklab.
+		</doap:shortdesc>
+		<doap:homepage rdf:resource="&odhl_projects_root;albopop/" />
+		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl;projects/albopop/repo">
+				<doap:location
+					rdf:resource="https://github.com/aborruso/albo-pop.git" />
+				<doap:browse
+					rdf:resource="https://github.com/aborruso/albo-pop" />
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
+	</doap:Project>
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Organizations // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -1118,6 +1136,38 @@ un aperitivo al costo di 5 euro.
 			</dcat:Distribution>
 		</dcat:distribution>
 	</dcat:Dataset>
+
+	<dcat:Dataset rdf:about="&odhl_projects_root;morning-after-rebeldesse/ontology/">
+		<dcterms:title>Morning-after pill in Catania</dcterms:title>
+		<rdfs:label>Morning-after pill in Catania</rdfs:label>
+		<dcterms:description>
+			 A non-exhaustive list of pharmacies which sell the morning-after pill in the city of Catania.
+			 The reported pharmacies has been retrieved from the pharmacies dataset provided in the open data portal of the
+			 municipality of Catania. 
+		</dcterms:description>
+		<dcat:landingPage
+			rdf:resource="&odhl_projects_root;morning-after-rebeldesse/" />
+		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/farmacie">
+				<dcterms:title>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</dcterms:title>
+				<rdfs:label>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</rdfs:label>
+				<dcat:downloadURL
+					rdf:resource="&odhl_projects_root;morning-after-rebeldesse/morning-after-pill-test-catania.owl" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
+			</dcat:Distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/morning-after-rebeldesse_sparql">
+				<dcterms:title>SPARQL endpoint for the morning-after pill in Catania ontology
+				</dcterms:title>
+				<rdfs:label>SPARQL endpoint for the morning-after pill in Catania ontology</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dydra.com/cristianolongo/morning-after-pill/sparql" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/sparql-query</dcat:mediaType>
+			</dcat:Distribution>
+		</dcat:distribution>
+	</dcat:Dataset>
 	
 	<!-- mafia confiscated assets dataset -->
 	<dcat:Dataset rdf:about="&odhl_projects_root;mafiaconfiscatedassets/ontology/">
@@ -1143,6 +1193,59 @@ un aperitivo al costo di 5 euro.
 			</dcat:Distribution>
 		</dcat:distribution>		
 	</dcat:Dataset>
+	
+	<dcat:Dataset rdf:about="&odhl_projects_root;albo-pop/unict/ontology/">
+		<dcterms:title>Albo POP Università degli Studi di Catania</dcterms:title>
+		<rdfs:label>Albo POP Università degli Studi di Catania</rdfs:label>
+		<dcterms:description>
+			 An RSS feed reporting the advices from the notice board of the
+			 University of Catania.
+		</dcterms:description>
+		<dcat:landingPage
+			rdf:resource="http://albopop.it/altrepa/unict/" />
+		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/unict">
+				<dcterms:title>The RSS feed of the notice board of the University of Catania.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the University of Catania.</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dev.opendatasicilia.it/albopop/unict/unict2RSS.php" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/rss+xml</dcat:mediaType>
+			</dcat:Distribution>
+		</dcat:distribution>
+	</dcat:Dataset>
+
+	<dcat:Dataset rdf:about="&odhl_projects_root;albo-pop/catania/ontology/">
+		<dcterms:title>Albo POP Comune di Catania</dcterms:title>
+		<rdfs:label>Albo POP Comune di Catania</rdfs:label>
+		<dcterms:description>
+			 An RSS feed reporting the advices from the notice board of the
+			 Municipality of Catania.
+		</dcterms:description>
+		<dcat:landingPage
+			rdf:resource="http://albopop.it/comune/catania/" />
+		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/catania">
+				<dcterms:title>The RSS feed of the notice board of the Municipality of Catania.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the Municipality of Catania.</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dev.opendatasicilia.it/albopop/catania/alboct2RSS.php" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/rss+xml</dcat:mediaType>
+			</dcat:Distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/catania/social">
+				<dcterms:title>The RSS feed of the notice board of the Municipality of Catania with sharing on social networks features.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the Municipality of Catania with sharing on social networks features.</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dev.opendatasicilia.it/albopop/catania/alboct2RSS-social.php" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/rss+xml</dcat:mediaType>
+			</dcat:Distribution>
+		</dcat:distribution>
+	</dcat:Dataset>
+	
 </rdf:RDF>
 
 
