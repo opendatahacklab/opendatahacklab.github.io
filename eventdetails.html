@@ -40,7 +40,7 @@ var processEventFunction = function(event){
 			"opendatahacklab - events - "+titleLower));
 	document.getElementById("eventinbreadcrumb").appendChild(
 			document.createTextNode(titleLower));
-
+    
 	//put event details in the specified section
 	var container = document.getElementById("eventdetail");
 	container.removeChild(document.getElementById("loading"));
@@ -57,6 +57,12 @@ var processEventFunction = function(event){
 	address.appendChild(document.createTextNode(event.address));
 	container.appendChild(address);	
 	
+	if(event.description != null){
+		var description = document.createElement("p");
+		description.className="eventdescription";
+		description.appendChild(document.createTextNode(event.description));
+		container.appendChild(description);
+	}
 	
 	if (event.posts!=null && event.posts.lenght>0){
 		var postsTitle=document.createElement("h2");
