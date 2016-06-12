@@ -29,7 +29,7 @@
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
 		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl1.1.0owl" />
-		<owl:versionInfo>1.1.0</owl:versionInfo>
+		<owl:versionInfo>1.2.0</owl:versionInfo>
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
@@ -852,7 +852,7 @@ Durante la serata del 26 Novembre, al C.s.a. Officina Rebelde, le militanti del 
 interverranno: Cristiano Longo, esponente del movimento Open Data, e
 Gioia Cacciatore, medico abilitato, che ci parlerà della pillola del giorno dopo e dell’aborto.
 		</rdfs:comment>
-		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-15T24:00:00+02:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-15T23:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="&odhl;people/cristianolongo" />
 		<event:agent rdf:resource="&odhl;people/gioiacacciatore" />
 		<event:agent rdf:resource="http://www.officinarebelde.org/rebeldesse" />
@@ -1027,6 +1027,53 @@ un aperitivo al costo di 5 euro.
 		<sioc:has_creator rdf:resource="&odhl;people/cristianolongo" />
 		<sioc:about rdf:resource="&odhl;events/05042016" />
 	</sioc:Post>
+
+	<event:Event rdf:about="&odhl;events/02072016">
+		<rdfs:label>Aperitivo POP a Belpasso</rdfs:label>
+		<rdfs:comment>
+Belpasso è un importante paese sull’Etna che unisce alla vocazione agricola tipica di quelle zone una più recente sfociata nella realizzazione di una importante e funzionale zona industriale. Il tema degli Open Data e della trasparenza in questo paese viene portato avanti da un coraggioso e agguerrito manipolo che ha elaborato e sottoposto, con la collaborazione di Open Data Sicilia ma senza successo, al consiglio comunale un insieme di linee guida Open Data per il comune sulla scia di quelle di Palermo. Succede di recente che un cittadino di Belpasso, membro storico di Hackspace Catania ed esponente del movimento dei makers, decide di donare un albo POP ai cittadini di Belpasso, incaricando noi dell’opendatahacklab di realizzarlo. 
+
+Avevo già nella mia lista di luoghi da visitare il comune di Belpasso da un po. Ho deciso quindi, con la collaborazione degli attivisti sul territorio, di cogliere questa occasione per incontrare le associazioni di cittadinanza attiva e la popolazione di questo paese in un incontro informale come un Aperitivo POP, che si terrà il 2 Luglio alle ore 19:00 presso il Wine Bar Efesto in via XIX traversa numero 66.
+
+Siete tutti invitati!  		
+		</rdfs:comment>		
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-12T16:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:place rdf:resource="&odhl;places/winebarefesto" />
+		<foaf:homepage rdf:resource="http://www.opendatahacklab.org/site/eventdetails.html?iri=http%3A%2F%2Fopendatahacklab.org%2Fontology%2Fevents%2F02072016" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/02072016/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/02072016/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-02T19:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+	</event:Event>
+
+	<locn:Location rdf:about="&odhl;places/winebarefesto">
+		<rdfs:label>Wine Bar Efesto, Belpasso, CT</rdfs:label>
+		<locn:address>
+			<locn:Address
+				rdf:about="&odhl;places/winebarefesto/address">
+				<rdfs:label>66, Via XIX traversa 66, Belpasso, CT, Italy</rdfs:label>
+				<locn:fullAddress>66, Via XIX traversa 66, Belpasso, CT, Italy</locn:fullAddress>
+				<locn:thoroughfare>Via XIX traversa</locn:thoroughfare>
+				<locn:postName>Belpasso</locn:postName>
+				<locn:locatorDesignator>66</locn:locatorDesignator>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+		<locn:geometry>
+			<locn:Geometry
+				rdf:about="&odhl;places/winebarefesto/geometry">
+				<!-- TODO add provenance information, nominatim -->
+				<geo:lat>37.58984</geo:lat>
+				<geo:long>14.97497</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
+	</locn:Location>	
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
