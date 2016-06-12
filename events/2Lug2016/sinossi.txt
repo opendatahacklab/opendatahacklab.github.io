@@ -1,0 +1,7 @@
+Sull'Albo Pretorio viaggiano gli avvisi riguardanti tutte le attività di una pubblica amministrazione: dalle concessioni per il suolo pubblico alle pubblicazioni di matrimonio, dai bandi di gara alle varianti al piano regolatore,  dalle sanatorie alle informazioni e modifiche alla viabilità.
+
+Il progetto Albo POP (http://albopop.it) si propone di rendere "popolari" gli albi pretori attraverso la realizzazione di opportuni strumenti informatici.
+
+In questa occasione informale esamineremo l'Albo POP del comune di Belpasso realizzato nell'ambito del progetto opendatahacklab (http://opendatahacklab.org). In particolare, vedremo come ricevere avvisi e notifiche dagli albi pretori direttamente sul proprio computere sul cellulare e come condividere gli avvisi più interessanti sui social network.
+
+L'ingresso è libero, si consiglia di venire armati di portatili!

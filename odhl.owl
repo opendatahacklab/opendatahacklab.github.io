@@ -1037,7 +1037,7 @@ Avevo già nella mia lista di luoghi da visitare il comune di Belpasso da un po.
 
 Siete tutti invitati!  		
 		</rdfs:comment>		
-		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-12T16:00:00+01:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-12T17:00:00+01:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:place rdf:resource="&odhl;places/winebarefesto" />
 		<foaf:homepage rdf:resource="http://www.opendatahacklab.org/site/eventdetails.html?iri=http%3A%2F%2Fopendatahacklab.org%2Fontology%2Fevents%2F02072016" />
@@ -1053,12 +1053,12 @@ Siete tutti invitati!
 	</event:Event>
 
 	<locn:Location rdf:about="&odhl;places/winebarefesto">
-		<rdfs:label>Wine Bar Efesto, Belpasso, CT</rdfs:label>
+		<rdfs:label>Wine Bar Efesto Belpasso</rdfs:label>
 		<locn:address>
 			<locn:Address
 				rdf:about="&odhl;places/winebarefesto/address">
-				<rdfs:label>66, Via XIX traversa 66, Belpasso, CT, Italy</rdfs:label>
-				<locn:fullAddress>66, Via XIX traversa 66, Belpasso, CT, Italy</locn:fullAddress>
+				<rdfs:label>66, Via XIX traversa, Belpasso, CT, Italy</rdfs:label>
+				<locn:fullAddress>66, Via XIX traversa, Belpasso, CT, Italy</locn:fullAddress>
 				<locn:thoroughfare>Via XIX traversa</locn:thoroughfare>
 				<locn:postName>Belpasso</locn:postName>
 				<locn:locatorDesignator>66</locn:locatorDesignator>
