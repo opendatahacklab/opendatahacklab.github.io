@@ -29,8 +29,8 @@
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
 		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl1.1.0owl" />
-		<owl:versionInfo>1.2.0</owl:versionInfo>
-		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
+		<owl:versionInfo>1.2.1</owl:versionInfo>
+		<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
 		<owl:imports rdf:resource="http://www.w3.org/ns/locn" />
@@ -144,6 +144,21 @@
 	<foaf:Person rdf:about="&odhl;people/massimilianoportelli">
 		<foaf:name>Massimiliano Portelli</foaf:name>
 		<rdfs:label>Massimiliano Portelli</rdfs:label>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/giorgiooliva">
+		<foaf:name>Giorgio Oliva</foaf:name>
+		<rdfs:label>Giorgio Oliva</rdfs:label>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/michelemaresca">
+		<foaf:name>Michele Maresca</foaf:name>
+		<rdfs:label>Michele Maresca</rdfs:label>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="&odhl;people/albertoberrittella">
+		<foaf:name>Alberto Berrittella</foaf:name>
+		<rdfs:label>Alberto Berrittella</rdfs:label>
 	</foaf:Person>
 	
 
@@ -260,6 +275,7 @@
 		<doap:homepage rdf:resource="&odhl_projects_root;mafiaconfiscatedassets" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:developer rdf:resource="&odhl;people/giorgiooliva" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/confiscatedassets/repo">
 				<doap:location
@@ -406,6 +422,28 @@
 					rdf:resource="https://github.com/aborruso/albo-pop.git" />
 				<doap:browse
 					rdf:resource="https://github.com/aborruso/albo-pop" />
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
+	</doap:Project>
+
+	<doap:Project rdf:about="&odhl;projects/agenda-unica">
+		<doap:name>Agenda Unica</doap:name>
+		<doap:shortdesc>
+			Tools which allow organizations to publish RDF events from a
+			google sheet. The actual implementation refers to the Agenda Unica
+			del Movimento Catanese.
+		</doap:shortdesc>
+		<doap:homepage rdf:resource="&odhl_projects_root;agenda-unica/" />
+		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:developer rdf:resource="&odhl;people/michelemaresca" />
+		<doap:developer rdf:resource="&odhl;people/albertoberrittella" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl_projects_root;agenda-unica/repo">
+				<doap:location
+					rdf:resource="https://github.com/opendatahacklab/agenda-unica.git" />
+				<doap:browse
+					rdf:resource="https://github.com/opendatahacklab/agenda-unica" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
@@ -1292,7 +1330,30 @@ Siete tutti invitati!
 			</dcat:Distribution>
 		</dcat:distribution>
 	</dcat:Dataset>
-	
+
+	<dcat:Dataset rdf:about="&odhl_projects_root;mafiaconfiscatedassets/ontology/">
+		<dcterms:title>Datasets of Confiscated Assets</dcterms:title>
+		<rdfs:label>Datasets of Confiscated Assets</rdfs:label>
+		<dcterms:description>Some datasets where you can found information about confiscated assets.</dcterms:description>
+		<dcat:landingPage rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/data.html" />
+		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_rdf">
+				<dcterms:title>Ontology of datasets of confiscated assets as OWL file</dcterms:title>
+				<rdfs:label>Ontology of datasets of confiscated assets as OWL file</rdfs:label>
+				<dcat:downloadURL rdfs:label="&odhl_projects_root;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
+			</dcat:Distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_sparql">
+				<dcterms:title>SPARQL endpoint for the ontology of datasets of confiscated assets</dcterms:title>
+				<rdfs:label>SPARQL endpoint for the ontology of datasets of confiscated assets</rdfs:label>
+				<dcat:accessURL rdfs:label="http://dydra.com/cristianolongo/confiscated-assets-catania/sparql" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/sparql-query</dcat:mediaType>
+			</dcat:Distribution>
+		</dcat:distribution>		
+	</dcat:Dataset>	
 </rdf:RDF>
 
 
