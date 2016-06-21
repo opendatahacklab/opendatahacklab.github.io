@@ -1179,7 +1179,7 @@ Siete tutti invitati!
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/odhl_rdf">
 				<dcterms:title>opendatahacklab ontology as OWL file</dcterms:title>
 				<rdfs:label>opendatahacklab ontology as OWL file</rdfs:label>
-				<dcat:downloadURL rdfs:label="&odhl_projects_root;site/odhl.owl" />
+				<dcat:downloadURL rdf:resource="&odhl_projects_root;site/odhl.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
@@ -1188,7 +1188,7 @@ Siete tutti invitati!
 				</dcterms:title>
 				<rdfs:label>SPARQL endpoint for the opendatahacklab ontology
 				</rdfs:label>
-				<dcat:accessURL rdfs:label="http://dydra.com/cristianolongo/odhl/sparql" />
+				<dcat:accessURL rdf:resource="http://dydra.com/cristianolongo/odhl/sparql" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/sparql-query</dcat:mediaType>
 			</dcat:Distribution>
@@ -1316,14 +1316,14 @@ Siete tutti invitati!
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_rdf">
 				<dcterms:title>Ontology of datasets of confiscated assets as OWL file</dcterms:title>
 				<rdfs:label>Ontology of datasets of confiscated assets as OWL file</rdfs:label>
-				<dcat:downloadURL rdfs:label="&odhl_projects_root;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
+				<dcat:downloadURL rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_sparql">
 				<dcterms:title>SPARQL endpoint for the ontology of datasets of confiscated assets</dcterms:title>
 				<rdfs:label>SPARQL endpoint for the ontology of datasets of confiscated assets</rdfs:label>
-				<dcat:accessURL rdfs:label="http://dydra.com/cristianolongo/confiscated-assets-catania/sparql" />
+				<dcat:accessURL rdf:resource="http://dydra.com/cristianolongo/confiscated-assets-catania/sparql" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/sparql-query</dcat:mediaType>
 			</dcat:Distribution>
@@ -1392,20 +1392,21 @@ Siete tutti invitati!
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_rdf">
 				<dcterms:title>Ontology of datasets of confiscated assets as OWL file</dcterms:title>
 				<rdfs:label>Ontology of datasets of confiscated assets as OWL file</rdfs:label>
-				<dcat:downloadURL rdfs:label="&odhl_projects_root;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
+				<dcat:downloadURL rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_sparql">
 				<dcterms:title>SPARQL endpoint for the ontology of datasets of confiscated assets</dcterms:title>
 				<rdfs:label>SPARQL endpoint for the ontology of datasets of confiscated assets</rdfs:label>
-				<dcat:accessURL rdfs:label="http://dydra.com/cristianolongo/confiscated-assets-catania/sparql" />
+				<dcat:accessURL rdf:resource="http://dydra.com/cristianolongo/confiscated-assets-catania/sparql" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/sparql-query</dcat:mediaType>
 			</dcat:Distribution>
 		</dcat:distribution>		
 	</dcat:Dataset>	
-		<dcat:Dataset rdf:about="http://opendatahacklab.org/agenda-unica/ontology">
+	
+	<dcat:Dataset rdf:about="http://opendatahacklab.org/agenda-unica/ontology">
 		<dcterms:title>Events of the Agenda Unica dei Movimenti Catania</dcterms:title>
 		<rdfs:label>Events of the Agenda Unica dei Movimenti Catania</rdfs:label>
 		<dcat:landingPage rdf:resource="http://opendatahacklab.org/agenda-unica" />
@@ -1414,23 +1415,23 @@ Siete tutti invitati!
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_rdf">
 				<dcterms:title>Ontology of events of the Agenda Unica dei Movimenti Catania as OWL file</dcterms:title>
 				<rdfs:label>Ontology of events of the Agenda Unica dei Movimenti Catania as OWL file</rdfs:label>
-				<dcat:downloadURL rdfs:label="http://opendatahacklab.org/agenda-unica/agenda.owl" />
+				<dcat:downloadURL rdfs:resource="http://opendatahacklab.org/agenda-unica/agenda.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_sparql">
 				<dcterms:title>SPARQL endpoint for the ontology of events of the Agenda Unica dei Movimenti Catania</dcterms:title>
 				<rdfs:label>SPARQL endpoint for the ontology of events of the Agenda Unica dei Movimenti Catania</rdfs:label>
-				<dcat:accessURL rdfs:label="http://dydra.com/cristianolongo/agenda-unica-ct/sparql" />
+				<dcat:accessURL rdf:resource="http://dydra.com/cristianolongo/agenda-unica-ct/sparql" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/sparql-query</dcat:mediaType>
 			</dcat:Distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_csv">
 				<dcterms:title>Ontology of events of the Agenda Unica dei Movimenti Catania as downloadable CSV file</dcterms:title>
 				<rdfs:label>Ontology of events of the Agenda Unica dei Movimenti Catania as downloadable CSV file</rdfs:label>
-				<dcat:accessURL rdfs:label="https://docs.google.com/spreadsheets/d/1bzVASM5_JjCgvNp3Vs0GJ4vDgYsKo_ig5NHU1QI5USc/export?exportFormat=csv" />
+				<dcat:accessURL rdf:resource="https://docs.google.com/spreadsheets/d/1bzVASM5_JjCgvNp3Vs0GJ4vDgYsKo_ig5NHU1QI5USc/export?exportFormat=csv" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-				<dcat:mediaType>application/sparql-query</dcat:mediaType>
+				<dcat:mediaType>text/csv</dcat:mediaType>
 			</dcat:Distribution>
 		</dcat:distribution>		
 	</dcat:Dataset>	
