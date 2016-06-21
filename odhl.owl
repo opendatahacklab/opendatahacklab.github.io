@@ -449,6 +449,25 @@
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
 	</doap:Project>
 
+	<doap:Project rdf:about="&odhl;projects/cityservices">
+		<doap:name>City Services</doap:name>
+		<doap:shortdesc>
+			TODO write me
+		</doap:shortdesc>
+		<doap:homepage rdf:resource="&odhl_projects_root;cityservices/" />
+		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:developer rdf:resource="&odhl;people/andreacostazza" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl_projects_root;cityservices/repo">
+				<doap:location
+					rdf:resource="https://github.com/opendatahacklab/cityservices.git" />
+				<doap:browse
+					rdf:resource="https://github.com/opendatahacklab/cityservices" />
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
+	</doap:Project>
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Organizations // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -1090,6 +1109,38 @@ Siete tutti invitati!
 		</event:time>
 	</event:Event>
 
+	<sioc:Post
+		rdf:about="http://opendatasicilia.it/2016/06/14/aperitivo-pop-belpasso/">
+		<dc:title>Aperitivo POP a Belpasso
+		</dc:title>
+		<rdfs:label>Aperitivo POP a Belpasso
+		</rdfs:label>
+		<sioc:has_container rdf:resource="http://opendatasicilia.it/blog" />
+		<sioc:has_creator rdf:resource="&odhl;people/cristianolongo" />
+		<sioc:about rdf:resource="&odhl;events/02072016" />
+	</sioc:Post>
+
+	<sioc:Post rdf:about="https://www.facebook.com/events/602434039925008/">
+		<dc:title>Aperitivo POP Belpasso</dc:title>
+		<rdfs:label>Aperitivo POP Belpasso</rdfs:label>
+		<sioc:has_container rdf:resource="http://facebook.com/me" />
+		<sioc:about rdf:resource="&odhl;events/02072016" />
+	</sioc:Post>
+
+	<sioc:Post rdf:about="https://www.facebook.com/events/602434039925008/">
+		<dc:title>Aperitivo POP Belpasso</dc:title>
+		<rdfs:label>Aperitivo POP Belpasso</rdfs:label>
+		<sioc:has_container rdf:resource="http://facebook.com/me" />
+		<sioc:about rdf:resource="&odhl;events/02072016" />
+	</sioc:Post>
+
+	<sioc:Post rdf:about="http://albopop.it/Apreritivo-pop-belpasso/">
+		<dc:title>Aperitivo POP a Belpasso</dc:title>
+		<rdfs:label>Aperitivo POP a Belpasso</rdfs:label>
+		<sioc:has_container rdf:resource="http://albopop.it/blog" />
+		<sioc:about rdf:resource="&odhl;events/02072016" />
+	</sioc:Post>
+
 	<locn:Location rdf:about="&odhl;places/winebarefesto">
 		<rdfs:label>Wine Bar Efesto Belpasso</rdfs:label>
 		<locn:address>
@@ -1354,6 +1405,36 @@ Siete tutti invitati!
 			</dcat:Distribution>
 		</dcat:distribution>		
 	</dcat:Dataset>	
+		<dcat:Dataset rdf:about="http://opendatahacklab.org/agenda-unica/ontology">
+		<dcterms:title>Events of the Agenda Unica dei Movimenti Catania</dcterms:title>
+		<rdfs:label>Events of the Agenda Unica dei Movimenti Catania</rdfs:label>
+		<dcat:landingPage rdf:resource="http://opendatahacklab.org/agenda-unica" />
+		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_rdf">
+				<dcterms:title>Ontology of events of the Agenda Unica dei Movimenti Catania as OWL file</dcterms:title>
+				<rdfs:label>Ontology of events of the Agenda Unica dei Movimenti Catania as OWL file</rdfs:label>
+				<dcat:downloadURL rdfs:label="http://opendatahacklab.org/agenda-unica/agenda.owl" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
+			</dcat:Distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_sparql">
+				<dcterms:title>SPARQL endpoint for the ontology of events of the Agenda Unica dei Movimenti Catania</dcterms:title>
+				<rdfs:label>SPARQL endpoint for the ontology of events of the Agenda Unica dei Movimenti Catania</rdfs:label>
+				<dcat:accessURL rdfs:label="http://dydra.com/cristianolongo/agenda-unica-ct/sparql" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/sparql-query</dcat:mediaType>
+			</dcat:Distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_csv">
+				<dcterms:title>Ontology of events of the Agenda Unica dei Movimenti Catania as downloadable CSV file</dcterms:title>
+				<rdfs:label>Ontology of events of the Agenda Unica dei Movimenti Catania as downloadable CSV file</rdfs:label>
+				<dcat:accessURL rdfs:label="https://docs.google.com/spreadsheets/d/1bzVASM5_JjCgvNp3Vs0GJ4vDgYsKo_ig5NHU1QI5USc/export?exportFormat=csv" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/sparql-query</dcat:mediaType>
+			</dcat:Distribution>
+		</dcat:distribution>		
+	</dcat:Dataset>	
+	
 </rdf:RDF>
 
 
