@@ -1183,6 +1183,8 @@ Siete tutti invitati!
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
+		</dcat:distribution>
+		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/odhl_sparql">
 				<dcterms:title>SPARQL endpoint for the opendatahacklab ontology
 				</dcterms:title>
@@ -1220,6 +1222,8 @@ Siete tutti invitati!
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>text/csv</dcat:mediaType>
 			</dcat:Distribution>
+		</dcat:distribution>
+		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/nonportale_rdf">
 				<dcterms:title>The nonportale ontology as OWL file</dcterms:title>
 				<rdfs:label>The nonportale ontology as OWL file</rdfs:label>
@@ -1228,6 +1232,8 @@ Siete tutti invitati!
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
+		</dcat:distribution>
+		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/nonportale_sparql">
 				<dcterms:title>SPARQL endpoint for the nonportale ontology
 				</dcterms:title>
@@ -1261,38 +1267,8 @@ Siete tutti invitati!
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
-			<dcat:Distribution rdf:about="&odhl;datasetDistr/morning-after-rebeldesse_sparql">
-				<dcterms:title>SPARQL endpoint for the morning-after pill in Catania ontology
-				</dcterms:title>
-				<rdfs:label>SPARQL endpoint for the morning-after pill in Catania ontology</rdfs:label>
-				<dcat:accessURL
-					rdf:resource="http://dydra.com/cristianolongo/morning-after-pill/sparql" />
-				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-				<dcat:mediaType>application/sparql-query</dcat:mediaType>
-			</dcat:Distribution>
 		</dcat:distribution>
-	</dcat:Dataset>
-
-	<dcat:Dataset rdf:about="&odhl_projects_root;morning-after-rebeldesse/ontology/">
-		<dcterms:title>Morning-after pill in Catania</dcterms:title>
-		<rdfs:label>Morning-after pill in Catania</rdfs:label>
-		<dcterms:description>
-			 A non-exhaustive list of pharmacies which sell the morning-after pill in the city of Catania.
-			 The reported pharmacies has been retrieved from the pharmacies dataset provided in the open data portal of the
-			 municipality of Catania. 
-		</dcterms:description>
-		<dcat:landingPage
-			rdf:resource="&odhl_projects_root;morning-after-rebeldesse/" />
-		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
-			<dcat:Distribution rdf:about="&odhl;datasetDistr/farmacie">
-				<dcterms:title>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</dcterms:title>
-				<rdfs:label>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</rdfs:label>
-				<dcat:downloadURL
-					rdf:resource="&odhl_projects_root;morning-after-rebeldesse/morning-after-pill-test-catania.owl" />
-				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
-			</dcat:Distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/morning-after-rebeldesse_sparql">
 				<dcterms:title>SPARQL endpoint for the morning-after pill in Catania ontology
 				</dcterms:title>
@@ -1320,6 +1296,8 @@ Siete tutti invitati!
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
+		</dcat:distribution>
+		<dcat:distribution>		
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_sparql">
 				<dcterms:title>SPARQL endpoint for the ontology of datasets of confiscated assets</dcterms:title>
 				<rdfs:label>SPARQL endpoint for the ontology of datasets of confiscated assets</rdfs:label>
@@ -1330,6 +1308,7 @@ Siete tutti invitati!
 		</dcat:distribution>		
 	</dcat:Dataset>
 	
+	<!-- Albo POP -->
 	<dcat:Dataset rdf:about="&odhl_projects_root;albo-pop/unict/ontology/">
 		<dcterms:title>Albo POP Università degli Studi di Catania</dcterms:title>
 		<rdfs:label>Albo POP Università degli Studi di Catania</rdfs:label>
@@ -1371,6 +1350,8 @@ Siete tutti invitati!
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/rss+xml</dcat:mediaType>
 			</dcat:Distribution>
+		</dcat:distribution>
+		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/catania/social">
 				<dcterms:title>The RSS feed of the notice board of the Municipality of Catania with sharing on social networks features.</dcterms:title>
 				<rdfs:label>The RSS feed of the notice board of the Municipality of Catania with sharing on social networks features.</rdfs:label>
@@ -1382,30 +1363,73 @@ Siete tutti invitati!
 		</dcat:distribution>
 	</dcat:Dataset>
 
-	<dcat:Dataset rdf:about="&odhl_projects_root;mafiaconfiscatedassets/ontology/">
-		<dcterms:title>Datasets of Confiscated Assets</dcterms:title>
-		<rdfs:label>Datasets of Confiscated Assets</rdfs:label>
-		<dcterms:description>Some datasets where you can found information about confiscated assets.</dcterms:description>
-		<dcat:landingPage rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/data.html" />
+	<dcat:Dataset rdf:about="&odhl_projects_root;albo-pop/unito/ontology/">
+		<dcterms:title>Albo POP Università di Torino</dcterms:title>
+		<rdfs:label>Albo POP Università di Torino</rdfs:label>
+		<dcterms:description>
+			 An RSS feed reporting the advices from the notice board of the
+			 University of Turin.
+		</dcterms:description>
+		<dcat:landingPage
+			rdf:resource="http://albopop.it/altrepa/unito/" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
-			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_rdf">
-				<dcterms:title>Ontology of datasets of confiscated assets as OWL file</dcterms:title>
-				<rdfs:label>Ontology of datasets of confiscated assets as OWL file</rdfs:label>
-				<dcat:downloadURL rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/unito">
+				<dcterms:title>The RSS feed of the notice board of the University of Turin.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the University of Turin.</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dev.opendatasicilia.it/albopop/unito/albofeed.php" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
+				<dcat:mediaType>application/rss+xml</dcat:mediaType>
 			</dcat:Distribution>
-			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_sparql">
-				<dcterms:title>SPARQL endpoint for the ontology of datasets of confiscated assets</dcterms:title>
-				<rdfs:label>SPARQL endpoint for the ontology of datasets of confiscated assets</rdfs:label>
-				<dcat:accessURL rdf:resource="http://dydra.com/cristianolongo/confiscated-assets-catania/sparql" />
+		</dcat:distribution>
+	</dcat:Dataset>
+
+	<dcat:Dataset rdf:about="&odhl_projects_root;albo-pop/torino/ontology/">
+		<dcterms:title>Albo POP Comune di Torino</dcterms:title>
+		<rdfs:label>Albo POP Comune di Torino</rdfs:label>
+		<dcterms:description>
+			 An RSS feed reporting the advices from the notice board of the
+			 Municipality of Turin.
+		</dcterms:description>
+		<dcat:landingPage
+			rdf:resource="http://albopop.it/comune/torino/" />
+		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/torino">
+				<dcterms:title>The RSS feed of the notice board of the Municipality of Turin.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the Municipality of Turin.</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dev.opendatasicilia.it/albopop/torino/albofeed.php" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
-				<dcat:mediaType>application/sparql-query</dcat:mediaType>
+				<dcat:mediaType>application/rss+xml</dcat:mediaType>
 			</dcat:Distribution>
-		</dcat:distribution>		
-	</dcat:Dataset>	
+		</dcat:distribution>
+	</dcat:Dataset>
+
+	<dcat:Dataset rdf:about="&odhl_projects_root;albo-pop/belpasso/ontology/">
+		<dcterms:title>Albo POP Comune di Belpasso</dcterms:title>
+		<rdfs:label>Albo POP Comune di Belpasso</rdfs:label>
+		<dcterms:description>
+			 An RSS feed reporting the advices from the notice board of the
+			 Municipality of Belpasso.
+		</dcterms:description>
+		<dcat:landingPage
+			rdf:resource="http://albopop.it/comune/belpasso/" />
+		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
+		<dcat:distribution>
+			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/belpasso">
+				<dcterms:title>The RSS feed of the notice board of the Municipality of Belpasso.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the Municipality of Belpasso.</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dev.opendatasicilia.it/albopop/belpasso/albofeed.php" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcat:mediaType>application/rss+xml</dcat:mediaType>
+			</dcat:Distribution>
+		</dcat:distribution>
+	</dcat:Dataset>
 	
+	<!-- Agenda -->
 	<dcat:Dataset rdf:about="http://opendatahacklab.org/agenda-unica/ontology">
 		<dcterms:title>Events of the Agenda Unica dei Movimenti Catania</dcterms:title>
 		<rdfs:label>Events of the Agenda Unica dei Movimenti Catania</rdfs:label>
@@ -1419,6 +1443,8 @@ Siete tutti invitati!
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
+		</dcat:distribution>
+		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_sparql">
 				<dcterms:title>SPARQL endpoint for the ontology of events of the Agenda Unica dei Movimenti Catania</dcterms:title>
 				<rdfs:label>SPARQL endpoint for the ontology of events of the Agenda Unica dei Movimenti Catania</rdfs:label>
@@ -1426,6 +1452,8 @@ Siete tutti invitati!
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/sparql-query</dcat:mediaType>
 			</dcat:Distribution>
+		</dcat:distribution>
+		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_csv">
 				<dcterms:title>Ontology of events of the Agenda Unica dei Movimenti Catania as downloadable CSV file</dcterms:title>
 				<rdfs:label>Ontology of events of the Agenda Unica dei Movimenti Catania as downloadable CSV file</rdfs:label>
