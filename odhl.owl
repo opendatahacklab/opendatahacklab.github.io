@@ -452,7 +452,11 @@
 	<doap:Project rdf:about="&odhl;projects/cityservices">
 		<doap:name>City Services</doap:name>
 		<doap:shortdesc>
-			TODO write me
+The project cityservices is a visualization tool in
+javascript for public services and organizational structures modeled
+via the Core Public Service Vocabulary. The implementation presented here uses
+the knowledge base about the municipality of Catania described in the
+page Open Data Unofficial del Comune di Catania. 
 		</doap:shortdesc>
 		<doap:homepage rdf:resource="&odhl_projects_root;cityservices/" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
