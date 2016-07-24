@@ -427,23 +427,22 @@
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
 	</doap:Project>
 
-	<doap:Project rdf:about="&odhl;projects/agenda-unica">
-		<doap:name>Agenda Unica</doap:name>
+	<doap:Project rdf:about="&odhl;projects/free-agenda">
+		<doap:name>Free Agenda</doap:name>
 		<doap:shortdesc>
 			Tools which allow organizations to publish RDF events from a
-			google sheet. The actual implementation refers to the Agenda Unica
-			del Movimento Catanese.
+			google sheet. The project hosts agendas from some organizations.
 		</doap:shortdesc>
-		<doap:homepage rdf:resource="&odhl_projects_root;agenda-unica/" />
+		<doap:homepage rdf:resource="&odhl_projects_root;free-agenda/" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/michelemaresca" />
 		<doap:developer rdf:resource="&odhl;people/albertoberrittella" />
 		<doap:repository>
-			<doap:GitRepository rdf:about="&odhl_projects_root;agenda-unica/repo">
+			<doap:GitRepository rdf:about="&odhl_projects_root;free-agenda/repo">
 				<doap:location
-					rdf:resource="https://github.com/opendatahacklab/agenda-unica.git" />
+					rdf:resource="https://github.com/opendatahacklab/free-agenda.git" />
 				<doap:browse
-					rdf:resource="https://github.com/opendatahacklab/agenda-unica" />
+					rdf:resource="https://github.com/opendatahacklab/free-agenda" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
