@@ -161,7 +161,26 @@
 		<rdfs:label>Alberto Berrittella</rdfs:label>
 	</foaf:Person>
 	
+	<foaf:Person rdf:about="&odhl;people/federicofrasca">
+		<foaf:name>Federico Frasca</foaf:name>
+		<rdfs:label>Federico Frasca</rdfs:label>
+	</foaf:Person>
+	
+	<foaf:Person rdf:about="&odhl;people/gabriellaverga">
+		<foaf:name>Gabriella Verga</foaf:name>
+		<rdfs:label>Gabriella Verga</rdfs:label>
+	</foaf:Person>
+	
+	<foaf:Person rdf:about="&odhl;people/mariacristinaruggieri">
+		<foaf:name>Maria Cristina Ruggieri</foaf:name>
+		<rdfs:label>Maria Cristina Ruggieri</rdfs:label>
+	</foaf:Person>
 
+	<foaf:Person rdf:about="&odhl;people/teresamicarelli">
+		<foaf:name>Teresa Micarelli</foaf:name>
+		<rdfs:label>Teresa Micarelli</rdfs:label>
+	</foaf:Person>
+	
 	<!-- /////////////////////////////// LICENCES /////////////////////////////////////// -->
 	
 	<doap:License rdf:about="http://www.gnu.org/licenses/lgpl-3.0">
@@ -224,6 +243,7 @@
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/andreacostazza" />
 		<doap:developer rdf:resource="&odhl;people/mirkoraimondoaiello" />
+		<doap:developer rdf:resource="&odhl;people/federicofrasca" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/sparql_suite/repo">
 				<doap:location rdf:resource="https://github.com/opendatahacklab/sparql_suite" />
@@ -471,6 +491,31 @@ page Open Data Unofficial del Comune di Catania.
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
 	</doap:Project>
 
+	<doap:Project rdf:about="&odhl;projects/bastione-infetti">
+		<doap:name>Bastione degli Infetti Web Site</doap:name>
+		<doap:shortdesc>
+This is a joint project with the Catania Google Developers Group, 
+aiming at promoting the "Bastione degli Infetti", a heritage site 
+returned to public access thanks to the citisen committee "Antico Corso".
+		</doap:shortdesc>
+		<doap:homepage rdf:resource="http://bastionedeglinfettict.it" />
+		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:developer rdf:resource="&odhl;people/albertoberrittella" />
+		<doap:developer rdf:resource="&odhl;people/michelemaresca" />
+		<doap:developer rdf:resource="&odhl;people/gabrielemessina" />
+		<doap:developer rdf:resource="&odhl;people/federicofrasca" />
+		<doap:helper rdf:resource="&odhl;people/mariacristinaruggieri" />
+		<doap:helper rdf:resource="&odhl;people/teresamicarelli" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl_projects_root;bastione-infetti/repo">
+				<doap:location
+					rdf:resource="https://github.com/opendatahacklab/bastione-infetti.git" />
+				<doap:browse
+					rdf:resource="https://github.com/opendatahacklab/bastione-infetti" />
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
+	</doap:Project>
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Organizations // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -1166,6 +1211,48 @@ Siete tutti invitati!
 			</locn:Geometry>
 		</locn:geometry>
 	</locn:Location>	
+	
+	<event:Event rdf:about="&odhl;events/26092016">
+		<rdfs:label>La vita fuotri da Facebook ... nel Cynerspazio</rdfs:label>
+		<rdfs:comment>
+La struttura decentralizzata della rete internet rende molto difficile controllare le comunicazioni che viaggiano attraverso essa. Alla luce di questo, la rete internet può essere considerata un potentissimostrumento di libertà.
+
+Nel corso degli ultimi anni l’avvento dei motori di ricerca e dei social network ha fatto si che l’accesso alle informazioni su internet avvenga sempre più in maniera intermediata attraverso delle piattaforme gestite società private multinazionali che sono quindi in grado, in potenza, di monitorare e manipolare il flusso informativo che giunge agli utenti finali (si stima ad esempio che
+Google Inc. sia in grado di influenzare più del 20% dei votanti ad ogni elezione presidenziale negli Stati Uniti d’America) senza considereare il fatto che questi grandi Hub di comunicazione possono essere monitorati anche da parte di agenzie governative
+
+Per fortuna la natura libera di Internet è ancora viva e forte: è ancora possibile pubblicare il proprio sito web, mettere su un proprio nodo ed un proprio server per chat, inviare mail utilizzando uno degli svariati provider che più ci aggradano, utilizzare sistemi di cifratura per proteggere la confidenzialità delle nostre comunicazioni, etc.
+
+IL CORSO
+
+Il corso intende mostrare e fornire gli strumenti per utilizzare strumenti e protocolli liberi per la comunicazione e la diffusione di informazioni su internet. 
+Tra gli altri, verrà esaminato il protocollo RSS (Really Simple Syndication) che permette la creazione di flussi informativi per segnalare e condividere articoli, notizie e informazioni di altro
+genere presenti su internet. Durante il corso verrà data una panoramica sugli strumenti per lafruizione dei feed rss e verranno presentati alcuni dei feed oggi disponibili. 
+
+Verrà inoltre esaminato il dietro le quinte in una attività laboratoriale nella quale saranno dati gli strumenti ai presenti per realizzare il proprio feed.
+
+Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di 15 euro ad incontro. Sarà possibile iscriversi durante la serata del 19 Settembre sempre presso l'associazione Chilometro Zero		</rdfs:comment>		
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-16T12:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="&odhl;people/cristianolongo" />
+		<event:agent rdf:resource="http://www.chilometrozeroct.it/me" />
+		<event:place rdf:resource="&cct;via_grotte_bianche56" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/26092016/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/26092016/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-26T20:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/26092016/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-26T21:30:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/26092016" />
+	</event:Event>
+	
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
