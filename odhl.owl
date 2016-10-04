@@ -763,6 +763,40 @@ returned to public access thanks to the citisen committee "Antico Corso".
 		</locn:geometry>
 	</locn:Location>
 	
+	<org:Organization rdf:about="http://gdgcatania.com/me">
+		<rdfs:label>Google Developer Group Catania</rdfs:label>
+		<foaf:name>Google Developer Group Catania</foaf:name>
+		<foaf:homepage rdf:resource="http://gdgcatania.com" />
+	</org:Organization>
+
+	<org:Organization rdf:about="&odhl;people/anticocorso">
+		<rdfs:label>Comitato Popolare Antico Corso</rdfs:label>
+		<foaf:name>Comitato Popolare Antico Corso</foaf:name>
+		<foaf:logo rdf:resource="http://bastionedeglinfettict.it/img/corsoantico.png" />
+		<org:hasSite rdf:resource="&odhl;places/bastionedeglinfettict" />
+	</org:Organization>
+
+	
+	<locn:Location rdf:about="&odhl;places/bastionedeglinfettict">
+		<rdfs:label>Bastione degli Infetti Catania</rdfs:label>
+		<locn:address>
+			<locn:Address rdf:about="&cct;via_pietro_antonio-coppola6_address">
+				<rdfs:label>Bastione degli Infetti, Via Torre del Vescovo, Catania, Italy</rdfs:label>
+				<locn:fullAddress>Bastione degli Infetti, Via Torre del Vescovo, Catania, Italy</locn:fullAddress>
+				<locn:thoroughfare>Via Torre del Vescovo</locn:thoroughfare>
+				<locn:postName>Catania</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+		<locn:geometry>
+			<locn:Geometry rdf:about="&cct;via_pietro_antonio-coppola6_geometry">
+				<geo:lat>37.50754</geo:lat>
+				<geo:long>15.085101</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
+	</locn:Location>
+	
+	
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Events and related resources // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -1211,9 +1245,9 @@ Siete tutti invitati!
 			</locn:Geometry>
 		</locn:geometry>
 	</locn:Location>	
-	
+
 	<event:Event rdf:about="&odhl;events/26092016">
-		<rdfs:label>La vita fuotri da Facebook ... nel Cynerspazio</rdfs:label>
+		<rdfs:label>La vita fuotri da Facebook ... nel Cyberspazio</rdfs:label>
 		<rdfs:comment>
 La struttura decentralizzata della rete internet rende molto difficile controllare le comunicazioni che viaggiano attraverso essa. Alla luce di questo, la rete internet può essere considerata un potentissimostrumento di libertà.
 
@@ -1252,6 +1286,47 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		</event:time>
 		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/26092016" />
 	</event:Event>
+
+	<event:Event rdf:about="&odhl;events/16102016">
+		<rdfs:label>THE BIG DRAW - Io di-segno - Presentazione del sito del Bastione degli Infetti</rdfs:label>
+		<rdfs:comment>	
+		Io di-segno &#232; un evento che si inserisce nel Festival Internazionale del 
+		Disegno &quot;THE BIG DRAW&quot; organizzato nella nostra citt&#224; dal Comitato Popolare 
+		Antico Corso. Nel corso di due giornate, 9 e 16 ottobre saranno attivati 
+		diversi laboratori creativi rivolti a bambini, giovani ed adulti per fare 
+		scoprire loro le proprie abilit&#224; di rappresentazione e comprensione di 
+		tematiche ritenuti &#8220;troppo&#8221; difficili mediante il disegno. Il tema del 
+		The big draw Festival 2016, partito dal Regno Unito e che coinvolge ormai
+		tantissime organizzazioni a livello planetario, &#232; STEAM POWERED e vuole 
+		fare risaltare la capacit&#224; di rappresentare concetti complessi tipici 
+		del settore scientifico e tecnologico, mediante il disegno.
+		
+		Durante l&#39;evento conclusivo verr&#224; presentato il sito del Bastione degli Infetti,
+		realizzato dall&#39;opendatahacklab e dal Google Developer Group Catania.		
+
+		</rdfs:comment>	
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/16102016/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/16102016/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-16T17:30:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/16102016/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-16T22:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-04T23:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="&odhl;people/anticocorso" />
+		<event:agent rdf:resource="http://gdgcatania.org/me" />
+		<event:place rdf:resource="&odhl;places/bastionedeglinfettict" />
+		<foaf:homepage rdf:resource="http://bastionedeglinfettict.it/eventdetails.html?iri=http%3A%2F%2Fdydra.com%2Ffree-agenda%2F20161016%2FThe%2Bbig%2Bdraw%2Ba%2BCatania%2B%2522Io%2BDi%2B%252FSegno%2522%2B-%2BSeconda%2BGiornata%2F" />		
+	</event:Event>
+	
 	
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
