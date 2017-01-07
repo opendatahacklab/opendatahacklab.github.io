@@ -234,8 +234,8 @@
 		<doap:developer rdf:resource="&odhl;people/antoniopisasale" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/semanticoctopus/repo">
-				<doap:location rdf:resource="https://github.com/opendatahacklab/sparql_suite" />
-				<doap:browse rdf:resource="https://github.com/opendatahacklab/semanticoctopus.git" />
+				<doap:location rdf:resource="https://github.com/opendatahacklab/semanticoctopus.git" />
+				<doap:browse rdf:resource="https://github.com/opendatahacklab/semanticoctopus" />
 			</doap:GitRepository>
 		</doap:repository>
 	</doap:Project>
