@@ -227,7 +227,7 @@
 			The semantic octopus is a framework for aggregating multiple ontolgies and
 			provide them via a SPARQL endpoint.
 		</doap:shortdesc>
-		<doap:homepage rdf:resource="&odhl_projects_root;semanticoctoups" />
+		<doap:homepage rdf:resource="&odhl_projects_root;semanticoctopus" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/gabriellaverga" />
