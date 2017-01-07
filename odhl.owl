@@ -28,15 +28,15 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:event="&event;"
 	xmlns:time="&time;" xmlns:sioc="&sioc;" xmlns:dcat="&dcat;">
 	<owl:Ontology rdf:about="&odhl;">
-		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl1.1.0owl" />
-		<owl:versionInfo>1.2.1</owl:versionInfo>
+		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl1.3.1" />
+		<owl:versionInfo>1.3.1</owl:versionInfo>
 		<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>		
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
 		<owl:imports rdf:resource="http://www.w3.org/ns/locn" />
 		<owl:imports rdf:resource="http://www.w3.org/ns/org" />
-		<owl:imports rdf:resource="http://xmlns.com/foaf/0.1/" />
+		<!-- owl:imports rdf:resource="http://xmlns.com/foaf/0.1/" /-->
 		<owl:imports rdf:resource="http://www.w3.org/2006/time" />
 		<owl:imports rdf:resource="http://rdfs.org/sioc/ns" />
 		<owl:imports rdf:resource="http://www.w3.org/ns/dcat.rdf" />
