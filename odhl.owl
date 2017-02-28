@@ -803,10 +803,6 @@ returned to public access thanks to the citisen committee "Antico Corso".
 		<foaf:name>Palestra Per la Mente</foaf:name>
 	</org:Organization>
 
-	<org:Organization rdf:about="http://palestraperlamente.org/me">
-		<rdfs:label>Palestra Per la Mente</rdfs:label>
-		<foaf:name>Palestra Per la Mente</foaf:name>
-	</org:Organization>
 
 	<org:Organization rdf:about="http://www.wikimedia.it/me">
 		<rdfs:label>Wikimedia Italia</rdfs:label>
@@ -874,6 +870,21 @@ returned to public access thanks to the citisen committee "Antico Corso".
 		</locn:geometry>
 	</locn:Location>
 
+	<org:Organization rdf:about="&odhl;people/farenostrum">
+		<rdfs:label>Fare Nostrum</rdfs:label>
+		<foaf:name>Fare Nostrum</foaf:name>
+	</org:Organization>
+
+	<org:Organization rdf:about="&odhl;people/ambientenostrum">
+		<rdfs:label>Ambiente Nostrum</rdfs:label>
+		<foaf:name>Ambiente Nostrum</foaf:name>
+	</org:Organization>
+
+	<org:Organization rdf:about="&odhl;people/generazioney">
+		<rdfs:label>Generazione Y</rdfs:label>
+		<foaf:name>Generazione Y</foaf:name>
+	</org:Organization>
+	
 	<locn:Location rdf:about="&odhl;places/sanvincenzoct">
 		<rdfs:label>Istituto San Vincenzo - Casa della Carit&agrave;</rdfs:label>
 		<locn:address>
@@ -883,6 +894,20 @@ returned to public access thanks to the citisen committee "Antico Corso".
 				<locn:thoroughfare>Via Scandurra</locn:thoroughfare>
 				<locn:locatorDesignator>8</locn:locatorDesignator>
 				<locn:postName>Catania</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+	</locn:Location>
+
+	<locn:Location rdf:about="&odhl;places/gravinact/parcoborsellino">
+		<rdfs:label>Parco Borsellino, Via Roma, Gravina di Catania</rdfs:label>
+		<locn:address>
+			<locn:Address rdf:about="&odhl;places/gravinact/parcoborsellino_address">
+				<rdfs:label>Parco Borsellino, Via Roma, Gravina di Catania</rdfs:label>
+				<locn:fullAddress>Parco Borsellino, Via Roma, Gravina di Catania</locn:fullAddress>
+				<locn:locatorName>Parco Borsellino</locn:locatorName>
+				<locn:thoroughfare>Via Roma</locn:thoroughfare>
+				<locn:postName>Gravina di Catania</locn:postName>
 				<locn:adminUnitL1>IT</locn:adminUnitL1>
 			</locn:Address>
 		</locn:address>
@@ -1449,8 +1474,8 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 	<event:Event rdf:about="&odhl;events/18022017">
 		<rdfs:label>Libero Software per Libero Internet al Coderdojo</rdfs:label>
 		<rdfs:comment>	
-			Nell'ambito del CoderDojo Etneo #18, mi intratter&egrave; con i genitori
-			per raccontare la storia di Internet e discutere i retroscena, anche negativi e pericolosi,
+			Nell'ambito del CoderDojo Etneo #18, presenter&ograve; una attivit&agrave; 
+			su Internet e i retroscena, anche negativi e pericolosi,
 			della diffusione di questo strumento.
 		</rdfs:comment>	
 		<event:time>
@@ -1467,14 +1492,65 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 				</time:hasEnd>
 			</time:Interval>
 		</event:time>
-		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T12:00:00+01:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-18T12:00:00+01:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
-		<event:agent rdf:resource="http://hackspacecatania.it/me" />
+		<event:agent rdf:resource="http://hackspacecatania.it/me" /7
 		<event:agent rdf:resource="http://www.youcultures.com/me" />
 		<event:agent rdf:resource="http://palestraperlamente.org/me" />
 		<event:place rdf:resource="&odhl;places/sanvincenzoct" />
 		<foaf:homepage rdf:resource="http://opendatahacklab.org/free-agenda/coderdojo-etneo/eventDetails.php?iri=http%3A%2F%2Fdydra.com%2Ffree-agenda%2F20170218%2FCoderDojo%2BEtneo%2B%252318%2F" />
 	</event:Event>
+
+	<event:Event rdf:about="&odhl;events/04032017morning">
+		<rdfs:label>OPEN DATA uno strumento semplice per informare</rdfs:label>
+		<rdfs:comment>	
+			Conferenza introduttiva sul tema OPEN DATA uno strumento semplice per informare
+		</rdfs:comment>	
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/04032017morning/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/04032017morning/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-04T09:30:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/04032017morning/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-04T13:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T12:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="http://hackspacecatania.it/me" />
+		<event:agent rdf:resource="&odhl;people/farenostrum" />
+		<event:agent rdf:resource="&odhl;people/ambientenostrum" />
+		<event:agent rdf:resource="&odhl;people/generazioney" />
+		<event:place rdf:resource="&odhl;places/gravinact/parcoborsellino" />
+	</event:Event>
+	
+	<event:Event rdf:about="&odhl;events/04032017evening">
+		<rdfs:label>INTERNET una storia vera</rdfs:label>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T19:00:00+02:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/04032017evening/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/04032017evening/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-04T19:00:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="http://hackspacecatania.it/me" />
+		<event:agent rdf:resource="&odhl;people/farenostrum" />
+		<event:agent rdf:resource="&odhl;people/ambientenostrum" />
+		<event:agent rdf:resource="&odhl;people/generazioney" />
+		<foaf:homepage rdf:resource="http://hackspacecatania.it/internet-una-storia-vera/" />
+	</event:Event>
+	
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
