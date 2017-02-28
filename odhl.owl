@@ -873,6 +873,20 @@ returned to public access thanks to the citisen committee "Antico Corso".
 			</locn:Geometry>
 		</locn:geometry>
 	</locn:Location>
+
+	<locn:Location rdf:about="&odhl;places/sanvincenzoct">
+		<rdfs:label>Istituto San Vincenzo - Casa della Carit&agrave;</rdfs:label>
+		<locn:address>
+			<locn:Address rdf:about="&odhl;places/sanvincenzoct_address">
+				<rdfs:label>Istituto San Vincenzo, 8, Via Scandurra, Catania, Italy</rdfs:label>
+				<locn:fullAddress>Istituto San Vincenzo, 8, Via Scandurra, Catania, Italy</locn:fullAddress>
+				<locn:thoroughfare>Via Scandurra</locn:thoroughfare>
+				<locn:locatorDesignator>8</locn:locatorDesignator>
+				<locn:postName>Catania</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+	</locn:Location>
 	
 	
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
@@ -1405,7 +1419,62 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<foaf:homepage rdf:resource="http://bastionedeglinfettict.it/eventdetails.html?iri=http%3A%2F%2Fdydra.com%2Ffree-agenda%2F20161016%2FThe%2Bbig%2Bdraw%2Ba%2BCatania%2B%2522Io%2BDi%2B%252FSegno%2522%2B-%2BSeconda%2BGiornata%2F" />		
 	</event:Event>
 	
+	<event:Event rdf:about="&odhl;events/15022017">
+		<rdfs:label>Libero Software per Libero Internet al Liceo Spedalieri di Catania</rdfs:label>
+		<rdfs:comment>	
+			Nell'ambito dell'alternanza scuola lavoro, il 15 Febbraio terr&ograve; agli
+			studenti del Liceo Scientifico Statale Nicola Spedalieri un seminario sulla
+			storia di Internet e sulle tecnologie sulle quali insiste.
+		</rdfs:comment>	
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/15022017/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/15022017/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-15T11:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/15022017/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-15T12:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T12:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="&odhl;people/anticocorso" />
+		<event:place rdf:resource="http://www.openstreetmap.org/way/25383307" />
+	</event:Event>
 	
+	<event:Event rdf:about="&odhl;events/18022017">
+		<rdfs:label>Libero Software per Libero Internet al Coderdojo</rdfs:label>
+		<rdfs:comment>	
+			Nell'ambito del CoderDojo Etneo #18, mi intratter&egrave; con i genitori
+			per raccontare la storia di Internet e discutere i retroscena, anche negativi e pericolosi,
+			della diffusione di questo strumento.
+		</rdfs:comment>	
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/18022017/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/18022017/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-18T16:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/18022017/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-18T19:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-14T12:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="http://hackspacecatania.it/me" />
+		<event:agent rdf:resource="http://www.youcultures.com/me" />
+		<event:agent rdf:resource="http://palestraperlamente.org/me" />
+		<event:place rdf:resource="&odhl;places/sanvincenzoct" />
+		<foaf:homepage rdf:resource="http://opendatahacklab.org/free-agenda/coderdojo-etneo/eventDetails.php?iri=http%3A%2F%2Fdydra.com%2Ffree-agenda%2F20170218%2FCoderDojo%2BEtneo%2B%252318%2F" />
+	</event:Event>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
