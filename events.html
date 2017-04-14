@@ -13,7 +13,6 @@
 		<img class="logo" src="../commons/imgs/logo_cog4_ter.png" alt="the opendatahacklab logo" />
 		<h1>opendatahacklab - events</h1>
 		<p class="subtitle">THE OPEN DATA HACKING LABORATORY - Powered by 
-			<a href="http://dydra.com"><img alt="dydra.com" src="../commons/imgs/dydra-logo-24pt.png" /></a>
 			<a class="wt-tech" target="_blank" href="http://wt-tech.it">WT-TECH</a>
 		</p>
 		<nav>
@@ -102,7 +101,7 @@ function EventProcessor(){
 
 var p = new EventQueryProcessor(new EventProcessor(), new Date());
 
-sparql_query("http://dydra.com/cristianolongo/odhl/sparql", p);
+sparql_query("sparql.php", p);
 	</script>
 </body>
 </html>
