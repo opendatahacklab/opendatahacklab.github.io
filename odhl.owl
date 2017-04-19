@@ -30,13 +30,13 @@
 	<owl:Ontology rdf:about="&odhl;">
 		<owl:versionIRI rdf:resource="http://opendatahacklab.org/odhl1.3.1" />
 		<owl:versionInfo>1.3.1</owl:versionInfo>
-		<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>		
+		<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 		<dc:creator rdf:resource="&odhl;people/cristianolongo" />
 		<owl:imports rdf:resource="http://usefulinc.com/ns/doap#" />
 		<owl:imports rdf:resource="http://motools.sf.net/event/event.n3" />
 		<owl:imports rdf:resource="http://www.w3.org/ns/locn" />
 		<owl:imports rdf:resource="http://www.w3.org/ns/org" />
-		<!-- owl:imports rdf:resource="http://xmlns.com/foaf/0.1/" /-->
+		<!-- owl:imports rdf:resource="http://xmlns.com/foaf/0.1/" / -->
 		<owl:imports rdf:resource="http://www.w3.org/2006/time" />
 		<owl:imports rdf:resource="http://rdfs.org/sioc/ns" />
 		<owl:imports rdf:resource="http://www.w3.org/ns/dcat.rdf" />
@@ -74,7 +74,7 @@
 		<foaf:name>Andrea Costazza</foaf:name>
 		<rdfs:label>Andrea Costazza</rdfs:label>
 	</foaf:Person>
-	
+
 	<foaf:Person rdf:about="&odhl;people/antoniopisasale">
 		<foaf:name>Antonio Pisasale</foaf:name>
 		<rdfs:label>Antonio Pisasale</rdfs:label>
@@ -141,12 +141,12 @@
 		<foaf:name>Carlo Condarelli</foaf:name>
 		<rdfs:label>Carlo Condarelli</rdfs:label>
 	</foaf:Person>
-	
+
 	<foaf:Person rdf:about="&odhl;people/michelebellocchi">
 		<foaf:name>Michele Bellocchi</foaf:name>
 		<rdfs:label>Michele Bellocchi</rdfs:label>
 	</foaf:Person>
-	
+
 	<foaf:Person rdf:about="&odhl;people/massimilianoportelli">
 		<foaf:name>Massimiliano Portelli</foaf:name>
 		<rdfs:label>Massimiliano Portelli</rdfs:label>
@@ -166,17 +166,17 @@
 		<foaf:name>Alberto Berrittella</foaf:name>
 		<rdfs:label>Alberto Berrittella</rdfs:label>
 	</foaf:Person>
-	
+
 	<foaf:Person rdf:about="&odhl;people/federicofrasca">
 		<foaf:name>Federico Frasca</foaf:name>
 		<rdfs:label>Federico Frasca</rdfs:label>
 	</foaf:Person>
-	
+
 	<foaf:Person rdf:about="&odhl;people/gabriellaverga">
 		<foaf:name>Gabriella Verga</foaf:name>
 		<rdfs:label>Gabriella Verga</rdfs:label>
 	</foaf:Person>
-	
+
 	<foaf:Person rdf:about="&odhl;people/mariacristinaruggieri">
 		<foaf:name>Maria Cristina Ruggieri</foaf:name>
 		<rdfs:label>Maria Cristina Ruggieri</rdfs:label>
@@ -186,15 +186,15 @@
 		<foaf:name>Teresa Micarelli</foaf:name>
 		<rdfs:label>Teresa Micarelli</rdfs:label>
 	</foaf:Person>
-	
+
 	<!-- /////////////////////////////// LICENCES /////////////////////////////////////// -->
-	
+
 	<doap:License rdf:about="http://www.gnu.org/licenses/lgpl-3.0">
-		 <rdfs:label>LGPL 3.0</rdfs:label>
-		 <dc:title>GNU Lesser General Public License v3.0</dc:title>
-		 <foaf:homepage rdf:resource="http://www.gnu.org/licenses/lgpl-3.0.html" />
+		<rdfs:label>LGPL 3.0</rdfs:label>
+		<dc:title>GNU Lesser General Public License v3.0</dc:title>
+		<foaf:homepage rdf:resource="http://www.gnu.org/licenses/lgpl-3.0.html" />
 	</doap:License>
-	
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Projects // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -224,7 +224,8 @@
 	<doap:Project rdf:about="&odhl;projects/semanticoctopus">
 		<doap:name>Semantic Octopus</doap:name>
 		<doap:shortdesc>
-			The semantic octopus is a framework for aggregating multiple ontolgies and
+			The semantic octopus is a framework for aggregating
+			multiple ontolgies and
 			provide them via a SPARQL endpoint.
 		</doap:shortdesc>
 		<doap:homepage rdf:resource="&odhl_projects_root;semanticoctopus" />
@@ -232,9 +233,11 @@
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/gabriellaverga" />
 		<doap:developer rdf:resource="&odhl;people/antoniopisasale" />
+		<license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/semanticoctopus/repo">
-				<doap:location rdf:resource="https://github.com/opendatahacklab/semanticoctopus.git" />
+				<doap:location
+					rdf:resource="https://github.com/opendatahacklab/semanticoctopus.git" />
 				<doap:browse rdf:resource="https://github.com/opendatahacklab/semanticoctopus" />
 			</doap:GitRepository>
 		</doap:repository>
@@ -250,18 +253,26 @@
 		<doap:desc>
 			SPARQL Suite is a set of javascript libraries to perform
 			SPARQL queries
-			and to process query results. The core component of this suite is the
-			SPARQL processing library, which provides the basic querying
+			and to process query results. The core component of
+			this suite is the
+			SPARQL processing library, which provides the basic
+			querying
 			functionalities.
-			Backed by this library, a processor related with
+			Backed by this library, a processor related
+			with
 			locations defined using the
-			LOCN vocabulary is provided, namely the LOCN SPARQL processor. Finally,
-			two ready-to-use utilities to show locations retrieved by a SPARQL
+			LOCN vocabulary is provided, namely
+			the LOCN SPARQL processor. Finally,
+			two ready-to-use utilities to show
+			locations retrieved by a SPARQL
 			endpoint
-			is provided: the GoogleMapSPARQLprocessor to show locations on a Google
-			map, and LeafletMapSPARQLprocessor to show locations on a map based
+			is provided: the
+			GoogleMapSPARQLprocessor to show locations on a Google
+			map, and
+			LeafletMapSPARQLprocessor to show locations on a map based
 			on
-			the Leafletjs library.
+			the
+			Leafletjs library.
 		</doap:desc>
 		<doap:homepage rdf:resource="&odhl_projects_root;sparql_suite" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
@@ -303,18 +314,26 @@
 		<doap:desc>
 			SPARQL Suite is a set of javascript libraries to perform
 			SPARQL queries
-			and to process query results. The core component of this suite is the
-			SPARQL processing library, which provides the basic querying
+			and to process query results. The core component of
+			this suite is the
+			SPARQL processing library, which provides the basic
+			querying
 			functionalities.
-			Backed by this library, a processor related with
+			Backed by this library, a processor related
+			with
 			locations defined using the
-			LOCN vocabulary is provided, namely the LOCN SPARQL processor. Finally,
-			two ready-to-use utilities to show locations retrieved by a SPARQL
+			LOCN vocabulary is provided, namely
+			the LOCN SPARQL processor. Finally,
+			two ready-to-use utilities to show
+			locations retrieved by a SPARQL
 			endpoint
-			is provided: the GoogleMapSPARQLprocessor to show locations on a Google
-			map, and LeafletMapSPARQLprocessor to show locations on a map based
+			is provided: the
+			GoogleMapSPARQLprocessor to show locations on a Google
+			map, and
+			LeafletMapSPARQLprocessor to show locations on a map based
 			on
-			the Leafletjs library.
+			the
+			Leafletjs library.
 		</doap:desc>
 		<doap:homepage rdf:resource="&odhl_projects_root;sparql_suite" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
@@ -357,12 +376,14 @@
 		<doap:desc>
 			In this project we develop some tools and mantain knowledge
 			bases
-			related to confiscated assets. The goal is to build a huge knowledge
+			related to confiscated assets. The goal is to build a huge
+			knowledge
 			base of
 			confiscated assets in Sicily: a generic vocabulary to
 			represent
 			confiscated assets, and ontology of which public
-			administrations provide enough information about confiscated assets it
+			administrations provide enough information about confiscated assets
+			it
 			owns,
 			ontologies of these assets. We release the tools used to build
 			this
@@ -449,7 +470,10 @@
 	<doap:Project rdf:about="&odhl;projects/morning-after-rebeldesse">
 		<doap:name>Morning-after Pill</doap:name>
 		<doap:shortdesc>
-			In this project we publish as open data a non-exhaustive list of pharmacies which sell the morning-after pill in the city of Catania. These pharmacies has been tested by the Rebeldesse group, which operates in the scope of Officina Rebelde.
+			In this project we publish as open data a
+			non-exhaustive list of pharmacies which sell the morning-after pill
+			in the city of Catania. These pharmacies has been tested by the
+			Rebeldesse group, which operates in the scope of Officina Rebelde.
 		</doap:shortdesc>
 		<doap:homepage rdf:resource="&odhl_projects_root;morning-after-rebeldesse/" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
@@ -467,8 +491,10 @@
 	<doap:Project rdf:about="&odhl;projects/tools-for-culturaitalia">
 		<doap:name>Tools for culturaitalia</doap:name>
 		<doap:shortdesc>
-			This project concerns tools for accessing in a simplified way the
-			data in the dataset provided in the culturaitalia dataset.
+			This project concerns tools for accessing in a
+			simplified way the
+			data in the dataset provided in the culturaitalia
+			dataset.
 		</doap:shortdesc>
 		<doap:homepage rdf:resource="&odhl_projects_root;tools_for_culturaitalia/" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
@@ -486,11 +512,15 @@
 	<doap:Project rdf:about="&odhl;projects/agrievents">
 		<doap:name>AgriEvents</doap:name>
 		<doap:shortdesc>
-			The agrievents project aims to provide tools for agrifood farmers and 
-			market organizers to publish as open data information about markets 
-			where agrifood products ban be bought. A technical report describing 
-			how market events and products are described is provided, along with a 
-			sample application.		
+			The agrievents project aims to provide tools for
+			agrifood farmers and
+			market organizers to publish as open data
+			information about markets
+			where agrifood products ban be bought. A
+			technical report describing
+			how market events and products are
+			described is provided, along with a
+			sample application.
 		</doap:shortdesc>
 		<doap:homepage rdf:resource="&odhl_projects_root;agrievents" />
 		<doap:maintainer rdf:resource="&odhl;people/cristianolongo" />
@@ -498,10 +528,8 @@
 		<doap:developer rdf:resource="&odhl;people/massimilianoportelli" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/agrievents/repo">
-				<doap:location
-					rdf:resource="https://github.com/opendatahacklab/agrievents.git" />
-				<doap:browse
-					rdf:resource="https://github.com/opendatahacklab/agrievents" />
+				<doap:location rdf:resource="https://github.com/opendatahacklab/agrievents.git" />
+				<doap:browse rdf:resource="https://github.com/opendatahacklab/agrievents" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
@@ -516,10 +544,8 @@
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl;projects/albopop/repo">
-				<doap:location
-					rdf:resource="https://github.com/aborruso/albo-pop.git" />
-				<doap:browse
-					rdf:resource="https://github.com/aborruso/albo-pop" />
+				<doap:location rdf:resource="https://github.com/aborruso/albo-pop.git" />
+				<doap:browse rdf:resource="https://github.com/aborruso/albo-pop" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
@@ -528,8 +554,10 @@
 	<doap:Project rdf:about="&odhl;projects/free-agenda">
 		<doap:name>Free Agenda</doap:name>
 		<doap:shortdesc>
-			Tools which allow organizations to publish RDF events from a
-			google sheet. The project hosts agendas from some organizations.
+			Tools which allow organizations to publish RDF events
+			from a
+			google sheet. The project hosts agendas from some
+			organizations.
 		</doap:shortdesc>
 		<doap:homepage rdf:resource="&odhl_projects_root;free-agenda/" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
@@ -537,10 +565,8 @@
 		<doap:developer rdf:resource="&odhl;people/albertoberrittella" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl_projects_root;free-agenda/repo">
-				<doap:location
-					rdf:resource="https://github.com/opendatahacklab/free-agenda.git" />
-				<doap:browse
-					rdf:resource="https://github.com/opendatahacklab/free-agenda" />
+				<doap:location rdf:resource="https://github.com/opendatahacklab/free-agenda.git" />
+				<doap:browse rdf:resource="https://github.com/opendatahacklab/free-agenda" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
@@ -549,21 +575,21 @@
 	<doap:Project rdf:about="&odhl;projects/cityservices">
 		<doap:name>City Services</doap:name>
 		<doap:shortdesc>
-The project cityservices is a visualization tool in
-javascript for public services and organizational structures modeled
-via the Core Public Service Vocabulary. The implementation presented here uses
-the knowledge base about the municipality of Catania described in the
-page Open Data Unofficial del Comune di Catania. 
+			The project cityservices is a visualization tool in
+			javascript for public services and organizational structures modeled
+			via the Core Public Service Vocabulary. The implementation presented
+			here uses
+			the knowledge base about the municipality of Catania
+			described in the
+			page Open Data Unofficial del Comune di Catania.
 		</doap:shortdesc>
 		<doap:homepage rdf:resource="&odhl_projects_root;cityservices/" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
 		<doap:developer rdf:resource="&odhl;people/andreacostazza" />
 		<doap:repository>
 			<doap:GitRepository rdf:about="&odhl_projects_root;cityservices/repo">
-				<doap:location
-					rdf:resource="https://github.com/opendatahacklab/cityservices.git" />
-				<doap:browse
-					rdf:resource="https://github.com/opendatahacklab/cityservices" />
+				<doap:location rdf:resource="https://github.com/opendatahacklab/cityservices.git" />
+				<doap:browse rdf:resource="https://github.com/opendatahacklab/cityservices" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
@@ -572,9 +598,12 @@ page Open Data Unofficial del Comune di Catania.
 	<doap:Project rdf:about="&odhl;projects/bastione-infetti">
 		<doap:name>Bastione degli Infetti Web Site</doap:name>
 		<doap:shortdesc>
-This is a joint project with the Catania Google Developers Group, 
-aiming at promoting the "Bastione degli Infetti", a heritage site 
-returned to public access thanks to the citisen committee "Antico Corso".
+			This is a joint project with the Catania Google
+			Developers Group,
+			aiming at promoting the "Bastione degli Infetti", a
+			heritage site
+			returned to public access thanks to the citisen
+			committee "Antico Corso".
 		</doap:shortdesc>
 		<doap:homepage rdf:resource="http://bastionedeglinfettict.it" />
 		<doap:developer rdf:resource="&odhl;people/cristianolongo" />
@@ -588,19 +617,40 @@ returned to public access thanks to the citisen committee "Antico Corso".
 			<doap:GitRepository rdf:about="&odhl_projects_root;bastione-infetti/repo">
 				<doap:location
 					rdf:resource="https://github.com/opendatahacklab/bastione-infetti.git" />
-				<doap:browse
-					rdf:resource="https://github.com/opendatahacklab/bastione-infetti" />
+				<doap:browse rdf:resource="https://github.com/opendatahacklab/bastione-infetti" />
 			</doap:GitRepository>
 		</doap:repository>
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
 	</doap:Project>
+
+	<doap:Project rdf:about="&odhl;projects/php-transparent-proxy">
+		<doap:name>PHP Transparent Proxy</doap:name>
+		<doap:shortdesc>
+			A PHP-based http proxy, tested to redirect sparql
+			queries. It is a
+			fork
+			of php-transparent-proxy by eslachance.
+		</doap:shortdesc>
+		<doap:mantainer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl;projects/php-transparent-proxy/repo">
+				<doap:location
+					rdf:resource="https://github.com/opendatahacklab/php-transparent-proxy.git" />
+				<doap:browse
+					rdf:resource="https://github.com/opendatahacklab/php-transparent-proxy" />
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
+	</doap:Project>
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Organizations // /////////////////////////////////////////////////////////////////////////////////////// -->
 
 	<org:Organization rdf:about="http://hackspacecatania.it/me">
 		<rdfs:label>HACKSPACE Catania</rdfs:label>
 		<foaf:name>HACKSPACE Catania</foaf:name>
-		<foaf:logo rdf:resource="http://hackspacecatania.it/wp-content/uploads/2014/04/logo-hackspace-learn1.png" />
+		<foaf:logo
+			rdf:resource="http://hackspacecatania.it/wp-content/uploads/2014/04/logo-hackspace-learn1.png" />
 		<foaf:homepage rdf:resource="http://hackspacecatania.it/" />
 		<org:hasPrimarySite
 			rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
@@ -726,11 +776,12 @@ returned to public access thanks to the citisen committee "Antico Corso".
 			</locn:Geometry>
 		</locn:geometry>
 	</locn:Location>
-	
+
 	<org:Organization rdf:about="http://www.officinarebelde.org/me">
 		<rdfs:label>Officina Rebelde</rdfs:label>
 		<foaf:name>Officina Rebelde</foaf:name>
-		<foaf:logo rdf:resource="http://www.officinarebelde.org/local/cache-vignettes/L120xH115/arton16-fa99c.jpg" />
+		<foaf:logo
+			rdf:resource="http://www.officinarebelde.org/local/cache-vignettes/L120xH115/arton16-fa99c.jpg" />
 		<foaf:homepage rdf:resource="http://www.officinarebelde.org/" />
 		<org:hasPrimarySite rdf:resource="&cct;via_pietro_antonio_coppola6" />
 		<org:hasSubOrganization>
@@ -741,7 +792,7 @@ returned to public access thanks to the citisen committee "Antico Corso".
 		</org:hasSubOrganization>
 	</org:Organization>
 
-	
+
 	<locn:Location rdf:about="&cct;via_pietro_antonio_coppola6">
 		<locn:address>
 			<locn:Address rdf:about="&cct;via_pietro_antonio-coppola6_address">
@@ -765,15 +816,17 @@ returned to public access thanks to the citisen committee "Antico Corso".
 		<rdfs:label>Università degli Studi di Catania</rdfs:label>
 		<foaf:name>Università degli Studi di Catania</foaf:name>
 		<foaf:homepage rdf:resource="http://www.unict.it" />
-		<foaf:logo rdf:resource="http://www.unict.it/sites/default/files/images/orizzontale-grigio.png" />
+		<foaf:logo
+			rdf:resource="http://www.unict.it/sites/default/files/images/orizzontale-grigio.png" />
 	</org:FormalOrganization>
 
 	<locn:Location rdf:about="http://www.dmi.unict.it/location">
 		<locn:address>
-			<locn:Address
-				rdf:about="http://www.dmi.unict.it/location_address">
-				<rdfs:label>Dipartimento di Matematica ed Informatica, Cittadella Universitaria, 6, Viale Andrea Doria, Catania, Italy</rdfs:label>
-				<locn:fullAddress>Dipartimento di Matematica ed Informatica, Cittadella Universitaria, 6, Viale Andrea Doria, Catania, Italy</locn:fullAddress>
+			<locn:Address rdf:about="http://www.dmi.unict.it/location_address">
+				<rdfs:label>Dipartimento di Matematica ed Informatica, Cittadella
+					Universitaria, 6, Viale Andrea Doria, Catania, Italy</rdfs:label>
+				<locn:fullAddress>Dipartimento di Matematica ed Informatica,
+					Cittadella Universitaria, 6, Viale Andrea Doria, Catania, Italy</locn:fullAddress>
 				<locn:thoroughfare>Viale Andrea Doria</locn:thoroughfare>
 				<locn:postName>Catania</locn:postName>
 				<locn:locatorName>Cittadella Universitaria</locn:locatorName>
@@ -782,8 +835,7 @@ returned to public access thanks to the citisen committee "Antico Corso".
 			</locn:Address>
 		</locn:address>
 		<locn:geometry>
-			<locn:Geometry
-				rdf:about="http://www.dmi.unict.it/location_geometry">
+			<locn:Geometry rdf:about="http://www.dmi.unict.it/location_geometry">
 				<!-- TODO add provenance information, http://nominatim.openstreetmap.org/details.php?place_id=113566488 -->
 				<geo:lat>37.52594775</geo:lat>
 				<geo:long>15.0734235134865</geo:long>
@@ -795,7 +847,8 @@ returned to public access thanks to the citisen committee "Antico Corso".
 		<rdfs:label>youcultures</rdfs:label>
 		<foaf:name>youcultures</foaf:name>
 		<foaf:homepage rdf:resource="http://www.youcultures.com/" />
-		<foaf:logo rdf:resource="http://www.youcultures.com/homeweb/resources/images/Testata-02.gif" />
+		<foaf:logo
+			rdf:resource="http://www.youcultures.com/homeweb/resources/images/Testata-02.gif" />
 	</org:Organization>
 
 	<org:Organization rdf:about="http://palestraperlamente.org/me">
@@ -808,14 +861,14 @@ returned to public access thanks to the citisen committee "Antico Corso".
 		<rdfs:label>Wikimedia Italia</rdfs:label>
 		<foaf:name>Wikimedia Italia</foaf:name>
 		<foaf:homepage rdf:resource="http://www.wikimedia.it/" />
-		<foaf:logo rdf:resource="http://www.wikimedia.it/wp-content/uploads/2015/03/Wiki-Media-Logo.png" />
+		<foaf:logo
+			rdf:resource="http://www.wikimedia.it/wp-content/uploads/2015/03/Wiki-Media-Logo.png" />
 	</org:Organization>
 
 	<org:Organization rdf:about="http://www.chilometrozeroct.com/me">
 		<rdfs:label>Chilometro Zero</rdfs:label>
 		<foaf:name>Chilometro Zero</foaf:name>
-		<org:hasPrimarySite
-			rdf:resource="&cct;via_grotte_bianche56" />
+		<org:hasPrimarySite rdf:resource="&cct;via_grotte_bianche56" />
 	</org:Organization>
 
 	<locn:Location rdf:about="&cct;via_grotte_bianche56">
@@ -836,7 +889,7 @@ returned to public access thanks to the citisen committee "Antico Corso".
 			</locn:Geometry>
 		</locn:geometry>
 	</locn:Location>
-	
+
 	<org:Organization rdf:about="http://gdgcatania.com/me">
 		<rdfs:label>Google Developer Group Catania</rdfs:label>
 		<foaf:name>Google Developer Group Catania</foaf:name>
@@ -850,13 +903,15 @@ returned to public access thanks to the citisen committee "Antico Corso".
 		<org:hasSite rdf:resource="&odhl;places/bastionedeglinfettict" />
 	</org:Organization>
 
-	
+
 	<locn:Location rdf:about="&odhl;places/bastionedeglinfettict">
 		<rdfs:label>Bastione degli Infetti Catania</rdfs:label>
 		<locn:address>
 			<locn:Address rdf:about="&cct;via_pietro_antonio-coppola6_address">
-				<rdfs:label>Bastione degli Infetti, Via Torre del Vescovo, Catania, Italy</rdfs:label>
-				<locn:fullAddress>Bastione degli Infetti, Via Torre del Vescovo, Catania, Italy</locn:fullAddress>
+				<rdfs:label>Bastione degli Infetti, Via Torre del Vescovo, Catania,
+					Italy</rdfs:label>
+				<locn:fullAddress>Bastione degli Infetti, Via Torre del Vescovo,
+					Catania, Italy</locn:fullAddress>
 				<locn:thoroughfare>Via Torre del Vescovo</locn:thoroughfare>
 				<locn:postName>Catania</locn:postName>
 				<locn:adminUnitL1>IT</locn:adminUnitL1>
@@ -884,13 +939,14 @@ returned to public access thanks to the citisen committee "Antico Corso".
 		<rdfs:label>Generazione Y</rdfs:label>
 		<foaf:name>Generazione Y</foaf:name>
 	</org:Organization>
-	
+
 	<locn:Location rdf:about="&odhl;places/sanvincenzoct">
 		<rdfs:label>Istituto San Vincenzo - Casa della Carità</rdfs:label>
 		<locn:address>
 			<locn:Address rdf:about="&odhl;places/sanvincenzoct_address">
 				<rdfs:label>Istituto San Vincenzo, 8, Via Scandurra, Catania, Italy</rdfs:label>
-				<locn:fullAddress>Istituto San Vincenzo, 8, Via Scandurra, Catania, Italy</locn:fullAddress>
+				<locn:fullAddress>Istituto San Vincenzo, 8, Via Scandurra, Catania,
+					Italy</locn:fullAddress>
 				<locn:thoroughfare>Via Scandurra</locn:thoroughfare>
 				<locn:locatorDesignator>8</locn:locatorDesignator>
 				<locn:postName>Catania</locn:postName>
@@ -912,8 +968,8 @@ returned to public access thanks to the citisen committee "Antico Corso".
 			</locn:Address>
 		</locn:address>
 	</locn:Location>
-	
-	
+
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Events and related resources // /////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -933,7 +989,8 @@ returned to public access thanks to the citisen committee "Antico Corso".
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting1" />
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting1" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/meeting2">
@@ -951,7 +1008,8 @@ returned to public access thanks to the citisen committee "Antico Corso".
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting2" />
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting2" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/meeting3">
@@ -971,7 +1029,8 @@ returned to public access thanks to the citisen committee "Antico Corso".
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting3" />
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting3" />
 	</event:Event>
 
 	<sioc:Post
@@ -999,7 +1058,8 @@ returned to public access thanks to the citisen committee "Antico Corso".
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting4" />
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting4" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/meeting5">
@@ -1017,43 +1077,70 @@ returned to public access thanks to the citisen committee "Antico Corso".
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting5" />
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/meeting5" />
 	</event:Event>
-	
+
 	<sioc:Post rdf:about="https://www.facebook.com/events/502954309868669/">
 		<dc:title>opendatahacklab - sui Beni Confiscati</dc:title>
 		<rdfs:label>opendatahacklab - sui Beni Confiscati</rdfs:label>
 		<sioc:has_container rdf:resource="http://facebook.com/me" />
 		<sioc:about rdf:resource="&odhl;events/meeting5" />
 	</sioc:Post>
-	
+
 
 	<event:Event rdf:about="&odhl;events/30102015">
 		<rdfs:label>Beni Confiscati a Catania - per riappropriarsi dei beni
 			confiscati alla mafia</rdfs:label>
 		<rdfs:comment>
-Negli ultimi anni si è sviluppata una discussione articolata sul tema dei beni comuni,
-con particolare attenzione a quelli che ricadono nel patrimonio pubblico, e sulla
-riappropriazione degli stessi da parte della comunità. Tra questi, i beni confiscati alla
-criminalità organizzata hanno una valenza particolare: l'atto stesso di confisca infatti
-toglie definitivamente questi beni dalla disponibilità delle organizzazioni criminali.
-Tuttavia, affinchè quest'atto esplichi in pieno le proprie potenzialità è necessario
-che la comunità si riappropri del bene gestendolo e impiegandolo in maniera aperta e
-trasparente in attività che abbiano ricadute positive sulla società.
+			Negli ultimi anni si è sviluppata una discussione
+			articolata sul tema dei
+			beni comuni,
+			con particolare attenzione a
+			quelli che ricadono nel patrimonio
+			pubblico, e sulla
+			riappropriazione
+			degli stessi da parte della comunità. Tra questi, i beni confiscati
+			alla
+			criminalità organizzata hanno una valenza particolare: l'atto
+			stesso di confisca
+			infatti
+			toglie definitivamente questi beni dalla
+			disponibilità delle organizzazioni
+			criminali.
+			Tuttavia, affinchè
+			quest'atto esplichi in pieno le proprie potenzialità è
+			necessario
+			che
+			la comunità si riappropri del bene gestendolo e impiegandolo in
+			maniera aperta e
+			trasparente in attività che abbiano ricadute positive
+			sulla società.
 
-Giorno 30 Ottobre 2015 alle 17.30 presso la chiesa di San Michele Minore in piazza
-Manganelli a Catania discuteremo di processi, pratiche e strategie per la riappropriazione
-dei beni confiscati a Catania. Gli interventi previsti sono i seguenti:
-Cristiano Longo (opendatahacklab - Hackspace Catania)
-"Iniziative civiche per l'apertura di dati";
-Andrea Borruso (Open Data Sicilia - ConfiscatiBene)
-"ConfiscatiBene - open data dell'agenzia per i beni confiscati";
-Maria Luisa Barrera (Libera. Associazioni, Nomi e Numeri contro le mafie)
-"Il regolamento per l'assegnazione dei beni confiscati alle Mafie";
-Giovanni Caruso (I Siciliani Giovani - GAPA)
-"Solo una unità della società civile ci renderà i beni confiscati";
-Collettivo Scatto Sociale
-"Un'inchiesta sui beni confiscati a Catania". 		
+			Giorno 30 Ottobre 2015 alle 17.30 presso la chiesa di
+			San Michele Minore in
+			piazza
+			Manganelli a Catania discuteremo di
+			processi, pratiche e strategie per la
+			riappropriazione
+			dei beni
+			confiscati a Catania. Gli interventi previsti sono i seguenti:
+			Cristiano Longo (opendatahacklab - Hackspace Catania)
+			"Iniziative
+			civiche per l'apertura di dati";
+			Andrea Borruso (Open Data Sicilia -
+			ConfiscatiBene)
+			"ConfiscatiBene - open data dell'agenzia per i beni
+			confiscati";
+			Maria Luisa Barrera (Libera. Associazioni, Nomi e Numeri
+			contro le mafie)
+			"Il regolamento per l'assegnazione dei beni
+			confiscati alle Mafie";
+			Giovanni Caruso (I Siciliani Giovani - GAPA)
+			"Solo una unità della società civile ci renderà i beni confiscati";
+			Collettivo Scatto Sociale
+			"Un'inchiesta sui beni confiscati a
+			Catania".
 		</rdfs:comment>
 		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-08T13:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="&odhl;people/cristianolongo" />
@@ -1073,9 +1160,10 @@ Collettivo Scatto Sociale
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/30102015" />
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/30102015" />
 	</event:Event>
-	
+
 	<sioc:Post rdf:about="https://www.facebook.com/events/1504622473170104/">
 		<dc:title>Beni Confiscati a Catania</dc:title>
 		<rdfs:label>Beni Confiscati a Catania</rdfs:label>
@@ -1095,18 +1183,63 @@ Collettivo Scatto Sociale
 	<event:Event rdf:about="&odhl;events/26112015">
 		<rdfs:label>Obiezione senza Coscienza</rdfs:label>
 		<rdfs:comment>
-È possibile l’utilizzo degli open data a sostegno della lotta per i diritti delle donne? Noi Rebeldesse pensiamo di sì e lo abbiamo sperimentato.
+			È possibile l’utilizzo degli open data a sostegno della
+			lotta per i
+			diritti delle donne? Noi Rebeldesse pensiamo di sì e lo
+			abbiamo
+			sperimentato.
 
-Per questi motivi abbiamo voluto, con un’attività di inchiesta sul campo, censire alcune farmacie catanesi e scoprire quali prescrivono la pillola del giorno dopo e se vi sono casi di obiezione.
-L’elenco ha due finalità. Da un lato vuole essere di aiuto alle donne che, trovandosi in una situazione di emergenza, necessitano di sapere dove è possibile comprare la pillola. Dall’altro lato ha finalità di denuncia sia riguardo l’obiezione e sia rispetto l’attuale situazione di degrado in cui si trova il sistema di prevenzione ed educazione sessuale.
+			Per questi motivi abbiamo voluto, con un’attività
+			di inchiesta sul
+			campo, censire alcune farmacie catanesi e scoprire
+			quali prescrivono
+			la pillola del giorno dopo e se vi sono casi di
+			obiezione.
+			L’elenco ha due finalità. Da un lato vuole essere di aiuto
+			alle donne che,
+			trovandosi in una situazione di emergenza, necessitano
+			di sapere dove
+			è possibile comprare la pillola. Dall’altro lato ha
+			finalità di
+			denuncia sia riguardo l’obiezione e sia rispetto l’attuale
+			situazione
+			di degrado in cui si trova il sistema di prevenzione ed
+			educazione
+			sessuale.
 
-Un’adeguata prevenzione è tra i metodi più efficaci per evitare le gravidanze indesiderate e rappresenta un ottimo strumento di distruzione degli stereotipi di genere. Inoltre riteniamo che una buona educazione sessuale non si debba basare sulla costruzione di rigide strutture binarie, baluardo del sistema patriarcale.
-La pillola del giorno dopo permette di evitare la gravidanza in seguito a un rapporto a rischio. La sua vendita è obbligatoria e non è legale praticare l’obiezione di coscienza su di essa, ma secondo le statistiche in Italia almeno 2 farmacisti su 10 non la vendono. Ma come funziona veramente la pillola, cosa la rende diversa dall’aborto e perché c’è ancora tanta ignoranza sull’argomento?
+			Un’adeguata prevenzione è tra i metodi più
+			efficaci per evitare le gravidanze
+			indesiderate e rappresenta un
+			ottimo strumento di distruzione degli
+			stereotipi di genere. Inoltre
+			riteniamo che una buona educazione
+			sessuale non si debba basare sulla
+			costruzione di rigide strutture
+			binarie, baluardo del sistema
+			patriarcale.
+			La pillola del giorno dopo permette di evitare la
+			gravidanza in seguito
+			a un rapporto a rischio. La sua vendita è
+			obbligatoria e non è legale
+			praticare l’obiezione di coscienza su di
+			essa, ma secondo le
+			statistiche in Italia almeno 2 farmacisti su 10
+			non la vendono. Ma
+			come funziona veramente la pillola, cosa la rende
+			diversa dall’aborto
+			e perché c’è ancora tanta ignoranza
+			sull’argomento?
 
-Durante la serata del 26 Novembre, al C.s.a. Officina Rebelde, le militanti del Collettivo Le Rebeldesse presenteranno il loro lavoro.
+			Durante la serata del 26 Novembre, al C.s.a. Officina
+			Rebelde, le militanti
+			del Collettivo Le Rebeldesse presenteranno il
+			loro lavoro.
 
-interverranno: Cristiano Longo, esponente del movimento Open Data, e
-Gioia Cacciatore, medico abilitato, che ci parlerà della pillola del giorno dopo e dell’aborto.
+			interverranno: Cristiano Longo, esponente del movimento
+			Open Data, e
+			Gioia Cacciatore, medico abilitato, che ci parlerà della
+			pillola del
+			giorno dopo e dell’aborto.
 		</rdfs:comment>
 		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-15T23:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="&odhl;people/cristianolongo" />
@@ -1122,18 +1255,43 @@ Gioia Cacciatore, medico abilitato, che ci parlerà della pillola del giorno dop
 				</time:hasBeginning>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/26112015" />
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/26112015" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/29122015">
 		<rdfs:label>RADUNO INVERNALE (SCHITICCHIO) DI OPEN DATA SICILIA</rdfs:label>
 		<rdfs:comment>
-Open Data Sicilia è un gruppo informale di persone che condividono l’interesse per la tematica dei dati aperti (vedi definizione dell’Agenzia per l’Italia Digitale), con particolare riguardo ai dati generati e gestiti dalla Pubblica Amministrazione. In Open Data Sicilia sono presenti personalità e professionalità variegate: esponenti del mondo accademico, dipendenti della Pubblica Amministrazione, giornalisti, geomatici, etc. Il gruppo inoltre ha stabilito forti sinergie con organizzazioni presenti sul territorio.
+			Open Data Sicilia è un gruppo informale di persone che
+			condividono
+			l’interesse per la tematica dei dati aperti (vedi
+			definizione
+			dell’Agenzia per l’Italia Digitale), con particolare
+			riguardo ai dati
+			generati e gestiti dalla Pubblica Amministrazione. In
+			Open Data
+			Sicilia sono presenti personalità e professionalità
+			variegate:
+			esponenti del mondo accademico, dipendenti della Pubblica
+			Amministrazione, giornalisti, geomatici, etc. Il gruppo inoltre ha
+			stabilito forti sinergie con organizzazioni presenti sul territorio.
 
-Per dar seguito a quanto maturato nell’ambito di #iovotopendata ed alla luce dell’apertura dimostrata in quella occasione dalla pubblica amministrazione e della società civile, all’interno di Open Data Sicilia è maturata la decisione di svolgere il raduno invernale a Pedara con una iniziativa aperta ai dipendenti del comune e alla cittadinanza in generale. Questa decisione deve essere letta nell’ottica di coinvolgimento e partecipazione della cittadinanza nei processi di apertura dei dati. 
+			Per dar seguito a quanto maturato nell’ambito di #iovotopendata ed
+			alla luce dell’apertura dimostrata in quella occasione dalla pubblica
+			amministrazione e della società civile, all’interno di Open Data
+			Sicilia è maturata la decisione di svolgere il raduno invernale a
+			Pedara con una iniziativa aperta ai dipendenti del comune e alla
+			cittadinanza in generale. Questa decisione deve essere letta
+			nell’ottica di coinvolgimento e partecipazione della cittadinanza nei
+			processi di apertura dei dati.
 
-L’obiettivo principale dell’evento è quindi mostrare, con casi concreti o ipotetici, quali applicazioni hanno gli open data e quali sono le ricadute attese dalle operazioni di apertura dei dati.
-		</rdfs:comment>		
+			L’obiettivo principale dell’evento è
+			quindi mostrare, con casi concreti o
+			ipotetici, quali applicazioni
+			hanno gli open data e quali sono le
+			ricadute attese dalle operazioni
+			di apertura dei dati.
+		</rdfs:comment>
 		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-13T23:00:00+01:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatasicilia.it/me" />
 		<event:place rdf:resource="http://www.comune.pedara.ct.it/EXPO" />
@@ -1151,8 +1309,7 @@ L’obiettivo principale dell’evento è quindi mostrare, con casi concreti o i
 
 	<locn:Location rdf:about="http://www.comune.pedara.ct.it/EXPO">
 		<locn:address>
-			<locn:Address
-				rdf:about="http://www.comune.pedara.ct.it/EXPO_address">
+			<locn:Address rdf:about="http://www.comune.pedara.ct.it/EXPO_address">
 				<rdfs:label>Area EXPO, Piazza del Popolo, Pedara, CT, Italy</rdfs:label>
 				<locn:fullAddress>Area EXPO, Piazza del Popolo, Pedara, CT, Italy</locn:fullAddress>
 				<locn:thoroughfare>Piazza del Popolo</locn:thoroughfare>
@@ -1162,22 +1319,28 @@ L’obiettivo principale dell’evento è quindi mostrare, con casi concreti o i
 			</locn:Address>
 		</locn:address>
 		<locn:geometry>
-			<locn:Geometry
-				rdf:about="http://www.comune.pedara.ct.it/EXPO_geometry">
+			<locn:Geometry rdf:about="http://www.comune.pedara.ct.it/EXPO_geometry">
 				<!-- TODO add provenance information, OSMAnd -->
 				<geo:lat>37.61743</geo:lat>
 				<geo:long>15.05869</geo:long>
 			</locn:Geometry>
 		</locn:geometry>
-	</locn:Location>	
-	
+	</locn:Location>
+
 	<event:Event rdf:about="&odhl;events/26022016">
 		<rdfs:label>2nd Open Knowledge Open Arts Workshop</rdfs:label>
 		<rdfs:comment>
-Open Knowledge Open Arts 2016 (OKOA16) is an informal workshop about open data, open source and cultural heritage. 
-The aim of the OKOA16 is to investigate how the open sharing of the data, in a readable form for all 
-people and with no limitation reuse can help research, production and fruition of Cultural Heritage.
-		</rdfs:comment>		
+			Open Knowledge Open Arts 2016 (OKOA16) is an informal
+			workshop about open
+			data, open source and cultural heritage.
+			The aim of
+			the OKOA16 is to investigate how the open sharing of the
+			data, in a
+			readable form for all
+			people and with no limitation reuse can help
+			research, production and
+			fruition of Cultural Heritage.
+		</rdfs:comment>
 		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T23:30:00+01:00</dcterms:modified>
 		<event:agent rdf:resource="http://www.unict.it/me" />
 		<event:agent rdf:resource="http://hackspacecatania.it/me" />
@@ -1217,33 +1380,59 @@ people and with no limitation reuse can help research, production and fruition o
 	<event:Event rdf:about="&odhl;events/05042016">
 		<rdfs:label>Primo Aperitivo POP a Catania</rdfs:label>
 		<rdfs:comment>
-L'Albo Pretorio indica in Italia un apposito spazio presso il quale le pubbliche 
-amministrazioni italiane affiggono per legge notizie ed avvisi di interesse 
-pubblico per la collettività. (Wikipedia)
+			L'Albo Pretorio indica in Italia un apposito spazio
+			presso il quale le
+			pubbliche
+			amministrazioni italiane affiggono per
+			legge notizie ed avvisi di interesse
+			pubblico per la collettività.
+			(Wikipedia)
 
-Sull'albo pretorio viaggiano gli avvisi riguardanti tutte le attività di
-una pubblica amministrazione: dalle concessioni per il suolo pubblico alle 
-pubblicazioni di matrimonio, dai bandi di gara alle varianti al piano regolatore, 
-dalle sanatorie alle informazioni e modifiche alla viabilità.
+			Sull'albo pretorio viaggiano gli avvisi riguardanti tutte
+			le attività di
+			una pubblica amministrazione: dalle concessioni per il
+			suolo pubblico
+			alle
+			pubblicazioni di matrimonio, dai bandi di gara alle
+			varianti al piano regolatore,
+			dalle sanatorie alle informazioni e
+			modifiche alla viabilità.
 
-Il progetto Albo POP (http://albopop.it) si propone di rendere "popolari"
-gli albi pretori attraverso la realizzazione di opportuni strumenti 
-informatici.
+			Il progetto Albo POP (http://albopop.it) si
+			propone di rendere
+			"popolari"
+			gli albi pretori attraverso la
+			realizzazione di opportuni strumenti
+			informatici.
 
-Dopo una breve introduzione sugli open data, daremo uno sguardo ad alcuni degli albi
-pop disponibili, in particolare quelli relativi al Comune e all'Università
-di Catania, e verranno mostrati alcuni strumenti per una fruizione "aumentata"
-degli stessi. In particolare, vedremo come ricevere avvisi e notifiche dagli
-albi pretori direttamente sul proprio computer.
+			Dopo una breve
+			introduzione sugli open data, daremo uno sguardo ad alcuni
+			degli albi
+			pop disponibili, in particolare quelli relativi al Comune e
+			all'Università
+			di Catania, e verranno mostrati alcuni strumenti per
+			una fruizione
+			"aumentata"
+			degli stessi. In particolare, vedremo come
+			ricevere avvisi e notifiche
+			dagli
+			albi pretori direttamente sul proprio
+			computer.
 
-Si consiglia quindi di venire armati di portatili!
+			Si consiglia quindi di venire armati di portatili!
 
-Aperitivo POP Catania è organizzato da Hackspace Catania e chilometro zero
-nell'ambito del progetto #opendatahacklab (http://opendatahacklab.org). 
-L'ingresso è gratuito per i soci di Chilometro Zero. L'iscrizione 
-all'associazione Chilometro Zero è gratuita. Durante l'incontro sarà servito
-un aperitivo al costo di 5 euro. 		
-		</rdfs:comment>		
+			Aperitivo
+			POP Catania è organizzato da Hackspace Catania e chilometro zero
+			nell'ambito del progetto #opendatahacklab
+			(http://opendatahacklab.org).
+			L'ingresso è gratuito per i soci di
+			Chilometro Zero. L'iscrizione
+			all'associazione Chilometro Zero è
+			gratuita. Durante l'incontro sarà
+			servito
+			un aperitivo al costo di 5
+			euro.
+		</rdfs:comment>
 		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-22T12:00:00+01:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:agent rdf:resource="&odhl;people/cristianolongo" />
@@ -1263,7 +1452,8 @@ un aperitivo al costo di 5 euro.
 				</time:hasEnd>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/05042016" />
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/05042016" />
 	</event:Event>
 
 	<sioc:Post rdf:about="https://www.facebook.com/events/1133850986634756/">
@@ -1287,16 +1477,49 @@ un aperitivo al costo di 5 euro.
 	<event:Event rdf:about="&odhl;events/02072016">
 		<rdfs:label>Aperitivo POP a Belpasso</rdfs:label>
 		<rdfs:comment>
-Belpasso è un importante paese sull’Etna che unisce alla vocazione agricola tipica di quelle zone una più recente sfociata nella realizzazione di una importante e funzionale zona industriale. Il tema degli Open Data e della trasparenza in questo paese viene portato avanti da un coraggioso e agguerrito manipolo che ha elaborato e sottoposto, con la collaborazione di Open Data Sicilia ma senza successo, al consiglio comunale un insieme di linee guida Open Data per il comune sulla scia di quelle di Palermo. Succede di recente che un cittadino di Belpasso, membro storico di Hackspace Catania ed esponente del movimento dei makers, decide di donare un albo POP ai cittadini di Belpasso, incaricando noi dell’opendatahacklab di realizzarlo. 
+			Belpasso è un importante paese sull’Etna che unisce alla
+			vocazione agricola
+			tipica di quelle zone una più recente sfociata
+			nella realizzazione di
+			una importante e funzionale zona industriale.
+			Il tema degli Open Data
+			e della trasparenza in questo paese viene
+			portato avanti da un
+			coraggioso e agguerrito manipolo che ha elaborato
+			e sottoposto, con
+			la collaborazione di Open Data Sicilia ma senza
+			successo, al
+			consiglio comunale un insieme di linee guida Open Data
+			per il comune
+			sulla scia di quelle di Palermo. Succede di recente che
+			un cittadino
+			di Belpasso, membro storico di Hackspace Catania ed
+			esponente del
+			movimento dei makers, decide di donare un albo POP ai
+			cittadini di
+			Belpasso, incaricando noi dell’opendatahacklab di
+			realizzarlo.
 
-Avevo già nella mia lista di luoghi da visitare il comune di Belpasso da un po. Ho deciso quindi, con la collaborazione degli attivisti sul territorio, di cogliere questa occasione per incontrare le associazioni di cittadinanza attiva e la popolazione di questo paese in un incontro informale come un Aperitivo POP, che si terrà il 2 Luglio alle ore 19:00 presso il Wine Bar Efesto in via XIX traversa numero 66.
+			Avevo già nella mia lista di luoghi da visitare il comune
+			di Belpasso da
+			un po. Ho deciso quindi, con la collaborazione degli
+			attivisti sul
+			territorio, di cogliere questa occasione per incontrare
+			le
+			associazioni di cittadinanza attiva e la popolazione di questo
+			paese
+			in un incontro informale come un Aperitivo POP, che si terrà il
+			2
+			Luglio alle ore 19:00 presso il Wine Bar Efesto in via XIX traversa
+			numero 66.
 
-Siete tutti invitati!  		
-		</rdfs:comment>		
+			Siete tutti invitati!
+		</rdfs:comment>
 		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-12T17:00:00+01:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:place rdf:resource="&odhl;places/winebarefesto" />
-		<foaf:homepage rdf:resource="http://www.opendatahacklab.org/site/eventdetails.html?iri=http%3A%2F%2Fopendatahacklab.org%2Fontology%2Fevents%2F02072016" />
+		<foaf:homepage
+			rdf:resource="http://www.opendatahacklab.org/site/eventdetails.html?iri=http%3A%2F%2Fopendatahacklab.org%2Fontology%2Fevents%2F02072016" />
 		<event:time>
 			<time:Interval rdf:about="&odhl;events/02072016/time">
 				<time:hasBeginning>
@@ -1340,11 +1563,11 @@ Siete tutti invitati!
 		<sioc:about rdf:resource="&odhl;events/02072016" />
 	</sioc:Post>
 
+	
 	<locn:Location rdf:about="&odhl;places/winebarefesto">
 		<rdfs:label>Wine Bar Efesto Belpasso</rdfs:label>
 		<locn:address>
-			<locn:Address
-				rdf:about="&odhl;places/winebarefesto/address">
+			<locn:Address rdf:about="&odhl;places/winebarefesto/address">
 				<rdfs:label>66, Via XIX traversa, Belpasso, CT, Italy</rdfs:label>
 				<locn:fullAddress>66, Via XIX traversa, Belpasso, CT, Italy</locn:fullAddress>
 				<locn:thoroughfare>Via XIX traversa</locn:thoroughfare>
@@ -1354,34 +1577,90 @@ Siete tutti invitati!
 			</locn:Address>
 		</locn:address>
 		<locn:geometry>
-			<locn:Geometry
-				rdf:about="&odhl;places/winebarefesto/geometry">
+			<locn:Geometry rdf:about="&odhl;places/winebarefesto/geometry">
 				<!-- TODO add provenance information, nominatim -->
 				<geo:lat>37.58984</geo:lat>
 				<geo:long>14.97497</geo:long>
 			</locn:Geometry>
 		</locn:geometry>
-	</locn:Location>	
+	</locn:Location>
 
 	<event:Event rdf:about="&odhl;events/26092016">
 		<rdfs:label>La vita fuotri da Facebook ... nel Cyberspazio</rdfs:label>
 		<rdfs:comment>
-La struttura decentralizzata della rete internet rende molto difficile controllare le comunicazioni che viaggiano attraverso essa. Alla luce di questo, la rete internet può essere considerata un potentissimostrumento di libertà.
+			La struttura decentralizzata della rete internet rende
+			molto difficile
+			controllare le comunicazioni che viaggiano attraverso
+			essa. Alla luce
+			di questo, la rete internet può essere considerata un
+			potentissimostrumento di libertà.
 
-Nel corso degli ultimi anni l’avvento dei motori di ricerca e dei social network ha fatto si che l’accesso alle informazioni su internet avvenga sempre più in maniera intermediata attraverso delle piattaforme gestite società private multinazionali che sono quindi in grado, in potenza, di monitorare e manipolare il flusso informativo che giunge agli utenti finali (si stima ad esempio che
-Google Inc. sia in grado di influenzare più del 20% dei votanti ad ogni elezione presidenziale negli Stati Uniti d’America) senza considereare il fatto che questi grandi Hub di comunicazione possono essere monitorati anche da parte di agenzie governative
+			Nel corso degli ultimi anni
+			l’avvento dei motori di ricerca e dei social
+			network ha fatto si che
+			l’accesso alle informazioni su internet
+			avvenga sempre più in maniera
+			intermediata attraverso delle
+			piattaforme gestite società private
+			multinazionali che sono quindi in
+			grado, in potenza, di monitorare e
+			manipolare il flusso informativo
+			che giunge agli utenti finali (si
+			stima ad esempio che
+			Google Inc. sia in grado di influenzare più del
+			20% dei votanti ad ogni
+			elezione presidenziale negli Stati Uniti
+			d’America) senza
+			considereare il fatto che questi grandi Hub di
+			comunicazione possono
+			essere monitorati anche da parte di agenzie
+			governative
 
-Per fortuna la natura libera di Internet è ancora viva e forte: è ancora possibile pubblicare il proprio sito web, mettere su un proprio nodo ed un proprio server per chat, inviare mail utilizzando uno degli svariati provider che più ci aggradano, utilizzare sistemi di cifratura per proteggere la confidenzialità delle nostre comunicazioni, etc.
+			Per fortuna la natura libera di Internet è ancora viva e
+			forte: è ancora
+			possibile pubblicare il proprio sito web, mettere su
+			un proprio nodo
+			ed un proprio server per chat, inviare mail
+			utilizzando uno degli
+			svariati provider che più ci aggradano,
+			utilizzare sistemi di
+			cifratura per proteggere la confidenzialità
+			delle nostre
+			comunicazioni, etc.
 
-IL CORSO
+			IL CORSO
 
-Il corso intende mostrare e fornire gli strumenti per utilizzare strumenti e protocolli liberi per la comunicazione e la diffusione di informazioni su internet. 
-Tra gli altri, verrà esaminato il protocollo RSS (Really Simple Syndication) che permette la creazione di flussi informativi per segnalare e condividere articoli, notizie e informazioni di altro
-genere presenti su internet. Durante il corso verrà data una panoramica sugli strumenti per lafruizione dei feed rss e verranno presentati alcuni dei feed oggi disponibili. 
+			Il corso intende mostrare e
+			fornire gli strumenti per utilizzare
+			strumenti e protocolli liberi per
+			la comunicazione e la diffusione di
+			informazioni su internet.
+			Tra gli
+			altri, verrà esaminato il protocollo RSS (Really Simple
+			Syndication)
+			che permette la creazione di flussi informativi per
+			segnalare e
+			condividere articoli, notizie e informazioni di altro
+			genere presenti
+			su internet. Durante il corso verrà data una
+			panoramica sugli
+			strumenti per lafruizione dei feed rss e verranno
+			presentati alcuni
+			dei feed oggi disponibili.
 
-Verrà inoltre esaminato il dietro le quinte in una attività laboratoriale nella quale saranno dati gli strumenti ai presenti per realizzare il proprio feed.
+			Verrà inoltre esaminato il dietro le quinte
+			in una attività laboratoriale
+			nella quale saranno dati gli strumenti
+			ai presenti per realizzare il
+			proprio feed.
 
-Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di 15 euro ad incontro. Sarà possibile iscriversi durante la serata del 19 Settembre sempre presso l'associazione Chilometro Zero		</rdfs:comment>		
+			Il corso si svolgerà in
+			incontri settimanali di circa un'ora l'uno, al
+			costo di 15 euro ad
+			incontro. Sarà possibile iscriversi durante la
+			serata del 19 Settembre
+			sempre presso l'associazione Chilometro Zero
+		</rdfs:comment>
 		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-16T12:00:00+01:00</dcterms:modified>
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:agent rdf:resource="&odhl;people/cristianolongo" />
@@ -1401,27 +1680,48 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 				</time:hasEnd>
 			</time:Interval>
 		</event:time>
-		<foaf:homepage rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/26092016" />
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/26092016" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/16102016">
-		<rdfs:label>THE BIG DRAW - Io di-segno - Presentazione del sito del Bastione degli Infetti</rdfs:label>
-		<rdfs:comment>	
-		Io di-segno &#232; un evento che si inserisce nel Festival Internazionale del 
-		Disegno &quot;THE BIG DRAW&quot; organizzato nella nostra citt&#224; dal Comitato Popolare 
-		Antico Corso. Nel corso di due giornate, 9 e 16 ottobre saranno attivati 
-		diversi laboratori creativi rivolti a bambini, giovani ed adulti per fare 
-		scoprire loro le proprie abilit&#224; di rappresentazione e comprensione di 
-		tematiche ritenuti &#8220;troppo&#8221; difficili mediante il disegno. Il tema del 
-		The big draw Festival 2016, partito dal Regno Unito e che coinvolge ormai
-		tantissime organizzazioni a livello planetario, &#232; STEAM POWERED e vuole 
-		fare risaltare la capacit&#224; di rappresentare concetti complessi tipici 
-		del settore scientifico e tecnologico, mediante il disegno.
-		
-		Durante l&#39;evento conclusivo verr&#224; presentato il sito del Bastione degli Infetti,
-		realizzato dall&#39;opendatahacklab e dal Google Developer Group Catania.		
+		<rdfs:label>THE BIG DRAW - Io di-segno - Presentazione del sito del
+			Bastione degli Infetti</rdfs:label>
+		<rdfs:comment>
+			Io di-segno &#232; un evento che si inserisce nel
+			Festival
+			Internazionale del
+			Disegno &quot;THE BIG DRAW&quot;
+			organizzato nella nostra citt&#224; dal
+			Comitato Popolare
+			Antico Corso.
+			Nel corso di due giornate, 9 e 16 ottobre saranno attivati
+			diversi
+			laboratori creativi rivolti a bambini, giovani ed adulti per
+			fare
+			scoprire loro le proprie abilit&#224; di rappresentazione e
+			comprensione di
+			tematiche ritenuti &#8220;troppo&#8221; difficili
+			mediante il
+			disegno. Il tema del
+			The big draw Festival 2016, partito
+			dal Regno Unito e che coinvolge
+			ormai
+			tantissime organizzazioni a
+			livello planetario, &#232; STEAM POWERED e vuole
+			fare risaltare la
+			capacit&#224; di rappresentare concetti complessi
+			tipici
+			del settore
+			scientifico e tecnologico, mediante il disegno.
 
-		</rdfs:comment>	
+			Durante l&#39;evento
+			conclusivo verr&#224; presentato il sito del Bastione
+			degli Infetti,
+			realizzato dall&#39;opendatahacklab e dal Google Developer Group
+			Catania.
+
+		</rdfs:comment>
 		<event:time>
 			<time:Interval rdf:about="&odhl;events/16102016/time">
 				<time:hasBeginning>
@@ -1441,16 +1741,23 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<event:agent rdf:resource="&odhl;people/anticocorso" />
 		<event:agent rdf:resource="http://gdgcatania.org/me" />
 		<event:place rdf:resource="&odhl;places/bastionedeglinfettict" />
-		<foaf:homepage rdf:resource="http://bastionedeglinfettict.it/eventdetails.html?iri=http%3A%2F%2Fdydra.com%2Ffree-agenda%2F20161016%2FThe%2Bbig%2Bdraw%2Ba%2BCatania%2B%2522Io%2BDi%2B%252FSegno%2522%2B-%2BSeconda%2BGiornata%2F" />		
+		<foaf:homepage
+			rdf:resource="http://bastionedeglinfettict.it/eventdetails.html?iri=http%3A%2F%2Fdydra.com%2Ffree-agenda%2F20161016%2FThe%2Bbig%2Bdraw%2Ba%2BCatania%2B%2522Io%2BDi%2B%252FSegno%2522%2B-%2BSeconda%2BGiornata%2F" />
 	</event:Event>
-	
+
 	<event:Event rdf:about="&odhl;events/15022017">
-		<rdfs:label>Libero Software per Libero Internet al Liceo Spedalieri di Catania</rdfs:label>
-		<rdfs:comment>	
-			Nell'ambito dell'alternanza scuola lavoro, il 15 Febbraio terrò agli
-			studenti del Liceo Scientifico Statale Nicola Spedalieri un seminario sulla
-			storia di Internet e sulle tecnologie sulle quali insiste.
-		</rdfs:comment>	
+		<rdfs:label>Libero Software per Libero Internet al Liceo Spedalieri di
+			Catania</rdfs:label>
+		<rdfs:comment>
+			Nell'ambito dell'alternanza scuola lavoro, il 15
+			Febbraio terrò agli
+			studenti del
+			Liceo Scientifico Statale Nicola
+			Spedalieri un seminario sulla
+			storia
+			di Internet e sulle tecnologie
+			sulle quali insiste.
+		</rdfs:comment>
 		<event:time>
 			<time:Interval rdf:about="&odhl;events/15022017/time">
 				<time:hasBeginning>
@@ -1470,14 +1777,28 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<event:agent rdf:resource="&odhl;people/anticocorso" />
 		<event:place rdf:resource="http://www.openstreetmap.org/way/25383307" />
 	</event:Event>
-	
+
+	<locn:Location rdf:about="http://www.openstreetmap.org/way/25383307">
+		<rdfs:label>Liceo Classico Statale Nicola Spedalieri</rdfs:label>
+		<locn:address>
+			<locn:Address rdf:about="&odhl;places/winebarefesto/address">
+				<rdfs:label>Piazza Annibale Riccò, Catania, CT, Italy</rdfs:label>
+				<locn:fullAddress>Piazza Annibale Riccò, Catania, CT, Italy</locn:fullAddress>
+				<locn:thoroughfare>Piazza Annibale Riccò</locn:thoroughfare>
+				<locn:postName>Catania</locn:postName>
+			</locn:Address>
+		</locn:address>
+	</locn:Location>
+
 	<event:Event rdf:about="&odhl;events/18022017">
 		<rdfs:label>Libero Software per Libero Internet al Coderdojo</rdfs:label>
-		<rdfs:comment>	
-			Nell'ambito del CoderDojo Etneo #18, presenterò una attività 
+		<rdfs:comment>
+			Nell'ambito del CoderDojo Etneo #18, presenterò una
+			attività
 			su Internet e i retroscena, anche negativi e pericolosi,
-			della diffusione di questo strumento.
-		</rdfs:comment>	
+			della
+			diffusione di questo strumento.
+		</rdfs:comment>
 		<event:time>
 			<time:Interval rdf:about="&odhl;events/18022017/time">
 				<time:hasBeginning>
@@ -1498,14 +1819,16 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<event:agent rdf:resource="http://www.youcultures.com/me" />
 		<event:agent rdf:resource="http://palestraperlamente.org/me" />
 		<event:place rdf:resource="&odhl;places/sanvincenzoct" />
-		<foaf:homepage rdf:resource="http://opendatahacklab.org/free-agenda/coderdojo-etneo/eventDetails.php?iri=http%3A%2F%2Fdydra.com%2Ffree-agenda%2F20170218%2FCoderDojo%2BEtneo%2B%252318%2F" />
+		<foaf:homepage
+			rdf:resource="http://opendatahacklab.org/free-agenda/coderdojo-etneo/eventDetails.php?iri=http%3A%2F%2Fdydra.com%2Ffree-agenda%2F20170218%2FCoderDojo%2BEtneo%2B%252318%2F" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/04032017morning">
 		<rdfs:label>OPEN DATA uno strumento semplice per informare</rdfs:label>
-		<rdfs:comment>	
-			Conferenza introduttiva sul tema OPEN DATA uno strumento semplice per informare
-		</rdfs:comment>	
+		<rdfs:comment>
+			Conferenza introduttiva sul tema OPEN DATA uno strumento
+			semplice per informare
+		</rdfs:comment>
 		<event:time>
 			<time:Interval rdf:about="&odhl;events/04032017morning/time">
 				<time:hasBeginning>
@@ -1528,7 +1851,7 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<event:agent rdf:resource="&odhl;people/generazioney" />
 		<event:place rdf:resource="&odhl;places/gravinact/parcoborsellino" />
 	</event:Event>
-	
+
 	<event:Event rdf:about="&odhl;events/04032017evening">
 		<rdfs:label>INTERNET una storia vera</rdfs:label>
 		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T19:00:00+02:00</dcterms:modified>
@@ -1550,7 +1873,40 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<event:agent rdf:resource="&odhl;people/generazioney" />
 		<foaf:homepage rdf:resource="http://hackspacecatania.it/internet-una-storia-vera/" />
 	</event:Event>
-	
+
+	<event:Event
+		rdf:about="http://opendatahacklab.org/free-agenda/20170422/CoderDojo+Etneo+%2320/">
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-23T12:34:40+01:00</dcterms:modified>
+		<event:place
+			rdf:resource="http://opendatahacklab.org/free-agenda/Campus+Don+Bosco+Catania" />
+		<event:time>
+			<time:Interval
+				rdf:about="http://opendatahacklab.org/free-agenda/20170422/CoderDojo+Etneo+%2320/time">
+				<time:hasBeginning>
+					<time:Instant
+						rdf:about="http://opendatahacklab.org/free-agenda/20170422/CoderDojo+Etneo+%2320/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-22T16:00:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+		<rdfs:label>CoderDojo Etneo #20</rdfs:label>
+	</event:Event>
+
+	<locn:Location
+		rdf:about="http://opendatahacklab.org/free-agenda/Campus+Don+Bosco+Catania">
+		<rdfs:label>Campus Don Bosco Catania</rdfs:label>
+		<locn:address>
+			<locn:Address
+				rdf:about="http://opendatahacklab.org/free-agenda/Campus+Don+Bosco+Catania/address">
+				<locn:fullAddress>Largo Pitagora, Tremestieri Etneo, Italy</locn:fullAddress>
+				<locn:throughfare>Largo Pitagora</locn:throughfare>
+				<rdfs:label>Largo Pitagora, Tremestieri Etneo, Italy</rdfs:label>
+				<locn:postName>Tremestieri Etneo</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+	</locn:Location>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
@@ -1598,8 +1954,7 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 			some open data activists at the 2015's meeting of Open Data Sicilia
 			#ods15.
 		</dcterms:description>
-		<dcat:landingPage
-			rdf:resource="http://nonportale.opendatasicilia.it/" />
+		<dcat:landingPage rdf:resource="http://nonportale.opendatasicilia.it/" />
 		<dcterms:publisher rdf:resource="http://opendatasicilia.it/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/nonportale_csv">
@@ -1633,23 +1988,29 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 			</dcat:Distribution>
 		</dcat:distribution>
 	</dcat:Dataset>
-	
+
 	<!-- morning-after rebeldesse dataset -->
 	<dcat:Dataset rdf:about="&odhl_projects_root;morning-after-rebeldesse/ontology/">
 		<dcterms:title>Morning-after pill in Catania</dcterms:title>
 		<rdfs:label>Morning-after pill in Catania</rdfs:label>
 		<dcterms:description>
-			 A non-exhaustive list of pharmacies which sell the morning-after pill in the city of Catania.
-			 The reported pharmacies has been retrieved from the pharmacies dataset provided in the open data portal of the
-			 municipality of Catania. 
+			A non-exhaustive list of pharmacies which sell
+			the morning-after pill
+			in the city of Catania.
+			The reported pharmacies
+			has been retrieved from the pharmacies dataset
+			provided in the open
+			data portal of the
+			municipality of Catania.
 		</dcterms:description>
-		<dcat:landingPage
-			rdf:resource="&odhl_projects_root;morning-after-rebeldesse/" />
+		<dcat:landingPage rdf:resource="&odhl_projects_root;morning-after-rebeldesse/" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/farmacie">
-				<dcterms:title>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</dcterms:title>
-				<rdfs:label>Downloadable OWL ontology of pharmacies which sell the morning-after pill in the city of Catania.</rdfs:label>
+				<dcterms:title>Downloadable OWL ontology of pharmacies which sell
+					the morning-after pill in the city of Catania.</dcterms:title>
+				<rdfs:label>Downloadable OWL ontology of pharmacies which sell the
+					morning-after pill in the city of Catania.</rdfs:label>
 				<dcat:downloadURL
 					rdf:resource="&odhl_projects_root;morning-after-rebeldesse/morning-after-pill-test-catania.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -1657,10 +2018,13 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 			</dcat:Distribution>
 		</dcat:distribution>
 		<dcat:distribution>
-			<dcat:Distribution rdf:about="&odhl;datasetDistr/morning-after-rebeldesse_sparql">
-				<dcterms:title>SPARQL endpoint for the morning-after pill in Catania ontology
+			<dcat:Distribution
+				rdf:about="&odhl;datasetDistr/morning-after-rebeldesse_sparql">
+				<dcterms:title>SPARQL endpoint for the morning-after pill in Catania
+					ontology
 				</dcterms:title>
-				<rdfs:label>SPARQL endpoint for the morning-after pill in Catania ontology</rdfs:label>
+				<rdfs:label>SPARQL endpoint for the morning-after pill in Catania
+					ontology</rdfs:label>
 				<dcat:accessURL
 					rdf:resource="http://dydra.com/cristianolongo/morning-after-pill/sparql" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -1668,49 +2032,58 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 			</dcat:Distribution>
 		</dcat:distribution>
 	</dcat:Dataset>
-	
+
 	<!-- mafia confiscated assets dataset -->
 	<dcat:Dataset rdf:about="&odhl_projects_root;mafiaconfiscatedassets/ontology/">
 		<dcterms:title>Datasets of Confiscated Assets</dcterms:title>
 		<rdfs:label>Datasets of Confiscated Assets</rdfs:label>
-		<dcterms:description>Some datasets where you can found information about confiscated assets.</dcterms:description>
-		<dcat:landingPage rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/data.html" />
+		<dcterms:description>Some datasets where you can found information
+			about confiscated assets.</dcterms:description>
+		<dcat:landingPage
+			rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/data.html" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_rdf">
-				<dcterms:title>Ontology of datasets of confiscated assets as OWL file</dcterms:title>
+				<dcterms:title>Ontology of datasets of confiscated assets as OWL
+					file</dcterms:title>
 				<rdfs:label>Ontology of datasets of confiscated assets as OWL file</rdfs:label>
-				<dcat:downloadURL rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
+				<dcat:downloadURL
+					rdf:resource="&odhl_projects_root;mafiaconfiscatedassets/confiscatedassetdatasets.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
 		</dcat:distribution>
-		<dcat:distribution>		
+		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/mafiaconfiscatedassets_sparql">
-				<dcterms:title>SPARQL endpoint for the ontology of datasets of confiscated assets</dcterms:title>
-				<rdfs:label>SPARQL endpoint for the ontology of datasets of confiscated assets</rdfs:label>
-				<dcat:accessURL rdf:resource="http://dydra.com/cristianolongo/confiscated-assets-catania/sparql" />
+				<dcterms:title>SPARQL endpoint for the ontology of datasets of
+					confiscated assets</dcterms:title>
+				<rdfs:label>SPARQL endpoint for the ontology of datasets of
+					confiscated assets</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dydra.com/cristianolongo/confiscated-assets-catania/sparql" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/sparql-query</dcat:mediaType>
 			</dcat:Distribution>
-		</dcat:distribution>		
+		</dcat:distribution>
 	</dcat:Dataset>
-	
+
 	<!-- Albo POP -->
 	<dcat:Dataset rdf:about="&odhl_projects_root;albo-pop/unict/ontology/">
 		<dcterms:title>Albo POP Università degli Studi di Catania</dcterms:title>
 		<rdfs:label>Albo POP Università degli Studi di Catania</rdfs:label>
 		<dcterms:description>
-			 An RSS feed reporting the advices from the notice board of the
-			 University of Catania.
+			An RSS feed reporting the advices from the notice
+			board of the
+			University of Catania.
 		</dcterms:description>
-		<dcat:landingPage
-			rdf:resource="http://albopop.it/altrepa/unict/" />
+		<dcat:landingPage rdf:resource="http://albopop.it/altrepa/unict/" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/unict">
-				<dcterms:title>The RSS feed of the notice board of the University of Catania.</dcterms:title>
-				<rdfs:label>The RSS feed of the notice board of the University of Catania.</rdfs:label>
+				<dcterms:title>The RSS feed of the notice board of the University of
+					Catania.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the University of
+					Catania.</rdfs:label>
 				<dcat:accessURL
 					rdf:resource="http://dev.opendatasicilia.it/albopop/unict/unict2RSS.php" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -1723,16 +2096,18 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<dcterms:title>Albo POP Comune di Catania</dcterms:title>
 		<rdfs:label>Albo POP Comune di Catania</rdfs:label>
 		<dcterms:description>
-			 An RSS feed reporting the advices from the notice board of the
-			 Municipality of Catania.
+			An RSS feed reporting the advices from the notice
+			board of the
+			Municipality of Catania.
 		</dcterms:description>
-		<dcat:landingPage
-			rdf:resource="http://albopop.it/comune/catania/" />
+		<dcat:landingPage rdf:resource="http://albopop.it/comune/catania/" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/catania">
-				<dcterms:title>The RSS feed of the notice board of the Municipality of Catania.</dcterms:title>
-				<rdfs:label>The RSS feed of the notice board of the Municipality of Catania.</rdfs:label>
+				<dcterms:title>The RSS feed of the notice board of the Municipality
+					of Catania.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the Municipality of
+					Catania.</rdfs:label>
 				<dcat:accessURL
 					rdf:resource="http://dev.opendatasicilia.it/albopop/catania/alboct2RSS.php" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -1741,8 +2116,10 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		</dcat:distribution>
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/catania/social">
-				<dcterms:title>The RSS feed of the notice board of the Municipality of Catania with sharing on social networks features.</dcterms:title>
-				<rdfs:label>The RSS feed of the notice board of the Municipality of Catania with sharing on social networks features.</rdfs:label>
+				<dcterms:title>The RSS feed of the notice board of the Municipality
+					of Catania with sharing on social networks features.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the Municipality of
+					Catania with sharing on social networks features.</rdfs:label>
 				<dcat:accessURL
 					rdf:resource="http://dev.opendatasicilia.it/albopop/catania/alboct2RSS-social.php" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -1755,16 +2132,18 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<dcterms:title>Albo POP Università di Torino</dcterms:title>
 		<rdfs:label>Albo POP Università di Torino</rdfs:label>
 		<dcterms:description>
-			 An RSS feed reporting the advices from the notice board of the
-			 University of Turin.
+			An RSS feed reporting the advices from the notice
+			board of the
+			University of Turin.
 		</dcterms:description>
-		<dcat:landingPage
-			rdf:resource="http://albopop.it/altrepa/unito/" />
+		<dcat:landingPage rdf:resource="http://albopop.it/altrepa/unito/" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/unito">
-				<dcterms:title>The RSS feed of the notice board of the University of Turin.</dcterms:title>
-				<rdfs:label>The RSS feed of the notice board of the University of Turin.</rdfs:label>
+				<dcterms:title>The RSS feed of the notice board of the University of
+					Turin.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the University of
+					Turin.</rdfs:label>
 				<dcat:accessURL
 					rdf:resource="http://dev.opendatasicilia.it/albopop/unito/albofeed.php" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -1777,16 +2156,18 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<dcterms:title>Albo POP Comune di Torino</dcterms:title>
 		<rdfs:label>Albo POP Comune di Torino</rdfs:label>
 		<dcterms:description>
-			 An RSS feed reporting the advices from the notice board of the
-			 Municipality of Turin.
+			An RSS feed reporting the advices from the notice
+			board of the
+			Municipality of Turin.
 		</dcterms:description>
-		<dcat:landingPage
-			rdf:resource="http://albopop.it/comune/torino/" />
+		<dcat:landingPage rdf:resource="http://albopop.it/comune/torino/" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/torino">
-				<dcterms:title>The RSS feed of the notice board of the Municipality of Turin.</dcterms:title>
-				<rdfs:label>The RSS feed of the notice board of the Municipality of Turin.</rdfs:label>
+				<dcterms:title>The RSS feed of the notice board of the Municipality
+					of Turin.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the Municipality of
+					Turin.</rdfs:label>
 				<dcat:accessURL
 					rdf:resource="http://dev.opendatasicilia.it/albopop/torino/albofeed.php" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -1799,16 +2180,18 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<dcterms:title>Albo POP Comune di Belpasso</dcterms:title>
 		<rdfs:label>Albo POP Comune di Belpasso</rdfs:label>
 		<dcterms:description>
-			 An RSS feed reporting the advices from the notice board of the
-			 Municipality of Belpasso.
+			An RSS feed reporting the advices from the notice
+			board of the
+			Municipality of Belpasso.
 		</dcterms:description>
-		<dcat:landingPage
-			rdf:resource="http://albopop.it/comune/belpasso/" />
+		<dcat:landingPage rdf:resource="http://albopop.it/comune/belpasso/" />
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/albopop/belpasso">
-				<dcterms:title>The RSS feed of the notice board of the Municipality of Belpasso.</dcterms:title>
-				<rdfs:label>The RSS feed of the notice board of the Municipality of Belpasso.</rdfs:label>
+				<dcterms:title>The RSS feed of the notice board of the Municipality
+					of Belpasso.</dcterms:title>
+				<rdfs:label>The RSS feed of the notice board of the Municipality of
+					Belpasso.</rdfs:label>
 				<dcat:accessURL
 					rdf:resource="http://dev.opendatasicilia.it/albopop/belpasso/albofeed.php" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
@@ -1816,7 +2199,7 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 			</dcat:Distribution>
 		</dcat:distribution>
 	</dcat:Dataset>
-	
+
 	<!-- Agenda -->
 	<dcat:Dataset rdf:about="http://opendatahacklab.org/agenda-unica/ontology">
 		<dcterms:title>Events of the Agenda Unica dei Movimenti Catania</dcterms:title>
@@ -1825,33 +2208,42 @@ Il corso si svolgerà in incontri settimanali di circa un'ora l'uno, al costo di
 		<dcterms:publisher rdf:resource="http://opendatahacklab.org/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_rdf">
-				<dcterms:title>Ontology of events of the Agenda Unica dei Movimenti Catania as OWL file</dcterms:title>
-				<rdfs:label>Ontology of events of the Agenda Unica dei Movimenti Catania as OWL file</rdfs:label>
-				<dcat:downloadURL rdfs:resource="http://opendatahacklab.org/agenda-unica/agenda.owl" />
+				<dcterms:title>Ontology of events of the Agenda Unica dei Movimenti
+					Catania as OWL file</dcterms:title>
+				<rdfs:label>Ontology of events of the Agenda Unica dei Movimenti
+					Catania as OWL file</rdfs:label>
+				<dcat:downloadURL
+					rdfs:resource="http://opendatahacklab.org/agenda-unica/agenda.owl" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
 		</dcat:distribution>
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_sparql">
-				<dcterms:title>SPARQL endpoint for the ontology of events of the Agenda Unica dei Movimenti Catania</dcterms:title>
-				<rdfs:label>SPARQL endpoint for the ontology of events of the Agenda Unica dei Movimenti Catania</rdfs:label>
-				<dcat:accessURL rdf:resource="http://dydra.com/cristianolongo/agenda-unica-ct/sparql" />
+				<dcterms:title>SPARQL endpoint for the ontology of events of the
+					Agenda Unica dei Movimenti Catania</dcterms:title>
+				<rdfs:label>SPARQL endpoint for the ontology of events of the Agenda
+					Unica dei Movimenti Catania</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="http://dydra.com/cristianolongo/agenda-unica-ct/sparql" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>application/sparql-query</dcat:mediaType>
 			</dcat:Distribution>
 		</dcat:distribution>
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/agenda-unica_csv">
-				<dcterms:title>Ontology of events of the Agenda Unica dei Movimenti Catania as downloadable CSV file</dcterms:title>
-				<rdfs:label>Ontology of events of the Agenda Unica dei Movimenti Catania as downloadable CSV file</rdfs:label>
-				<dcat:accessURL rdf:resource="https://docs.google.com/spreadsheets/d/1bzVASM5_JjCgvNp3Vs0GJ4vDgYsKo_ig5NHU1QI5USc/export?exportFormat=csv" />
+				<dcterms:title>Ontology of events of the Agenda Unica dei Movimenti
+					Catania as downloadable CSV file</dcterms:title>
+				<rdfs:label>Ontology of events of the Agenda Unica dei Movimenti
+					Catania as downloadable CSV file</rdfs:label>
+				<dcat:accessURL
+					rdf:resource="https://docs.google.com/spreadsheets/d/1bzVASM5_JjCgvNp3Vs0GJ4vDgYsKo_ig5NHU1QI5USc/export?exportFormat=csv" />
 				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>text/csv</dcat:mediaType>
 			</dcat:Distribution>
-		</dcat:distribution>		
-	</dcat:Dataset>	
-	
+		</dcat:distribution>
+	</dcat:Dataset>
+
 </rdf:RDF>
 
 
