@@ -935,9 +935,9 @@
 		<foaf:name>Ambiente Nostrum</foaf:name>
 	</org:Organization>
 
-	<org:Organization rdf:about="&odhl;people/generazioney">
-		<rdfs:label>Generazione Y</rdfs:label>
-		<foaf:name>Generazione Y</foaf:name>
+	<org:Organization rdf:about="&odhl;people/lidipa">
+		<rdfs:label>Li.Di.Pa.</rdfs:label>
+		<foaf:name>Libertà Digitale nella Pubblica Amministrazione</foaf:name>
 	</org:Organization>
 
 	<locn:Location rdf:about="&odhl;places/sanvincenzoct">
@@ -969,6 +969,19 @@
 		</locn:address>
 	</locn:Location>
 
+	<org:Organization rdf:about="http://www.sputnix.it/me">
+		<rdfs:label>Sputnix</rdfs:label>
+		<foaf:name>http://www.sputnix.it</foaf:name>
+		<foaf:homepage rdf:resource="http://www.sputnix.it" />
+		<!-- logo, mail -->
+	</org:Organization>
+
+	<org:Organization rdf:about="http://www.sputnix.it/me">
+		<rdfs:label>Sputnix</rdfs:label>
+		<foaf:name>http://www.sputnix.it</foaf:name>
+		<foaf:homepage rdf:resource="http://www.sputnix.it" />
+		<!-- logo, mail -->
+	</org:Organization>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Events and related resources // /////////////////////////////////////////////////////////////////////////////////////// -->
@@ -1848,7 +1861,7 @@
 		<event:agent rdf:resource="http://hackspacecatania.it/me" />
 		<event:agent rdf:resource="&odhl;people/farenostrum" />
 		<event:agent rdf:resource="&odhl;people/ambientenostrum" />
-		<event:agent rdf:resource="&odhl;people/generazioney" />
+		<event:agent rdf:resource="http://generazioneypsilon.tumblr.com/me" />
 		<event:place rdf:resource="&odhl;places/gravinact/parcoborsellino" />
 	</event:Event>
 
@@ -1870,7 +1883,7 @@
 		<event:agent rdf:resource="http://hackspacecatania.it/me" />
 		<event:agent rdf:resource="&odhl;people/farenostrum" />
 		<event:agent rdf:resource="&odhl;people/ambientenostrum" />
-		<event:agent rdf:resource="&odhl;people/generazioney" />
+		<event:agent rdf:resource="http://generazioneypsilon.tumblr.com/me" />
 		<foaf:homepage rdf:resource="http://hackspacecatania.it/internet-una-storia-vera/" />
 	</event:Event>
 
@@ -1903,6 +1916,49 @@
 				<locn:throughfare>Largo Pitagora</locn:throughfare>
 				<rdfs:label>Largo Pitagora, Tremestieri Etneo, Italy</rdfs:label>
 				<locn:postName>Tremestieri Etneo</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+	</locn:Location>
+
+	<event:Event rdf:about="&odhl;events/29042017">
+		<rdfs:label>Software Libero nella Pubblica Amministrazione Siciliana</rdfs:label>
+		<rdfs:comment>
+			Convegno sull'importanza del software libero o a codice sorgente aperto
+			all'interno della pubblica amministrazione della Regione Siciliana.
+		</rdfs:comment>
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/29042017/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/29042017/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-29T10:00:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/29042017/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-29T12:30:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-23T12:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="http://hackspacecatania.it/me" />
+		<event:agent rdf:resource="&odhl;people/lidipa" />
+		<event:agent rdf:resource="http://www.sputnix.it/me" />
+		<event:place rdf:resource="&odhl;places/auditoriumsannicolomascalucia" />
+	</event:Event>
+
+	<locn:Location rdf:about="&odhl;places/auditoriumsannicolomascalucia">
+		<rdfs:label>Auditorium San Nicolò</rdfs:label>
+		<locn:address>
+			<locn:Address rdf:about="&odhl;places/auditoriumsannicolomascalucia_address">
+				<rdfs:label>Auditorium San Nicolò - 153, Via Etnea, Mascalucia, CT, Italy</rdfs:label>
+				<locn:fullAddress>Auditorium San Nicolò - 153, Via Etnea, Mascalucia, CT, Italy</locn:fullAddress>
+				<locn:locatorName>Auditorium San Nicolò</locn:locatorName>
+				<locn:locatorDesignator>153</locn:locatorDesignator>
+				<locn:thoroughfare>Via Etnea</locn:thoroughfare>
+				<locn:postName>Mascalucia</locn:postName>
 				<locn:adminUnitL1>IT</locn:adminUnitL1>
 			</locn:Address>
 		</locn:address>
