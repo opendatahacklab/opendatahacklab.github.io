@@ -5,7 +5,8 @@
 <title>opendatahacklab</title>
 <link rel="stylesheet" type="text/css" href="../commons/css/odhl.css" />
 <link rel="alternate" type="application/rss+xml"
-	href="rdfevents2rss.php" title="opendatahacklab events feed">
+	href="rdfevents2rss.php" title="opendatahacklab events feed" />
+<script type="text/javascript" src="http://www.opendatahacklab.org/rss-tools/js/rss-tools.js"></script>
 </head>
 <body>
 	<header class="main-header" id="top">
@@ -38,14 +39,14 @@
 	<section class="announce"> 
 		<p><a href="http://opendatafest.it/" target="_blank">OpenDataFest 2017!</a> - Caltanissetta 2,3,4 Giugno 2017</p>
 	</section> 
-	
-	<section id="news">
-		<p>
-			Some <a href="stage.html">internship proposals</a> are now available for
-			the students of the University of Catania.
-		</p>
-	</section>
+
+	<section id="albopop">
+			<h2><a href="http://albopop.it">albopop.it</a></h2>
+	</section>	
 	<section id="about">
+		<script type="text/javascript">
+			drawRssWitdget("http://localhost/~cristianolongo/opendatahacklab/rss-tools/php/albopop/randomunict.php", "albopop");
+		</script>
 		<!-- header><h2>ABOUT</h2></header -->
 		<p>
 			Opendatahacklab is a joint initiative of <a
