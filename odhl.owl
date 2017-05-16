@@ -986,6 +986,33 @@
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Events and related resources // /////////////////////////////////////////////////////////////////////////////////////// -->
 
+	<event:Event rdf:about="&odhl;events/20052017">
+		<rdfs:label>And RSS for All</rdfs:label>
+		<rdfs:comment>
+RSS &eamp; uno standard aperto. Per questo motivo chiunque può realizzare senza limitazioni il proprio feed RSS. Inoltre, negli anni una pletora di applicazioni software (liberi o chiusi) per fruire di feed RSS è stata realizzata ed &eamp; oggi a disposizione degli utenti.
+
+Infine, alla sottoscrizione di un feed RSS non viene richiesta alcuna iscrizione ed il gestore del feed viene a conoscenza solo delle informazioni strettamente necessarie per fornire il servizio.
+
+Il workshop "and RSS for All" intende fornire una conoscenza dettagliata della famiglia di formati RSS e degli strumenti oggi disponibili, in particolare di quelli che ricadono nella categoria del software libero, per la fruizione e la generazione di feed. Al termine del workshop saranno in grado di sottoscrivere e fruire di feed RSS, sia su PC che su dispositivi mobili, e di pubblicare notizie in un proprio feed personale.
+
+Il workshop &eamp; gratuito e riservato ai soci di Hackspace Catania		
+		</rdfs:comment>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-5-16T12:00:00+02:00</dcterms:modified>
+		<event:agent rdf:resource="&odhl;people/cristianolongo" />
+
+		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/20052017/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/20052017/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-5-20T17:30:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+			</time:Interval>
+		</event:time>
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/20052017" />
+	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/meeting1">
 		<rdfs:label>opendatahacklab - incontro con mobilita.org</rdfs:label>
