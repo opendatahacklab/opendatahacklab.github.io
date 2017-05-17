@@ -997,7 +997,7 @@ Il workshop "and RSS for All" intende fornire una conoscenza dettagliata della f
 
 Il workshop è gratuito e riservato ai soci di Hackspace Catania		
 		</rdfs:comment>
-		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-5-16T12:00:00+02:00</dcterms:modified>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-16T12:00:00+02:00</dcterms:modified>
 		<event:agent rdf:resource="&odhl;people/cristianolongo" />
 
 		<event:place rdf:resource="http://www.comune.catania.it/via_grotte_bianche112" />
@@ -1005,7 +1005,7 @@ Il workshop è gratuito e riservato ai soci di Hackspace Catania
 			<time:Interval rdf:about="&odhl;events/20052017/time">
 				<time:hasBeginning>
 					<time:Instant rdf:about="&odhl;events/20052017/time/begin">
-						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-5-20T17:30:00+02:00</time:inXSDDateTime>
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-20T17:30:00+02:00</time:inXSDDateTime>
 					</time:Instant>
 				</time:hasBeginning>
 			</time:Interval>
