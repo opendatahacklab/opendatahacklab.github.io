@@ -643,6 +643,22 @@
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
 	</doap:Project>
 
+	<doap:Project rdf:about="&odhl;projects/rss-tools">
+		<doap:name>RSS Tools</doap:name>
+		<doap:shortdesc>
+			Some tools (PHP and javascript) to deal with RSS feeds 		</doap:shortdesc>
+		<doap:mantainer rdf:resource="&odhl;people/cristianolongo" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl;projects/rss-tools/repo">
+				<doap:location
+					rdf:resource="https://github.com/opendatahacklab/rss-tools.git" />
+				<doap:browse
+					rdf:resource="https://github.com/opendatahacklab/rss-tools" />
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
+	</doap:Project>
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Organizations // /////////////////////////////////////////////////////////////////////////////////////// -->
 
