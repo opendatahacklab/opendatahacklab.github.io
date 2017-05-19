@@ -923,7 +923,7 @@
 	<locn:Location rdf:about="&odhl;places/bastionedeglinfettict">
 		<rdfs:label>Bastione degli Infetti Catania</rdfs:label>
 		<locn:address>
-			<locn:Address rdf:about="&cct;via_pietro_antonio-coppola6_address">
+			<locn:Address rdf:about="&cct;via_torre_del_vescovo_address">
 				<rdfs:label>Bastione degli Infetti, Via Torre del Vescovo, Catania,
 					Italy</rdfs:label>
 				<locn:fullAddress>Bastione degli Infetti, Via Torre del Vescovo,
@@ -1027,7 +1027,33 @@ Il workshop è gratuito e riservato ai soci di Hackspace Catania
 			</time:Interval>
 		</event:time>
 		<foaf:homepage
-			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/20052017" />
+			rdf:resource="http://hackspacecatania.it/workshop-and-rss-for-all-strumenti-liberi-per-ricevere-e-pubblicare-notizie-e-informazioni-sabato-20-maggio-2017-ore-1730/" />
+	</event:Event>
+
+	<event:Event rdf:about="&odhl;events/20052017_morning">
+		<rdfs:label>Albo POP al Bastione degli Infetti</rdfs:label>
+		<rdfs:comment>
+Domani (20 Maggio 2017) mattina, in occasione di un open day, noi di opendatahacklab saremo presenti al Bastione degli Infetti con una bancarella Albo POP e un totem che mostra a rotazione avvisi dagli albi del Comune, della Città Metropolitana e dell’Università di Catania. Alle 10.30 verrà a fare visita al bastione anche il Sindaco. È importante esserci proprio per far capire all’amministrazione che li teniamo d’occhio e che al Bastione ci siamo anche noi.		</rdfs:comment>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-16T12:00:00+02:00</dcterms:modified>
+		<event:agent rdf:resource="&odhl;people/cristianolongo" />
+		<event:agent rdf:resource="&odhl;people/anticocorso" />
+		<event:place rdf:resource="&odhl;places/bastionedeglinfettict" />
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/20052017_morning/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/20052017_morning/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-20T09:00:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/20052017_morning/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-20T12:30:00+02:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<foaf:homepage
+			rdf:resource="&odhl_projects_root;site/eventdetails.html?iri=&odhl;events/20052017_morning" />
 	</event:Event>
 
 	<event:Event rdf:about="&odhl;events/meeting1">
