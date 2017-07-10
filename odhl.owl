@@ -67,7 +67,7 @@
 		<foaf:givenname>Cristiano</foaf:givenname>
 		<foaf:family_name>Longo</foaf:family_name>
 		<foaf:mbox rdf:resource="mailto:longo@dmi.unict.it" />
-		<foaf:mbox rdf:resource="mailto:cristianolongo@gmail.com" />
+		<foaf:mbox rdf:resource="mailto:cristianolongo@hackspacecatania.it" />
 	</foaf:Person>
 
 	<foaf:Person rdf:about="&odhl;people/andreacostazza">
