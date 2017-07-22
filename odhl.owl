@@ -2033,6 +2033,64 @@ Domani (20 Maggio 2017) mattina, in occasione di un open day, noi di opendatahac
 		</locn:address>
 	</locn:Location>
 
+	<event:Event rdf:about="&odhl;events/25062017">
+		<rdfs:label>ETNA OPEN DATA</rdfs:label>
+		<rdfs:comment>
+			Il 25 Luglio 2017 alle 10:00 presso il Parco dell'Etna (Via del Convento 45, Nicolisi)
+			si terrà il convegno ETNA OPEN DATA. Interverranno-: la 
+			Dott.ssa M. Mazzaglia, Presidente del Parco dell’Etna; 
+			il Prof. A. Insolia, Direttore della Sezione di Catania dell’INFN;
+			il Dott. A. Alù, Generazione Y; 
+			il Prof. R. Barbera, Dipartimento di Fisica e Astronomia dell’Università di Catania e INFN;
+			il Dott. C. Longo, Dipartimento di Matematica e Informatica dell’Università di Catania e Open Data Sicilia; 
+			il Prof. D. Lo Presti, Dipartimento di Fisica e Astronomia dell’Università di Catania e INFN;
+			l'Ing. A. Milazzo – Associazione Fare Nostrum;
+			l'Ing. V. Montalbano - Associazione Fare Nostrum; 
+			il Dott. S. Reito, INFN Sezione di Catania e Associazione Ambiente Nostrum. 
+		</rdfs:comment>
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/25062017/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/25062017/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-25T10:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/25062017/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-25T13:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-22T12:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="&odhl;people/farenostrum" />
+		<event:agent rdf:resource="&odhl;people/ambientenostrum" />
+		<foaf:homepage rdf:resource="http://agenda.ct.infn.it/event/1295/" />
+		<event:place rdf:resource="https://www.openstreetmap.org/way/64366761" />
+	</event:Event>
+
+	<locn:Location rdf:about="https://www.openstreetmap.org/way/64366761">
+		<rdfs:label>Sede centrale Ente Parco dell'Etna</rdfs:label>
+		<locn:address>
+			<locn:Address rdf:about="&odhl;places/parcodelletna_address">
+				<rdfs:label>Sede centrale Ente Parco dell'Etna - 45, Via del Convento, Nicolosi, CT, Italy</rdfs:label>
+				<locn:fullAddress>45, Via del Convento, Nicolosi, CT, Italy</locn:fullAddress>
+				<locn:locatorDesignator>45</locn:locatorDesignator>
+				<locn:thoroughfare>Via del Convento</locn:thoroughfare>
+				<locn:postName>Nicolosi</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+		<locn:geometry>
+			<locn:Geometry rdf:about="&odhl;places/parcodelletna/geometry">
+				<!-- TODO add provenance information, nominatim -->
+				<geo:lat>37.63092</geo:lat>
+				<geo:long>15.02243</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
+	</locn:Location>
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
 
