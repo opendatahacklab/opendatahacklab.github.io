@@ -2031,6 +2031,37 @@ Domani (20 Maggio 2017) mattina, in occasione di un open day, noi di opendatahac
 			</locn:Geometry>
 		</locn:geometry>
 	</locn:Location>
+	
+	<event:Event rdf:about="&odhl;events/19092017">
+		<rdfs:label>Rete Ribelle</rdfs:label>
+		<rdfs:comment>“Rete Ribelle” è un progetto civico creativo ispirato alle storie vere di grandi pionieri che hanno perseguito gli ideali dell’innovazione e del rinnovamento, grazie all’utilizzo del più importante strumento rivoluzionario di tutti i tempi: Internet!
+
+Anticonformisti “folli” che, con una vera e propria ribellione al sistema vigente, hanno cambiato il mondo, lasciando un’impronta indelebile nella Storia dell’Umanità!
+
+Rete Ribelle: una ricca contaminazione espressiva di contenuti originali e inediti che mira a promuovere la cultura digitale e favorire l’avvento del “Rinascimento Digitale”.
+
+Un mix di arte, cultura e attivismo civico diretto a realizzare un modello sociale di condivisione collaborativa delle competenze digitali.
+		</rdfs:comment>
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/19092017/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/19092017/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-19T18:30:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/19092017/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-19T23:30:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-26T12:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:agent rdf:resource="http://generazioneypsilon.tumblr.com/me" />
+		<foaf:homepage rdf:resource="http://www.reteribelle.it/" />
+		<event:place rdf:resource="TODO" />
+	</event:Event>
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
@@ -2048,7 +2079,7 @@ Domani (20 Maggio 2017) mattina, in occasione di un open day, noi di opendatahac
 				<dcterms:title>opendatahacklab ontology as OWL file</dcterms:title>
 				<rdfs:label>opendatahacklab ontology as OWL file</rdfs:label>
 				<dcat:downloadURL rdf:resource="&odhl_projects_root;site/odhl.owl" />
-				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
 		</dcat:distribution>
@@ -2370,8 +2401,8 @@ Domani (20 Maggio 2017) mattina, in occasione di un open day, noi di opendatahac
 
 	<dcat:Dataset rdf:about="http://opendatahacklab.org/datasets/monitoraggiosicilia2017">
 		<dcterms:title>Productivity report of Regione Siciliana deputee</dcterms:title>
+		<dct:issued rdf:datatype="&xsd;date">2017-09-17</dct:issued>
 		<rdfs:label>Productivity of Regione Siciliana deputee</rdfs:label>
-		<dcat:landingPage rdf:resource="TODO" />
 		<dcterms:publisher rdf:resource="http://generazioneypsilon.tumblr.com/me" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/monitoraggiosicilia2017_csv">
