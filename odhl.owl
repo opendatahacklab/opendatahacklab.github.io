@@ -2063,6 +2063,27 @@ Un mix di arte, cultura e attivismo civico diretto a realizzare un modello socia
 		<event:place rdf:resource="TODO" />
 	</event:Event>
 
+	<locn:Location rdf:about="http://www.openstreetmap.org/way/46799714">
+		<rdfs:label>Istituto Sant'Orsola</rdfs:label>
+		<locn:address>
+			<locn:Address rdf:about="&odhl;places/santorsola/address">
+				<rdfs:label>Istituto Sant'Orsola - 3, Via Maccallè, Catania, CT, Italy</rdfs:label>
+				<locn:fullAddress>3, Via Maccallè, Catania, CT, Italy</locn:fullAddress>
+				<locn:locatorDesignator>3</locn:locatorDesignator>
+				<locn:thoroughfare>Via Maccallè</locn:thoroughfare>
+				<locn:postName>Catania</locn:postName>
+				<locn:adminUnitL1>IT</locn:adminUnitL1>
+			</locn:Address>
+		</locn:address>
+		<locn:geometry>
+			<locn:Geometry rdf:about="&odhl;places/santorsola/geometry">
+				<!-- nominatim -->
+				<geo:lat> 37.5082234</geo:lat>
+				<geo:long>15.0774233</geo:long>
+			</locn:Geometry>
+		</locn:geometry>
+	</locn:Location>
+
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Datasets // /////////////////////////////////////////////////////////////////////////////////////// -->
 
