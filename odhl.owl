@@ -2422,7 +2422,7 @@ Un mix di arte, cultura e attivismo civico diretto a realizzare un modello socia
 
 	<dcat:Dataset rdf:about="http://opendatahacklab.org/datasets/monitoraggiosicilia2017">
 		<dcterms:title>Productivity report of Regione Siciliana deputee</dcterms:title>
-		<dct:issued rdf:datatype="&xsd;date">2017-09-17</dct:issued>
+		<dcterms:issued rdf:datatype="&xsd;date">2017-09-17</dcterms:issued>
 		<rdfs:label>Productivity of Regione Siciliana deputee</rdfs:label>
 		<dcterms:publisher rdf:resource="http://generazioneypsilon.tumblr.com/me" />
 		<dcat:distribution>
