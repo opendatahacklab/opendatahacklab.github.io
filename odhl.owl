@@ -2060,7 +2060,7 @@ Un mix di arte, cultura e attivismo civico diretto a realizzare un modello socia
 		<event:agent rdf:resource="http://opendatahacklab.org/me" />
 		<event:agent rdf:resource="http://generazioneypsilon.tumblr.com/me" />
 		<foaf:homepage rdf:resource="http://www.reteribelle.it/" />
-		<event:place rdf:resource="TODO" />
+		<event:place rdf:resource="http://www.openstreetmap.org/way/46799714" />
 	</event:Event>
 
 	<locn:Location rdf:about="http://www.openstreetmap.org/way/46799714">
