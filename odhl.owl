@@ -2425,13 +2425,14 @@ Un mix di arte, cultura e attivismo civico diretto a realizzare un modello socia
 		<dcterms:issued rdf:datatype="&xsd;date">2017-09-17</dcterms:issued>
 		<rdfs:label>Productivity of Regione Siciliana deputee</rdfs:label>
 		<dcterms:publisher rdf:resource="http://generazioneypsilon.tumblr.com/me" />
+		<dcat:landingPage rdf:resource="http://opendatahacklab.org/site/dataset/monitoraggiosicilia2017/" />
 		<dcat:distribution>
 			<dcat:Distribution rdf:about="&odhl;datasetDistr/monitoraggiosicilia2017_csv">
 				<dcterms:title>Downloadable CSV of the productivity report of Regione Siciliana deputee</dcterms:title>
 				<rdfs:label>Downloadable CSV of the productivity report of Regione Siciliana deputee</rdfs:label>
 				<dcat:downloadURL
-					rdfs:resource="http://opendatahacklab.org/site/dataset/monitoraggiosicilia04092017.csv" />
-				<dcterms:license rdf:resource="TODO" />
+					rdfs:resource="http://opendatahacklab.org/site/dataset/monitoraggiosicilia2017/monitoraggiosicilia17092017.csv" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>text/csv</dcat:mediaType>
 			</dcat:Distribution>
 		</dcat:distribution>
