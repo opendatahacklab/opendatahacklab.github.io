@@ -187,6 +187,11 @@
 		<rdfs:label>Teresa Micarelli</rdfs:label>
 	</foaf:Person>
 
+	<foaf:Person rdf:about="&odhl;people/giuliadifelice">
+		<foaf:name>Giulia Di Felice</foaf:name>
+		<rdfs:label>Giulia Di Felice</rdfs:label>
+	</foaf:Person>
+
 	<!-- /////////////////////////////// LICENCES /////////////////////////////////////// -->
 
 	<doap:License rdf:about="http://www.gnu.org/licenses/lgpl-3.0">
@@ -599,6 +604,23 @@
 		</doap:repository>
 		<doap:license rdf:resource="http://www.gnu.org/licenses/lgpl-3.0" />
 	</doap:Project>
+	
+		<doap:Project rdf:about="&odhl;projects/lessig_it">
+		<doap:name>Lessig Letters in Italian</doap:name>
+		<doap:shortdesc>
+			Italian translation of Lessig letters about Creative Commons.
+		</doap:shortdesc>
+		<doap:homepage rdf:resource="&odhl_projects_root;lessig_it/" />
+		<doap:maintainer rdf:resource="&odhl;people/giuliadifelice" />
+		<doap:repository>
+			<doap:GitRepository rdf:about="&odhl;projects/lessig_it/repo">
+				<doap:location rdf:resource="https://github.com/opendatahacklab/lessig_it.git" />
+				<doap:browse rdf:resource="https://github.com/opendatahacklab/lessig_it" />
+			</doap:GitRepository>
+		</doap:repository>
+		<doap:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+	</doap:Project>
+	
 
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Organizations // /////////////////////////////////////////////////////////////////////////////////////// -->
@@ -2100,7 +2122,7 @@ Un mix di arte, cultura e attivismo civico diretto a realizzare un modello socia
 				<dcterms:title>opendatahacklab ontology as OWL file</dcterms:title>
 				<rdfs:label>opendatahacklab ontology as OWL file</rdfs:label>
 				<dcat:downloadURL rdf:resource="&odhl_projects_root;site/odhl.owl" />
-				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/" />
+				<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
 				<dcat:mediaType>applications/rdf+xml</dcat:mediaType>
 			</dcat:Distribution>
 		</dcat:distribution>
