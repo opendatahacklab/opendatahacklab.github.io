@@ -21,7 +21,9 @@ if (array_key_exists ( 'command', $_GET )) {
 <title>Simple Symmetric Cryptography</title>
 </head>
 <body>
-	<h1>Piccolo esempio crittografia simmetrica</h1>
+	<h1>Piccolo esempio di crittografia simmetrica</h1>
+
+	<p>La crittografia &amp; l'unico mezzo sicuro per garantire la confidenzialit&agrave; delle comunicazioni.</p>	
 	<form method="GET" action="#">
 		<label>Testo in chiaro</label>
 		<textarea name="plaintext" rows="5" cols="20"><?php echo $plaintext; ?></textarea>
