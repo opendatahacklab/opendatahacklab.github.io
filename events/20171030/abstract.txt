@@ -1,0 +1,9 @@
+Internet Relay Chat (IRC) è un protocollo di messaggistica istantanea testuale. Nato nel 1988 ha avuto la sua
+massima diffusione negli anni 90. IRC è un protocollo aperto. Questo significa che chiunque può realizzare un
+proprio server o collegarsi ad un server esistente. Tutti i maggiori hackerspace italiani hanno un proprio 
+"canale" IRC in cui incontrare i propri membri ma esistono anche canali di discussione sulle tematiche più 
+disparate. 
+
+Durante la serata navigheremo su vari server italiani e stranieri chattando collegandoci ai vari hackerspaces
+italiani e berremo birra e superalcolici, e dopo ci vederemo un bel film. La sessione di chat dal vivo avrà 
+luogo dalle 21.00 alle 22.00 sul vostro computer o cellulare o su quelli a disposizione.
