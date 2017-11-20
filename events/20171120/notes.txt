@@ -1,0 +1,79 @@
+Ho fatto un breve riassuntino della sezione che descrive le evoluzioni
+del termine Hacker nella relativa pagina di wikipedia
+https://it.wikipedia.org/wiki/Hacker .
+
+CL
+
+
+Al MIT degli anni 1920-26 vigeva un elevato livello di competizione e
+l'attività di hacking emerse sia come reazione sia come estensione di
+una tale cultura competitiva. L'istituto, con la miriade di corridoi e
+tunnel sotterranei, offriva ampie opportunità esplorative agli studenti.
+Fu così che "tunnel hacking" divenne l'accezione usata dagli stessi
+studenti per indicare queste incursioni sotterranee non autorizzate.
+
+[...]
+
+I primi ad auto-qualificarsi "computer hacker" nel campus del MIT negli
+anni 1960 furono un gruppo di studenti appassionati di modellismo
+ferroviario, che negli ultimi anni 1950 si erano riuniti nel Tech Model
+Railroad Club. [...] In maniera sottile, il termine hacking si trasformò
+da sinonimo di gioco ozioso, a un gioco in grado di migliorare le
+prestazioni o l'efficienza complessiva del sistema ferroviario del club.
+Quanto prima i membri di quel comitato cominciarono a indicare con
+orgoglio l'attività di ricostruzione e miglioramento del circuito per il
+funzionamento delle rotaie con il termine "hacking", mentre "hacker"
+erano quanti si dedicavano a tali attività.
+
+[...]
+
+Sul finire degli anni cinquanta, l'intero comitato Signals and Power era
+emigrato in massa nella sala di controllo del TX-0, portandosi dietro lo
+stesso spirito di gioco creativo. Il vasto reame della programmazione
+informatica avrebbe portato a un ulteriore mutamento etimologico. "To
+hack" non indicava più l'attività di saldare circuiti dalle strane
+sembianze, bensì quella di comporre insieme vari programmi, con poco
+rispetto per quei metodi o procedure usati nella scrittura del software
+"ufficiale". Significava inoltre migliorare l'efficienza e la velocità
+del software già esistente che tendeva a ingolfare le risorse della
+macchina.
+
+[...]
+
+Un classico esempio di quest'ampliamento della definizione di hacker è
+Spacewar!, il primo video game interattivo. Sviluppato nei primi anni
+sessanta dagli hacker del MIT, Spacewar! includeva tutte le
+caratteristiche dell'hacking tradizionale: era divertente e casuale, non
+serviva ad altro che a fornire una distrazione serale alle decine di
+hacker che si divertivano a giocarvi. Dal punto di vista del software,
+però, rappresentava una testimonianza incredibile delle innovazioni rese
+possibili dalle capacità di programmazione. Inoltre era completamente
+libero (e gratuito). [...] Furono i concetti di innovazione collettiva e
+proprietà condivisa del software a distanziare l'attività di computer
+hacking degli anni sessanta da quelle di tunnel hacking e phone hacking
+del decennio precedente.
+
+[...]
+
+Nella seconda metà degli anni settanta il termine "hacker" aveva assunto
+la connotazione di élite. [...] Per potersi definire hacker, una persona
+doveva compiere qualcosa di più che scrivere programmi interessanti;
+doveva far parte dell'omonima cultura e onorarne le tradizioni.
+
+[...]
+
+A partire dai primi anni ottanta i computer presero a spuntare un po'
+ovunque, e i programmatori [...] improvvisamente si trovarono a stretto
+contatto con hacker di grande livello via ARPANET. Grazie a questa
+vicinanza, i comuni programmatori presero ad appropriarsi delle
+filosofie anarchiche tipiche della cultura hacker di ambiti come quello
+del MIT. Tuttavia, nel corso di un simile trasferimento di valori andò
+perduto il tabù culturale originato al MIT contro ogni comportamento
+malevolo, doloso. Mentre i programmatori più giovani iniziavano a
+sperimentare le proprie capacità con finalità dannose - creando e
+disseminando virus, facendo irruzione nei sistemi informatici militari,
+provocando deliberatamente il blocco di macchine quali lo stesso Oz del
+MIT, popolare nodo di collegamento con ARPAnet - il termine "hacker"
+assunse connotati punk, nichilisti.
+
+https://it.wikipedia.org/wiki/Etica_hacker
