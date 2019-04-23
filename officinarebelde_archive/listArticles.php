@@ -19,10 +19,10 @@
 	echo "found $res->num_rows articles\n";
 	foreach($res as $a){
 		$id=$a['id_article'];
-		$t=$a['titre'];
+		$t=htmlentities($a['titre']);
 		$c=$a['date'];
 		$m=$a['date_modif'];
-		echo "\t\t\t<tr><td>$id</td><td>$t</td><td>$c</td><td>$m</td></tr>\n";
+		echo "\t\t\t<tr><td>$id</td><td><a href=\"viewArticle.php?id=$id\">$t</a></td><td>$c</td><td>$m</td></tr>\n";
 	}
 	$db->close();
 ?>
