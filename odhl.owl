@@ -965,6 +965,34 @@
 	<!-- /////////////////////////////////////////////////////////////////////////////////////// 
 		// // Events and related resources // /////////////////////////////////////////////////////////////////////////////////////// -->
 
+	<event:Event rdf:about="&odhl;events/16052018">
+		<rdfs:label>Laboratorio di Informatica per Adulti n.1</rdfs:label>
+		<rdfs:comment>
+			Un laboratorio con finalità didattiche pensato per chi non ne capisce niente di Computer. Un corso totalmente destrutturato 
+			nel quale impareremo facendo-dicendo-vedendo. Non per imparare ad usare il computer, ma piuttosto per capire come funziona.
+			La partecipazione al corso prevede una sottoscrizione volontaria. Appuntamento è alle 21 puntuali tutti i mercoledì al Laboratorio Urbano POpolare (Palestra LuPO) a Catania.
+
+			PS: se non siete proprio digiuni di computer, venite pure a dare una mano o a farvi i fatti vostri.  
+		</rdfs:comment>
+		<event:time>
+			<time:Interval rdf:about="&odhl;events/16052018/time">
+				<time:hasBeginning>
+					<time:Instant rdf:about="&odhl;events/16052018/time/begin">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-16T21:00:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasBeginning>
+				<time:hasEnd>
+					<time:Instant rdf:about="&odhl;events/16052018/time/end">
+						<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-16T22:30:00+01:00</time:inXSDDateTime>
+					</time:Instant>
+				</time:hasEnd>
+			</time:Interval>
+		</event:time>
+		<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-12T19:00:00+01:00</dcterms:modified>
+		<event:agent rdf:resource="http://opendatahacklab.org/me" />
+		<event:place rdf:resource="TODO" />
+	</event:Event>
+
 	<event:Event rdf:about="&odhl;events/20052017">
 		<rdfs:label>And RSS for All</rdfs:label>
 		<rdfs:comment>
