@@ -10,7 +10,7 @@ abbr{
 	text-decoration:none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   body {
 	background-color : red;
 	font-size: 5vw;
@@ -19,7 +19,7 @@ abbr{
   }
 }
 
-@media not screen and (max-width: 601px) {
+@media not screen and (max-width: 480px) {
   body {
 	padding-left : 10%;
 	padding-right : 10%;
