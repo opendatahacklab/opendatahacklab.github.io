@@ -12,7 +12,7 @@ abbr{
 
 @media only screen and (max-device-width: 600px) {
   body {
-	font-size: 50px;
+	font-size: 50vw;
 	padding-left : 2em;
 	padding-right : 2em;
   }
