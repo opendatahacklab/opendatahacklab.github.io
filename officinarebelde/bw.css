@@ -1,0 +1,43 @@
+body{
+	background-color : white;
+	color : #222222;
+	font-family: "Courier New", courier, monotype;
+	padding-top : 2em;
+	padding-bottom : 2em;
+	padding : 2em 10% 2em 10%;
+}
+
+abbr{
+	text-decoration:none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+	font-size: 3.5vw;
+	padding-left : 10%;
+	padding-right : 10%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  body {
+	padding-left : 20%;
+	padding-right : 20%;
+  }
+}
+
+h1{
+	font-weight : normal;
+	text-align : center;
+	font-size: 3em;
+	margin : 1em auto 1em auto;
+}
+
+div.imgContainer{
+	text-align : center;
+}
+
+div.imgContainer img{
+	max-width: 50%;
+}
+
