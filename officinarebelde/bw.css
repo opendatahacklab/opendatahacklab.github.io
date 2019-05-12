@@ -12,6 +12,7 @@ abbr{
 
 @media only screen and (max-width: 600px) {
   body {
+	background-color : red;
 	font-size: 5vw;
 	padding-left : 2em;
 	padding-right : 2em;
