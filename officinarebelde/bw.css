@@ -12,14 +12,13 @@ abbr{
 
 @media only screen and (max-device-width: 600px) {
   body {
-	background-color : red;
-	font-size: 5vw;
+	font-size: 25vw;
 	padding-left : 2em;
 	padding-right : 2em;
   }
 }
 
-@media not screen and (max-width: 600px) {
+@media not screen and (max-device-width: 600px) {
   body {
 	padding-left : 10%;
 	padding-right : 10%;
